@@ -67,7 +67,7 @@ function menu($elemento = ""){
 <div class="header-menu">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="navbar-header">
-      <a href="index.php" class="btn-img-home">
+      <a href="inicio.php" class="btn-img-home">
         <img class="img-responsive logo-menu" src="rec/img/logo-pilgrims.png"/>
       </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu1">
@@ -80,7 +80,7 @@ function menu($elemento = ""){
     <div class="navbar-collapse collapse menu1">
       <ul class="nav navbar-nav">
         <li class="<?php echo $uno; ?>">
-          <a href="#">
+          <a href="inicio.php">
             <span class="icon-nav"><img src="rec/img/home.png" alt=""></span>
             <div>INICIO</div>
           </a>
@@ -144,8 +144,8 @@ function menu($elemento = ""){
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="#">Servicio a Cliente</a></div></li>
-            <li><div><a href="#">Oficionas</a></div></li>
+            <li><div><a href="servicio_cliente.php">Servicio a Cliente</a></div></li>
+            <li><div><a href="#">Oficinas</a></div></li>
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">
@@ -177,8 +177,8 @@ function footer(){
             </div>
             <div class="col-lg-4">
                 <p id="ofi"><b>OFICINAS CORPORATIVAS</b></p><br>
-                <i class="fa fa-map-marker" aria-hidden="true">  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México</i><br/><br/>
-                <i class="fa fa-mobile" aria-hidden="true">  Tel. 01 442 103 2200</i>
+                <i class="fa fa-map-marker" aria-hidden="true">  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México<br/><br/></i>
+                <i class="fa fa-mobile" aria-hidden="true"> Tel. 01 442 103 2200</i>  
             </div>
                 <div class="foo-rs">
                     <hr class="hr-mob">

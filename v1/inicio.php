@@ -14,6 +14,9 @@
 	    </script>
 	</head>
 <body>
+	<?php
+		menu("1");
+	?>
 	<!--<div class="app-container" data-bb="app-main-region">-->
 		<div class="hero main">
 		  <div class="embed-responsive embed-responsive-16by9 vid-bg hidden-sm hidden-xs">
@@ -55,12 +58,8 @@
 	<section class="content">
 		
 	</section>
+	<?php
+		footer();
+	?>
 </body>
-<?php
-	menu("1");
-?>
-<?php
-	footer();
-?>
-
 </html>
