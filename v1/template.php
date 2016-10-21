@@ -171,23 +171,23 @@ function footer(){
 ?>
 <footer class="bg-footer">
     <section class="container">
-        <div class="row">
+        <div class="row text-center">
             <div class="col-lg-2 logo-footer">
                 <img class="img-responsive" src="rec/img/logo-footer.png">
             </div>
             <div class="col-lg-4">
                 <p id="ofi"><b>OFICINAS CORPORATIVAS</b></p><br>
-                <i class="fa fa-map-marker" aria-hidden="true">  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México<br/><br/></i>
-                <i class="fa fa-mobile" aria-hidden="true"> Tel. 01 442 103 2200</i>  
+                <i class="fa fa-map-marker" aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
+                <i class="fa fa-mobile" aria-hidden="true"> </i>  Tel. 01 442 103 2200
             </div>
-                <div class="foo-rs">
+                <div class="foo-rs text-center">
                     <hr class="hr-mob">
                             <!--<a id="afb" href=""><img class="img-responsive" src="rec/img/fb.png" alt="Siguenos en Facebook" title="Siguenos en Facebook"/></a>
                             <a id="ayt" href=""><img class="img-responsive" src="rec/img/yt.png" alt="Siguenos en Youtube" title="Siguenos en Youtube"/></a>-->
                             <a id="afb" href=""><span class="fa fa-facebook fa-3x" aria-hidden="true"></span></a>
                             <a id="ayt" href=""><span class="fa fa-youtube fa-3x" aria-hidden="true"></span></a>
                     </div>
-                <div class="foo-mob" >
+                <div class="foo-mob text" >
                     <hr class="hr-mob">
                     <a id="ser-cli" href="">SERVICIO AL CLIENTE</a>
                     <hr class="hr-mob">
@@ -259,12 +259,37 @@ function footer(){
                 </div>
             </form>
         </div>
-        <div class="row">
-            <div >
-                <i class="fa fa-lock" id="mob1" aria-hidden="true">  <a href="">AVISO DE PRIVACIDAD</a></i>
-                <i class="fa fa-lock privacidad" id="mob2" aria-hidden="true">  <a href="">AVISO DE CONFIDENCIALIDAD</a></i>
-                <i class="fa fa-mobile" id="mob3" aria-hidden="true">  Tel. 01 800 876 3456</i>
+        <div class="row text-center">
+            <div class="privacidad">
+              <div class="col-lg-2 col-md-2">
+                <i class="fa fa-lock"  aria-hidden="true"></i>
+                <a href="" id="mob1">  AVISO DE PRIVACIDAD</a>
+              </div>
+              <div class="col-lg-2 col-md-2">
+                <i class="fa fa-lock privacidad"  aria-hidden="true"></i> 
+                <a href="" id="mob2">  AVISO DE CONFIDENCIALIDAD</a>
+              </div>
+              <div class="col-lg-2 col-md-2">
+                <i class="fa fa-mobile"  aria-hidden="true"></i> 
+                <span id="mob3">Tel. 01 800 876 3456</span>
+              </div>
             </div>
+        </div>
+        <div class="row text-center">
+        <div class="priva-mob">
+          <div class="col-sm-12">
+            <i class="fa fa-lock"  aria-hidden="true"></i>
+            <a href="" >  AVISO DE PRIVACIDAD</a>
+          </div>
+          <div class="col-sm-12">
+            <a href="" ><i class="fa fa-lock"  aria-hidden="true"></i> 
+              AVISO DE CONFIDENCIALIDAD</a>
+          </div>
+          <div class="col-sm-12">
+            <i class="fa fa-mobile"  aria-hidden="true"></i> 
+            <span>Tel. 01 800 876 3456</span>
+          </div>
+          </div>
         </div>
     </section>
 </footer>

@@ -21,7 +21,7 @@
 		<div class="hero main">
 		  <div class="embed-responsive embed-responsive-16by9 vid-bg hidden-sm hidden-xs">
 		    <video autoplay="" loop="" muted="" class="embed-responsive-item">
-		    	<source src="//prod1.nescafe.com/es_es/public/vid/nescafe-background.mp4" type="video/mp4">
+		    	<source src="rec/video/nescafe-background.mp4" type="video/mp4">
 		    </video>
 		    <button class="mute on"></button>
 		  </div>
@@ -55,11 +55,135 @@
 		    </video>
 	</section>-->
 
-	<section class="content">
-		
+	    <!-- Header Carousel -->
+	<!--<div class="">
+		<section class="container text-center ">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h1> LANZAMIENTOS</h1>
+			</div>
+		</div>
 	</section>
+	</div>-->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                	<div class="container">
+                		<div class="row ">
+	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
+	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
+	                		</div>
+	                	</div>
+                	</div>
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                	<div class="container">
+                		<div class="row ">
+	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
+	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
+	                		</div>
+	                	</div>
+                	</div>
+                </div>
+
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                	<div class="container">
+                		<div class="row ">
+	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
+	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
+	                		</div>
+	                	</div>
+                	</div>
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+    <!--
+       <div class="">
+		<section class="container text-center ">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h1> PROMOCIONES</h1>
+			</div>
+		</div>
+	</section>
+	</div>
+	-->
+    <div class="bg-inicio">
+    	<div class="row">
+    		<div class="col-lg-12 col-md-12 col-sm-12">
+    			<img class="img-responsive" src="rec/img/promocion1.png">
+    		</div>
+    	</div>
+    	<div class="container">
+    		<div class="row">
+	    		<div class="col-lg-12 col-md-12 col-sm-12">
+	    			<img id="recetas" class="img-responsive" src="rec/img/recetas.png">
+	    		</div>
+    		</div>
+    		<br>
+    		<div class="bg-recetas row">
+	    		<div class="col-lg-4 col-md-6 col-sm-12">
+	    			<span class="border-hover"></span>
+	    				<img src=".jpg" data-src-mobile="//t1-cms-4.images.toyota-europe.com/toyotaone/eses/toyota-reason-to-own-2014-warranty_tcm-1014-42756.jpg" width="355" height="248">
+	    			<video  width="100%" controls">
+			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
+			    	</video>
+	    		</div>
+	    		<div class="col-lg-4 col-md-6 col-sm-12">
+	    			<video class="border-hover" width="100%" controls">
+			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
+			    	</video>
+	    		</div>
+	    		<div class="col-lg-4 col-md-6 col-sm-12">
+	    			<video class="border-hover" width="100%" controls">
+			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
+			    	</video>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+ 	
 	<?php
 		footer();
 	?>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </body>
 </html>

@@ -4,8 +4,14 @@
   src: url('../fonts/Cronos-Pro_12459.ttf') format('truetype');
 }
 
-html, body{
+html, body, h3, h2, header{
 	font-family: 'Cronos-Pro' !important;
+  color: #ffffff;
+}
+
+h2{
+  margin-bottom: 0px;
+  margin-top: 1%;
 }
 /*GENERAL*/
 body {
@@ -131,6 +137,25 @@ body {
 }
 
 /*INICIO*/
+.bg-inicio{
+  background: url('../rec/img/bg-inicio.jpg') no-repeat center; 
+  background-size: cover; 
+}
+
+.bg-recetas{
+  background-color: #ffffff;
+  padding: 1%;
+  margin: 1%;
+}
+
+.border-hover{
+  border:5px solid #fff
+}
+
+.vermas{
+  color: #fcff00 !important;
+}
+
 .app-container {
   padding-top: 59px;
   max-width: 1920px;
@@ -340,15 +365,24 @@ body {
   } 
 }
 
+#recetas{
+  margin: auto;
+}
+
 
 /*FOOTER*/
+
+footer {
+  margin: 0px !important;
+}
+
 .bg-footer{
-	/*font-family: 'Cronos-Pro' !important;*/
+	font-family: 'Cronos-Pro' !important;
 	background-color: #071689;
 	width: 100%;
 	height: auto;
-	font-size: 12px !important;
-	padding: 1%;
+	font-size: 1em !important;
+  color: #ffffff;
 }
 
 .bg-footer img{
@@ -408,6 +442,8 @@ body {
 	max-height:25px;
 	height: 100%; 
 	font-size: 12px !important;
+  font-family: 'Cronos-Pro' !important;
+  color: #ffffff;
 }
 
 .bg-footer .est-sel select{
@@ -444,17 +480,20 @@ body {
 }
 
 .bg-footer .privacidad{
-	width: 20%;
 	font-size: 14px;
 	text-align: left;
 }
 
-#mob1{
-	width: 17%;
+#mob1, #mob2, #mob3{
+	font-size: 11px;
 }
 
 #mob3{
-	width: 14%;
+  width: 22%;
+}
+
+#mob3{
+	width: 16%;
 }
 
 .foo-mob{
@@ -464,17 +503,29 @@ body {
 		display: none;
 	}
 
+  .priva-mob{
+    display: none;
+  }
+
+  .privacidad{
+    display: inline;
+  }
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
-    .bg-footer p {
+ /*   .bg-footer p {
 	font-size: 15px;
 	color: #ffffff;
     }
 
-}
+}*/
 
 @media(max-width:991px) {
+   .logo-footer{
+    display: none;
+  }
+
     .bg-footer p {
 	font-size: 15px;
 	color: #ffffff;
@@ -489,13 +540,13 @@ body {
 	width: 100% !important;
 	font-size: 14px;
 	text-align: center;
-    padding: 2%;
+  padding: 2%;
 
 	}
 
 	#mob1, #mob3{
-	width: 100%;
-	text-align: center;
+  	width: 100%;
+  	text-align: center;
     padding: 2%;
 	}
 
@@ -507,17 +558,16 @@ body {
 		font-size: 16px;
 		color: #ffffff;
 		display: inline;
-		margin:auto;
+    text-align: center;
 	}
 
 	.foo-mob a{
 		color: #ffffff;
 		text-decoration: underline;
-
+    text-align: center;
 	}
 
 	#ser-cli{
-		margin-left: 38%;
 		color: #ffffff;
 		text-decoration: underline;
 	}
@@ -528,9 +578,7 @@ body {
 	}
 
 	#afb{
-		text-align: left;
-		padding: 3%;
-		margin-left:40%;
+  		padding: 3%;
 	}
 
 	#ayt{
@@ -544,27 +592,48 @@ body {
 		margin-bottom: 3%;
 	}
 
+  #mob1, #mob2, #mob3{
+  font-size: 9px;
+  }
+
+    .priva-mob{
+    display: inline;
+  }
+
+  .privacidad{
+    display: none;
+  }
+
 }
 
 @media(max-width:767px) {
-	/*INICIO*/
+  .logo-footer{
+    display: none;
+  }
 
-
-  /*FOOTER*/
 	#afb{
-		text-align: left;
 		padding: 3%;
-		margin-left:32%;
 	}
 
-	#ser-cli{
-		margin-left: 20%;
-	}
 
 	.hr-mob{
 		width: 75%;
 		margin-top: 5%;
 		margin-bottom: 5%;
 	}
+
+  .priva-mob{
+    display: inline;
+  }
+
+  .privacidad{
+    display: none;
+  }
+
+    .foo-mob a{
+    color: #ffffff;
+    text-decoration: underline;
+    text-align: center;
+  }
 
 }
