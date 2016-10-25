@@ -524,7 +524,7 @@ footer {
 }
 
 
-.bg-footer input[type=text], input[type=email], input[type=phone]{
+.bg-footer input[type=text], .bg-footer input[type=email], .bg-footer input[type=phone]{
 	background-color: #071689;
 	font-style: italic;
 	border: 1px;
