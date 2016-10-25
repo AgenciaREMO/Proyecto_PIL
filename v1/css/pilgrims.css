@@ -380,6 +380,7 @@ body {
   position: relative;
   text-align: center;
   cursor: default;
+  background-color: #174185;
 }
 
 .hovereffect .overlay {
@@ -396,6 +397,7 @@ body {
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
+  background-color: rgba(23,65,133,0.3);
 }
 
 .hovereffect:hover .overlay {
