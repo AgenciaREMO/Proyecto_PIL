@@ -56,15 +56,15 @@
 	</section>-->
 
 	    <!-- Header Carousel -->
-	<!--<div class="">
+	<div class="bg-lanzamiento">
 		<section class="container text-center ">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12">
-				<h1> LANZAMIENTOS</h1>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 ">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/lanzamientoss.png">
+				</div>
 			</div>
-		</div>
-	</section>
-	</div>-->
+		</section>
+	</div>
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -79,7 +79,7 @@
                 <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
                 	<div class="container">
                 		<div class="row ">
-	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                		<div class="col-lg-offset-3 text-right">
 	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
 	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
 	                		</div>
@@ -93,7 +93,7 @@
                 <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
                 	<div class="container">
                 		<div class="row ">
-	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                		<div class="col-lg-offset-3 text-right">
 	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
 	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
 	                		</div>
@@ -108,7 +108,7 @@
                 <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
                 	<div class="container">
                 		<div class="row ">
-	                		<div class="col-lg-offset-3 col-lg-8 col-lg-offset-1 col-md-6 col-sm-12text-right">
+	                		<div class="col-lg-offset-3 text-right">
 	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
 	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
 	                		</div>
@@ -128,23 +128,68 @@
             <span class="icon-next"></span>
         </a>
     </header>
-    <!--
-       <div class="">
+    <div class="bg-lanzamiento">
 		<section class="container text-center ">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12">
-				<h1> PROMOCIONES</h1>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 ">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/promociones.png">
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</div>
-	-->
-    <div class="bg-inicio">
-    	<div class="row">
-    		<div class="col-lg-12 col-md-12 col-sm-12">
-    			<img class="img-responsive" src="rec/img/promocion1.png">
-    		</div>
+    <div class="row">
+    	<div class="col-lg-12 col-md-12 col-sm-12">
+    		<img class="img-responsive" src="rec/img/promocion1.png">
     	</div>
+    </div>
+    <div class="">
+		<section class="container text-center ">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 ">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/noticias.png">
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-sm-4 col-lg-4 col-md-4">
+	            <div class="thumbnail">
+	                <img src="http://placehold.it/320x150" alt="">
+	                <div class="caption">
+	                    <h4 class="pull-right">$24.99</h4>
+	                    <h4><a href="#">First Product</a>
+	                    </h4>
+	                    <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+	                </div>
+	            </div>
+	        </div>
+			<div class="col-sm-4 col-lg-4 col-md-4">
+	            <div class="thumbnail">
+	                <img src="http://placehold.it/320x150" alt="">
+	                <div class="caption">
+	                    <h4 class="pull-right">$24.99</h4>
+	                    <h4><a href="#">First Product</a>
+	                    </h4>
+	                    <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+	                </div>
+	            </div>
+	        </div>
+			<div class="col-sm-4 col-lg-4 col-md-4">
+	            <div class="thumbnail">
+	                <img src="http://placehold.it/320x150" alt="">
+	                <div class="caption">
+	                    <h4 class="pull-right">$24.99</h4>
+	                    <h4><a href="#">First Product</a>
+	                    </h4>
+	                    <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+    <div class="bg-inicio">
     	<div class="container">
     		<div class="row">
 	    		<div class="col-lg-12 col-md-12 col-sm-12">
@@ -153,22 +198,68 @@
     		</div>
     		<br>
     		<div class="bg-recetas row">
+    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				    <div class="hovereffect">
+				        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
+				            <div class="overlay">
+				                <h2>Chiles rellenos</h2>
+								<p> 
+									<a href="#" >
+										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+										Ver receta
+									</a>
+								</p> 
+				            </div>
+				    </div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				    <div class="hovereffect">
+				        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+				            <div class="overlay">
+				                <h2>Nopales con pollo</h2>
+								<p> 
+									<a href="#">
+										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+										Ver receta
+									</a>
+								</p> 
+				            </div>
+				    </div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				    <div class="hovereffect">
+				        <img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
+				            <div class="overlay">
+				                <h2>Pollo con garbanzo</h2>
+								<p> 
+									<a href="#">
+										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+										Ver receta
+									</a>
+								</p> 
+				            </div>
+				    </div>
+				</div>
+    		</div>
+    		
+    		<!--<div class="bg-recetas row">
 	    		<div class="col-lg-4 col-md-6 col-sm-12">
-	    			<span class="border-hover"></span>
-	    				<img src=".jpg" data-src-mobile="//t1-cms-4.images.toyota-europe.com/toyotaone/eses/toyota-reason-to-own-2014-warranty_tcm-1014-42756.jpg" width="355" height="248">
+	    			<img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
 	    			<video  width="100%" controls">
 			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
 			    	</video>
 	    		</div>
 	    		<div class="col-lg-4 col-md-6 col-sm-12">
-	    			<video class="border-hover" width="100%" controls">
+	    			<img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+	    			<video  width="100%" controls">
 			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
 			    	</video>
 	    		</div>
 	    		<div class="col-lg-4 col-md-6 col-sm-12">
-	    			<video class="border-hover" width="100%" controls">
+	    			<img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
+	    			<video  width="100%" controls">
 			    		<source src="rec/video/nescafe-background.mp4" type="video/mp4">
-			    	</video>
+			    	</video>-->
 	    		</div>
     		</div>
     	</div>
