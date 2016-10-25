@@ -206,7 +206,7 @@ function footer(){
                     </div>
                     <div class="est-sel">
                         <select class="form-control">
-                          <option value="" selected="selected">Seleccione una ciudad</option>
+                          <option value="" selected="selected">Seleccione un estado</option>
                           <option value="Aguascalientes">Aguascalientes</option>
                           <option value="Baja California">Baja California</option>
                           <option value="Baja California Sur">Baja California Sur</option>
