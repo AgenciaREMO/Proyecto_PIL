@@ -1,0 +1,15 @@
+h1 {
+	color: #000;
+	text-align: center;
+}
+.formulario-input {
+	border: none !important;
+    border-bottom: 1.5px solid #071689 !important;
+    border-radius: 0px !important;
+}
+.formulario {
+	padding-bottom: 50px;
+}
+body { 
+	color: #000 !important;
+}

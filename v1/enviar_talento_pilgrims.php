@@ -7,14 +7,22 @@
     $mensaje = $_POST['mensaje'];
     $estado = $_POST['estados'];
     $para = 'mlgarciao@msn.com, martha.lucia.remo@gmail.com';
+    //Adjuntar archivo CV
+    $archivoNombre = $_FILES['archivo']['name']; //nombre del archivo a ser enviado
+    $archivo = $_FILES['archivo']['tmp_name']; //ruta temporal del archivo a ser adjuntado (ubicación fisica del archivo subido en el servidor)
+    $archivo = file_get_contents($archivo); //leo del origen temporal el archivo y lo guardo como un string en la misma variable (piso la variable $archivo que antes contenía la ruta con el string del archivo)
+    $archivo = chunk_split(base64_encode($archivo)); //codifico el string leido del archivo en base64 y la fragmento segun RFC 2045
+    $uid = md5(uniqid(time())); //frabrico un ID único que usaré para el "boundary"
+
     ob_start();
     if (!empty($asunto) && !empty($para)) {
         $to = $para;
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $headers .= "Content-type: multipart/mixed; boundary=\"" . $uid . "\r\n";
         $headers .= "FROM: Pilgrim's | Servicio al cliente <pilgrims@pilgrims.com>"."\r\n".'X-Mailer: PHP/' . phpversion();
         $body = '
-        	 <html>
+        <html>
         <head>
           <meta charset="utf-8">
           <title>Correo Enviado</title>
@@ -116,12 +124,22 @@
       </body>
       </html>
             ';
-        mail($to, $asunto, $body, $headers); 
-        header("Location: servicio_cliente.php?res=1");
+        $mensaje = "--" . $uid . "\r\n";
+        $mensaje .= "Content-type:text/plain; charset=utf-8\r\n";
+        $mensaje .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+        $mensaje .= $body . "\r\n\r\n";
+        $mensaje .= "--" . $uid . "\r\n";
+        $mensaje .= "Content-Type: application/octet-stream; name=\"" . $archivoNombre . "\"\r\n";
+        $mensaje .= "Content-Transfer-Encoding: base64\r\n";
+        $mensaje .= "Content-Disposition: attachment; filename=\"" . $archivoNombre . "\"\r\n\r\n";
+        $mensaje .= $archivo . "\r\n\r\n";
+        $mensaje .= "--" . $uid . "--";
+        mail($to, $asunto, $mensaje, $headers); 
+        header("Location: talento_pilgrims.php?res=1");
         die();
     }
     else {
-        header("Location: servicio_cliente.php?res=2");
+        header("Location: talento_pilgrims.php?res=2");
         die();
     }
 ?>

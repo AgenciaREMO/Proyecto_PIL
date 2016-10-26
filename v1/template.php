@@ -144,12 +144,12 @@ function menu($elemento = ""){
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="servicio_cliente.php">Servicio a Cliente</a></div></li>
+            <li><div><a href="servicio_cliente.php">Servicio al Cliente</a></div></li>
             <li><div><a href="#">Oficinas</a></div></li>
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">
-          <a href="#">
+          <a href="talento_pilgrims.php">
             <span class="icon-nav"><img src="rec/img/talento.png" alt=""></span>
             <div>TALENTO<br>PILGRIM'S</div>
           </a>
