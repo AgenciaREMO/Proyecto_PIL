@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<?php
-			menu("8");
+			menu("2");
 		?>
 		<!-- Carousel -->
 	    <header id="myCarousel" class="carousel slide carousel-negocio">
@@ -26,38 +26,14 @@
 	        <div class="carousel-inner">
 	            <div class="item active">
 	                <div class="fill" style="background-image:url('rec/img/b_valor_agregado.jpg');">
-	                	<div class="container">
-		                	<div class="row">
-			                	<div class="carousel-caption">
-								   	<h2>Valor Agregado</h2>
-									<p>La mejor opción si buscas productos como nuggets, hamburguesas, pierna y muslo empanizados, cordon bleu, o tenders.</p>
-								</div>
-			               	</div>
-		                </div>
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" style="background-image:url('rec/img/b_fresco.jpg');">
-	                	<div class="container">
-	                		<div class="row ">
-		                		<div class="carousel-caption">
-								   	<h2>Pollo Fresco</h2>
-									<p>Si buscas pollo entero, en piezas, rosticero, o alitas marinadas.</p>
-								</div>
-		                	</div>
-	                	</div>
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" style="background-image:url('rec/img/b_pollo_vivo.jpg');">
-	                	<div class="container">
-	                		<div class="row ">
-		                		<div class="carousel-caption">
-								   	<h2>Pollo Vivo</h2>
-									<p>Si buscas aves hembras o machos, de la mejor calidad.</p>
-								</div>
-		                	</div>
-	                	</div>
 	                </div>
 	            </div>
 
@@ -70,7 +46,7 @@
 	        </a>
 	    </header>
 	    <section class="content container">
-			<h1>Hagamos negocio</h1>
+			<h1>Pilgrim's Fresco</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li>Nuestras marcas</li>

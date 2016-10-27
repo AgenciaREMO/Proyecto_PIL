@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<?php
-			menu("8");
+			menu("9");
 		?>
 		<section class="content">
 			<img src="rec/img/b_talento.jpg" alt="img-responsive" class="banner">

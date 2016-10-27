@@ -120,7 +120,7 @@ function menu($elemento = ""){
             <div>PROCESOS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="#">Estándares de Calidad</a></div></li>
+            <li><div><a href="estandares.php">Estándares de Calidad</a></div></li>
             <li><div><a href="#">Ciclo de Proceso</a></div></li>                      
           </ul>
         </li>
@@ -133,9 +133,9 @@ function menu($elemento = ""){
             <li><div><a href="#">Historia Pilgrim's</a></div></li>
             <li><div><a href="#">Pilgrim's México</a></div></li>
             <li><div><a href="#">Nuestras Plantas</a></div></li>  
-            <li><div><a href="#">Filosofía</a></div></li>  
+            <li><div><a href="filosofia.php">Filosofía</a></div></li>  
             <li><div><a href="#">Distintivos</a></div></li>  
-            <li><div><a href="#">Video Corporativo</a></div></li>                     
+            <li><div><a href="corporativo.php">Video Corporativo</a></div></li>                     
           </ul>
         </li>
         <li class="dropdown <?= $ocho;?>">
