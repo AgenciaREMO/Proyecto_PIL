@@ -6,7 +6,7 @@
 
 html, body, h3, h2, header{
 	font-family: 'Cronos-Pro' !important;
-  color: #ffffff;
+  color: #003366;
 }
 
 h2{
@@ -192,6 +192,25 @@ body {
 	width: 70%;
 }
 
+.mute {
+  position: absolute;
+  top: 95%;
+  left: 8px;
+  width: 30px;
+  height: 30px;
+  z-index: 1000;
+  border: 0;
+  background-color: transparent; }
+  .mute:focus {
+    outline: 0; }
+  .mute.off {
+    background-image: url("http://prod1.nescafe.com/es_es/public/img/off-icon.png"); }
+  .mute.off:hover {
+    background-image: url("http://prod1.nescafe.com/es_es/public/img/off-icon-rollover.png"); }
+  .mute.on {
+    background-image: url("http://prod1.nescafe.com/es_es/public/img/on-icon.gif"); }
+  .mute.on:hover {
+    background-image: url("http://prod1.nescafe.com/es_es/public/img/on-icon-rollover.gif"); }
 
 @media (max-width: 991px) {
   .hero.main .header-section .hero {
@@ -246,8 +265,18 @@ body {
 
     .hero-content h4 {
     font-family:  Helvetica, Arial, sans-serif;
-    line-height: 1.3em; 
-}
+    line-height: 1em !important; 
+  }
+
+  .hero.main .vertical-center .vertical-center-inner .hero-content .hero-cta {
+        margin: auto;
+        line-height: 1.3em;
+    } 
+
+    .hero-cta h4{
+      font-size: 12px;
+      padding-bottom: 4%;
+    }
 }
 
 
@@ -366,12 +395,20 @@ body {
   } 
 }
 
+.img-noti{
+  margin-top: 8%;
+}
+
 #recetas{
   margin: auto;
 }
 
 
 /*hover recetas*/
+.hr-hover{
+  width: 75%;
+}
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -386,18 +423,19 @@ body {
 .hovereffect .overlay {
   position: absolute;
   overflow: hidden;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
+  width:96%;
+  height: 96%;
+  left: 2%;
+  top: 2%;
+  padding-top: 4%;
+  margin-right: 2%;
+  margin-bottom:2%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
-  background-color: rgba(23,65,133,0.3);
+  background-color: rgba(23,65,133,0.5);
 }
 
 .hovereffect:hover .overlay {
@@ -416,9 +454,10 @@ body {
 }
 
 .hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
+  /*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  background-color: rgba(23,65,133,0.3);
 }
 
 .hovereffect h2 {
@@ -462,6 +501,133 @@ body {
   padding-bottom: 4%;
   padding-top: 4%;
 }
+
+
+.bg-content{
+  background: url('../rec/img/bg-lanzamiento.jpg')center; 
+  background-size: all; 
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+
+
+/*ESTÁNDARES*/
+.tif{
+  margin:auto; 
+  width:20%;
+}
+.procesos{
+  font-size: 20px !important;
+  text-align: center;
+  padding: 3%;
+}
+
+#nues-pollos{
+  font-size: 30px !important;
+  margin-top: 8%;
+}
+
+/*EMPRESA*/
+ul.a {
+    list-style-type: none;
+}
+
+.filo{
+  margin:auto; 
+  width:40%;
+}
+
+.filo-mob{
+  margin:auto; 
+  width:25%;
+  margin-top: 6%;
+}
+
+.esc-fil{
+  font-size: 20px !important;
+}
+
+.mob-fil{
+  font-size: 15px !important;
+  text-align: center;
+}
+
+.p-02{
+  padding: 3% 3% 3% 3%;
+  text-align: center;
+  color: #003366;
+  padding-left: 
+ }
+
+
+.p-02>p{
+  font-size: 20px !important;
+}
+
+
+
+.btn-filosofia:hover {
+  cursor: pointer;
+}
+
+.btn-filosofia:hover {
+  cursor: pointer;
+  width:42%;
+}
+
+.mob-fil{
+  display: none;
+}
+
+.video-corpo{
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 940px){
+
+.esc-fil{
+  display: none;
+}
+
+.mob-fil{
+  display: inline;
+}
+}
+
+@media (max-width: 480px) {
+  .procesos{
+    font-size: 16px !important;
+    text-align: center;
+    padding: 3%;
+  }
+
+  .tif{
+    margin:auto; 
+    width:50%;
+  }
+
+  #nues-pollos{
+  font-size: 20px !important;
+  margin-top: 10%;
+}
+
+.esc-fil{
+  display: none;
+}
+
+.mob-fil{
+  display: inline;
+}
+
+}
+
+/*VIDEO*/
+.margin{
+  height: 100%;
+}
+
 /*FOOTER*/
 
 footer {

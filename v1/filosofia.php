@@ -8,10 +8,11 @@
 		<meta name="description" content="En Pilgrim’s productora de pollo en México">
 		<meta name="keywords" content="Pilgrim's, estándares de calidad, tif, certificación">
 		<script type="text/javascript" src="js/pilgrims.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
 	</head>
 <body>
 	<?php
-		menu("1");
+		menu("13");
 	?>
 <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -61,36 +62,40 @@
 			  <li><a href="#">Nuestra empresa</a></li>
 			  <li class="active">Filosofía</li>
 			</ol>
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h1 >Filosofía</h1>
+			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
+																										 animation-duration: 0.10s; 
+																										 animation-delay: 0.6s; 
+																										 animation-name: fadeInUp;">
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+					</div>
 				</div>
 			</div>
+			<br>
 			<div class="esc-fil">
 				<div class="row">
-					<div id="mision" class="col-lg-4 col-md-4 col-sm-4 text-center">
+					<div id="mision" class="col-lg-4 col-md-4 col-sm-4 text-center ">
 						<img class="img-responsive filo btn-filosofia" src="rec/img/mision.png">
-						<h3>MISIÓN</h3>
 					</div>
-					<div id="vision" class="col-lg-4 col-md-4 col-sm-4 text-center">
+					<div id="vision" class="col-lg-4 col-md-4 col-sm-4 text-center ">
 						<img class="img-responsive filo btn-filosofia" src="rec/img/vision.png">
-						<h3>VISIÓN</h3>
 					</div>
-					<div id="valores" class="col-lg-4 col-md-4 col-sm-4 text-center">
+					<div id="valores" class="col-lg-4 col-md-4 col-sm-4 text-center ">
 						<img class="img-responsive filo btn-filosofia" src="rec/img/valores.png">
-						<h3>VALORES</h3>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<section id="div-mision" class="text-center p-02">
 								<h3>MISIÓN</h3>
-								<p> 
+								 
 									Ser los mejores en lo que nos proponemos, pensando y actuando como dueños, respetando el medio ambiente, garantizando productos y servicios superiores para nuestros clientes, solidez a los proveedores, rentabilidad a los accionistas y un futuro mejor para todos nuestros colaboradores.
-								</p>
+								
 					</section>
 					<section id="div-vision"  class="text-center p-02">
 							<h3>VISIÓN</h3>
-							<p>Ser la empresa líder, reconocida por nuestros colaboradores, clientes, consumidores y comunidad, por entregar productos y servicios de calidad extraordinarios.</p>
+							Ser la empresa líder, reconocida por nuestros colaboradores, clientes, consumidores y comunidad, por entregar productos y servicios de calidad extraordinarios.
 					</section>
 					<section id="div-valores"  class="text-center p-02">
 								<h3>VALORES</h3>

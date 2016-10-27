@@ -10,7 +10,7 @@
 	</head>
 <body>
 	<?php
-		menu("1");
+		menu("15");
 	?>
 	<div class=" bg-content ">
 		<section class="container">
@@ -19,16 +19,15 @@
 			  <li><a href="#">Nuestra empresa</a></li>
 			  <li class="active">Video Corporativo</li>
 		</ol>
-		<div class=" text-center">
-			<h1>Vídeo Corporativo Pilgrim's</h1><br>
-		</div>
-		<div class="">
-			
-		</div>
-		<video width="100%" controls id="video-corpo">
-		  <source src="rec/video/Pilgrim'sMexico.mp4" type="video/mp4">
-		  <source src="mov_bbb.ogg" type="video/ogg">
-		</video>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 ">
+					<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+				</div>
+			</div>
+			<video width="100%" controls id="video-corpo">
+			  <source src="rec/video/Pilgrim'sMexico.mp4" type="video/mp4">
+			  <source src="mov_bbb.ogg" type="video/ogg">
+			</video>
 		<br>
 	</section>
 	</div>
