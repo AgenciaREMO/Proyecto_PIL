@@ -43,21 +43,21 @@
 				?>
 			</div>
 
-			<form action="enviar_talento_pilgrims.php" class="formulario" method="POST">
+			<form action="enviar_talento_pilgrims.php" class="formulario" method="POST" enctype="multipart/form-data"> <!--Determinar el tipo de informaicon-->
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="form-group">
 							<input type="text" name="nombre" class="form-control formulario-input" placeholder="Nombre completo..." required>
 						</div>
 						<div class="form-group">
-							<input type="email" name="email" class="form-control formulario-input" placeholder="Correo electronico..." data-toggle="tooltip" data-placement="left" title="Ejemplo: ejemplo@email.com" required>
+							<input type="email" name="email" class="form-control formulario-input" placeholder="Correo electrónico..." data-toggle="tooltip" data-placement="left" title="Ejemplo: ejemplo@email.com" required>
 						</div>
 						<div class="form-group">
 							<input type="text" name="telefono" class="form-control formulario-input" placeholder="Teléfono..." data-toggle="tooltip" data-placement="left" title="Favor de incluir lada." required>	
 						</div>
 						<div class="form-group">   
 				        	<label for="archivo">Adjunta tu curriculum:</label>
-				            <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+				            <!--<input type="hidden" name="MAX_FILE_SIZE" value="30000" />-->
 				            <input type="file" name="archivo" id="archivo" class="form-control formulario-input" required>
 						</div>
 					</div>

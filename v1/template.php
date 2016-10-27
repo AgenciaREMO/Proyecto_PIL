@@ -91,7 +91,7 @@ function menu($elemento = ""){
             <div>NUESTRAS<br>MARCAS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="#">Pilgrim's Fresco</a></div></li>
+            <li><div><a href="pilgrims_fresco.php">Pilgrim's Fresco</a></div></li>
             <li><div><a href="#">Pilgrim's Valor Agregado</a></div></li>
             <li><div><a href="#">Del Día</a></div></li>                        
           </ul>
@@ -109,7 +109,7 @@ function menu($elemento = ""){
           </a>
         </li>
         <li class="<?= $cinco;?>">
-          <a href="#">
+          <a href="hagamos_negocio.php">
             <span class="icon-nav"><img src="rec/img/negocio.png" alt=""></span>
             <div>HAGAMOS<br>NEGOCIO</div>
           </a>
