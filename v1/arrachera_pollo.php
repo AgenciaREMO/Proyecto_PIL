@@ -23,28 +23,28 @@
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestras marcas</li>
 					<li><a href="pilgrims_fresco.php">Pilgrim's fresco</a></li>
-					<li class="active">Pollo entero</li>
+					<li class="active">Arrachera de pollo</li>
 				</ol>
 				<div class="row productos bg-productos">
 					<div class="col-lg-12 col-md-12 col-sm-12 producto">
 						<h2 class="h2-producto">
-							Pollo entero
+							Arrachera de pollo
 							<hr class="hr-rojo">
 						</h2>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
-						<div style="background:url('rec/img/nuestras_marcas/pollo_entero_back.jpg');background-size: cover;">
-							<img src="rec/img/nuestras_marcas/pollo_entero.jpg" alt="Pollo entero" class="img-responsive img-thumbnail thumbnail-producto">
+						<div style="background:url('rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg');background-size: cover;">
+							<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.jpg" alt="Pollo entero" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
 						<table style="border:none;">
 							<tr>
 								<td>
-									<p style="margin-top:0px;">Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.</p>
+									<p style="margin-top:0px;">Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.</p>
 									<p style="margin:5px;">Vistas:</p>
-									<img src="rec/img/nuestras_marcas/pollo_entero.jpg" alt="Pollo entero" class="miniatura-vista" id="frente">
-									<img src="rec/img/nuestras_marcas/pollo_entero_back.jpg" alt="Pollo entero back" class="miniatura-vista" id="back">
+									<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.jpg" alt="Pollo entero" class="miniatura-vista" id="frente">
+									<img src="rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg" alt="Pollo entero back" class="miniatura-vista" id="back">
 								</td>
 							</tr>
 							<tr>

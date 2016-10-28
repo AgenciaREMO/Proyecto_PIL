@@ -17,7 +17,7 @@
 			<img src="rec/img/b_contacto.jpg" alt="img-responsive" class="banner">
 		</section>
 		<section class="content container">
-			<h1>Servicio al cliente</h1>
+			<h1 class="h1-producto">Servicio al cliente</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li>Contacto</li>

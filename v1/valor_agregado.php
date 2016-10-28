@@ -62,10 +62,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Nuggets de pechuga</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Nuggets de pollo totalmente cocidos y listos para deleitar.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Nuggets de pollo totalmente cocidos y listos para deleitar.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -78,10 +78,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Skinny dip´n chik´n:</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Trozos de pechuga de pollo con un delicioso sabor. Tienen cero grasas trans y son totalmente cocidos.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Trozos de pechuga de pollo con un delicioso sabor. Tienen cero grasas trans y son totalmente cocidos.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -94,10 +94,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Sweet & spicy chicken</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Trocitos de pechuga y Costilla de pollo con una deliciosa combinación de sabores dulces y picantes.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Trocitos de pechuga y Costilla de pollo con una deliciosa combinación de sabores dulces y picantes.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -110,10 +110,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Nuggets</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Nuggets de pollo empanizados totalmente cocidos, listos para deleitar.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Nuggets de pollo empanizados totalmente cocidos, listos para deleitar.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -126,10 +126,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Patties</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Hamburguesa de pechuga y costilla de pollo, sazonada, empanizada y totalmente cocida.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Hamburguesa de pechuga y costilla de pollo, sazonada, empanizada y totalmente cocida.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -142,10 +142,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Tenders</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -158,10 +158,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pierna y muslo empanizados</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -174,10 +174,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Arrachera adobo</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -190,10 +190,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Arrachera pimienta limón</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -206,10 +206,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Hamburguesa</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -222,10 +222,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pechuga cordon bleu</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -238,10 +238,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Medallones</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Medallones congelados de pechuga listos para cocinar y empacados de tal manera que no pierden su forma original.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Medallones congelados de pechuga listos para cocinar y empacados de tal manera que no pierden su forma original.
 										</a>
 									</p>
 									<hr class="hr-hover"> 

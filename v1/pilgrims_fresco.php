@@ -62,10 +62,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pollo entero</h2>
-									<p> 
+									<p class="descripcion"> 
 										<a href="pollo_entero.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.</p>
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -78,10 +78,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pechuga</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.</p>
+									<p class="descripcion"> 
+										<a href="pechuga.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -94,10 +94,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pierna</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</p>
+									<p class="descripcion"> 
+										<a href="pierna.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -110,10 +110,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Alitas naturales</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Alitas naturales en diversas presentaciones para un antojo en casa o para deleitar a tantos invitados como quieras.</p>
+									<p class="descripcion"> 
+										<a href="alas_naturales.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Alitas naturales en diversas presentaciones para un antojo en casa o para...
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -126,10 +126,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Muslo</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</p>
+									<p class="descripcion"> 
+										<a href="muslo.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -142,10 +142,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Pierna y muslo</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Esta pieza completa la puedes encontrar en corte anatómico o corte americano.</p>
+									<p class="descripcion"> 
+										<a href="pierna_muslo.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Esta pieza completa la puedes encontrar en corte anatómico o corte americano.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -158,10 +158,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Milanesas</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Filete de pechuga en diversas porciones por empaque para el número de comensales que necesites.</p>
+									<p class="descripcion"> 
+										<a href="milanesas.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Filete de pechuga en diversas porciones por empaque para...
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -174,10 +174,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Alitas adobadas</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Filete de pechuga en diversas porciones por empaque para el número de comensales que necesites.</p>
+									<p class="descripcion"> 
+										<a href="alas_adobadas.php">
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Alitas adobadas en una mezcla de chiles y especias que le dan sabor picosito y delicioso.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -190,10 +190,10 @@
 								<div class="overlay">
 					            	<hr class="hr-hover">
 					                <h2>Arrachera de pollo</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i>
-											<p>Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.</p>
+									<p class="descripcion"> 
+										<a href="arrachera_pollo.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.
 										</a>
 									</p>
 									<hr class="hr-hover"> 

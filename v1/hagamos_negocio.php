@@ -84,7 +84,7 @@
 	        </a>
 	    </header>
 	    <section class="content container">
-			<h1>Hagamos negocio</h1>
+			<h1 class="h1-producto">Hagamos negocio</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li class="active">Hagamos negocio</li>

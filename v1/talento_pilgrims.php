@@ -17,7 +17,7 @@
 			<img src="rec/img/b_talento.jpg" alt="img-responsive" class="banner">
 		</section>
 		<section class="content container">
-			<h1>Talento Pilgrim's</h1>
+			<h1 class="h1-producto">Talento Pilgrim's</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li class="active">Talento Pilgrim's</li>

@@ -94,8 +94,8 @@ function menu($elemento = ""){
           </a>
           <ul class="dropdown-menu">
             <li><div><a href="pilgrims_fresco.php">Pilgrim's Fresco</a></div></li>
-            <li><div><a href="#">Pilgrim's Valor Agregado</a></div></li>
-            <li><div><a href="#">Del Día</a></div></li>                        
+            <li><div><a href="valor_agregado.php">Pilgrim's Valor Agregado</a></div></li>
+            <li><div><a href="http://www.deldia.com.mx/index.jsp">Del Día</a></div></li>                        
           </ul>
         </li>
         <li class="<?= $tres;?>">
