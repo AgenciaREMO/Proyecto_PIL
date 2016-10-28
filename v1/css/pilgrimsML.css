@@ -19,6 +19,7 @@ body {
 }
 header.carousel-negocio {
 	height: 50% !important;
+	border-bottom: 4px solid rgb(217,35,46);
 }
 .info-negocio {
 	background-color: rgba(7,22,137,1);
@@ -33,4 +34,40 @@ header.carousel-negocio {
 	opacity: 1;
 	width: 40px;
 	height: auto;
+}
+.nuestras-marcas {
+	background: url('../rec/img/bg-lanzamiento.jpg') fixed; 
+}
+.productos {
+	padding: 1%;
+	margin: 1%;
+	margin-bottom: 10% !important;
+}
+.breadcrumb {
+	background-color: transparent;
+}
+.productos .row .col-lg-4 {
+	margin-bottom: 1%;
+}
+.hovereffect:hover .producto{
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+}
+.hovereffect {
+	width: auto;
+}
+.miniatura {
+	width: 30% !important;
+	opacity: 0.7;
+}
+.miniatura:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s;
+}
+.a-receta {
+	text-align: right;
+	bottom: 0px;
+}
+.prueba {
+	vertical-align: top;
 }
