@@ -5,14 +5,14 @@
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
 	  	<title>Filosofía- PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s productora de pollo en México">
-		<meta name="keywords" content="Pilgrim's, estándares de calidad, tif, certificación">
+		<meta name="description" content="Filosofía en Pilgrim’s productora de pollo en México">
+		<meta name="keywords" content="Pilgrim's, misión, visión, valores">
 		<script type="text/javascript" src="js/pilgrims.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
 	</head>
 <body>
 	<?php
-		menu("13");
+		menu("7");
 	?>
 <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->

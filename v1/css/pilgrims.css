@@ -15,7 +15,7 @@ h2{
 }
 /*GENERAL*/
 body {
-  padding-top: 90px;
+  padding-top: 90px !important;
 }
 .banner {
   width: 100%;
@@ -438,7 +438,33 @@ body {
   background-color: rgba(23,65,133,0.5);
 }
 
+.hovereffect .overlayr {
+  position: absolute;
+  overflow: hidden;
+  width:96%;
+  height: 96%;
+  left: 2%;
+  top: 2%;
+  padding-top: 2%;
+  margin-right: 2%;
+  margin-bottom:0%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  background-color: rgba(23,65,133,0.5);
+}
+
 .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect:hover .overlayr {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
@@ -510,6 +536,34 @@ body {
   padding-top: 2%;
 }
 
+.bg-recetario{
+  background: url('../rec/img/bg-recetas.jpg')center; 
+  background-size: cover; 
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.bg-r{
+  background: url('../rec/img/bg-mantel.jpg')center; 
+  background-size: all; 
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.header-recetas{
+background: #f5f3f3;
+padding: 1%;
+border-radius: 2px;
+}
+
+.ico-cook{
+  font-size: 16px;
+}
+
+.cont-receta{
+  padding: 2%;
+  font-size: 18px;
+}
 
 
 /*ESTÁNDARES*/
@@ -628,6 +682,57 @@ ul.a {
   height: 100%;
 }
 
+
+/*OFICINAS (MAPA)*/
+#btn-ofi{
+  font-size: 1.5em;
+}
+
+.esc-oficinas{
+  padding-bottom: 4%;
+  font-size: 1em !important;
+}
+
+.mob-oficinas{
+display: none;
+}
+
+
+@media (max-width: 480px) {
+.esc-oficinas{
+  display: none;
+}
+
+.mob-oficinas{
+  display: inline;
+  padding-bottom: 2%;
+}
+
+}
+
+/*RECETARIO*/
+
+ .container .mob-recetas{
+    display: none;
+  }
+
+@media (max-width: 480px) {
+  .bg-recetario{
+    background: url('../rec/img/bg-recetas.jpg')center; 
+    background-size: all; 
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+  .container .esc-recetas{
+    display: none;
+  }
+  .container .mob-recetas{
+    display: inline;
+  }
+}
+
+
 /*FOOTER*/
 
 footer {
@@ -641,6 +746,7 @@ footer {
 	height: auto;
 	font-size: 1em !important;
   color: #ffffff;
+  padding-bottom: 1%;
 }
 
 .bg-footer img{

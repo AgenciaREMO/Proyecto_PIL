@@ -20,77 +20,53 @@ $('.tooltip-social').tooltip({
 })
 
 $(document).ready(function(){
-	$("#map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
-	$("#unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+	$("#map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+	$("#unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 	$("#mapa-principal").show();
 
 	$("#btn-uno").click(function() {
 		/*$("#maps").animate({top:'0px'});
 		$("#dirs").animate({top:'0px'});*/
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-uno").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#unon").fadeIn('slow');
 	});	
 	$("#btn-dos").click(function(event) {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-dos").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#dosn").fadeIn('slow');
 	});
 	$("#btn-tres").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-tres").fadeIn('fast');
 		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
 		$("#tresn").fadeIn('slow');
 	});
 	$("#btn-cuatro").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-cuatro").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#cuatron").fadeIn('slow');
 	});
 	$("#btn-cinco").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-cinco").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#cincon").fadeIn('slow');
 	});
 	$("#btn-seis").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-seis").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#seisn").fadeIn('slow');
 	});
 	$("#btn-siete").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
 		$("#map-siete").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
 		$("#sieten").fadeIn('slow');
-	});
-	$("#btn-ocho").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
-		$("#map-ocho").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
-		$("#ochon").fadeIn('slow');
-	});
-	$("#btn-nueve").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
-		$("#map-nueve").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
-		$("#nueven").fadeIn('slow');
-	});
-	$("#btn-diez").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
-		$("#map-diez").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
-		$("#diezn").fadeIn('slow');
-	});
-	$("#btn-once").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho, #map-nueve, #map-diez, #map-once").hide();
-		$("#map-once").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
-		$("#once").fadeIn('slow');
 	});
 });
 

@@ -5,12 +5,12 @@
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
 	  	<title>Video Corporativo - PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s productora de pollo en México">
-		<meta name="keywords" content="Pilgrim's, estándares de calidad, tif, certificación">
+		<meta name="description" content="Video corporativo de la historia de Pilgrim's">
+		<meta name="keywords" content="Pilgrim's, video corporativo">
 	</head>
 <body>
 	<?php
-		menu("15");
+		menu("7");
 	?>
 	<div class=" bg-content ">
 		<section class="container">

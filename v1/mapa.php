@@ -4,26 +4,23 @@
 	<head>
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
-	  	<title>Estándares de Calidad - PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s productora de pollo en México">
-		<meta name="keywords" content="Pilgrim's, estándares de calidad, tif, certificación">
-		<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
-		<!-- /TERMINA MAPA-->
-		<title>DISTRIBUIDORES - KURIMEXICANA</title>
+	  	<title>Oficinas - PILGRIM'S</title>
+		<meta name="description" content="Oficinas corporativas de Pilgrim's en México">
+		<meta name="keywords" content="Oficinas, corporativas, ubicación">
 
 		<style>
 	      #map {
-	        height: 550px;
+	        height: 350px;
 	        width: 100%;     
 	      }
 	    </style>
 		<meta name="description" content="">
 	    <meta name="keywords" content="">
 	</head>
-<body class="sucursales">
+<body class="bg-content ">
 
 	<?php
-		menu("1");
+		menu("8");
 	?>
 
 	<!-- MENU-->
@@ -32,8 +29,7 @@
 
 <!-- / menú --> 
 	<!-- /MENU -->
-	
-	<section class="col-md-12 hidden-sm hidden-xs">
+	<section class="col-md-12 hidden-sm hidden-xs content bg-content ">
 		<div class="cont-map">
 			<div id="maps">
 				<div id="mapa-principal">
@@ -221,18 +217,17 @@
 					}
 
 				    </script>
-				    <script async defer
-				        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnsDYOv3bixc66gjmFqCiS7LCYL3UIMg&signed_in=true&libraries=places&callback=initMap"></script>
+				    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCnsDYOv3bixc66gjmFqCiS7LCYL3UIMg&signed_in=true&libraries=places&callback=initMap"></script>
 					
 				</div>
 				<div id="map-uno">
 					<div class="mapa">
-						<iframe src="https://www.google.com/maps/embed/v1/place?q=Av.%20Insurgentes%20Sur%20No.%201602%203er%20piso%20%23301%20Col.%20Cr%C3%A9dito%20Consultor%2C%20Deleg.%20Benito%20Ju%C3%A1rez%2C%20C.P.%2003940.%20M%C3%A9xico%2C%20DF.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-xf9TYz_0YURVpN2I6w5ZP0&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div id="map-dos">
 					<div class=" mapa">
-						<iframe src="https://www.google.com/maps/embed/v1/place?q=Av.%20Insurgentes%20Sur%20No.%201602%203er%20piso%20%23301%20Col.%20Cr%C3%A9dito%20Consultor%2C%20Deleg.%20Benito%20Ju%C3%A1rez%2C%20C.P.%2003940.%20M%C3%A9xico%2C%20DF.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-xf9TYz_0YURVpN2I6w5ZP0&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div id="map-tres">
@@ -240,7 +235,6 @@
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=Privada%20de%20los%20industriales%20115%20Col.%20Jurica%20%20CP.%2076100%20%20Quer%C3%A9taro%2C%20Qro.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
-				
 				<div id="map-cuatro">
 					<div class="mapa">
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=Galileo%20No.%202784%20Col.%20Villa%20Universidad%2C%20Culiac%C3%A1n%20Sinaloa.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64"  width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -253,190 +247,167 @@
 				</div>
 				<div id="map-seis">
 					<div class="mapa">
-						<iframe src="https://www.google.com/maps/embed/v1/place?q=Carretera%20Teoloyucan%20%20Jaltenco%20%2C%20Colonia%20Ejidos%20De%20Nextlalpan%20Estado%20de%20M%C3%A9xico&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed/v1/place?q=Carr%20Teoloyucan%20-%20Jaltocan%20&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64"  width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div id="map-siete">
 					<div class="mapa">
-						<iframe src="https://www.google.com/maps/embed/v1/place?q=Ramos%20Arizpe%2C%20Coahuila&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed/v1/place?q=Saltillo-Monterrey%20301%20Fraccionamiento%20del%20Bosque%2025903%20Ramos%20Arizpe%2C%20Coah.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0"  allowfullscreen></iframe>
 					</div>
-				</div>
 			</div><!--/.maps -->
 		</div><!--/.cont-map -->
 
-		<!--<section class="sucursal">
+	</section>
+	<div class="bg-content ">
+		<div class="container bg-content">
+				<ol class="breadcrumb">
+		  <li><a href="inicio.php">Inicio</a></li>
+		  <li class="active">Oficinas</li>
+		</ol>
+		<section class="col-md-12 esc-oficinas">
+			<br/>
+			<div class="row lista-sucur">
+				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
+																											 animation-duration: 0.10s; 
+																											 animation-delay: 0.6s; 
+																											 animation-name: fadeInUp;">
+					
 				<div class="row">
-					<div id="unon">
-						<div class="col-md-3 col-sm-3 text-right">
-							<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>KURIMEXICANA QUERÉTARO</h4>
-							<p>
-								Matriz y Planta
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> (442) 103-1400 / 01(800) 0120-112
-								
-								<br/>
-								Av. de las Fuentes #6 Parque Industrial Bernardo Quintana. <br/>El Marqués, Querétaro. C.P. 76246
-							</p>
-						</div>
-					</div>
-					<div id="dosn">
-						<div class="col-md-3 col-sm-3 text-right">
-						<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>KURIMEXICANA GUADALAJARA</h4>
-							<p>
-								<i class="fa fa-mobile " aria-hidden="true"></i> (33) 3162-0801 / Fax. (33) 3810-8666
-								
-								<br/>
-								Calle Andador del Rosario No. 268 Col. Fraccionamiento Tonaltecas. <br>Tonalá Jalisco. C.P. 45400
-							</p>
-						</div>
-					</div>
-					<div id="tresn">
-						<div class="col-md-3 col-sm-3 text-right">
-						<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>KURIMEXICANA NORESTE</h4>
-							<p>
-								Matriz y Planta
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> Nextel: (833) 3 59 14 45 / ID: 52*15*42941
-								<br/>
-								Calle Burgos No. 726-C Col. Colinas de San Genaro. <br>Tampico, Tamaulipas. C.P. 89367
-							</p>
-						</div>
-					</div>
-					<div id="cuatron">
-						<div class="col-md-3 col-sm-3 text-right">
-						<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>CHIHUAHUA</h4>
-							<p>
-								INDUSTRIAL WATER SERVICIES
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> (656) 619-2808 / Fax. (656) 620-8728
-								<br/>
-								Cordillera de los Andes No. 5740 Col. Jarudo del Norte. <br>Cd. Juárez, Chih. C.P. 32652
-							</p>
-						</div>
-					</div>
-					<div id="cincon">
-						<div class="col-md-3 col-sm-3 text-right">
-							<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>COAHUILA / MONCLOVA</h4>
-							<p>
-								ING. OBED CHÁVEZ PRUNEDA
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> Tel/Fax. (865) 635-1869 / Cel. (866) 638-1999
-								<br/>
-								Calle Morse No. 1308  Col. Tecnológico. <br>Monclova, Coahuila, C.P. 25716
-							</p>
-						</div>
-					</div>
-					<div id="seisn">
-						<div class="col-md-3 col-sm-3 text-right">
-							<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>COAHUILA / TORREÓN</h4>
-							<p>
-								SYNERGY AMBIENTAL MEXICANA
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> (871) 193-9633
-								<br/>
-								Calle del Halcón No. 562 Fracc. Santa Fé. <br>Torreón, Coahuila CP. 27000.
-							</p>
-						</div>
-					</div>
-					<div id="sieten">
-						<div class="col-md-3 col-sm-3 text-right">
-							<i class="fa fa-map-marker fa-3x hidden-xs" aria-hidden="true"></i>
-						</div>
-						<div class="col-md-7 col-sm-7 text-left">
-							<h4>GUERRERO / ACAPULCO</h4>
-							<p>
-								ALBERCAS Y TRATAMIENTO DE AGUA DE ACAPULCO
-								<br/>
-								<i class="fa fa-mobile " aria-hidden="true"></i> (744) 433-4367
-								<br/>
-								
-								Blvd. De las Naciones No.2157 Local D Col. La Poza ó La Zanja. <br>Acapulco de Juárez, Gro. C.P. 39906
-							</p>
-						</div>
-					</div>
-				</div>
-		</section>-->
-
-
-	</section>
-	<div class="container">
-		<section class="col-md-12">
-		<br/>
-		<div class="row lista-sucur">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h3>OFICINAS</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-uno" >
-						<span id="btn-dos">PILGRIM'S MÉXICO</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Av. Insurgentes Sur No. 1602 3er piso #301 Col. Crédito Consultor, Deleg. Benito Juárez, C.P. 03940. México, DF.<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (55) 54488300
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-dos" >
-						<span id="btn-tres">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-cuatro" >
-						<span id="btn-cuatro">OFICINAS CULIACÁN</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Galileo No. 2784 Col. Villa Universidad, Culiacán Sinaloa.<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (667) 1469827
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
 					</div>
 				</div>
 			</div>
-			<br>
-			<div  class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-cinco" >
-						<span id="btn-cinco">OFICINAS DURANGO</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Calle Valle del Guadiana #294 Parque Industrial Gómez Palacio C.P. 35078<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 871 749 2000
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-dos" data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+							<span id="btn-ofi">PILGRIM'S MÉXICO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Av. Insurgentes Sur No. 1602 3er piso #301 Col. Crédito Consultor, Deleg. Benito Juárez, C.P. 03940. México, DF.<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (55) 54488300
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-tres"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+							<span id="btn-ofi">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-cuatro"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+							<span id="btn-ofi">OFICINAS CULIACÁN</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Galileo No. 2784 Col. Villa Universidad, Culiacán Sinaloa.<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (667) 1469827
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-seis" >
-						<span id="btn-seis">OFICINAS ESTADO DE MÉXICO</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Carr. Teoloyucan – Jaltenco S/N, Col. Ejidos De Nextlalpan<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (59) 39147219
+				<br>
+				<div  class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-cinco"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+							<span id="btn-ofi">OFICINAS DURANGO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Calle Valle del Guadiana #294 Parque Industrial Gómez Palacio C.P. 35078<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 871 749 2000
+						</div>
 					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-seis"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+							<span id="btn-ofi">OFICINAS ESTADO DE MÉXICO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Carr. Teoloyucan – Jaltenco S/N, Col. Ejidos De Nextlalpan<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (59) 39147219
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-siete" data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa"> 
+							<span id="btn-ofi">OFICINAS SALTILLO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
+						</div>
+					</div>					
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-					<div id="btn-siete"> 
-						<span id="btn-siete">OFICINAS SALTILLO</span><br>
-						<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
-						<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
-					</div>
-				</div>					
 			</div>
-		</div>
-		<br/>
-	</section>
+			<br/>
+		</section>
 	</div>
+	<div class="container bg-content ">
+		<section class="col-md-12 mob-oficinas">
+			<br/>
+			<div class="row lista-sucur">
+				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
+																											 animation-duration: 0.10s; 
+																											 animation-delay: 0.6s; 
+																											 animation-name: fadeInUp;">
+					
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+					</div>
+				</div>
+			</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-dos" >
+							<a href="https://www.google.com.mx/maps/place/Av+de+los+Insurgentes+Sur+1602,+Cr%C3%A9dito+Constructor,+03940+Ciudad+de+M%C3%A9xico,+D.F./@19.3639743,-99.1824842,19z/data=!4m5!3m4!1s0x85d1ff8c4dfd17fb:0xfd6439ac23769356!8m2!3d19.3639743!4d-99.181937"><span id="btn-ofi">PILGRIM'S MÉXICO</span><br>
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Av. Insurgentes Sur No. 1602 3er piso #301 Col. Crédito Consultor, Deleg. Benito Juárez, C.P. 03940. México, DF.<br>
+								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (55) 54488300
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-tres"  >
+							<a href="https://www.google.com/maps/place/Privada+de+los+Industriales+115,+Jurica,+76100+Santiago+de+Quer%C3%A9taro,+Qro.,+M%C3%A9xico/@20.654372,-100.433763,18z/data=!4m5!3m4!1s0x85d35a739ee7889b:0xa6bdc827f81d3f2a!8m2!3d20.6542721!4d-100.4329127?hl=es-ES">
+								<span id="btn-ofi">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
+								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-cuatro"  >
+							<a href="https://www.google.com/maps?ll=24.834504,-107.370979&z=17&t=m&hl=es-ES&gl=US&mapclient=embed&q=Galileo+2784+Loma+de+Tamazula+80014+Culiac%C3%A1n+Rosales,+Sin.+M%C3%A9xico">
+								<span id="btn-ofi">OFICINAS CULIACÁN</span><br>
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Galileo No. 2784 Col. Villa Universidad, Culiacán Sinaloa.<br>
+								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (667) 1469827
+							</a>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div  class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-cinco"  >
+							<a href="https://www.google.com/maps/place/Calle+Valle+del+Guadiana+294,+Parque+Industrial,+35078+G%C3%B3mez+Palacio,+Dgo.,+M%C3%A9xico/@25.554066,-103.469064,17z/data=!4m5!3m4!1s0x868fd975db7fe267:0xd2e36b839b3b406c!8m2!3d25.5540656!4d-103.4690638?hl=es-ES">
+								<span id="btn-ofi">OFICINAS DURANGO</span><br>
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Calle Valle del Guadiana #294 Parque Industrial Gómez Palacio C.P. 35078<br>
+								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 871 749 2000
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-seis"  >
+							<a href="https://www.google.com/maps/place/Carr+Teoloyucan+-+Jaltocan,+San+Andres,+Jaltenco,+M%C3%A9x.,+M%C3%A9xico/@19.750344,-99.114293,17z/data=!4m5!3m4!1s0x85d18b6f3788fae9:0xd35710d43d408bb3!8m2!3d19.7457483!4d-99.0994361?hl=es-ES">
+								<span id="btn-ofi">OFICINAS ESTADO DE MÉXICO</span><br>
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Carr. Teoloyucan – Jaltenco S/N, Col. Ejidos De Nextlalpan<br>
+								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (59) 39147219
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-siete" >
+						<a href="https://www.google.com/maps/place/Saltillo-Monterrey+301,+Fraccionamiento+del+Bosque,+25903+Ramos+Arizpe,+Coah.,+M%C3%A9xico/@25.540879,-100.942997,17z/data=!4m5!3m4!1s0x868814838ebf891b:0x9dd9b7ec858a2012!8m2!3d25.540879!4d-100.9429969?hl=es-ES">
+							<span id="btn-ofi">OFICINAS SALTILLO</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
+							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
+						</a> 
+						</div>
+					</div>					
+				</div>
+			</div>
+			<br/>
+		</section>
+	</div>
+	</div>
+	
 	
 	<div class="clearfix"></div>
 	
@@ -450,12 +421,18 @@
 
     <!-- JavaScript -->
 		<script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>	
-	<script src="js/modern-business.js"></script>
-
-
+    
 	<?php
 		footer();
 	?>
+
+	<!--<script src="js/bootstrap.js"></script>	-->
+	<script src="js/modern-business.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+
 </body>
 </html>

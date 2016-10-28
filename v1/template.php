@@ -15,6 +15,8 @@ function meta(){
      <link href="css/pilgrims.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--Animciones-->
+    <link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
 	<!-- GOOGLE ANALYTICS -->
 	<!-- / GOOGLE ANALYTICS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -97,7 +99,7 @@ function menu($elemento = ""){
           </ul>
         </li>
         <li class="<?= $tres;?>">
-          <a href="#">
+          <a href="recetario.php">
             <span class="icon-nav"><img src="rec/img/recetario.png" alt=""></span>
             <div>RECETARIO</div>
           </a>
@@ -131,7 +133,7 @@ function menu($elemento = ""){
           </a>
           <ul class="dropdown-menu">
             <li><div><a href="#">Historia Pilgrim's</a></div></li>
-            <li><div><a href="#">Pilgrim's México</a></div></li>
+            <li><div><a href="mexico.php">Pilgrim's México</a></div></li>
             <li><div><a href="#">Nuestras Plantas</a></div></li>  
             <li><div><a href="filosofia.php">Filosofía</a></div></li>  
             <li><div><a href="#">Distintivos</a></div></li>  
@@ -145,7 +147,7 @@ function menu($elemento = ""){
           </a>
           <ul class="dropdown-menu">
             <li><div><a href="servicio_cliente.php">Servicio al Cliente</a></div></li>
-            <li><div><a href="#">Oficinas</a></div></li>
+            <li><div><a href="mapa.php">Oficinas</a></div></li>
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">

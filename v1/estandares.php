@@ -11,13 +11,13 @@
 	</head>
 <body>
 	<?php
-		menu("1");
+		menu("6");
 	?>
 	<section class="content">
-		<img src="rec/img/ba-estandares.jpg" alt="img-responsive" class="banner">
+		<img src="rec/img/ba-estandares.jpg" alt="" class="img-responsive">
 	</section>
 	<div class="bg-content">
-		<section class="container">
+		<section class="content container">
 		<ol class="breadcrumb">
 		  <li><a href="inicio.php">Inicio</a></li>
 		  <li><a href="#">Procesos</a></li>
