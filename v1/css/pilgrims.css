@@ -543,28 +543,6 @@ body {
   padding-top: 2%;
 }
 
-.bg-r{
-  background: url('../rec/img/bg-mantel.jpg')center; 
-  background-size: all; 
-  padding-bottom: 2%;
-  padding-top: 2%;
-}
-
-.header-recetas{
-background: #f5f3f3;
-padding: 1%;
-border-radius: 2px;
-}
-
-.ico-cook{
-  font-size: 16px;
-}
-
-.cont-receta{
-  padding: 2%;
-  font-size: 18px;
-}
-
 
 /*ESTÁNDARES*/
 .tif{
@@ -716,6 +694,51 @@ display: none;
     display: none;
   }
 
+
+.bg-r{
+  background: url('../rec/img/bg-mantell.png')fixed no-repeat center; 
+  background-size: all; 
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.esc-header-recetas{
+background: rgba(226, 37, 29, 0.9);
+padding: 1%;
+border-radius: 2px;
+border-color: #25346d;
+border-bottom-style: solid;
+color: #ffffff;
+}
+
+.mob-header-recetas{
+    display: none;
+    background: rgba(226, 37, 29, 0.9);
+    border-color: #25346d;
+    color: #25346d;
+    text-align: left !important;
+}
+
+.mob-receta{
+  padding: 5%;
+  font-size: 12px;
+  margin-top: 2%;
+  display: none;
+}
+
+.ico-cook{
+  font-size: 16px;
+}
+
+.esc-receta{
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+  font-size: 18px;
+  border-width: 10px;
+  margin-top: 2%;
+}
+
+
 @media (max-width: 480px) {
   .bg-recetario{
     background: url('../rec/img/bg-recetas.jpg')center; 
@@ -729,6 +752,27 @@ display: none;
   }
   .container .mob-recetas{
     display: inline;
+  }
+
+  .esc-header-recetas{
+    display: none;
+  }
+
+  .esc-receta{
+    display: none;
+  }
+
+  .mob-header-recetas{
+    display: inline;
+  }
+
+  .mob-receta{
+    display: inline;
+  }
+
+  .mob-receta li{
+    padding-left: 5%;
+    text-decoration: none;
   }
 }
 

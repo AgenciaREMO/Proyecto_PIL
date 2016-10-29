@@ -196,7 +196,7 @@
     		<div class="bg-recetas row">
     			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
+				        <img class="img-responsive img-thumbnail" src="rec/img/chilles-rellenos.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Chiles rellenos</h2>
@@ -212,7 +212,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+				        <img class="img-responsive img-thumbnail" src="rec/img/nopales-pollo.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Nopales con pollo</h2>
@@ -228,7 +228,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
+				        <img class="img-responsive img-thumbnail" src="rec/img/pollo-garbanzo-arroz.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Pollo con garbanzo</h2>
