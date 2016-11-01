@@ -195,6 +195,12 @@ body {
 	width: 70%;
 }
 
+.slide-inicio{
+  width: 100%;
+  height: auto;
+
+}
+
 .mute {
   position: absolute;
   top: 95%;
@@ -898,15 +904,21 @@ footer {
 }
 
 #mob1, #mob2, #mob3{
-	font-size: 11px;
+	font-size: 13px;
 }
 
-#mob3{
-  width: 22%;
+#mob1, #mob2{
+  text-decoration: underline;
 }
 
-#mob3{
-	width: 16%;
+#mob1:hover, #mob2:hover{
+  text-shadow: 5px 5px 5px rgba(217, 35, 46, 0.45);
+  cursor: pointer;
+}
+
+#mob1:hover, #mob2:hover, #mob3:hover{
+  color: #d9232e;
+  text-shadow: 5px 5px 5px rgba(217, 35, 46, 0.45);
 }
 
 .foo-mob{
@@ -924,6 +936,12 @@ footer {
     display: inline;
   }
 
+
+  .form-contact{
+    border-left: solid;
+    border-left-color: #fff;
+    border-width: 5px;
+  }
 /* Responsive Styles */
 
 @media(max-width:991px) {
@@ -945,8 +963,8 @@ footer {
 	text-align: center;
 	}
 
-	.bg-footer p #ofi{
-		margin-top: 6%;
+	#ofi{
+		padding: 5%;
 	}
 
 	.bg-footer .privacidad{
@@ -958,9 +976,6 @@ footer {
 	}
 
 	#mob1, #mob3{
-  	width: 100%;
-  	text-align: center;
-    padding: 2%;
 	}
 
 	.form-contact{
@@ -1006,7 +1021,7 @@ footer {
 	}
 
   #mob1, #mob2, #mob3{
-  font-size: 9px;
+  font-size: 18px;
   }
 
     .priva-mob{

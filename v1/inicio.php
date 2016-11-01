@@ -24,7 +24,7 @@
 		    <video autoplay="" loop="" muted="" class="embed-responsive-item" controls>
 		    	<source src="rec/video/nescafe-background.mp4" type="video/mp4">
 		    </video>
-		    <button class="mute on"></button>
+		    <!--<button class="mute on"></button>-->
 		  </div>
 		  <img src="rec/img/16x9.png" class="ratio spacer hidden-sm hidden-xs">
 		  <img src="//prod1.nescafe.com/es_es/public/img/hero/landing-mobile.gif" class="mobile-hero hidden-md hidden-lg hidden-xl"> <!-- Video Movil-->
@@ -78,7 +78,8 @@
         <div class="carousel-inner">
             <div class="item active">
                 <a href="">
-                	<div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                	<div class="fill" >
+                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
 	                	<!--<div class="container">
 	                		<div class="row ">
 		                		<div class="col-lg-offset-3 text-right">
@@ -93,7 +94,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                <div class="fill" >
+                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
                 	<!--<div class="container">
                 		<div class="row ">
 	                		<div class="col-lg-offset-3 text-right">
@@ -108,7 +110,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('rec/img/lanzamiento1.jpg');">
+                <div class="fill" >
+                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
                 	<!--<div class="container">
                 		<div class="row ">
 	                		<div class="col-lg-offset-3 text-right">
@@ -140,12 +143,22 @@
 			</div>
 		</section>
 	</div>
+	 <div class="bg-lanzamiento">
+		<section class="container text-center ">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 ">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/noticias.png">
+				</div>
+			</div>
+		</section>
+	</div>
+
 	<div class=" bg-inicio content" style="width:100%;">
     	<img class="img-responsive banner" src="rec/img/promocion1.png">
 		<section class="container text-center ">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto; margin-top:5%; margin-bottom:5%;" src="rec/img/noticias.png">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/noticias.png">
 				</div>
 			</div>
 		</section>

@@ -96,7 +96,7 @@
     		<div class=" row">
     			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive img-thumbnail" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_arañitas_de_plato.jpg">
+				        <img class="img-responsive img-thumbnail" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_aranitas_de_plato.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2 class="title-recetas">Alitas de pollo en salsa de tamarindo picante, sobre arañitas de plátano frito</h2>
@@ -246,7 +246,7 @@
     		</div>
     		<div class="row">
     			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
-    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_arañitas_de_plato.jpg">
+    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_aranitas_de_plato.jpg">
     			</div>
     			<div class="col-lg-10 col-md-10 col-sm-10">
     				<a href="r5-alitas-tamarindo.php"><p>Alitas de pollo en salsa de tamarindo picante, sobre arañitas de plátano frito</p></a>
