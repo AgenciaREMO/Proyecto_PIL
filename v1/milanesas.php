@@ -3,7 +3,7 @@
 <html lang="es">
 	<head>
 	  	<?php require 'template.php'; ?>
-	  	<?php meta(); ?>
+	  	<?php meta_alt(); ?>
 	  	<title>Pilgrim's Fresco - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
@@ -49,7 +49,7 @@
 							</tr>
 							<tr>
 								<td class="a-receta">
-									<a href="#">
+									<a href="r1-pollo-en-tomate.php">
 										<img src="rec/img/nuestras_marcas/receta_pollo_entero.jpg" alt="Pollo entero" class="miniatura-receta img-thumbnail"><br>
 										<h3>Pollo horneado</h3>
 										Ver receta <i class="fa fa-chevron-right" aria-hidden="true"></i>

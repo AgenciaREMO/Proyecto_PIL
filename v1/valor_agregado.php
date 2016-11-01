@@ -3,7 +3,7 @@
 <html lang="es">
 	<head>
 	  	<?php require 'template.php'; ?>
-	  	<?php meta(); ?>
+	  	<?php meta_alt(); ?>
 	  	<title>Pilgrim's Valor Agregado - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
@@ -77,7 +77,7 @@
 								<img src="rec/img/nuestras_marcas/skinny_temporal.jpg" alt="Pechuga" class="img-responsive producto">
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Skinny dip´n chik´n:</h2>
+					                <h2>Skinny dip´n chik´n</h2>
 									<p class="descripcion"> 
 										<a href="#" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>

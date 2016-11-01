@@ -2,6 +2,7 @@ h1 {
 	color: #000;
 	text-align: center;
 }
+/*formularios*/
 .formulario-input {
 	border: none !important;
     border-bottom: 1.5px solid #071689 !important;
@@ -17,6 +18,7 @@ h1 {
 body { 
 	color: #000 !important;
 }
+/*Hagamos negocio*/
 header.carousel-negocio {
 	height: 50% !important;
 	border-bottom: 4px solid rgb(217,35,46);
@@ -35,6 +37,7 @@ header.carousel-negocio {
 	width: 40px;
 	height: auto;
 }
+/*Nuestras Marcas, catalogo e individual*/
 .nuestras-marcas {
 	background: url('../rec/img/bg-lanzamiento.jpg') fixed; 
 }
@@ -80,14 +83,6 @@ header.carousel-negocio {
 	margin-top: 10px;
 	margin-bottom:10px;
 }
-.h2-producto {
-	font-size: xx-large !important;
-	padding: 5px;
-	margin-bottom: 10px;
-}
-.h1-producto {
-	font-size: xx-large !important;
-}
 .producto {
 	text-align: center;
 }
@@ -103,4 +98,34 @@ header.carousel-negocio {
 	border-radius: 5px;
 	border-bottom: 8px solid #071689;
 	border-top: 8px solid #071689;
+}
+/*Nuestras plantas*/
+.icon-pollito {
+	padding-right: 5px;
+}
+.p-plantas {
+	margin-left: 33px;
+}
+#incubadoras > div > h3,
+#alimentos > div > h3,
+#procesos > div > h3 {
+	margin-bottom: 0px;
+}
+.tabs-plantas {
+	background-color: rgb(250,250,250);
+	margin-bottom: 50px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.nav-tabs li {
+	text-align: center;
+}
+/*Historia Pilgrim's*/
+.pilgrims-mundo p {
+	margin: 30px 20px 30px 20px;
+	font-size: 1.5em;
+}
+/*Desaparecer banner/slider en dispositivos moviles*/
+@media (max-width: 767px) {
+
 }

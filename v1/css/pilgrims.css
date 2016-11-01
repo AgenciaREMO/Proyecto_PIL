@@ -79,12 +79,15 @@ body {
     background-color: rgb(1,6,85);
 }
 .dropdown-menu > li:hover {
-    background-color: rgb(217,35,46);
+    background-color: rgb(217,35,46) !important;
 }
-.dropdown-menu > li > div > a {
+.dropdown-menu > li > a > div {
     color: rgb(255,255,255);
     text-decoration: none;
 }
+.dropdown-menu > li > a:hover {
+    background-color: rgb(217,35,46) !important;
+  }
 @media(max-width:1407px) {
     .navbar-nav {
         width: 85%;

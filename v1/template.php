@@ -25,6 +25,29 @@ function meta(){
 <?php
 }
 
+function meta_alt(){
+?>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <!-- Custom CSS -->
+     <link href="css/pilgrims.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- GOOGLE ANALYTICS -->
+  <!-- / GOOGLE ANALYTICS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+
+<?php
+}
 
 function menu($elemento = ""){
   $uno = "";
@@ -83,76 +106,76 @@ function menu($elemento = ""){
       <ul class="nav navbar-nav">
         <li class="<?php echo $uno; ?>">
           <a href="inicio.php">
-            <span class="icon-nav"><img src="rec/img/home.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/home.png" alt="Icono Pilgrim's"></span>
             <div>INICIO</div>
           </a>
         </li>
         <li class="dropdown <?php echo $dos; ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/marcas.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/marcas.png" alt="Icono Pilgrim's"></span>
             <div>NUESTRAS<br>MARCAS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="pilgrims_fresco.php">Pilgrim's Fresco</a></div></li>
-            <li><div><a href="valor_agregado.php">Pilgrim's Valor Agregado</a></div></li>
-            <li><div><a href="http://www.deldia.com.mx/index.jsp">Del Día</a></div></li>                        
+            <li><a href="pilgrims_fresco.php"><div>Pilgrim's Fresco</div></a></li>
+            <li><a href="valor_agregado.php"><div>Pilgrim's Valor Agregado</div></a></li>
+            <li><a href="http://www.deldia.com.mx/index.jsp" target="_blank"><div>Del Día</div></a></li>                        
           </ul>
         </li>
         <li class="<?= $tres;?>">
           <a href="recetario.php">
-            <span class="icon-nav"><img src="rec/img/recetario.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/recetario.png" alt="Icono Pilgrim's"></span>
             <div>RECETARIO</div>
           </a>
         </li>
         <li class="<?= $cuatro;?>">
           <a href="#">
-            <span class="icon-nav"><img src="rec/img/tips.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/tips.png" alt="Icono Pilgrim's"></span>
             <div>POLLO TIPS</div>
           </a>
         </li>
         <li class="<?= $cinco;?>">
           <a href="hagamos_negocio.php">
-            <span class="icon-nav"><img src="rec/img/negocio.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/negocio.png" alt="Icono Pilgrim's"></span>
             <div>HAGAMOS<br>NEGOCIO</div>
           </a>
         </li>
         <li class="<?= $seis;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/procesos.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/procesos.png" alt="Icono Pilgrim's"></span>
             <div>PROCESOS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="estandares.php">Estándares de Calidad</a></div></li>
-            <li><div><a href="#">Ciclo de Proceso</a></div></li>                      
+            <li><a href="estandares.php"><div>Estándares de Calidad</div></a></li>
+            <li><a href="#"><div>Ciclo de Proceso</div></a></li>                      
           </ul>
         </li>
         <li class="dropdown <?= $siete;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/empresa.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/empresa.png" alt="Icono Pilgrim's"></span>
             <div>NUESTRA<br>EMPRESA <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="#">Historia Pilgrim's</a></div></li>
-            <li><div><a href="mexico.php">Pilgrim's México</a></div></li>
-            <li><div><a href="#">Nuestras Plantas</a></div></li>  
-            <li><div><a href="filosofia.php">Filosofía</a></div></li>  
-            <li><div><a href="#">Distintivos</a></div></li>  
-            <li><div><a href="corporativo.php">Video Corporativo</a></div></li>                     
+            <li><a href="historia_pilgrims.php"><div>Historia Pilgrim's</div></a></li>
+            <li><a href="mexico.php"><div>Pilgrim's México</div></a></li>
+            <li><a href="nuestras_plantas.php"><div>Nuestras Plantas</div></a></li>  
+            <li><a href="filosofia.php"><div>Filosofía</div></a></li>  
+            <li><a href="#"><div>Distintivos</div></a></li>  
+            <li><a href="corporativo.php"><div>Video Corporativo</div></a></li>                     
           </ul>
         </li>
         <li class="dropdown <?= $ocho;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/contacto.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/contacto.png" alt="Icono Pilgrim's"></span>
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><div><a href="servicio_cliente.php">Servicio al Cliente</a></div></li>
-            <li><div><a href="mapa.php">Oficinas</a></div></li>
+            <li><a href="servicio_cliente.php"><div>Servicio al Cliente</div></a></li>
+            <li><a href="mapa.php"><div>Oficinas</div></a></li>
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">
           <a href="talento_pilgrims.php">
-            <span class="icon-nav"><img src="rec/img/talento.png" alt=""></span>
+            <span class="icon-nav"><img src="rec/img/talento.png" alt="Icono Pilgrim's"></span>
             <div>TALENTO<br>PILGRIM'S</div>
           </a>
         </li>
