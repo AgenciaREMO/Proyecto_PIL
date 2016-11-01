@@ -6,9 +6,9 @@
 	<head>
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
-	  	<title>Espagueti con pollo Pilgrim’s en salsa de tomate - PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s Receta de Espagueti con pollo Pilgrim’s en salsa de tomate">
-		<meta name="keywords" content="Pilgrim's, Pigrim's México, Historia Pilgrim's">
+	  	<title>Medallones de pollo Pilgrim’s con brócoli en salsa de queso - PILGRIM'S</title>
+		<meta name="description" content="Pilgrim’s Receta de Medallones de pollo Pilgrim’s con brócoli en salsa de queso.">
+		<meta name="keywords" content="Pilgrim's, Pigrim's México, medallones.">
 	</head>
 <body class="bg-r">
 	<?php
@@ -23,7 +23,7 @@
 			<ol class="breadcrumb" style="background: rgba(255,255,255, 0.7)">
 			  <li><a href="inicio.php">Inicio</a></li>
 			  <li><a href="recetario.php">Recetario</a></li>
-			  <li class="active">Espagueti con pollo Pilgrim’s en salsa de tomate</li>
+			  <li class="active">Medallones de pollo Pilgrim’s con brócoli en salsa de queso.</li>
 			</ol>
 	</div>
 	<div class=" bg-r">
@@ -34,7 +34,7 @@
 						<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="ico-cook">  min. de preparación</span>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 4 Porciones</span>
+						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 6 Porciones</span>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
 						<form method="get" action="php/r1.php">
@@ -50,19 +50,11 @@
 						<b><h1 style="font-style:">INGREDIENTES</h1></b>
 						<hr style="width:75%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>1 Lata de 420 gramos de queso crema.</li>
+						<li>1 Taza de leche.</li>
+						<li>6 <a href="medallones.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Medallones de muslo Pilgrim's.</i></b></a></li>
+						<li>90 Gramos de mantequilla o margarina.</li>
+						<li>2 Tazas de trozos de brócol cocido(fresco o congelado).</li>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 						<h1>VIDEO DE LA RECETA</h1>
@@ -80,12 +72,11 @@
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. 
-						Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. 
-						Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. 
-						Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
-
+						En una olla con mantequilla caliente, fríe los medallones Pilgrim’s por 10 minutos o hasta que estén bien dorados por ambos lados. 
+						Apártalos. En la misma olla, agrega y mezcla la crema de queso y la leche. 
+						Después agrega el brócoli y los medallones. Cocínalos por 5 minutos o hasta que los medallones estén bien cocidos.
+						<br>
+						<b>Sugerencia:</b> Acompáñalos con una pasta bañada con salsa Molto Bene.
 					</div>
 				</div>
 			</div>
@@ -95,7 +86,7 @@
 						<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="ico-cook">  min. de preparación</span>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center">
-						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 4 Porciones</span>
+						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 6 Porciones</span>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 						<form method="get" action="php/r1.php">
@@ -113,28 +104,22 @@
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
 						<ul>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>1 Lata de 420 gramos de queso crema.</li>
+						<li>1 Taza de leche.</li>
+						<li>6 <a href="medallones.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Medallones de muslo Pilgrim's</i></b></a></li>
+						<li>90 Gramos de mantequilla o margarina.</li>
+						<li>2 Tazas de trozos de brócol cocido(fresco o congelado).</li>
 					</ul>
 					</div><br>
 					<div class="col-lg-12 col-md-12 text-justify">
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
-
+						En una olla con mantequilla caliente, fríe los medallones Pilgrim’s por 10 minutos o hasta que estén bien dorados por ambos lados. 
+						Apártalos. En la misma olla, agrega y mezcla la crema de queso y la leche. 
+						Después agrega el brócoli y los medallones. Cocínalos por 5 minutos o hasta que los medallones estén bien cocidos.
+						<br>
+						<b>Sugerencia:</b> Acompáñalos con una pasta bañada con salsa Molto Bene.
 					</div><br>
 					<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 						<h1>VIDEO DE LA RECETA</h1>

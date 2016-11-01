@@ -6,9 +6,9 @@
 	<head>
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
-	  	<title>Espagueti con pollo Pilgrim’s en salsa de tomate - PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s Receta de Espagueti con pollo Pilgrim’s en salsa de tomate">
-		<meta name="keywords" content="Pilgrim's, Pigrim's México, Historia Pilgrim's">
+	  	<title>Muslos de pollo Pilgrim's al tamarindo - PILGRIM'S</title>
+		<meta name="description" content="Pilgrim’s Receta de muslos de pollo al tamarindo.">
+		<meta name="keywords" content="Pilgrim's, Pigrim's México, muslos.">
 	</head>
 <body class="bg-r">
 	<?php
@@ -23,7 +23,7 @@
 			<ol class="breadcrumb" style="background: rgba(255,255,255, 0.7)">
 			  <li><a href="inicio.php">Inicio</a></li>
 			  <li><a href="recetario.php">Recetario</a></li>
-			  <li class="active">Espagueti con pollo Pilgrim’s en salsa de tomate</li>
+			  <li class="active">Muslos de pollo Pilgrim's al tamarindo</li>
 			</ol>
 	</div>
 	<div class=" bg-r">
@@ -34,7 +34,7 @@
 						<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="ico-cook">  min. de preparación</span>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 4 Porciones</span>
+						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook">  Porciones</span>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
 						<form method="get" action="php/r1.php">
@@ -50,19 +50,12 @@
 						<b><h1 style="font-style:">INGREDIENTES</h1></b>
 						<hr style="width:75%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>6 <a href="muslo.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Muslos de pollo Pilgrim's</i></b></a></li>
+						<li>2 Tazas de pulpa de tamarindo</li>
+						<li>1 Taza de agua</li>
+						<li>1 Chile chipotle</li>
+						<li>1 Raja de canela</li>
+						<li>2 Cucharadas de mantequilla</li>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 						<h1>VIDEO DE LA RECETA</h1>
@@ -80,11 +73,13 @@
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. 
-						Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. 
-						Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. 
-						Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
+						En una sartén agrega la mantequilla y fríe los muslos Pilgrim’s Premium.
+						En la misma sartén incorpora los ingredientes restantes y déjalos hervir hasta que la salsa tenga una consistencia espesa. 
+						Baña con esta salsa los muslos de pollo Pilgrim’s Premium y acompaña con arroz salvaje y brócoli.
+						<br>
+						<b>TIP: </b> Si deseas que la salsa tenga una consistencia líquida, añade 1/2 taza de refresco de cola para la cocción.
+
+
 
 					</div>
 				</div>
@@ -92,10 +87,10 @@
 			<div class="mob-header-recetas">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12 text-center">
-						<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="ico-cook">  min. de preparación</span>
+						<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i><span class="ico-cook"> min. de preparación</span>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center">
-						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook"> 4 Porciones</span>
+						<i class="fa fa-cutlery fa-2x" aria-hidden="true"></i> <span class="ico-cook">  Porciones</span>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 						<form method="get" action="php/r1.php">
@@ -113,27 +108,25 @@
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
 						<ul>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>6 <a href="muslo.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Muslos de pollo Pilgrim's</i></b></a></li>
+						<li>2 Tazas de pulpa de tamarindo</li>
+						<li>1 Taza de agua</li>
+						<li>1 Chile chipotle</li>
+						<li>1 Raja de canela</li>
+						<li>2 Cucharadas de mantequilla</li>
 					</ul>
 					</div><br>
 					<div class="col-lg-12 col-md-12 text-justify">
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
+						En una sartén agrega la mantequilla y fríe los muslos Pilgrim’s Premium.
+						En la misma sartén incorpora los ingredientes restantes y déjalos hervir hasta que la salsa tenga una consistencia espesa. 
+						Baña con esta salsa los muslos de pollo Pilgrim’s Premium y acompaña con arroz salvaje y brócoli.
+						<br>
+						<b>TIP: </b> Si deseas que la salsa tenga una consistencia líquida, añade 1/2 taza de refresco de cola para la cocción.
+
+
 
 					</div><br>
 					<div class="col-lg-12 col-md-12 col-sm-12 text-center">

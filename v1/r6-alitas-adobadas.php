@@ -6,9 +6,9 @@
 	<head>
 	  	<?php require 'template.php'; ?>
 	  	<?php meta(); ?>
-	  	<title>Espagueti con pollo Pilgrim’s en salsa de tomate - PILGRIM'S</title>
-		<meta name="description" content="En Pilgrim’s Receta de Espagueti con pollo Pilgrim’s en salsa de tomate">
-		<meta name="keywords" content="Pilgrim's, Pigrim's México, Historia Pilgrim's">
+	  	<title>Alitas de pollo adobadas, rebozadas en cóctel de frutas mixtas - PILGRIM'S</title>
+		<meta name="description" content="Pilgrim’s Receta de Alitas de pollo adobadas, rebozadas en cóctel de frutas mixtas.">
+		<meta name="keywords" content="Pilgrim's, Pigrim's México, alitas.">
 	</head>
 <body class="bg-r">
 	<?php
@@ -23,7 +23,7 @@
 			<ol class="breadcrumb" style="background: rgba(255,255,255, 0.7)">
 			  <li><a href="inicio.php">Inicio</a></li>
 			  <li><a href="recetario.php">Recetario</a></li>
-			  <li class="active">Espagueti con pollo Pilgrim’s en salsa de tomate</li>
+			  <li class="active">Alitas de pollo adobadas, rebozadas en cóctel de frutas mixtas.</li>
 			</ol>
 	</div>
 	<div class=" bg-r">
@@ -50,19 +50,11 @@
 						<b><h1 style="font-style:">INGREDIENTES</h1></b>
 						<hr style="width:75%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>1 Paquete de <a href="alas_adobadas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Alitas adobadas Pilgrim’s.</i></b></a></li>
+						<li>1/2 Taza de salsa de tomate.</li>
+						<li>1 Lata mediana de cóctel de frutas.</li>
+						<li>1 Cucharada de jengibre rallado.</li>
+						<li>Sal y pimienta al gusto.</li>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 						<h1>VIDEO DE LA RECETA</h1>
@@ -80,11 +72,9 @@
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. 
-						Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. 
-						Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. 
-						Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
+						Cubre las alitas con el jengibre rallado y fríelas perfectamente.
+						En un tazón, coloca el cóctel de frutas drenado y mézclalo con la salsa de tomate, la sal y la pimienta. 
+						Finalmente baña las alitas con el cóctel preparado y sírvelas como entremés.
 
 					</div>
 				</div>
@@ -113,28 +103,32 @@
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
 						<ul>
-						<li>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a></li>
-						<li>2 Cucharadas de aceite de oliva</li>
-						<li>1 Cebolla picada</li>
-						<li>1 Zanahoria picada</li>
-						<li>1 Tallo de apio con hojas, lavado y sin fibra, picado</li>
-						<li>1 Diente de ajo machacado</li>
-						<li>1/2 Taza de vino blanco seco</li>
-						<li>1 Lata de puré de tomate</li>
-						<li>1 Taza de caldo de pollo</li>
-						<li>1 Cucharada de perejil lavado y picado</li>
-						<li>3 Cucharadas de albahaca fresca, lavada y picada</li>
-						<li>Sal y pimienta al gusto</li>
-						<li>500 Gramos de espagueti</li>
+						<li>1 paquete de <a href="alas_naturales.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Alitas de pollo naturales Pilgrim’s.</i></b></a></li> 
+						<li>2 dientes de ajo finamente picados.</li>
+						<li>1 cucharada de aceite vegetal.</li>
+						<li>1/2 taza de concentrado de tamarindo.</li>
+						<li>1 lata chica de chipotle para adobo.</li>
+						<li>1/4 de taza de salsa de soya.</li>
+						<li>3 hojas de laurel.</li>
+						<li>4 cucharadas de miel de abeja.</li>
+						<li>Aceite.</li>
+						<br>
+						Para las arañitas de plátano macho:
+						<li>Aceite para freír (abundante).</li>
+						<li>2 plátanos machos.</li>
 					</ul>
 					</div><br>
 					<div class="col-lg-12 col-md-12 text-justify">
 						<h1>PREPARACIÓN</h1>
 						<hr style="width:100%; background:#25346d; text-aling-center; margin:0px; height:1px;">
 						<br>
-						En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen. Añade el pollo Pilgrim’s Premium   y cocina por ambos lados hasta que pierda el color rosado. Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos. Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos. Añade la albahaca y sazona con sal y pimienta al gusto. 
-						Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
-
+						Sofríe el ajo con una cuchara de aceite vegetal, durante 1 minuto a fuego alto. 
+						Añade el concentrado de tamarindo, el chipotle para adobo, la salsa de soya, las hojas de laurel y la miel.
+						Cocina por 3 minutos y luego mezcla en una licuadora. Fríe las alitas de pollo hasta que estén bien doradas, elimina el exceso de aceite con papel absorbente y aparta.
+						<br><br>
+						<b>Arañitas de plátano:</b><br>
+						Con un cuchillo, ralla los plátanos finamente y fríe en aceite bien caliente, elimina el exceso de aceite escurriéndolos en un colador. Ahora colócalos sobre un plato extendido. 
+						Con las arañitas de plátano en el plato, coloca las alitas encima y viérteles la salsa. Sírvelas calientes.
 					</div><br>
 					<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 						<h1>VIDEO DE LA RECETA</h1>

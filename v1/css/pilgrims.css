@@ -410,6 +410,8 @@ body {
 /*hover recetas*/
 .hr-hover{
   width: 75%;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .hovereffect {
