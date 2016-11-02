@@ -197,7 +197,7 @@ function menu($elemento = ""){
 function footer(){
 ?>
 <footer class="bg-footer">
-  <section id="esc-991" class="container"><br>
+  <section id="esc-991" class="container">
     <table width="100%;" class="text-left" >
       <tr >
         <td class="logo-footer" rowspan="2" colspan="3" style="border-bottom:solid; border-width:2px; border-color:#d9232e;">
