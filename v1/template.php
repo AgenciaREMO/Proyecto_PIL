@@ -18,7 +18,7 @@ function meta(){
     <!--Animciones-->
     <link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
     <!--Animate.css-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">7
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!-- GOOGLE ANALYTICS -->
 	<!-- / GOOGLE ANALYTICS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -197,25 +197,25 @@ function menu($elemento = ""){
 function footer(){
 ?>
 <footer class="bg-footer">
-  <section class="container">
-    <table width="100%;" class="text-left" style="border:solid;">
+  <section id="esc-991" class="container"><br>
+    <table width="100%;" class="text-left" >
       <tr >
-        <td class="logo-footer" rowspan="2">
+        <td class="logo-footer" rowspan="2" colspan="3" style="border-bottom:solid; border-width:2px; border-color:#d9232e;">
           <img class="img-responsive" src="rec/img/logo-footer.png">
         </td>
-        <td style="padding-top:3%; padding-bottom:1%;" colspan="2">
+        <td style="padding-top:2%; padding-bottom:1%;border-right:solid; border-width:2px; border-color:#d9232e;" colspan="3">
           <span id="ofi"><b>OFICINAS CORPORATIVAS</b></span><br>
         </td>
-        <td style="padding-top:3%; padding-bottom:1%; padding-left:2%; margin-right:10%;" colspan="2">
+        <td style="padding-top:2%; padding-bottom:1%; padding-left:2%; " colspan="3">
           <span id="ofi"><b>SERVICIO AL CLIENTE</b></span><br>
         </td>
       </tr>
-      <tr >
-        <td width="25%;" style="margin:0px; vertical-align: text-top;" colspan="2">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/>
-          <i class="fa fa-mobile" aria-hidden="true"> </i>  Tel. 01 442 103 2200
+      <tr>
+        <td width="25%;" style="margin:0px; vertical-align: top; border-bottom:solid; border-right:solid; border-width:2px; border-color:#d9232e; font-size:16px; padding-right:1%" colspan="3" >
+          <i class="fa fa-map-marker " aria-hidden="true"></i>  Privada de los Industriales No. 115 <br/>Col. Jurica, C.P 76100 <br/>Santiago de Querétaro, Qro. México <br/><br/>
+          <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
         </td>
-        <td style="padding:2%;">
+        <td  width="25%;" style="padding-left:2%;" colspan="3">
           <div class="form-group">
             <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo">
           </div>
@@ -263,7 +263,108 @@ function footer(){
             </select>
           </div>
         </td>
-        <td style="padding:2%; vertical-align: text-top;">
+        <td style="padding-left:2%; vertical-align: top;" colspan="3">
+          <div class="form-group">
+            <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none"></textarea>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="privacidad" id="privacidad" value="privacidad">
+              <b>He leído el aviso de privacidad y lo acepto.</b>
+            </label>
+          </div>
+        </td>
+      </tr>
+      <tr  width="25%;">
+        <td class="text-center" style="padding-top:1.5%;padding-bottom:2%; " colspan="2">
+          <i class="fa fa-lock text-center"  aria-hidden="true"></i><br>
+          <a href="" id="mob1">  <b>AVISO DE PRIVACIDAD</b></a>
+        </td>
+        <td class="text-center" style="padding-top:1.5%;padding-bottom:2%; " colspan="2">
+          <div class="text-center">
+            <i class="fa fa-lock privacidad text-center"  aria-hidden="true"></i><br>
+          </div>
+          <a href="" id="mob2">  <b>AVISO DE CONFIDENCIALIDAD</a>
+        </td>
+        <td class="text-left" style="padding-top:1.5%; padding-bottom:2%; border-right:solid; border-width:2px; border-color:#d9232e;" colspan="2">
+          <div style="padding-left:30%;">
+            <i class="fa fa-mobile"  aria-hidden="true"></i>
+          </div> 
+          <span id="mob3">Tel. 01 800 876 3456</span>
+        </td>
+        <td  colspan="6" style="">
+            <div class="form-group" style="margin-left:53.5%;">
+              <button class="btn btn-md btn-default" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <b>ENVIAR</b></button>
+            </div>
+        </td>
+      </tr>
+    </table>
+  </section>
+  <section id="esc-990" class="container">
+    <table width="100%;" class="text-left" >
+      <tr >
+        <td style="padding-top:3%; padding-bottom:1%;" colspan="6">
+          <span id="ofi"><b>OFICINAS CORPORATIVAS</b></span><br>
+        </td>
+        <td style="padding-top:3%; padding-bottom:1%;  margin-right:10%;" colspan="6">
+          <span id="ofi"><b>SERVICIO AL CLIENTE</b></span><br>
+        </td>
+      </tr>
+      <tr style="padding-left:4%;">
+        <td width="40%;" style="padding-left: 2%; vertical-align: top; font-size:16px; " colspan="6" >
+          <i class="fa fa-map-marker " aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
+          <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
+        </td>
+        <td  width="25%;" style="padding-left:2%;" colspan="3">
+          <div class="form-group">
+            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo">
+          </div>
+          <div class="form-group">
+            <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico">
+          </div>
+          <div class="form-group">
+            <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono">
+          </div>
+          <div class="est-sel">
+            <select class="form-control">
+              <option value="" selected="selected">Seleccione un estado</option>
+              <option value="Aguascalientes">Aguascalientes</option>
+              <option value="Baja California">Baja California</option>
+              <option value="Baja California Sur">Baja California Sur</option>
+              <option value="Campeche">Campeche</option>
+              <option value="Coahuila">Coahuila</option>
+              <option value="Colima">Colima</option>
+              <option value="Chiapas">Chiapas</option>
+              <option value="Chihuahua">Chihuahua</option>
+              <option value="Ciudad de Mexico">Ciudad de México</option>
+              <option value="Durango">Durango</option>
+              <option value="Guanajuato">Guanajuato</option>
+              <option value="Estado de México">Estado de México</option>
+              <option value="Guerrero">Guerrero</option>
+              <option value="Hidalgo">Hidalgo</option>
+              <option value="Jalisco">Jalisco</option>
+              <option value="Michoacán">Michoacán</option>
+              <option value="Morelos">Morelos</option>
+              <option value="Nayarit">Nayarit</option>
+              <option value="Nuevo León">Nuevo León</option>
+              <option value="Oaxaca">Oaxaca</option>
+              <option value="Puebla">Puebla</option>
+              <option value="Querétaro">Querétaro</option>
+              <option value="Quintana Roo">Quintana Roo</option>
+              <option value="San Luis Potosí">San Luis Potosí</option>
+              <option value="Sinaloa">Sinaloa</option>
+              <option value="Sonora">Sonora</option>
+              <option value="Tabasco">Tabasco</option>
+              <option value="Tamaulipas">Tamaulipas</option>
+              <option value="Tlaxcala">Tlaxcala</option>
+              <option value="Veracruz">Veracruz</option>
+              <option value="Yucatán">Yucatán</option>
+              <option value="Zacatecas">Zacatecas</option>
+            </select>
+          </div>
+        </td>
+        <td style="padding-left:2%; padding-right:2%; vertical-align: top;" colspan="3">
           <div class="form-group">
             <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none"></textarea>
           </div>
@@ -277,22 +378,24 @@ function footer(){
         </td>
       </tr>
       <tr>
-        <td class="text-center">
-          <i class="fa fa-lock"  aria-hidden="true"></i><br>
-          <a href="" id="mob1">  AVISO DE PRIVACIDAD</a>
+        <td class="text-center" style="padding-top:2%;padding-bottom:1%; " colspan="2">
+          <i class="fa fa-lock text-center"  aria-hidden="true"></i><br>
+          <a href="" id="mob1">  <b>AVISO DE PRIVACIDAD</b></a>
         </td>
-        <td class="text-left">
+        <td class="text-center" style="padding-top:2%;padding-bottom:1%; " colspan="2">
           <div class="text-center">
             <i class="fa fa-lock privacidad text-center"  aria-hidden="true"></i><br>
           </div>
-          <a href="" id="mob2">  AVISO DE CONFIDENCIALIDAD</a>
+          <a href="" id="mob2">  <b>AVISO DE CONFIDENCIALIDAD</a>
         </td>
-        <td class="text-center" style="padding-left:0.5%;">
-          <i class="fa fa-mobile"  aria-hidden="true"></i><br> 
+        <td class="text-left" style="padding-top:2%; padding-bottom:1%; " colspan="2">
+          <div style="padding-left:30% !important;">
+            <i class="fa fa-mobile"  aria-hidden="true"></i>
+          </div> 
           <span id="mob3">Tel. 01 800 876 3456</span>
         </td>
-        <td colspan="2" style="padding-left:2%; text-right">
-          <div class="col-lg-6 ">
+        <td colspan="6">
+          <div class="col-lg-offset-6 col-lg-6">
             <button class="btn btn-md btn-default" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i>
             <b>ENVIAR</b></button>
           </div>
@@ -300,129 +403,50 @@ function footer(){
       </tr>
     </table>
   </section>
-
-    <section class="container">
-        <div class="row text-center">
-            <div class="col-lg-2 logo-footer">
-                <img class="img-responsive" src="rec/img/logo-footer.png">
-            </div>
-            <div class="col-lg-4">
-                <p id="ofi"><b>OFICINAS CORPORATIVAS</b></p><br>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
-                <i class="fa fa-mobile" aria-hidden="true"> </i>  Tel. 01 442 103 2200
-            </div>
-                <div class="foo-rs text-center">
-                    <hr class="hr-mob">
-                            <!--<a id="afb" href=""><img class="img-responsive" src="rec/img/fb.png" alt="Siguenos en Facebook" title="Siguenos en Facebook"/></a>
-                            <a id="ayt" href=""><img class="img-responsive" src="rec/img/yt.png" alt="Siguenos en Youtube" title="Siguenos en Youtube"/></a>-->
-                            <a id="afb" href=""><span class="fa fa-facebook fa-3x" aria-hidden="true"></span></a>
-                            <a id="ayt" href=""><span class="fa fa-youtube fa-3x" aria-hidden="true"></span></a>
-                    </div>
-                <div class="foo-mob text" >
-                    <hr class="hr-mob">
-                    <a id="ser-cli" href="">SERVICIO AL CLIENTE</a>
-                    <hr class="hr-mob">
-                </div>
-            <form class="form-contact">
-                <p><b>SERVICIO AL CLIENTE</b></p><br>
-                <div class="col-lg-3">
-                    <div class="form-group">
-                      <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo">
-                    </div>
-                    <div class="form-group">
-                      <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico">
-                    </div>
-                    <div class="form-group">
-                      <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono">
-                    </div>
-                    <div class="est-sel">
-                        <select class="form-control">
-                          <option value="" selected="selected">Seleccione un estado</option>
-                          <option value="Aguascalientes">Aguascalientes</option>
-                          <option value="Baja California">Baja California</option>
-                          <option value="Baja California Sur">Baja California Sur</option>
-                          <option value="Campeche">Campeche</option>
-                          <option value="Coahuila">Coahuila</option>
-                          <option value="Colima">Colima</option>
-                          <option value="Chiapas">Chiapas</option>
-                          <option value="Chihuahua">Chihuahua</option>
-                          <option value="Ciudad de Mexico">Ciudad de México</option>
-                          <option value="Durango">Durango</option>
-                          <option value="Guanajuato">Guanajuato</option>
-                          <option value="Estado de México">Estado de México</option>
-                          <option value="Guerrero">Guerrero</option>
-                          <option value="Hidalgo">Hidalgo</option>
-                          <option value="Jalisco">Jalisco</option>
-                          <option value="Michoacán">Michoacán</option>
-                          <option value="Morelos">Morelos</option>
-                          <option value="Nayarit">Nayarit</option>
-                          <option value="Nuevo León">Nuevo León</option>
-                          <option value="Oaxaca">Oaxaca</option>
-                          <option value="Puebla">Puebla</option>
-                          <option value="Querétaro">Querétaro</option>
-                          <option value="Quintana Roo">Quintana Roo</option>
-                          <option value="San Luis Potosí">San Luis Potosí</option>
-                          <option value="Sinaloa">Sinaloa</option>
-                          <option value="Sonora">Sonora</option>
-                          <option value="Tabasco">Tabasco</option>
-                          <option value="Tamaulipas">Tamaulipas</option>
-                          <option value="Tlaxcala">Tlaxcala</option>
-                          <option value="Veracruz">Veracruz</option>
-                          <option value="Yucatán">Yucatán</option>
-                          <option value="Zacatecas">Zacatecas</option>
-                        </select>
-                    </div>
-                    <br/>
-                </div>
-                <div class="col-lg-3">
-                    <div class="form-group">
-                        <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none"></textarea>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="privacidad" id="privacidad" value="privacidad">
-                        <b>He leído el aviso de privacidad y lo acepto.</b>
-                      </label>
-                    </div>
-                    <br>
-                    <button class="btn btn-lg btn-default" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-            <b>ENVIAR</b></button>
-                        </div>
-                    </form>
-                </div>
-                <div class="row text-center">
-                    <div class="privacidad">
-                      <div class="col-lg-2 col-md-2">
-                        <i class="fa fa-lock"  aria-hidden="true"></i>
-                        <a href="" id="mob1">  AVISO DE PRIVACIDAD</a>
-                      </div>
-                      <div class="col-lg-2 col-md-2">
-                        <i class="fa fa-lock privacidad"  aria-hidden="true"></i> 
-                        <a href="" id="mob2">  AVISO DE CONFIDENCIALIDAD</a>
-                      </div>
-                      <div class="col-lg-2 col-md-2">
-                        <i class="fa fa-mobile"  aria-hidden="true"></i> 
-                        <span id="mob3">Tel. 01 800 876 3456</span>
-                      </div>
-                    </div>
-                </div>
-                <div class="row text-center">
-                <div class="priva-mob">
-                  <div class="col-sm-12">
-                    <i class="fa fa-lock"  aria-hidden="true"></i>
-                    <a href="" >  AVISO DE PRIVACIDAD</a>
-                  </div>
-                  <div class="col-sm-12">
-                    <a href="" ><i class="fa fa-lock"  aria-hidden="true"></i> 
-                      AVISO DE CONFIDENCIALIDAD</a>
-                  </div>
-                  <div class="col-sm-12">
-                    <i class="fa fa-mobile"  aria-hidden="true"></i> 
-                    <span>Tel. 01 800 876 3456</span>
-                  </div>
-                  </div>
-                </div>
-    </section>
+  <section id="mob" class="container">
+    <table width="100%" class="text-center">
+      <tr>
+        <td>
+          <p id=""><b>OFICINAS CORPORATIVAS</b></p><br>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
+          <i class="fa fa-mobile" aria-hidden="true"> </i>  Tel. 01 442 103 2200
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <hr class="hr-mob">
+          <a id="afb" href=""><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+          <a id="ayt" href=""><span class="fa fa-youtube fa-2x" aria-hidden="true"></span></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <hr class="hr-mob">
+          <a id="ser-cli" href="">SERVICIO AL CLIENTE</a>
+          <hr class="hr-mob">
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <div class="priva-mob">
+          <div class="col-sm-12">
+            <i class="fa fa-lock"  aria-hidden="true"></i>
+            <a href="" >  AVISO DE PRIVACIDAD</a>
+          </div>
+          <div class="col-sm-12">
+            <a href="" ><i class="fa fa-lock"  aria-hidden="true"></i> 
+              AVISO DE CONFIDENCIALIDAD</a>
+          </div>
+          <div class="col-sm-12">
+            <i class="fa fa-mobile"  aria-hidden="true"></i> 
+            <span>Tel. 01 800 876 3456</span>
+          </div>
+        </div>
+        </td>
+      </tr>
+    </table>
+  </section>
+   
 </footer>
 <!-- jQuery -->
 <script src="js/jquery.js"></script>

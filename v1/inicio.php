@@ -14,10 +14,11 @@
 	        });
 	    </script>
 	</head>
-<body>
+<body >
 	<?php
 		menu("1");
 	?>
+	<div class="bg-lanzamiento">
 	<!--<div class="app-container" data-bb="app-main-region">-->
 		<div class="hero main">
 		  <div class="embed-responsive embed-responsive-16by9 vid-bg hidden-sm hidden-xs">
@@ -47,25 +48,14 @@
 		  </div>
 		</div>
 	<!--</div>-->
-
-
-
-	<!--<section>
-		    <video autoplay loop muted poster="screenshot.jpg" id="background">
-		      <source src="rec/video/nescafe-background.mp4" type="video/mp4">
-		    </video>
-	</section>-->
-
 	    <!-- Header Carousel -->
-	<div class="bg-lanzamiento">
-		<section class="container text-center ">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto;" src="rec/img/lanzamientoss.png">
-				</div>
+	<section class="container text-center ">
+		<div class="row plecas">
+			<div class="col-lg-12 col-md-12 col-sm-12 ">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/lanzamientoss.png">
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -75,6 +65,8 @@
         </ol>
 
         <!-- Wrapper for slides -->
+        <div class="rojo">
+        </div>
         <div class="carousel-inner">
             <div class="item active">
                 <a href="">
@@ -125,7 +117,8 @@
                 </div>
             </div>
         </div>
-
+        <div class="rojo">
+        </div>
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
@@ -134,35 +127,26 @@
             <span class="icon-next"></span>
         </a>
     </header>
-    <div class="bg-lanzamiento">
-		<section class="container text-center ">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto;" src="rec/img/promociones.png">
-				</div>
+    <section class="container text-center ">
+		<div class="row plecas">
+			<div class="col-lg-12 col-md-12 col-sm-12 ">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/promociones.png">
 			</div>
-		</section>
-	</div>
-	 <div class="bg-lanzamiento">
-		<section class="container text-center ">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto;" src="rec/img/noticias.png">
-				</div>
-			</div>
-		</section>
-	</div>
+		</div>
+	</section>
 
-	<div class=" bg-inicio content" style="width:100%;">
-    	<img class="img-responsive banner" src="rec/img/promocion1.png">
-		<section class="container text-center ">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto;" src="rec/img/noticias.png">
-				</div>
+	<div class="content" style="width:100%; height:auto;">
+		<div class="gris-superior"></div>
+		<img class="img-responsive" src="rec/img/promocion.jpg">
+		<div class="gris-inferior"></div>
+	</div>
+	<section class="container text-center ">
+		<div class="row plecas">
+			<div class="col-lg-12 col-md-12 col-sm-12 ">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/noticias.png">
 			</div>
-		</section>
-	
+		</div>
+	</section>
 	<div class="container"> 
 		<div class="row">
 			<div class="col-sm-4 col-lg-4 col-md-4">
@@ -196,6 +180,7 @@
 	            </div>
 	        </div>
 	    </div>
+	    <br>
 	</div>
 	</div>
     <div class="bg-inicio">
@@ -209,7 +194,7 @@
     		<div class="bg-recetas row">
     			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive img-thumbnail" src="rec/img/chilles-rellenos.jpg">
+				        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Chiles rellenos</h2>
@@ -225,7 +210,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive img-thumbnail" src="rec/img/nopales-pollo.jpg">
+				        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Nopales con pollo</h2>
@@ -241,7 +226,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
-				        <img class="img-responsive img-thumbnail" src="rec/img/pollo-garbanzo-arroz.jpg">
+				        <img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
 				            <div class="overlay">
 				            	<hr class="hr-hover">
 				                <h2>Pollo con garbanzo</h2>
