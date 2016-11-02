@@ -13,10 +13,12 @@
 	<?php
 		menu("3");
 	?>
+	<div class="bg-recetario">
 	<section class="content">
 		<img src="rec/img/ba-recetas.jpg"  class="banner">
 	</section>
-	<div class="bg-recetario">
+	<div class="gris-banner">
+    </div>
 		<section class="container">
 		<ol class="breadcrumb">
 		  <li><a href="inicio.php">Inicio</a></li>

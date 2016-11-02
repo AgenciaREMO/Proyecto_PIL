@@ -280,21 +280,21 @@
 			</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-dos" data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+						<div id="btn-dos" >
 							<span id="btn-ofi">PILGRIM'S MÉXICO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Av. Insurgentes Sur No. 1602 3er piso #301 Col. Crédito Consultor, Deleg. Benito Juárez, C.P. 03940. México, DF.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (55) 54488300
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-tres"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+						<div id="btn-tres"  >
 							<span id="btn-ofi">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-cuatro"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+						<div id="btn-cuatro"  >
 							<span id="btn-ofi">OFICINAS CULIACÁN</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Galileo No. 2784 Col. Villa Universidad, Culiacán Sinaloa.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (667) 1469827
@@ -304,21 +304,21 @@
 				<br>
 				<div  class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-cinco"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+						<div id="btn-cinco"  >
 							<span id="btn-ofi">OFICINAS DURANGO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Calle Valle del Guadiana #294 Parque Industrial Gómez Palacio C.P. 35078<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 871 749 2000
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-seis"  data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa">
+						<div id="btn-seis"  >
 							<span id="btn-ofi">OFICINAS ESTADO DE MÉXICO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Carr. Teoloyucan – Jaltenco S/N, Col. Ejidos De Nextlalpan<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (59) 39147219
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<div id="btn-siete" data-toggle="tooltip" data-placement="top" title="Presiona para visualizar la dirección en el mapa"> 
+						<div id="btn-siete" > 
 							<span id="btn-ofi">OFICINAS SALTILLO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
@@ -345,6 +345,13 @@
 				</div>
 			</div>
 				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-dos" >
+							Presiona la dirección que quieres ver.
+							<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
+						</div>
+					</div>
+					<br/>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
 						<div id="btn-dos" >
 							<a href="https://www.google.com.mx/maps/place/Av+de+los+Insurgentes+Sur+1602,+Cr%C3%A9dito+Constructor,+03940+Ciudad+de+M%C3%A9xico,+D.F./@19.3639743,-99.1824842,19z/data=!4m5!3m4!1s0x85d1ff8c4dfd17fb:0xfd6439ac23769356!8m2!3d19.3639743!4d-99.181937"><span id="btn-ofi">PILGRIM'S MÉXICO</span><br>

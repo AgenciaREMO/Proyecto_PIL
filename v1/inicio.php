@@ -47,6 +47,9 @@
 		    </div><!-- /.vertical-center-inner -->
 		  </div>
 		</div>
+		
+		  	<div class="gris-superior">
+        	</div>
 	<!--</div>-->
 	    <!-- Header Carousel -->
 	<section class="container text-center ">
@@ -192,7 +195,7 @@
     		</div>
     		<br>
     		<div class="bg-recetas row">
-    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
 				        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
 				            <div class="overlay">
@@ -208,7 +211,7 @@
 				            </div>
 				    </div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
 				        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
 				            <div class="overlay">
@@ -224,7 +227,7 @@
 				            </div>
 				    </div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 				    <div class="hovereffect">
 				        <img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
 				            <div class="overlay">

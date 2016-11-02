@@ -13,17 +13,21 @@
 	<?php
 		menu("6");
 	?>
-	<section class="content">
-		<img src="rec/img/ba-estandares.jpg" alt="" class="img-responsive">
-	</section>
 	<div class="bg-content">
-		<section class="content container">
+	<section class="content">
+		<img src="rec/img/banners_jpg/estandares.jpg" alt="" class="img-responsive">
+	</section>
+	<div class="gris-banner">
+    </div>
+		<section class="content container ">
 		<ol class="breadcrumb">
 		  <li><a href="inicio.php">Inicio</a></li>
 		  <li><a href="#">Procesos</a></li>
 		  <li class="active">Estándares de Calidad</li>
 		</ol>
-		<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
+
+		<div class="cont">
+			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																										 animation-duration: 0.10s; 
 																										 animation-delay: 0.6s; 
 																										 animation-name: fadeInUp;">
@@ -45,25 +49,31 @@
 				
 			</div>
 		</div>
-		<div class="row">
+
+		<div class="row ">
 			<div class="col-lg-10 col-lg-offset-1  col-md-offset-1 col-md-10 col-sm-offset-1  col-sm-10 procesos">
 				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																										 animation-duration: 0.10s; 
 																										 animation-delay: 0.6s; 
 																										 animation-name: fadeInUp;">
+					
 					<p class="">El Sello Inspección de Tipo Federal (TIF) garantiza que el alimento es inocuo; es otorgado por SAGARPA quien hace la auditoría, donde verifican que las instalaciones y productos cumplan con las regulaciones que señalan.</p>
+					
 				</div>
+				<br>
+				<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
 				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
 																										 animation-duration: 0.15s; 
 																										 animation-delay: 0.9s; 
 																										 animation-name: fadeInUp;">
-					<h1 id="nues-pollos"><b> ¿Nuestros pollos tienen hormonas o clembuterol?</b></h1>
+					<h1 id="nues-pollos"><b><img src="rec/img/icono-pollo.png">  ¿Nuestros pollos tienen hormonas o clembuterol? <img src="rec/img/icono-pollo.png"> </b></h1>
 				</div>
 				
 				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
 																										 animation-duration: 0.15s; 
 																										 animation-delay: 0.9s; 
 																										 animation-name: fadeInUp;">
+					
 					<p class="">Nuestros Pollos no tienen Hormonas ni Clembuterol. Estas sustancias son ilegales, por lo que nos sería imposible obtener el Sello TIF en nuestros productos. </p>
 				</div>
 				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
@@ -80,6 +90,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12">
 				
 		</div>
+		</div>
+		
 	</section>
 	</div>
 	<?php

@@ -160,8 +160,8 @@ body {
   margin: 1%;
   margin-bottom: 4%;
   -webkit-box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
--moz-box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
-box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
+  box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
 }
 
 .border-hover{
@@ -473,23 +473,6 @@ box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
   background-color: rgba(0,70,136,1);
 }
 
-.hovereffect .overlayr {
-  position: absolute;
-  overflow: hidden;
-  width:96%;
-  height: 96%;
-  left: 2%;
-  top: 2%;
-  padding-top: 2%;
-  margin-right: 2%;
-  margin-bottom:0%;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-  background-color: rgba(23,65,133,0.5);
-}
 
 .hovereffect:hover .overlay {
   opacity: 1;
@@ -566,14 +549,12 @@ box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
   background: url('../rec/img/bg-lanzamiento.jpg')center; 
   background-size: all; 
   padding-bottom: 2%;
-  padding-top: 2%;
 }
 
 .bg-recetario{
   background: url('../rec/img/bg-recetas.jpg')center; 
   background-size: cover; 
   padding-bottom: 2%;
-  padding-top: 2%;
 }
 
 
@@ -584,18 +565,21 @@ box-shadow: 0px 8px 16px 7px rgba(0,0,0,0.42);
 }
 .procesos{
   font-size: 20px !important;
-  text-align: center;
+  text-align: justify;
   padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #nues-pollos{
   font-size: 30px !important;
-  margin-top: 8%;
+  margin-top: 3%;
 }
 
 /*EMPRESA*/
 ul.a {
     list-style-type: none;
+    padding-left: 2%;
 }
 
 .filo{
@@ -675,7 +659,8 @@ ul.a {
 
   #nues-pollos{
   font-size: 20px !important;
-  margin-top: 10%;
+  margin-top: 2%!important;
+  margin-bottom: 1%!important;
 }
 
 .esc-fil{
@@ -697,6 +682,14 @@ ul.a {
 /*OFICINAS (MAPA)*/
 #btn-ofi{
   font-size: 1.5em;
+}
+
+#btn-ofi:hover{
+  border-bottom-color: rgb(216,34,46)!important;
+  border-bottom-width: 1px;
+  border-bottom: solid;
+  cursor: pointer;
+  font-size: 1.3em;
 }
 
 .esc-oficinas{
@@ -777,7 +770,6 @@ color: #ffffff;
     background: url('../rec/img/bg-recetas.jpg')center; 
     background-size: all; 
     padding-bottom: 2%;
-    padding-top: 2%;
   }
 
   .container .esc-recetas{
@@ -845,21 +837,54 @@ footer {
   border-top:solid;
   border-top-width: 4px;
   border-top-color: #e2e2e2;
-  -webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
-  -moz-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
-  box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
-
-
-
+  -webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  -moz-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
 }
 
 .gris-inferior{
   border-top:solid;
   border-top-width: 4px;
   border-top-color: #e2e2e2;
-  -webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
-  -moz-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
-  box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  -moz-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+}
+
+.gris-banner{
+border-bottom:solid;
+border-bottom-width: 4px;
+border-bottom-color: #e2e2e2;
+-webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  -moz-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+  box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
+margin-bottom: 3%;
+}
+
+.linea{
+  border-top:solid;
+  border-top-width: 1px;
+  border-top-color: #e2e2e2;
+  margin-bottom: 2%;
+  margin-top: 6%;
+  width: 75%;
+  margin: auto;
+}
+
+.cont{
+background: rgba(255,255,255,0.4);
+border-radius: 4px;
+border-top:solid;
+border-top-width: 3px;
+border-top-color: #e2251d;
+padding-top: 1% !important;
+}
+
+.filosofia{
+background: rgba(255,255,255,0.4);
+padding-top: 1% !important;
+padding-left: 0% !important;
+padding-right: 0% !important;
 }
 
 .bg-footer img{
