@@ -15,13 +15,19 @@
 		?>
 		<section class="content nuestras-marcas" data-speed="2" data-type="background">
 			<div class="container">
-				<h1 class="h1-producto">Pilgrim's Valor Agregado</h1>
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestras marcas</li>
 					<li><a href="valor_agregado.php">Pilgrim's valor agregado</a></li>
 					<li class="active">Tender empanizado</li>
 				</ol>
+				<section class="container text-center ">
+					<div class="row plecas">
+						<div class="col-lg-12 col-md-12 col-sm-12 ">
+							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-agregado.png">
+						</div>
+					</div>
+				</section>
 				<div class="row productos bg-productos">
 					<div class="col-lg-12 col-md-12 col-sm-12 producto">
 						<h2 class="h2-producto">

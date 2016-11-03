@@ -247,7 +247,7 @@
 									<p class="descripcion"> 
 										<a href="hamburguesa_empanizada.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.
+											Hamburguesas de Pechuga de pollo parcialmente cocinada...
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -367,7 +367,7 @@
 									<p class="descripcion"> 
 										<a href="cordon_bleu.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Pechugas de pollo rellenas de jamón y queso, formadas, empanizadas y parcialmente cocinadas.
+											Pechugas de pollo rellenas de jamón y queso, parcialmente cocinadas...
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -391,7 +391,7 @@
 									<p class="descripcion"> 
 										<a href="tender_empanizado.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.
+											Tiras de pechuga de pollo empanizadas y totalmente cocidas...
 										</a>
 									</p>
 									<hr class="hr-hover"> 

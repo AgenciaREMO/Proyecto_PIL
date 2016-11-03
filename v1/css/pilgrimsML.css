@@ -46,6 +46,9 @@ header.carousel-negocio {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.thumbnail-producto {
+	max-height: 363px;
+}
 .breadcrumb {
 	background-color: transparent;
 }
