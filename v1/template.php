@@ -8,12 +8,13 @@ function meta(){
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Bootstrap Core CSS -->
+    <link rel="shortcut icon" href="rec/img/favicon.ico" type="image/x-icon" /> 
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
     <!-- Custom CSS -->
-     <link href="css/pilgrims.css" rel="stylesheet">
-     <link href="css/pilgrimsML.css" rel="stylesheet">
+    <link href="css/pilgrims.css" rel="stylesheet">
+    <link href="css/pilgrimsML.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--Animciones-->
