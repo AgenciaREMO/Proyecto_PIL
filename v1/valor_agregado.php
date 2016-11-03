@@ -7,7 +7,6 @@
 	  	<title>Pilgrim's Valor Agregado - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
-		<link href="css/pilgrimsML.css" rel="stylesheet">
 	</head>
 	<body>
 		<?php
@@ -56,192 +55,337 @@
 				</ol>
 				<div class="container productos">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_pechuga_temporal.jpg" alt="Pollo entero" class="img-responsive producto">
+								<a href="alitas_buffalo.php" >
+					    			<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Alitas buffalo</h3>
+									        <p style="font-size:1em; color:#000;">Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Nuggets de pechuga</h2>
+					            	<h2>Alitas buffalo</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="alitas_buffalo.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Nuggets de pollo totalmente cocidos y listos para deleitar.
+											Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.
+										</a>
+									</p>
+					                
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="arrachera_adobada_700.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/arrachera_adobada_700.png" alt="Arrachera Adobada 700 gr" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Arrachera adobada 700 gr</h3>
+									        <p style="font-size:1em; color:#000;">Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Arrachera adobada 700 gr</h2>
+									<p class="descripcion"> 
+										<a href="arrachera_adobada_700.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/skinny_temporal.jpg" alt="Pechuga" class="img-responsive producto">
+					    		<a href="arrachera_adobada_1-2kg.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/arrachera_adobada_1-2k.png" alt="Arrachera adobada 1.2 kg" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Arrachera adobada 1.2 kg</h3>
+									        <p style="font-size:1em; color:#000;">Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Skinny dip´n chik´n</h2>
+					                <h2>Arrachera adobada 1.2 kg</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="arrachera_adobada_1-2kg.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Trozos de pechuga de pollo con un delicioso sabor. Tienen cero grasas trans y son totalmente cocidos.
+											Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/sweet_temporal.jpg" alt="Pierna" class="img-responsive producto">
+					    		<a href="boneless_buffalo.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/boneless_buffalo.png" alt="Boneless buffalo" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Boneless buffalo</h3>
+									        <p style="font-size:1em; color:#000;">Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Sweet & spicy chicken</h2>
+					                <h2>Boneless buffalo</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="boneless_buffalo.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Trocitos de pechuga y Costilla de pollo con una deliciosa combinación de sabores dulces y picantes.
+											Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Alitas naturales" class="img-responsive producto">
+								<a href="boneless_original_hot.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/boneless_original_hot.png" alt="Boneless original hot" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Boneless original hot</h3>
+									        <p style="font-size:1em; color:#000;">Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Nuggets</h2>
+					                <h2>Boneless original hot</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="boneless_original_hot.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Nuggets de pollo empanizados totalmente cocidos, listos para deleitar.
+											Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/patties_temporal.jpg" alt="Muslo" class="img-responsive producto">
+					    		<a href="filete_empanizado.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/filete_empanizado.png" alt="Filete empanizado" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Filete empanizado</h3>
+									        <p style="font-size:1em; color:#000;">Filetes de pollo empanizados, parcialmente cocinados.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Patties</h2>
+					                <h2>Filete empanizado</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="filete_empanizado.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Hamburguesa de pechuga y costilla de pollo, sazonada, empanizada y totalmente cocida.
+											Filetes de pollo empanizados, parcialmente cocinados.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
 					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/tenders_temporal.jpg" alt="Pierna y muslo" class="img-responsive producto">
+					    		<a href="filete_picante.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/filete_picante.png" alt="Filete empanizado picante" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Filete empanizado picante</h3>
+									        <p style="font-size:1em; color:#000;">Filete de pollo empanizado picante, parcialmente cocinado.</p>
+									    </div>
+									</div>
+								</a>
 								<div class="overlay">
 					            	<hr class="hr-hover">
-					                <h2>Tenders</h2>
+					                <h2>Filete empanizado picante</h2>
 									<p class="descripcion"> 
-										<a href="#" >
+										<a href="filete_picante.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Filete de pollo empanizado picante, parcialmente cocinado.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+					    		<a href="hamburguesa_empanizada.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa empanizada" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Hamburguesa empanizada</h3>
+									        <p style="font-size:1em; color:#000;">Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Hamburguesa empanizada</h2>
+									<p class="descripcion"> 
+										<a href="hamburguesa_empanizada.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+					    		<a href="nuggets.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/nuggets.png" alt="Nuggets empanizados" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Nuggets empanizados</h3>
+									        <p style="font-size:1em; color:#000;">Nuggets de Pechuga de pollo formados,<br>empanizados y parcialmente cocinados.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Nuggets empanizados</h2>
+									<p class="descripcion"> 
+										<a href="nuggets.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Nuggets de Pechuga de pollo formados,<br>empanizados y parcialmente cocinados.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="pechuga_grill_1-2k.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/pechuga_grill_1-2k.png" alt="Pechuga grill 1.2 kg" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Pechuga grill 1.2 kg</h3>
+									        <p style="font-size:1em; color:#000;">Pechugas de pollo sabor grill, totalmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Pechuga grill 1.2 kg</h2>
+									<p class="descripcion"> 
+										<a href="pechuga_grill_1-2k.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pechugas de pollo sabor grill, totalmente cocinadas.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="pechuga_grill_700.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/pechuga_grill_700.png" alt="Pechuga grill 700 gr" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Pechuga grill 700 gr</h3>
+									        <p style="font-size:1em; color:#000;">Pechugas de pollo sabor grill, totalmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Pechuga grill 700 gr</h2>
+									<p class="descripcion"> 
+										<a href="pechuga_grill_700.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pechugas de pollo sabor grill, totalmente cocinadas.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="pechuga_navidenia.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/pechuga_navidenia.png" alt="Pechuga navideña" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Pechuga navideña</h3>
+									        <p style="font-size:1em; color:#000;">Pechugas de pollo rellenas de queso crema, manzana, uvas pasas y mermelada de fresa.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Pechuga navideña</h2>
+									<p class="descripcion"> 
+										<a href="pechuga_navidenia.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pechugas de pollo rellenas de queso crema, manzana, uvas pasas y mermelada de fresa.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="cordon_bleu.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/cordon_bleu.png" alt="Pechuga rellena cordon bleu" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Pechuga rellena cordon bleu</h3>
+									        <p style="font-size:1em; color:#000;">Pechugas de pollo rellenas de jamón y queso, formadas, empanizadas y parcialmente cocinadas.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Pechuga rellena cordon bleu</h2>
+									<p class="descripcion"> 
+										<a href="cordon_bleu.php" >
+											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+											Pechugas de pollo rellenas de jamón y queso, formadas, empanizadas y parcialmente cocinadas.
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+					    	<div class="hovereffect">
+								<a href="tender_empanizado.php" >
+									<div class="div-producto">
+										<img src="rec/img/nuestras_marcas/tender_empanizado.png" alt="Tender empanizado" class="img-responsive producto">
+										<div class="producto-caption">
+									        <h3>Tender empanizado</h3>
+									        <p style="font-size:1em; color:#000;">Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.</p>
+									    </div>
+									</div>
+								</a>
+								<div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Tender empanizado</h2>
+									<p class="descripcion"> 
+										<a href="tender_empanizado.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
 											Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Milanesas" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Pierna y muslo empanizados</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Alitas adobadas" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Arrachera adobo</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Arrachera de pollo" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Arrachera pimienta limón</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Arrachera de pollo" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Hamburguesa</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/nuggets_temporal.jpg" alt="Arrachera de pollo" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Pechuga cordon bleu</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					    	<div class="hovereffect">
-								<img src="rec/img/nuestras_marcas/medallones_temporal.jpg" alt="Arrachera de pollo" class="img-responsive producto">
-								<div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Medallones</h2>
-									<p class="descripcion"> 
-										<a href="#" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Medallones congelados de pechuga listos para cocinar y empacados de tal manera que no pierden su forma original.
 										</a>
 									</p>
 									<hr class="hr-hover"> 
@@ -260,6 +404,24 @@
 		    $('.carousel').carousel({
 		        interval: 5000 //changes the speed
 		    })
+		    //Cuando el sitio se abre en movil
+		    if ($(window).width() <= 767){	
+				$('.div-producto').addClass('thumbnail');
+				$('.producto-caption').css('display', 'inline');
+			}
+			//Cuando el sitio se redimenciona
+		    $(window).resize(function(){
+				if ($(window).width() <= 767){	
+					$('.div-producto').addClass('thumbnail');
+					$('.producto-caption').css('display', 'inline');
+				}	
+			});
+			$(window).resize(function(){
+				if ($(window).width() > 767){	
+					$('.div-producto').removeClass('thumbnail');
+					$('.producto-caption').css('display', 'none');
+				}	
+			});
 	    </script>
 	</body>
 </html>

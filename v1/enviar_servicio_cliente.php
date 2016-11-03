@@ -117,6 +117,7 @@
       </html>
             ';
         mail($to, $asunto, $body, $headers); 
+        
         header("Location: servicio_cliente.php?res=1");
         die();
     }

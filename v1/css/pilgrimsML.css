@@ -42,22 +42,38 @@ header.carousel-negocio {
 	background: url('../rec/img/bg-lanzamiento.jpg') fixed; 
 }
 .productos {
-	padding: 1%;
-	margin: 1%;
-	margin-bottom: 10% !important;
+	margin: 2% 0px !important;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .breadcrumb {
 	background-color: transparent;
 }
 .productos .row .col-lg-4 {
-	margin-bottom: 1%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.hovereffect img {
+    max-height: 240px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .hovereffect:hover .producto{
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 }
+/*Efecto para los productos de Pilgrims Valor agregado*/
+.hovereffect .overlay {
+	background-color: rgba(23,65,133,1) !important;
+    padding-top: 5%;
+}
 .hovereffect {
-	width: auto;
+	width: 100%;
+	background-color: transparent;
+}
+/*Efecto para los productos de Pilgrims Valor agregado*/
+.valor-a {
+    padding-top: 5% !important;
 }
 .miniatura-receta {
 	width: 30% !important;
@@ -80,8 +96,7 @@ header.carousel-negocio {
 .descripcion {
 	font-size: 1.3em;
 	font-weight: lighter;
-	margin-top: 10px;
-	margin-bottom:10px;
+	margin: 10px;
 }
 .producto {
 	text-align: center;
@@ -91,13 +106,20 @@ header.carousel-negocio {
 	background-color: #d9232e;
 	height: 3px;
 	border: none;
-	margin: 0px; 
+	margin: 10px 0px; 
 }
 .bg-productos {
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 5px;
 	border-bottom: 8px solid #071689;
 	border-top: 8px solid #071689;
+	padding-bottom: 10px;
+}
+.bg-productos h3{
+	text-align: center;
+}
+.producto-caption {
+	display:none;
 }
 /*Nuestras plantas*/
 .icon-pollito {
@@ -125,7 +147,80 @@ header.carousel-negocio {
 	margin: 30px 20px 30px 20px;
 	font-size: 1.5em;
 }
-/*Desaparecer banner/slider en dispositivos moviles*/
+.elem_animar {
+	//opacity: 0;
+}
+/*Menu Redes Sociales*/
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 50%; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+.social ul {
+	list-style: none;
+}
+.social ul li {
+	text-align: center !important;
+	border-radius: 25px;
+	margin: 8px;
+}
+.rrss-icon {
+	color:#FFF !important; 
+	padding: 10px !important;
+}
 @media (max-width: 767px) {
-
+	/*Desaparecer banner/slider en dispositivos moviles*/
+	#myCarousel {
+		display: none;
+	}
+	.banner {
+		display: none;
+	}
+	/*Recolocación de miniaturas de vista y aumento de tamaño*/
+	.miniatura-receta {
+		width: 50% !important;
+		margin-top: 10px;
+	}
+	.miniatura-vista {
+		width: 45% !important;
+		opacity: 0.7;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.a-receta {
+		border-top: 3px solid #d9232e;
+		text-align: center;
+		bottom: 0px;
+		font-size: 1.3em;
+	}
+	.vista {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	/*Quitar efecto hover y hacer visible caption del thumbnail */
+	.overlay, .hr-hover, .descripcion {
+		display: none !important;
+	}
+	.hovereffect:hover .producto{
+		opacity: 1 !important;
+		-webkit-transition: opacity 0.35s;
+	}
+	.hovereffect:hover img {
+	    background-color: transparent;
+    }
+	/*Imagenes de galerias de nuestras marcas*/
+	.hovereffect img {
+		max-height: 359px !important;
+		filter: none !important;
+		-webkit-filter: none !important;
+	}
+	/*Centrar textos de Historia Pilgrim's*/
+	.elem_animar {
+		text-align: center !important;
+	}
+	/*Desaparece barra social en moviles*/
+	.social {
+		display: none;
+	}
 }

@@ -34,6 +34,9 @@ body {
 .icon-nav {
     margin: auto;
 }
+.logo-menu {
+  margin-top: 5px;
+}
 .navbar-nav {
     width: 90%;
 }

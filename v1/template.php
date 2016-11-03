@@ -13,12 +13,13 @@ function meta(){
     <link href="css/modern-business.css" rel="stylesheet">
     <!-- Custom CSS -->
      <link href="css/pilgrims.css" rel="stylesheet">
+     <link href="css/pilgrimsML.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--Animciones-->
     <link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
     <!--Animate.css-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 	<!-- GOOGLE ANALYTICS -->
 	<!-- / GOOGLE ANALYTICS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -41,8 +42,11 @@ function meta_alt(){
     <link href="css/modern-business.css" rel="stylesheet">
     <!-- Custom CSS -->
      <link href="css/pilgrims.css" rel="stylesheet">
+     <link href="css/pilgrimsML.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--Animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
   <!-- GOOGLE ANALYTICS -->
   <!-- / GOOGLE ANALYTICS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -188,6 +192,22 @@ function menu($elemento = ""){
   </div>
 </div><!--/.header-menu -->
 
+<div>
+  <div class="social">
+    <ul>
+      <li style="background-color:#093c71;">
+        <a href="https://www.facebook.com/PilgrimsMx/" target="_blank">
+          <i class="fa fa-facebook fa-2x rrss-icon" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li style="background-color: #ff0000;">
+        <a href="https://www.youtube.com/channel/UCst1XqFNFdUGVBYBlmRY5oQ" target="_blank">
+          <i class="fa fa-youtube-play fa-2x rrss-icon" aria-hidden="true"></i>
+        </a>
+    </li>
+    </ul>
+  </div>
+</div>
 <?php
 }
 
@@ -216,17 +236,37 @@ function footer(){
           <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
         </td>
         <td  width="25%;" style="padding-left:2%;" colspan="3">
+          <form action="enviar_servicio_cliente.php" class="formulario" method="POST">
+            <div class="container notificacion">
+              <?php
+                if (isset($_GET['res'])) {
+                  $res = $_GET['res'];
+                  if ($res=="1") {
+                    echo "<div class='alert alert-success alert-dismissable'>
+                      <button type='button' class='close' data-dismiss='alert'>&times;</button>
+                      <p><i class='fa fa-check' aria-hidden='true'></i> ¡Envio exitoso!</p>
+                    </div>";
+                  }
+                  else if ($res=="2") {
+                    echo "<div class='alert alert-danger alert-dismissable'>
+                      <button type='button' class='close' data-dismiss='alert'>&times;</button>
+                      <i class='fa fa-ban' aria-hidden='true'></i> El envio no ha podido realizarse. Intentalo en unos minutos.
+                    </div>";
+                  }
+                }
+              ?>
+            </div>
           <div class="form-group">
-            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo">
+            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo" required>
           </div>
           <div class="form-group">
-            <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico">
+            <input type="email" name="email" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico" required>
           </div>
           <div class="form-group">
-            <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono">
+            <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono" required>
           </div>
           <div class="est-sel">
-            <select class="form-control">
+            <select class="form-control" name="estados" id="estados">
               <option value="" selected="selected">Seleccione un estado</option>
               <option value="Aguascalientes">Aguascalientes</option>
               <option value="Baja California">Baja California</option>
@@ -265,11 +305,11 @@ function footer(){
         </td>
         <td style="padding-left:2%; vertical-align: top;" colspan="3">
           <div class="form-group">
-            <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none"></textarea>
+            <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none" required></textarea>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="privacidad" id="privacidad" value="privacidad">
+              <input type="checkbox" name="privacidad" id="privacidad" required>
               <b>He leído el aviso de privacidad y lo acepto.</b>
             </label>
           </div>
@@ -294,13 +334,15 @@ function footer(){
         </td>
         <td  colspan="6" style="">
             <div class="form-group" style="margin-left:53.5%;">
-              <button class="btn btn-md btn-default" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <button class="btn btn-md btn-default" type="submit" id="enviar"><i class="fa fa-envelope-o" aria-hidden="true"></i>
               <b>ENVIAR</b></button>
             </div>
         </td>
+      </form>
       </tr>
     </table>
   </section>
+
   <section id="esc-990" class="container">
     <table width="100%;" class="text-left" >
       <tr >
@@ -316,61 +358,62 @@ function footer(){
           <i class="fa fa-map-marker " aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
           <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
         </td>
+        <form action="enviar_servicio_cliente.php" class="formulario" method="POST">
         <td  width="25%;" style="padding-left:2%;" colspan="3">
           <div class="form-group">
-            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo">
+            <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo" required>
           </div>
           <div class="form-group">
-            <input type="email" name="correo" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico">
+            <input type="email" name="email" class="form-control" placeholder="Correo electrónico" aria-describedby="Correo electrónico" required>
           </div>
           <div class="form-group">
-            <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono">
+            <input type="phone" name="telefono" class="form-control" placeholder="Teléfono" aria-describedby="Teléfono" required>
           </div>
           <div class="est-sel">
-            <select class="form-control">
-              <option value="" selected="selected">Seleccione un estado</option>
-              <option value="Aguascalientes">Aguascalientes</option>
-              <option value="Baja California">Baja California</option>
-              <option value="Baja California Sur">Baja California Sur</option>
-              <option value="Campeche">Campeche</option>
-              <option value="Coahuila">Coahuila</option>
-              <option value="Colima">Colima</option>
-              <option value="Chiapas">Chiapas</option>
-              <option value="Chihuahua">Chihuahua</option>
-              <option value="Ciudad de Mexico">Ciudad de México</option>
-              <option value="Durango">Durango</option>
-              <option value="Guanajuato">Guanajuato</option>
-              <option value="Estado de México">Estado de México</option>
-              <option value="Guerrero">Guerrero</option>
-              <option value="Hidalgo">Hidalgo</option>
-              <option value="Jalisco">Jalisco</option>
-              <option value="Michoacán">Michoacán</option>
-              <option value="Morelos">Morelos</option>
-              <option value="Nayarit">Nayarit</option>
-              <option value="Nuevo León">Nuevo León</option>
-              <option value="Oaxaca">Oaxaca</option>
-              <option value="Puebla">Puebla</option>
-              <option value="Querétaro">Querétaro</option>
-              <option value="Quintana Roo">Quintana Roo</option>
-              <option value="San Luis Potosí">San Luis Potosí</option>
-              <option value="Sinaloa">Sinaloa</option>
-              <option value="Sonora">Sonora</option>
-              <option value="Tabasco">Tabasco</option>
-              <option value="Tamaulipas">Tamaulipas</option>
-              <option value="Tlaxcala">Tlaxcala</option>
-              <option value="Veracruz">Veracruz</option>
-              <option value="Yucatán">Yucatán</option>
-              <option value="Zacatecas">Zacatecas</option>
-            </select>
+              <select class="form-control" name="estados" id="estados" required>
+                <option value="" selected="selected">Seleccione un estado</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Ciudad de Mexico">Ciudad de México</option>
+                <option value="Durango">Durango</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Estado de México">Estado de México</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo León">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="Quintana Roo">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+              </select>
           </div>
         </td>
         <td style="padding-left:2%; padding-right:2%; vertical-align: top;" colspan="3">
           <div class="form-group">
-            <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none"></textarea>
+            <textarea type="text" class="form-control custom-control" name= "mensaje"  placeholder="Mensaje" aria-describedby="Escribe un mensaje ..." rows="3" style="resize:none" required></textarea>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="privacidad" id="privacidad" value="privacidad">
+              <input type="checkbox" name="privacidad" id="privacidad" required>
               <b>He leído el aviso de privacidad y lo acepto.</b>
             </label>
           </div>
@@ -396,8 +439,9 @@ function footer(){
         </td>
         <td colspan="6">
           <div class="col-lg-offset-6 col-lg-6">
-            <button class="btn btn-md btn-default" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <button class="btn btn-md btn-default" type="submit" id="enviar"><i class="fa fa-envelope-o" aria-hidden="true"></i>
             <b>ENVIAR</b></button>
+        </form>
           </div>
         </td>
       </tr>
