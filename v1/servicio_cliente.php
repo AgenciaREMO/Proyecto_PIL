@@ -120,6 +120,7 @@
 	<script>
 		$(document).ready(function(){
 		    $('[data-toggle="tooltip"]').tooltip();
+		    $('.noti-footer').css('display','none');
 		});
 	</script>
 </html>

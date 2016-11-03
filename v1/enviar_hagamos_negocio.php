@@ -131,11 +131,11 @@
         </html>
             ';
         mail($to, $asunto, $body, $headers); 
-        header("Location: hagamos_negocio.php?res=1");
+        header("Location: hagamos_negocio.php?resnegocio=1");
         die();
     }
     else {
-        header("Location: hagamos_negocio.php?res=2");
+        header("Location: hagamos_negocio.php?resnegocio=2");
         die();
     }
 ?>

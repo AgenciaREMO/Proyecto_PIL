@@ -40,6 +40,8 @@ function meta_alt(){
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <!--Animaciones-->
+    <!--<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">-->
     <!-- Custom CSS -->
      <link href="css/pilgrims.css" rel="stylesheet">
      <link href="css/pilgrimsML.css" rel="stylesheet">
@@ -216,7 +218,31 @@ function menu($elemento = ""){
 
 function footer(){
 ?>
-<footer class="bg-footer">
+<div class="notificacion noti-footer" style="margin-bottom:0px;">
+  <?php
+
+    if (isset($_GET['res'])) {
+      $res = $_GET['res'];
+      if ($res=="1") {
+        echo "<div class='alert alert-success alert-dismissable' style='margin-bottom:0px;'>
+                <button type='button' class='close' data-dismiss='alert' style='color:#000'>&times;</button>
+                <div class='container'>
+                  <p style='color:#000'><i class='fa fa-check' aria-hidden='true'style='color:#000'></i> ¡Envio exitoso!</p>
+                </div>
+              </div>";
+      }
+      else if ($res=="2") {
+        echo "<div class='alert alert-danger alert-dismissable' style='margin-bottom:0px;'>
+                <button type='button' class='close' data-dismiss='alert' style='color:#000'>&times;</button>
+                <div class='container'>
+                  <p style='color:#000'><i class='fa fa-ban' aria-hidden='true'style='color:#000'></i> El envio no ha podido realizarse. Intentalo en unos minutos.</p>
+                </div>
+              </div>";
+      }
+    }
+  ?>
+</div>
+<footer class="bg-footer" >
   <section id="esc-991" class="container">
     <table width="100%;" class="text-left" >
       <tr >
@@ -230,32 +256,13 @@ function footer(){
           <span id="ofi"><b>SERVICIO AL CLIENTE</b></span><br>
         </td>
       </tr>
-      <tr>
+      <tr>     
         <td width="25%;" style="margin:0px; vertical-align: top; border-bottom:solid; border-right:solid; border-width:2px; border-color:#d9232e; font-size:16px; padding-right:1%" colspan="3" >
           <i class="fa fa-map-marker " aria-hidden="true"></i>  Privada de los Industriales No. 115 <br/>Col. Jurica, C.P 76100 <br/>Santiago de Querétaro, Qro. México <br/><br/>
           <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
         </td>
         <td  width="25%;" style="padding-left:2%;" colspan="3">
-          <form action="enviar_servicio_cliente.php" class="formulario" method="POST">
-            <div class="container notificacion">
-              <?php
-                if (isset($_GET['res'])) {
-                  $res = $_GET['res'];
-                  if ($res=="1") {
-                    echo "<div class='alert alert-success alert-dismissable'>
-                      <button type='button' class='close' data-dismiss='alert'>&times;</button>
-                      <p><i class='fa fa-check' aria-hidden='true'></i> ¡Envio exitoso!</p>
-                    </div>";
-                  }
-                  else if ($res=="2") {
-                    echo "<div class='alert alert-danger alert-dismissable'>
-                      <button type='button' class='close' data-dismiss='alert'>&times;</button>
-                      <i class='fa fa-ban' aria-hidden='true'></i> El envio no ha podido realizarse. Intentalo en unos minutos.
-                    </div>";
-                  }
-                }
-              ?>
-            </div>
+          <form action="enviar_servicio_cliente.php" method="POST">
           <div class="form-group">
             <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo" required>
           </div>
@@ -358,7 +365,7 @@ function footer(){
           <i class="fa fa-map-marker " aria-hidden="true"></i>  Privada de los Industriales No. 115 Col. Jurica, C.P 76100 Santiago de Querétaro, Qro. México <br/><br/>
           <i class="fa fa-mobile " aria-hidden="true"> </i>  Tel. 01 442 103 2200
         </td>
-        <form action="enviar_servicio_cliente.php" class="formulario" method="POST">
+        <form action="enviar_servicio_cliente.php" method="POST">
         <td  width="25%;" style="padding-left:2%;" colspan="3">
           <div class="form-group">
             <input type="text" name="nombre" class="form-control" placeholder="Nombre completo" aria-describedby="Nombre completo" required>
@@ -490,8 +497,9 @@ function footer(){
       </tr>
     </table>
   </section>
-   
+  <div id="footer" style="height:1px;"></div>
 </footer>
+
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 

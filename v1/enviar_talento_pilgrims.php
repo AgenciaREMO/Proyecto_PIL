@@ -152,11 +152,11 @@
     $body .= "--=P=I=L=--\r\n";
 
     mail($to, $asunto, $body, $headers); 
-    header("Location: talento_pilgrims.php?res=1");
+    header("Location: talento_pilgrims.php?restalento=1");
     die();
   }
   else {
-    header("Location: talento_pilgrims.php?res=2");
+    header("Location: talento_pilgrims.php?restalento=2");
     die();
   }
 ?>

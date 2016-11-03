@@ -92,15 +92,15 @@
 
 			<div class="container notificacion">
 				<?php
-					if (isset($_GET['res'])) {
-						$res = $_GET['res'];
-						if ($res=="1") {
+					if (isset($_GET['resnegocio'])) {
+						$res = $_GET['resnegocio'];
+						if ($resnegocio=="1") {
 							echo "<div class='alert alert-success alert-dismissable'>
 								<button type='button' class='close' data-dismiss='alert'>&times;</button>
 								<p><i class='fa fa-check' aria-hidden='true'></i> ¡Envio exitoso!</p>
 							</div>";
 						}
-						else if ($res=="2") {
+						else if ($resnegocio=="2") {
 							echo "<div class='alert alert-danger alert-dismissable'>
 								<button type='button' class='close' data-dismiss='alert'>&times;</button>
 								<i class='fa fa-ban' aria-hidden='true'></i> El envio no ha podido realizarse. Intentalo en unos minutos.

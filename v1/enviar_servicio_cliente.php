@@ -118,11 +118,11 @@
             ';
         mail($to, $asunto, $body, $headers); 
         
-        header("Location: servicio_cliente.php?res=1");
+        header("Location: ".$_SERVER['HTTP_REFERER']."?res=1#footer");
         die();
     }
     else {
-        header("Location: servicio_cliente.php?res=2");
+        header("Location: ".$_SERVER['HTTP_REFERER']."?res=2#footer");
         die();
     }
 ?>
