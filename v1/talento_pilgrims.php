@@ -17,11 +17,17 @@
 			<img src="rec/img/b_talento.jpg" alt="Banner" class="banner">
 		</section>
 		<section class="content container">
-			<h1>Talento Pilgrim's</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li class="active">Talento Pilgrim's</li>
 			</ol>
+			<section class="container text-center ">
+				<div class="row plecas">
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-talento.png">
+					</div>
+				</div>
+			</section>
 
 			<div class="container notificacion">
 				<?php

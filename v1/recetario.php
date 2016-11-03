@@ -20,10 +20,6 @@
 	<div class="gris-banner">
     </div>
 		<section class="container">
-		<ol class="breadcrumb">
-		  <li><a href="inicio.php">Inicio</a></li>
-		  <li class="active">Recetario</li>
-		</ol>
 		<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																										 animation-duration: 0.10s; 
 																										 animation-delay: 0.6s; 
@@ -31,7 +27,7 @@
 				
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+					<img class="img-responsive" style="margin: auto; " src="rec/img/titulos/titulo-recetario.png">
 				</div>
 			</div>
 		</div>

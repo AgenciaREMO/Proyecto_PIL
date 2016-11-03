@@ -15,12 +15,18 @@
 		?>
 		<section class="content nuestras-marcas">
 	    	<div class="container">
-	    		<h1 class="h1-producto">Historia Pilgrim's</h1>
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestra empresa</li>
 					<li class="active">Historia Pilgrim's</li>
 				</ol>
+				<section class="container text-center ">
+					<div class="row plecas">
+						<div class="col-lg-12 col-md-12 col-sm-12 ">
+							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-historia.png">
+						</div>
+					</div>
+				</section>
 				<div class="tabs-plantas">
 					<div class="col-lg-12">
 						<h2 class="text-center titulo_animar" style="margin:30px;">¿Quiénes somos?</h2>

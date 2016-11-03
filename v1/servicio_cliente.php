@@ -17,12 +17,18 @@
 			<img src="rec/img/b_contacto.jpg" alt="img-responsive" class="banner">
 		</section>
 		<section class="content container">
-			<h1>Servicio al cliente</h1>
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>
 				<li>Contacto</li>
 				<li class="active">Servicio al cliente</li>
 			</ol>
+			<section class="container text-center ">
+				<div class="row plecas">
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-cliente.png">
+					</div>
+				</div>
+			</section>
 
 			<div class="container notificacion">
 				<?php

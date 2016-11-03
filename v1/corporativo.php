@@ -14,14 +14,14 @@
 	?>
 	<div class=" bg-content ">
 		<section class="container">
-		<ol class="breadcrumb">
+		<ol class="breadcrumb" style="padding-top:2%;">
 			  <li><a href="inicio.php">Inicio</a></li>
 			  <li><a href="#">Nuestra empresa</a></li>
 			  <li class="active">Video Corporativo</li>
 		</ol>
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-video.png">
 				</div>
 			</div>
 			<video width="100%" controls id="video-corpo">

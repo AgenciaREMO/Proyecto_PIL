@@ -48,12 +48,18 @@
 	    </header>
 	    <section class="content nuestras-marcas">
 	    	<div class="container">
-				<h1 class="h1-producto">Nuestras plantas</h1>
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestra empresa</li>
 					<li class="active">Nuestras plantas</li>
 				</ol>
+				<section class="container text-center ">
+					<div class="row plecas">
+						<div class="col-lg-12 col-md-12 col-sm-12 ">
+							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-plantas.png">
+						</div>
+					</div>
+				</section>
 				<div class="tabs-plantas">
 					<ul class="nav nav-tabs" role="tablist">
 					    <li role="presentation" class="active"><a href="#incubadoras" aria-controls="home" role="tab" data-toggle="tab">Incubadoras</a></li>

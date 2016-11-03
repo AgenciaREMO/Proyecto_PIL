@@ -55,7 +55,7 @@
 	<section class="container text-center ">
 		<div class="row plecas">
 			<div class="col-lg-12 col-md-12 col-sm-12 ">
-				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/lanzamientoss.png">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-lanzamientos.png">
 			</div>
 		</div>
 	</section>
@@ -133,7 +133,7 @@
     <section class="container text-center ">
 		<div class="row plecas">
 			<div class="col-lg-12 col-md-12 col-sm-12 ">
-				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/promociones.png">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-promociones.png">
 			</div>
 		</div>
 	</section>
@@ -146,7 +146,7 @@
 	<section class="container text-center ">
 		<div class="row plecas">
 			<div class="col-lg-12 col-md-12 col-sm-12 ">
-				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/noticias.png">
+				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-noticias.png">
 			</div>
 		</div>
 	</section>

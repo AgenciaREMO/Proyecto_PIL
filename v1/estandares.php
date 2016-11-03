@@ -26,7 +26,6 @@
 		  <li class="active">Estándares de Calidad</li>
 		</ol>
 
-		<div class="cont">
 			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																										 animation-duration: 0.10s; 
 																										 animation-delay: 0.6s; 
@@ -34,10 +33,11 @@
 				
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-estandares.png">
 				</div>
 			</div>
 		</div>
+		<div class="cont">
 		<div class="row">
 			<div class="col-lg-12 col-md-12">
 				<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; 

@@ -29,7 +29,8 @@
 
 <!-- / menú --> 
 	<!-- /MENU -->
-	<section class="col-md-12 hidden-sm hidden-xs content bg-content ">
+	<section class="col-md-12 hidden-sm hidden-xs content">
+
 		<div class="cont-map">
 			<div id="maps">
 				<div id="mapa-principal">
@@ -258,8 +259,8 @@
 		</div><!--/.cont-map -->
 
 	</section>
-	<div class="bg-content ">
-		<div class="container bg-content">
+	<div class="bg-content">
+		<div class="container">
 				<ol class="breadcrumb">
 		  <li><a href="inicio.php">Inicio</a></li>
 		  <li class="active">Oficinas</li>
@@ -274,7 +275,7 @@
 					
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 ">
-						<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
+						<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-oficinas.png">
 					</div>
 				</div>
 			</div>
