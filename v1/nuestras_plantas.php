@@ -14,7 +14,9 @@
 			menu("7");
 		?>
 		<!-- Carousel -->
-	    <header id="myCarousel" class="carousel slide carousel-negocio">
+	    <div class="nuestras-marcas">
+			<!-- Carousel -->
+		<header id="myCarousel" class="carousel slide">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -25,19 +27,33 @@
 	        <!-- Wrapper for slides -->
 	        <div class="carousel-inner">
 	            <div class="item active">
-	                <div class="fill" style="background-image:url('rec/img/b_planta_incubadora.jpg');">
+	                <a href="">
+	                	<div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+		                	
+		                </div>
+	                </a>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_planta_alimentos.jpg');">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+	                
+	                </div>
+
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_planta_proceso.jpg');">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+	              
+	                </div>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	        </div>
-
 	        <!-- Controls -->
 	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 	            <span class="icon-prev"></span>
@@ -46,7 +62,9 @@
 	            <span class="icon-next"></span>
 	        </a>
 	    </header>
-	    <section class="content nuestras-marcas">
+		<div class="gris-banner">
+	    </div>
+	    <section class="content ">
 	    	<div class="container">
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
@@ -218,6 +236,7 @@
 				</div>
 			</div>
 		</section>
+	</div>
 		<?php
 			footer();
 		?>

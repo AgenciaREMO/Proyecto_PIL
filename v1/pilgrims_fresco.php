@@ -13,8 +13,9 @@
 		<?php
 			menu("2");
 		?>
-		<!-- Carousel -->
-	    <header id="myCarousel" class="carousel slide carousel-negocio">
+		<div class="nuestras-marcas">
+			<!-- Carousel -->
+		<header id="myCarousel" class="carousel slide">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -25,18 +26,33 @@
 	        <!-- Wrapper for slides -->
 	        <div class="carousel-inner">
 	            <div class="item active">
-	                <div class="fill" style="background-image:url('rec/img/b_pollo_fresco.jpg');">
+	                <a href="">
+	                	<div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
+		                	
+		                </div>
+	                </a>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_va.jpg');">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
+	                
 	                </div>
-	            </div>
-	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_del_dia.jpg');">
-	                </div>
-	            </div>
 
+	                <div class="carousel-caption">
+	                </div>
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
+	              
+	                </div>
+	                <div class="carousel-caption">
+	                </div>
+	            </div>
+	        </div>
 	        <!-- Controls -->
 	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 	            <span class="icon-prev"></span>
@@ -45,8 +61,9 @@
 	            <span class="icon-next"></span>
 	        </a>
 	    </header>
-
-	    <section class="content nuestras-marcas" data-speed="2" data-type="background">
+		<div class="gris-banner">
+	    </div>
+	    <section class="content " data-speed="2" data-type="background">
 	    	<div class="container">
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
@@ -62,7 +79,7 @@
 				</section>
 				<div class="container productos" style="padding-left:0px; padding-right:0px;">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar ">
 					    	<div class="hovereffect">
 					    		<a href="pollo_entero.php" >
 					    			<div class="div-producto">
@@ -74,7 +91,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pollo entero</h2>
 									<p class="descripcion"> 
 										<a href="pollo_entero.php" >
@@ -82,11 +99,11 @@
 											Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="pechuga.php" >
 					    			<div class="div-producto">
@@ -98,7 +115,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pechuga</h2>
 									<p class="descripcion"> 
 										<a href="pechuga.php" >
@@ -106,11 +123,11 @@
 											Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="pierna.php" >
 					    			<div class="div-producto">
@@ -122,7 +139,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pierna</h2>
 									<p class="descripcion"> 
 										<a href="pierna.php" >
@@ -130,11 +147,11 @@
 											Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="alas_naturales.php" >
 					    			<div class="div-producto">
@@ -146,7 +163,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Alitas naturales</h2>
 									<p class="descripcion"> 
 										<a href="alas_naturales.php" >
@@ -154,11 +171,11 @@
 											Alitas naturales en diversas presentaciones para un antojo en casa o para...
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="muslo.php" >
 					    			<div class="div-producto">
@@ -170,7 +187,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Muslo</h2>
 									<p class="descripcion"> 
 										<a href="muslo.php" >
@@ -178,11 +195,11 @@
 											Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="pierna_muslo.php" >
 					    			<div class="div-producto">
@@ -194,7 +211,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pierna y muslo</h2>
 									<p class="descripcion"> 
 										<a href="pierna_muslo.php" >
@@ -202,11 +219,11 @@
 											Esta pieza completa la puedes encontrar en corte anatómico o corte americano.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="milanesas.php" >
 					    			<div class="div-producto">
@@ -218,7 +235,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Milanesas</h2>
 									<p class="descripcion"> 
 										<a href="milanesas.php" >
@@ -226,11 +243,11 @@
 											Filete de pechuga en diversas porciones por empaque para...
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="alas_adobadas.php">
 					    			<div class="div-producto">
@@ -242,7 +259,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Alitas adobadas</h2>
 									<p class="descripcion"> 
 										<a href="alas_adobadas.php">
@@ -250,11 +267,11 @@
 											Alitas adobadas en una mezcla de chiles y especias que le dan sabor picosito y delicioso.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="arrachera_pollo.php" >
 					    			<div class="div-producto">
@@ -266,7 +283,7 @@
 									</div>
 								</a>
 								<div class="overlay valor-a">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Arrachera de pollo</h2>
 									<p class="descripcion"> 
 										<a href="arrachera_pollo.php" >
@@ -274,7 +291,7 @@
 											Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
@@ -282,9 +299,12 @@
 				</div>
 			</div>
 		</section>
+		</div>
+		
 		<?php
 			footer();
 		?>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 		<!-- Script to Activate the Carousel -->
     	<script>
 		    $('.carousel').carousel({
@@ -308,6 +328,14 @@
 					$('.producto-caption').css('display', 'none');
 				}	
 			});
+			//Animación
+			// hide our element on page load
+			  	$('.elem_animar').css('opacity', 0);
+				$('.elem_animar').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated zoomIn');	 
+			  	}, { offset: '70%' });
 	    </script>
 	</body>
 </html>

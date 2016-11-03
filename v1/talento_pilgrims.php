@@ -14,8 +14,10 @@
 			menu("9");
 		?>
 		<section class="content">
-			<img src="rec/img/b_talento.jpg" alt="Banner" class="banner">
+			<img src="rec/img/banners_jpg/talento_pilgrims.jpg" alt="Banner" class="banner">
 		</section>
+		<div class="gris-banner">
+	    </div>
 		<section class="content container">
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>

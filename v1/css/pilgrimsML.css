@@ -11,10 +11,6 @@ h1 {
 .formulario {
 	padding-bottom: 50px;
 }
-.carousel-caption {
-	background-color: rgba(7,22,137,0.5);
-	font-size: 1.5em;
-}
 body { 
 	color: #000 !important;
 }
@@ -68,7 +64,7 @@ header.carousel-negocio {
 /*Efecto para los productos de Pilgrims Valor agregado*/
 .hovereffect .overlay {
 	background-color: rgba(23,65,133,1) !important;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .hovereffect {
 	width: 100%;

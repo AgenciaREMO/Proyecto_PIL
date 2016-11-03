@@ -14,67 +14,46 @@
 			menu("5");
 		?>
 		<!-- Carousel -->
-	    <header id="myCarousel" class="carousel slide carousel-negocio">
+		<div class="">
+			<!-- Carousel -->
+		<header id="myCarousel" class="carousel slide">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 	            <li data-target="#myCarousel" data-slide-to="1"></li>
 	            <li data-target="#myCarousel" data-slide-to="2"></li>
-	            <li data-target="#myCarousel" data-slide-to="3"></li>
 	        </ol>
 
 	        <!-- Wrapper for slides -->
 	        <div class="carousel-inner">
 	            <div class="item active">
-	                <div class="fill" style="background-image:url('rec/img/b_valor_agregado.jpg');">
-	                	<div class="container">
-		                	<div class="row">
-			                	<div class="carousel-caption">
-								   	<h2>Valor Agregado</h2>
-									<p>La mejor opción si buscas productos como nuggets, hamburguesas, pierna y muslo empanizados, cordon bleu, o tenders.</p>
-								</div>
-			               	</div>
+	                <a href="">
+	                	<div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+		                	
 		                </div>
+	                </a>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_fresco.jpg');">
-	                	<div class="container">
-	                		<div class="row ">
-		                		<div class="carousel-caption">
-								   	<h2>Pollo Fresco</h2>
-									<p>Si buscas pollo entero, en piezas, rosticero, o alitas marinadas.</p>
-								</div>
-		                	</div>
-	                	</div>
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+	                
+	                </div>
+
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_pollo_vivo.jpg');">
-	                	<div class="container">
-	                		<div class="row ">
-		                		<div class="carousel-caption">
-								   	<h2>Pollo Vivo</h2>
-									<p>Si buscas aves hembras o machos, de la mejor calidad.</p>
-								</div>
-		                	</div>
-	                	</div>
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
+	              
 	                </div>
-	            </div>
-	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_render.jpg');">
-	                	<div class="container">
-	                		<div class="row ">
-		                		<div class="carousel-caption">
-								   	<h2>Render</h2>
-									<p>Si buscas productos como pollinaza y gallinaza, huevo para uso industrial, harinas de carne o mixta, pastas, chatarra de maquinaria o pedacería, y gallina de desecho. ¡Contactanos!</p>
-								</div>
-		                	</div>
-	                	</div>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	        </div>
-
 	        <!-- Controls -->
 	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 	            <span class="icon-prev"></span>
@@ -83,6 +62,8 @@
 	            <span class="icon-next"></span>
 	        </a>
 	    </header>
+		<div class="gris-banner">
+	    </div>
 	    <section class="content container">
 			<ol class="breadcrumb">
 				<li><a href="inicio.php">Inicio</a></li>

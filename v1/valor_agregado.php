@@ -13,7 +13,9 @@
 			menu("2");
 		?>
 		<!-- Carousel -->
-	    <header id="myCarousel" class="carousel slide carousel-negocio">
+	    <div class="nuestras-marcas">
+			<!-- Carousel -->
+		<header id="myCarousel" class="carousel slide">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -24,18 +26,33 @@
 	        <!-- Wrapper for slides -->
 	        <div class="carousel-inner">
 	            <div class="item active">
-	                <div class="fill" style="background-image:url('rec/img/b_va.jpg');">
+	                <a href="">
+	                	<div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/valor_agregado.jpg" >
+		                	
+		                </div>
+	                </a>
+	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_pollo_fresco.jpg');">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/valor_agregado.jpg" >
+	                
 	                </div>
-	            </div>
-	            <div class="item">
-	                <div class="fill" style="background-image:url('rec/img/b_del_dia.jpg');">
-	                </div>
-	            </div>
 
+	                <div class="carousel-caption">
+	                </div>
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/valor_agregado.jpg" >
+	              
+	                </div>
+	                <div class="carousel-caption">
+	                </div>
+	            </div>
+	        </div>
 	        <!-- Controls -->
 	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 	            <span class="icon-prev"></span>
@@ -44,7 +61,8 @@
 	            <span class="icon-next"></span>
 	        </a>
 	    </header>
-
+		<div class="gris-banner">
+	    </div>
 	    <section class="content nuestras-marcas" data-speed="2" data-type="background">
 	    	<div class="container">
 				<ol class="breadcrumb">
@@ -61,7 +79,7 @@
 				</section>
 				<div class="container productos">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="alitas_buffalo.php" >
 					    			<div class="div-producto">
@@ -73,7 +91,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					            	<h2>Alitas buffalo</h2>
 									<p class="descripcion"> 
 										<a href="alitas_buffalo.php" >
@@ -82,11 +100,11 @@
 										</a>
 									</p>
 					                
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="arrachera_adobada_700.php" >
 									<div class="div-producto">
@@ -98,7 +116,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Arrachera adobada 700 gr</h2>
 									<p class="descripcion"> 
 										<a href="arrachera_adobada_700.php" >
@@ -106,11 +124,11 @@
 											Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="arrachera_adobada_1-2kg.php" >
 									<div class="div-producto">
@@ -122,7 +140,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Arrachera adobada 1.2 kg</h2>
 									<p class="descripcion"> 
 										<a href="arrachera_adobada_1-2kg.php" >
@@ -130,11 +148,11 @@
 											Arracheras de muslo de pollo marinadas con sabor adobo, totalmente cocinadas.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="boneless_buffalo.php" >
 									<div class="div-producto">
@@ -146,7 +164,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Boneless buffalo</h2>
 									<p class="descripcion"> 
 										<a href="boneless_buffalo.php" >
@@ -154,11 +172,11 @@
 											Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="boneless_original_hot.php" >
 									<div class="div-producto">
@@ -170,7 +188,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Boneless original hot</h2>
 									<p class="descripcion"> 
 										<a href="boneless_original_hot.php" >
@@ -178,11 +196,11 @@
 											Cubos de Pechuga empanizados con salsa tipo Buffalo, totalmente cocinados.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="filete_empanizado.php" >
 									<div class="div-producto">
@@ -194,7 +212,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Filete empanizado</h2>
 									<p class="descripcion"> 
 										<a href="filete_empanizado.php" >
@@ -202,11 +220,11 @@
 											Filetes de pollo empanizados, parcialmente cocinados.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="filete_picante.php" >
 									<div class="div-producto">
@@ -218,7 +236,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Filete empanizado picante</h2>
 									<p class="descripcion"> 
 										<a href="filete_picante.php" >
@@ -226,11 +244,11 @@
 											Filete de pollo empanizado picante, parcialmente cocinado.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="hamburguesa_empanizada.php" >
 									<div class="div-producto">
@@ -242,19 +260,19 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Hamburguesa empanizada</h2>
 									<p class="descripcion"> 
 										<a href="hamburguesa_empanizada.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Hamburguesas de Pechuga de pollo parcialmente cocinada...
+											Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 					    		<a href="nuggets.php" >
 									<div class="div-producto">
@@ -266,7 +284,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Nuggets empanizados</h2>
 									<p class="descripcion"> 
 										<a href="nuggets.php" >
@@ -274,11 +292,11 @@
 											Nuggets de Pechuga de pollo formados,<br>empanizados y parcialmente cocinados.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="pechuga_grill_1-2k.php" >
 									<div class="div-producto">
@@ -290,7 +308,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pechuga grill 1.2 kg</h2>
 									<p class="descripcion"> 
 										<a href="pechuga_grill_1-2k.php" >
@@ -298,11 +316,11 @@
 											Pechugas de pollo sabor grill, totalmente cocinadas.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="pechuga_grill_700.php" >
 									<div class="div-producto">
@@ -314,7 +332,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pechuga grill 700 gr</h2>
 									<p class="descripcion"> 
 										<a href="pechuga_grill_700.php" >
@@ -322,11 +340,11 @@
 											Pechugas de pollo sabor grill, totalmente cocinadas.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="pechuga_navidenia.php" >
 									<div class="div-producto">
@@ -338,7 +356,7 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pechuga navideña</h2>
 									<p class="descripcion"> 
 										<a href="pechuga_navidenia.php" >
@@ -346,11 +364,11 @@
 											Pechugas de pollo rellenas de queso crema, manzana, uvas pasas y mermelada de fresa.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="cordon_bleu.php" >
 									<div class="div-producto">
@@ -362,19 +380,19 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Pechuga rellena cordon bleu</h2>
 									<p class="descripcion"> 
 										<a href="cordon_bleu.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Pechugas de pollo rellenas de jamón y queso, parcialmente cocinadas...
+											Pechugas de pollo rellenas de jamón y queso, formadas, empanizadas y parcialmente cocinadas.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
 					    	<div class="hovereffect">
 								<a href="tender_empanizado.php" >
 									<div class="div-producto">
@@ -386,15 +404,15 @@
 									</div>
 								</a>
 								<div class="overlay">
-					            	<hr class="hr-hover">
+					            	<hr class="hr-hover" style="margin-top:0px !important;">
 					                <h2>Tender empanizado</h2>
 									<p class="descripcion"> 
 										<a href="tender_empanizado.php" >
 											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Tiras de pechuga de pollo empanizadas y totalmente cocidas...
+											Tiras de pechuga de pollo empanizadas y totalmente cocidas por lo que duran más tiempo sin perder su consistencia.
 										</a>
 									</p>
-									<hr class="hr-hover"> 
+									<hr class="hr-hover" style="margin-top:0px !important;"> 
 					            </div>
 							</div>
 						</div>
@@ -402,9 +420,11 @@
 				</div>
 			</div>
 		</section>
+	</div>
 		<?php
 			footer();
 		?>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 		<!-- Script to Activate the Carousel -->
 	    <script>
 		    $('.carousel').carousel({
@@ -428,6 +448,14 @@
 					$('.producto-caption').css('display', 'none');
 				}	
 			});
+			//Animación
+			// hide our element on page load
+			  	$('.elem_animar').css('opacity', 0);
+				$('.elem_animar').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated zoomIn');	 
+			  	}, { offset: '70%' });
 	    </script>
 	</body>
 </html>
