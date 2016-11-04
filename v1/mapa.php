@@ -265,10 +265,7 @@
 		  <li><a href="inicio.php">Inicio</a></li>
 		  <li class="active">Oficinas</li>
 		</ol>
-		<section class="col-md-12 esc-oficinas">
-			<br/>
-			<div class="row lista-sucur">
-				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
+			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																											 animation-duration: 0.10s; 
 																											 animation-delay: 0.6s; 
 																											 animation-name: fadeInUp;">
@@ -279,6 +276,9 @@
 					</div>
 				</div>
 			</div>
+		<section class="col-md-12 esc-oficinas ">
+			<br/>
+			<div class="row lista-sucur cont">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
 						<div id="btn-dos" >
@@ -333,18 +333,7 @@
 	<div class="container bg-content ">
 		<section class="col-md-12 mob-oficinas">
 			<br/>
-			<div class="row lista-sucur">
-				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																											 animation-duration: 0.10s; 
-																											 animation-delay: 0.6s; 
-																											 animation-name: fadeInUp;">
-					
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 ">
-						<img class="img-responsive" style="margin: auto; padding:4%;" src="rec/img/lanzamientoss.png">
-					</div>
-				</div>
-			</div>
+			<div class="row lista-sucur cont">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
 						<div id="btn-dos" >

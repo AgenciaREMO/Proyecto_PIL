@@ -102,7 +102,7 @@
 						</div>
 					</div>
 				</div>
-			<div class="cont">
+			<div class="cont filosofia">
 				<div class="esc-fil">
 					<div class="row">
 						<div id="mision" class="col-lg-4 col-md-4 col-sm-4 text-center ">
@@ -116,44 +116,45 @@
 						</div>
 
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-12 filosofia">
-						<section id="div-mision" class="text-center p-02 ">
-									<h3>MISIÓN</h3>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 ">
+							<section id="div-mision" class="text-center p-02 ">
+										<h3>MISIÓN</h3>
+										<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
+										 
+											Ser los mejores en lo que nos proponemos, pensando y actuando como dueños, respetando el medio ambiente, garantizando productos y servicios superiores para nuestros clientes, solidez a los proveedores, rentabilidad a los accionistas y un futuro mejor para todos nuestros colaboradores.
+										
+							</section>
+							<section id="div-vision"  class="text-center p-02 ">
+									<h3>VISIÓN</h3>
 									<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
-									 
-										Ser los mejores en lo que nos proponemos, pensando y actuando como dueños, respetando el medio ambiente, garantizando productos y servicios superiores para nuestros clientes, solidez a los proveedores, rentabilidad a los accionistas y un futuro mejor para todos nuestros colaboradores.
-									
-						</section>
-						<section id="div-vision"  class="text-center p-02 ">
-								<h3>VISIÓN</h3>
-								<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
-								Ser la empresa líder, reconocida por nuestros colaboradores, clientes, consumidores y comunidad, por entregar productos y servicios de calidad extraordinarios.
-						</section>
-						<section id="div-valores"  class="text-center p-02 ">
-									<h3>VALORES</h3>
-									<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
-									<div class="row">
-										<div class="col-lg-4 col-md-4 text-justify">
-											<img src="rec/img/icono-pollo.png"> <b>Actitud de dueño: </b>estar comprometido con los resultados, enfocarse en los detalles y tomar responsabilidades.<br>
+									Ser la empresa líder, reconocida por nuestros colaboradores, clientes, consumidores y comunidad, por entregar productos y servicios de calidad extraordinarios.
+							</section>
+							<section id="div-valores"  class="text-center p-02 ">
+										<h3>VALORES</h3>
+										<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
+										<div class="row">
+											<div class="col-lg-4 col-md-4 text-justify">
+												<img src="rec/img/icono-pollo.png"> <b>Actitud de dueño: </b>estar comprometido con los resultados, enfocarse en los detalles y tomar responsabilidades.<br>
 
-											<img src="rec/img/icono-pollo.png"> <b>Determinación:</b> ser Implacable, dar resultados superiores y honrar compromisos.<br>
+												<img src="rec/img/icono-pollo.png"> <b>Determinación:</b> ser Implacable, dar resultados superiores y honrar compromisos.<br>
 
-											<img src="rec/img/icono-pollo.png"> <b>Disciplina: </b>Entregar resultados, no dar excusas.
+												<img src="rec/img/icono-pollo.png"> <b>Disciplina: </b>Entregar resultados, no dar excusas.
+											</div>
+											<div class="col-lg-4 col-md-4 text-justify">
+												<img src="rec/img/icono-pollo.png"> <b>Disponibilidad:</b> Ser receptivo y abierto, siempre estar preparado y motivado para enfrentar nuevos retos.<br>
+
+												<img src="rec/img/icono-pollo.png"> <b>Simplicidad:</b> Ser práctico, con enfoque en lo que es importante. Evitar la burocracia.<br>
+											</div>
+											<div class="col-lg-4 col-md-4 text-justify">
+												<img src="rec/img/icono-pollo.png"> <b>Sinceridad:</b> ser directo, veraz y transparente.<br>
+
+												<img src="rec/img/icono-pollo.png"> <b>Humildad:</b> escuchar, actuar con respeto, ser servicial y atento.<br>
+											</div>
 										</div>
-										<div class="col-lg-4 col-md-4 text-justify">
-											<img src="rec/img/icono-pollo.png"> <b>Disponibilidad:</b> Ser receptivo y abierto, siempre estar preparado y motivado para enfrentar nuevos retos.<br>
-
-											<img src="rec/img/icono-pollo.png"> <b>Simplicidad:</b> Ser práctico, con enfoque en lo que es importante. Evitar la burocracia.<br>
-										</div>
-										<div class="col-lg-4 col-md-4 text-justify">
-											<img src="rec/img/icono-pollo.png"> <b>Sinceridad:</b> ser directo, veraz y transparente.<br>
-
-											<img src="rec/img/icono-pollo.png"> <b>Humildad:</b> escuchar, actuar con respeto, ser servicial y atento.<br>
-										</div>
-									</div>
-						</section>
+							</section>
+						</div>
 					</div>
-
 				</div>
 				<div class="mob-fil">
 					<div class="col-sm-12 col-md-12 col-lg-12 filosofia">

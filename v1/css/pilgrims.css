@@ -500,12 +500,17 @@ body {
   transition: all 0.35s;
 }
 
-.hovereffect:hover img {
-  /*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
-  filter: brightness(0.8);
-  -webkit-filter: brightness(0.8);
-  background-color: rgba(23,65,133,0.3);
+.hovereffect:hover img{
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
 }
+
+/*.hovereffect:hover img {
+  /*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
+  /*filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  background-color: rgba(23,65,133,0.3);*
+}*/
 
 .hovereffect h2 {
   text-transform: uppercase;
@@ -577,6 +582,7 @@ body {
 #nues-pollos{
   font-size: 30px !important;
   margin-top: 3%;
+  color: #003366 !important;
 }
 
 /*EMPRESA*/
@@ -617,6 +623,10 @@ ul.a {
   font-size: 20px !important;
 }
 
+.p-02 h3{
+font-size: 1.8em !important;
+}
+
 
 
 .btn-filosofia:hover {
@@ -635,6 +645,7 @@ ul.a {
 .video-corpo{
   width: 100%;
   height: auto;
+  margin-top: 2%;
 }
 
 @media (max-width: 940px){
@@ -664,6 +675,7 @@ ul.a {
   font-size: 20px !important;
   margin-top: 2%!important;
   margin-bottom: 1%!important;
+  color: #003366 !important;
 }
 
 .esc-fil{
@@ -875,19 +887,19 @@ margin-bottom: 3%;
 }
 
 .cont{
-background: rgba(255,255,255,0.4);
-border-radius: 4px;
-border-top:solid;
-border-top-width: 3px;
-border-top-color: #e2251d;
-padding-top: 1% !important;
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+margin-top: 2%;
+padding: 3% !important;
 }
 
 .filosofia{
-background: rgba(255,255,255,0.4);
-padding-top: 1% !important;
-padding-left: 0% !important;
-padding-right: 0% !important;
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+padding-top: 3% !important;
+padding-left: 3% !important;
+padding-right: 3% !important;
+margin-top: 2%;
 }
 
 .bg-footer img{

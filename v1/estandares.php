@@ -37,7 +37,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="cont">
+		<div class="cont p-02">
 		<div class="row">
 			<div class="col-lg-12 col-md-12">
 				<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; 
