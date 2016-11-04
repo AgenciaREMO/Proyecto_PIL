@@ -101,7 +101,7 @@ body {
         margin: auto;
     }
 }
-@media(max-width:945px) {
+@media(max-width:1100px) {
     .navbar-nav {
         width: 100%;
     }
