@@ -170,12 +170,12 @@ header.carousel-negocio {
 }
 @media (max-width: 767px) {
 	/*Desaparecer banner/slider en dispositivos moviles*/
-	#myCarousel {
+	/*#myCarousel {
 		display: none;
 	}
 	.banner {
 		display: none;
-	}
+	}*/
 	/*Recolocación de miniaturas de vista y aumento de tamaño*/
 	.miniatura-receta {
 		width: 50% !important;

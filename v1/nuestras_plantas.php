@@ -64,7 +64,7 @@
 	    </header>
 		<div class="gris-banner">
 	    </div>
-	    <section class="content ">
+	    <section class="content " style="padding-bottom:2%; !important">
 	    	<div class="container">
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
@@ -78,7 +78,7 @@
 						</div>
 					</div>
 				</section>
-				<div class="tabs-plantas">
+				<div class="cont p-02">
 					<ul class="nav nav-tabs" role="tablist">
 					    <li role="presentation" class="active"><a href="#incubadoras" aria-controls="home" role="tab" data-toggle="tab">Incubadoras</a></li>
 					    <li role="presentation"><a href="#alimentos" aria-controls="profile" role="tab" data-toggle="tab">De alimentos</a></li>

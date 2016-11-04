@@ -78,8 +78,8 @@
 					</div>
 				</section>
 				<div class="container productos" style="padding-left:0px; padding-right:0px;">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar ">
+					<div class="row animated zoomIn">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="pollo_entero.php" >
 					    			<div class="div-producto">
@@ -90,20 +90,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Pollo entero</h2>
-									<p class="descripcion"> 
-										<a href="pollo_entero.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
-					            </div>
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+									<table class="align-middle" style="height:100%">
+										<tr><td>
+									        <hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+									        <h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pollo entero</h2>
+											<p class="descripcion"> 
+												<a href="pollo_entero.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
+							    </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="pechuga.php" >
 					    			<div class="div-producto">
@@ -114,20 +118,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Pechuga</h2>
-									<p class="descripcion"> 
-										<a href="pechuga.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
-					            </div>
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga</h2>
+											<p class="descripcion"> 
+												<a href="pechuga.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="pierna.php" >
 					    			<div class="div-producto">
@@ -138,20 +146,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Pierna</h2>
-									<p class="descripcion"> 
-										<a href="pierna.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pierna</h2>
+											<p class="descripcion"> 
+												<a href="pierna.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="alas_naturales.php" >
 					    			<div class="div-producto">
@@ -162,20 +174,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Alitas naturales</h2>
-									<p class="descripcion"> 
-										<a href="alas_naturales.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Alitas naturales en diversas presentaciones para un antojo en casa o para...
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Alitas naturales</h2>
+											<p class="descripcion"> 
+												<a href="alas_naturales.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Alitas naturales en diversas presentaciones para un antojo en casa o para...
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="muslo.php" >
 					    			<div class="div-producto">
@@ -186,20 +202,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Muslo</h2>
-									<p class="descripcion"> 
-										<a href="muslo.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Muslo</h2>
+											<p class="descripcion"> 
+												<a href="muslo.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="pierna_muslo.php" >
 					    			<div class="div-producto">
@@ -210,20 +230,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Pierna y muslo</h2>
-									<p class="descripcion"> 
-										<a href="pierna_muslo.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Esta pieza completa la puedes encontrar en corte anatómico o corte americano.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pierna y muslo</h2>
+											<p class="descripcion"> 
+												<a href="pierna_muslo.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Esta pieza completa la puedes encontrar en corte anatómico o corte americano.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="milanesas.php" >
 					    			<div class="div-producto">
@@ -234,20 +258,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Milanesas</h2>
-									<p class="descripcion"> 
-										<a href="milanesas.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Filete de pechuga en diversas porciones por empaque para...
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Milanesas</h2>
+											<p class="descripcion"> 
+												<a href="milanesas.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Filete de pechuga en diversas porciones por empaque para...
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="alas_adobadas.php">
 					    			<div class="div-producto">
@@ -258,20 +286,24 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Alitas adobadas</h2>
-									<p class="descripcion"> 
-										<a href="alas_adobadas.php">
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Alitas adobadas en una mezcla de chiles y especias que le dan sabor picosito y delicioso.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Alitas adobadas</h2>
+											<p class="descripcion"> 
+												<a href="alas_adobadas.php">
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Alitas adobadas en una mezcla de chiles y especias que le dan sabor picosito y delicioso.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 elem_animar">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="arrachera_pollo.php" >
 					    			<div class="div-producto">
@@ -282,16 +314,20 @@
 									    </div>
 									</div>
 								</a>
-								<div class="overlay valor-a">
-					            	<hr class="hr-hover" style="margin-top:0px !important;">
-					                <h2>Arrachera de pollo</h2>
-									<p class="descripcion"> 
-										<a href="arrachera_pollo.php" >
-											<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-											Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.
-										</a>
-									</p>
-									<hr class="hr-hover" style="margin-top:0px !important;"> 
+								<div class="overlay valor-a" style="padding-top:0px !important;">
+					            	<table class="align-middle" style="height:100%">
+										<tr><td>
+								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
+								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Arrachera de pollo</h2>
+											<p class="descripcion"> 
+												<a href="arrachera_pollo.php" >
+													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
+													Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.
+												</a>
+											</p>
+											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
+										</td></tr>
+									</table>
 					            </div>
 							</div>
 						</div>
@@ -328,14 +364,6 @@
 					$('.producto-caption').css('display', 'none');
 				}	
 			});
-			//Animación
-			// hide our element on page load
-			  	$('.elem_animar').css('opacity', 0);
-				$('.elem_animar').waypoint(function(direction) {
-			      	$(this).css('opacity', 1);
-			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
-			      	$(this).addClass('animated zoomIn');	 
-			  	}, { offset: '70%' });
 	    </script>
 	</body>
 </html>

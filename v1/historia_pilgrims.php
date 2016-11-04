@@ -7,13 +7,14 @@
 	  	<title>Nuestra Empresa - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
+		<!--En el CSS esta incluido el animate.css-->
 		<link href="css/pilgrimsML.css" rel="stylesheet">
 	</head>
 	<body>
 		<?php
 			menu("7");
 		?>
-		<section class="content nuestras-marcas">
+		<section class="content nuestras-marcas" style="padding-bottom:2%;">
 	    	<div class="container">
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
@@ -27,7 +28,7 @@
 						</div>
 					</div>
 				</section>
-				<div class="tabs-plantas">
+				<div class="cont p-02">
 					<div class="col-lg-12">
 						<h2 class="text-center titulo_animar" style="margin:30px;">¿Quiénes somos?</h2>
 						<img src="rec/img/jbs.jpg" class="img-responsive animated fadeIn" alt="JBS" style="margin-left:auto; margin-right:auto;margin-bottom:30px;border-radius:5px;">
