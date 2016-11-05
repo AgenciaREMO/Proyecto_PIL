@@ -37,7 +37,7 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
 						<div style="background:url('rec/img/nuestras_marcas/pollo_entero_back.jpg');background-size: cover;" class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/pollo_entero.jpg" alt="Pollo entero" class="img-responsive img-thumbnail thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/pollo_entero.png" alt="Pollo entero" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
@@ -48,7 +48,7 @@
 									<br>
 									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
 									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/pollo_entero.jpg" alt="Pollo entero" class="miniatura-vista" id="frente">
+										<img src="rec/img/nuestras_marcas/pollo_entero.png" alt="Pollo entero" class="miniatura-vista" id="frente">
 										<img src="rec/img/nuestras_marcas/pollo_entero_back.jpg" alt="Pollo entero back" class="miniatura-vista" id="back">
 									</div>
 								</td>

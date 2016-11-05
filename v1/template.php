@@ -168,7 +168,7 @@ function menu($elemento = ""){
             <li><a href="mexico.php"><div>Pilgrim's México</div></a></li>
             <li><a href="nuestras_plantas.php"><div>Nuestras Plantas</div></a></li>  
             <li><a href="filosofia.php"><div>Filosofía</div></a></li>  
-            <li><a href="#"><div>Distintivos</div></a></li>  
+            <li><a href="distintivos.php"><div>Distintivos</div></a></li>  
             <li><a href="corporativo.php"><div>Video Corporativo</div></a></li>                     
           </ul>
         </li>
@@ -198,14 +198,14 @@ function menu($elemento = ""){
 <div>
   <div class="social">
     <ul>
-      <li style="background-color:#093c71;">
+      <li>
         <a href="https://www.facebook.com/PilgrimsMx/" target="_blank">
-          <i class="fa fa-facebook fa-2x rrss-icon" aria-hidden="true"></i>
+          <img src="rec/img/fb.png" alt="Icono facebook">
         </a>
       </li>
-      <li style="background-color: #ff0000;">
+      <li>
         <a href="https://www.youtube.com/channel/UCst1XqFNFdUGVBYBlmRY5oQ" target="_blank">
-          <i class="fa fa-youtube-play fa-2x rrss-icon" aria-hidden="true"></i>
+          <img src="rec/img/yt.png" alt="Icono youtube">
         </a>
     </li>
     </ul>

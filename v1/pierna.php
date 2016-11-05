@@ -37,7 +37,7 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
 						<div style="background:url('rec/img/nuestras_marcas/charola_piernas_back.jpg');background-size: cover;" class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/charola_piernas.jpg" alt="Pierna" class="img-responsive img-thumbnail thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
@@ -48,7 +48,7 @@
 									<br>
 									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
 									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/charola_piernas.jpg" alt="Pierna" class="miniatura-vista" id="frente">
+										<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="miniatura-vista" id="frente">
 										<img src="rec/img/nuestras_marcas/charola_piernas_back.jpg" alt="Pierna back" class="miniatura-vista" id="back">
 									</div>
 								</td>

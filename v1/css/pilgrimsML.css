@@ -168,6 +168,9 @@ header.carousel-negocio {
 	color:#FFF !important; 
 	padding: 10px !important;
 }
+/*Distintivos*/
+
+/*Media query*/
 @media (max-width: 767px) {
 	/*Desaparecer banner/slider en dispositivos moviles*/
 	/*#myCarousel {

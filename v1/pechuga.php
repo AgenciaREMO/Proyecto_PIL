@@ -37,7 +37,7 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
 						<div style="background:url('rec/img/nuestras_marcas/charola_pechuga_entera_back.jpg');background-size: cover;" class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/charola_pechuga_entera.jpg" alt="Pechuga" class="img-responsive img-thumbnail thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/charola_pechuga_entera.png" alt="Pechuga" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
@@ -48,7 +48,7 @@
 									<br>
 									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
 									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/charola_pechuga_entera.jpg" alt="Pechuga" class="miniatura-vista" id="frente">
+										<img src="rec/img/nuestras_marcas/charola_pechuga_entera.png" alt="Pechuga" class="miniatura-vista" id="frente">
 										<img src="rec/img/nuestras_marcas/charola_pechuga_entera_back.jpg" alt="Pechuga back" class="miniatura-vista" id="back">
 									</div>
 								</td>

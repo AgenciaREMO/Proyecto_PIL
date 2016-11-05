@@ -37,7 +37,7 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
 						<div style="background:url('rec/img/nuestras_marcas/alas_naturales_temporal_back.jpg');background-size: cover;" class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/alas_naturales_temporal.jpg" alt="Alitas naturales" class="img-responsive img-thumbnail thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/alas_naturales_temporal.png" alt="Alitas naturales" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
@@ -48,7 +48,7 @@
 									<br>
 									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
 									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/alas_naturales_temporal.jpg" alt="Alitas naturales" class="miniatura-vista" id="frente">
+										<img src="rec/img/nuestras_marcas/alas_naturales_temporal.png" alt="Alitas naturales" class="miniatura-vista" id="frente">
 										<img src="rec/img/nuestras_marcas/alas_naturales_temporal_back.jpg" alt="Alitas naturales back" class="miniatura-vista" id="back">
 									</div>
 								</td>
@@ -56,7 +56,7 @@
 							<tr>
 								<td class="a-receta animated zoomIn">
 									<a href="r5-alitas-tamarindo.php">
-										<img src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_arañitas_de_plato.jpg" alt="Pollo en salsa de tamarindo" class="miniatura-receta img-thumbnail"><br>
+										<img src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_aranitas_de_plato.jpg" alt="Pollo en salsa de tamarindo" class="miniatura-receta img-thumbnail"><br>
 										<p>Alitas de pollo en salsa de tamarindo picante</p>
 										Ver receta <i class="fa fa-chevron-right" aria-hidden="true"></i>
 									</a>

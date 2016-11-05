@@ -83,7 +83,7 @@
 					    	<div class="hovereffect">
 					    		<a href="pollo_entero.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/pollo_entero.jpg" alt="Pollo entero" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/pollo_entero.png" alt="Pollo entero" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Pollo entero</h3>
 									        <p style="font-size:1em; color:#000;">Pollo entero fresco que puedes encontrar en diversos tamaños para toda la familia.</p>
@@ -111,7 +111,7 @@
 					    	<div class="hovereffect">
 					    		<a href="pechuga.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_pechuga_entera.jpg" alt="Pechuga" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_pechuga_entera.png" alt="Pechuga" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Pechuga</h3>
 									        <p style="font-size:1em; color:#000;">Pechuga entera, deshuesada, con hueso, con piel, sin piel y aplanada lista para asar.</p>
@@ -139,7 +139,7 @@
 					    	<div class="hovereffect">
 					    		<a href="pierna.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_piernas.jpg" alt="Pierna" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Pierna</h3>
 									        <p style="font-size:1em; color:#000;">Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</p>
@@ -167,7 +167,7 @@
 					    	<div class="hovereffect">
 					    		<a href="alas_naturales.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/alas_naturales_temporal.jpg" alt="Alitas naturales" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/alas_naturales_temporal.png" alt="Alitas naturales" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Alitas naturales</h3>
 									        <p style="font-size:1em; color:#000;">Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.</p>
@@ -195,7 +195,7 @@
 					    	<div class="hovereffect">
 					    		<a href="muslo.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/muslos_temporal.jpg" alt="Muslo" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/muslos_temporal.png" alt="Muslo" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Muslo</h3>
 									        <p style="font-size:1em; color:#000;">Muslo de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</p>
@@ -223,7 +223,7 @@
 					    	<div class="hovereffect">
 					    		<a href="pierna_muslo.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_pierna_muslo.jpg" alt="Pierna y muslo" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_pierna_muslo.png" alt="Pierna y muslo" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Pierna y muslo</h3>
 									        <p style="font-size:1em; color:#000;">Esta pieza completa la puedes encontrar en corte anatómico o corte americano.</p>
@@ -251,7 +251,7 @@
 					    	<div class="hovereffect">
 					    		<a href="milanesas.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_milanesa_aplanada.jpg" alt="Milanesas" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_milanesa_aplanada.png" alt="Milanesas" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Milanesas</h3>
 									        <p style="font-size:1em; color:#000;">Filete de pechuga en diversas porciones por empaque para el número de comensales que necesites.</p>
@@ -279,7 +279,7 @@
 					    	<div class="hovereffect">
 					    		<a href="alas_adobadas.php">
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_alas_adobadas.jpg" alt="Alitas adobadas" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_alas_adobadas.png" alt="Alitas adobadas" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Alitas adobadas</h3>
 									        <p style="font-size:1em; color:#000;">Alitas adobadas en una mezcla de chiles y especias que le dan sabor picosito y delicioso.</p>
@@ -307,7 +307,7 @@
 					    	<div class="hovereffect">
 					    		<a href="arrachera_pollo.php" >
 					    			<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.jpg" alt="Arrachera de pollo" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.png" alt="Arrachera de pollo" class="img-responsive producto">
 										<div class="producto-caption">
 									        <h3>Arrachera de pollo</h3>
 									        <p style="font-size:1em; color:#000;">Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.</p>

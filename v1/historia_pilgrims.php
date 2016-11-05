@@ -15,6 +15,8 @@
 			menu("7");
 		?>
 		<section class="content nuestras-marcas" style="padding-bottom:2%;">
+			<div class="gris-banner">
+		    </div>
 	    	<div class="container">
 				<ol class="breadcrumb">
 					<li><a href="inicio.php">Inicio</a></li>
