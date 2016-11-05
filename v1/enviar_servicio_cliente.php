@@ -6,7 +6,7 @@
     $telefono = $_POST['telefono'];
     $mensaje = $_POST['mensaje'];
     $estado = $_POST['estados'];
-    $para = 'mlgarciao@msn.com, martha.lucia.remo@gmail.com';
+    $para = 'mlgarciao@msn.com, serviciopilgrims@pilgrims.com';
     ob_start();
     if (!empty($asunto) && !empty($para)) {
         $to = $para;

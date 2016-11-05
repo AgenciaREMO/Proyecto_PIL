@@ -18,7 +18,7 @@
 
   $asunto = "Pilgrim's | Talento Pilgrim's";
   $num = count($_GET);
-  $para = 'mlgarciao@msn.com, martha.lucia.remo@gmail.com';
+  $para = 'mlgarciao@msn.com, bolsadetrabajo@pilgrims.com';
   
   if (!empty($asunto) && !empty($para)) {
     $to = $para;

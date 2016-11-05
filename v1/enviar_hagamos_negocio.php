@@ -8,16 +8,16 @@
     $estado = $_POST['estados'];
     $categoria = $_POST['categorias'];
     if ($categoria == "Valor agregado") {
-      $para = 'mlgarciao@msn.com';
+      $para = 'mlgarciao@msn.com, luis.juarez@pilgrims.com';
     }
     else if ($categoria == "Pollo fresco") {
-      $para = 'martha.lucia.remo@gmail.com';
+      $para = 'mlgarciao@msn.com, humberto.melendez@pilgrims.com';
     }
     else if ($categoria == "Pollo vivo") {
-      $para = 'mlgarciao@msn.com, martha.lucia.remo@gmail.com';
+      $para = 'mlgarciao@msn.com, alberto.montes@pilgrims.com';
     }
     else if ($categoria == "Render") {
-      $para = 'mlgarciao@msn.com, martha.lucia.remo@gmail.com';
+      $para = 'mlgarciao@msn.com, cristobal.rey@pilgrims.com';
     }
     ob_start();
     if (!empty($asunto) && !empty($para)) {
