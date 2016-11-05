@@ -37,61 +37,34 @@
 				</div>
 			</div>
 		</div>
-		<div class="cont p-02">
-		<div class="row">
-			<div class="col-lg-12 col-md-12">
-				<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; 
-																										 animation-duration: 0.5s; 
-																										 animation-delay: 0.3s; 
-																										 animation-name: fadeInUp;">
-					<img class="tif img-responsive" src="rec/img/tif.png">
+		<section class=" p-02">
+			<div class="row verde">
+				<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-12">
+					<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
+						<img class="img-tif img-responsive" src="rec/img/tif.png">
+					</div>
 				</div>
-				
+				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12">
+				    <div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; animation-duration: 0.15s; animation-delay: 0.9s; animation-name: fadeInUp;">					
+						<p class="sello">El Sello Inspección de Tipo Federal (TIF) garantiza que el alimento es inocuo; es otorgado por SAGARPA quien hace la auditoría, donde verifican que las instalaciones y productos cumplan con las regulaciones que señalan.</p>
+					</div>
+				</div>
 			</div>
-		</div>
-
-		<div class="row ">
-			<div class="col-lg-10 col-lg-offset-1  col-md-offset-1 col-md-10 col-sm-offset-1  col-sm-10 procesos">
-				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																										 animation-duration: 0.10s; 
-																										 animation-delay: 0.6s; 
-																										 animation-name: fadeInUp;">
-					
-					<p class="">El Sello Inspección de Tipo Federal (TIF) garantiza que el alimento es inocuo; es otorgado por SAGARPA quien hace la auditoría, donde verifican que las instalaciones y productos cumplan con las regulaciones que señalan.</p>
-					
+			<div class="row blanco">
+				<div class="col-lg-7 col-md-7 col-sm-12">
+					<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; animation-duration: 0.15s; animation-delay: 0.9s; animation-name: fadeInUp;">
+						<p id="nues-pollos"><b>¿Nuestros pollos tienen hormonas o clembuterol?</b></p>
+						<p><b>Nuestros Pollos no tienen Hormonas ni Clembuterol.</b> Estas sustancias son ilegales, por lo que nos sería imposible obtener el Sello TIF en nuestros productos. </p>
+						<p>Además, el lapso de tiempo que tarda un pollito en crecer es aproximadamente de 21 días. Las hormonas y el clembuterol  son componentes que tardan de 60 a 100 días para hacer efecto.</p>
+					</div>
 				</div>
-				<br>
-				<img class="img-responsive" style="margin:auto;" src="rec/img/franja.png">
-				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
-																										 animation-duration: 0.15s; 
-																										 animation-delay: 0.9s; 
-																										 animation-name: fadeInUp;">
-					<h1 id="nues-pollos"><b><img src="rec/img/icono-pollo.png">  ¿Nuestros pollos tienen hormonas o clembuterol? <img src="rec/img/icono-pollo.png"> </b></h1>
+				<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12">
+					<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
+						<img class="img-tif img-responsive" src="rec/img/pollo-estandar.png">
+					</div>
 				</div>
-				
-				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
-																										 animation-duration: 0.15s; 
-																										 animation-delay: 0.9s; 
-																										 animation-name: fadeInUp;">
-					
-					<p class="">Nuestros Pollos no tienen Hormonas ni Clembuterol. Estas sustancias son ilegales, por lo que nos sería imposible obtener el Sello TIF en nuestros productos. </p>
-				</div>
-				<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; 
-																										 animation-duration: 0.15s; 
-																										 animation-delay: 0.9s; 
-																										 animation-name: fadeInUp;">
-					<p class="">Además, el lapso de tiempo que tarda un pollito en crecer es aproximadamente de 21 días. Las hormonas y el clembuterol  son componentes que tardan de 60 a 100 días para hacer efecto.</p>
-				</div>						
 			</div>
-
-			</div>
-
-			
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				
-		</div>
-		</div>
-		
+		</section>
 	</section>
 	</div>
 	<?php

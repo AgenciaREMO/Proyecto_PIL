@@ -580,9 +580,16 @@ body {
 }
 
 #nues-pollos{
-  font-size: 30px !important;
+  font-size: 2.3em !important;
   margin-top: 3%;
-  color: #003366 !important;
+  color: #071689 !important;
+  text-align: left;
+}
+
+
+.img-tif{
+  margin: auto;
+  margin-top: 3%;
 }
 
 /*EMPRESA*/
@@ -675,7 +682,8 @@ font-size: 1.8em !important;
   font-size: 20px !important;
   margin-top: 2%!important;
   margin-bottom: 1%!important;
-  color: #003366 !important;
+  color: #071689 !important;
+  text-align: left!important;
 }
 
 .esc-fil{
@@ -891,6 +899,41 @@ background: rgba(255,255,255,0.5);
 border-radius: 2px;
 margin-top: 2%;
 padding: 3% !important;
+}
+
+.cont-filo{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+}
+
+.verde{
+  background: #00853f;
+  border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  -webkit-border-radius: 4px 4px 0px 0px;
+  border: 0px solid #000000;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.blanco{
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  -moz-border-radius: 0px 0px 4px 4px;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  border: 0px solid #000000;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #071689;
+  vertical-align: middle;
+}
+
+.sello{
+  margin-top: 8% !important;
 }
 
 .filosofia{
