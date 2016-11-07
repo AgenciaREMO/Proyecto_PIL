@@ -36,8 +36,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="cont">
-				
 			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																											 animation-duration: 0.20s; 
 																											 animation-delay: 0.6s; 
@@ -45,32 +43,40 @@
 					
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
-						<img class="tif img-responsive" src="rec/img/calidad.png">
+						<div class="esc-mapa">
+							<img class="img-responsive mapita" src="rec/img/pil_mexico.jpg">
+						</div>
+						<div class="mob-mapa">
+							<img class="img-responsive mapita" src="rec/img/mapa-mob.jpg">
+						</div>
+						
 					</div>
 				</div>
 			</div>
-			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																											 animation-duration: 0.30s; 
-																											 animation-delay: 0.6s; 
-																											 animation-name: fadeInUp;">
-					
+			<div class="bg-mexico">
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 procesos p-02">
-						En Pilgrim´s Pride México somos una organización que a través del Servicio y Calidad, hemos logrado marcar una diferencia en nuestros productos, contamos con:<br/><br/>
-							<ul class="a">
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">Más de 10,000 colaboradores</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">7 plantas de alimentos</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">6 plantas procesadoras</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">9 plantas incubadoras</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">Más de 3000 casetas de engorda</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">22 centros de distribución</li>
-								<li><img src="rec/img/edificio.png" alt="icono-edificio">5 plantas certificadas con el sello TIF</li>
-							</ul><br>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/colaboradores.png" alt="Más de 10 000 colaboradores" title="Más de 10 000 colaboradores">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/alimentos.png">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/procesadoras.png">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/incubadoras.png">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/engorda.png">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/distribucion.png">
+					</div>
+					<div class="col-lg-12" >
+						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/certificadas.png">
 					</div>
 				</div>
-			</div>
-			<div>
-			</div>
 			</div>
 			
 		</section>

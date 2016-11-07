@@ -189,61 +189,82 @@
     <div class="bg-inicio">
     	<div class="container">
     		<div class="row">
-	    		<div class="col-lg-12 col-md-12 col-sm-12">
+	    		<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12">
 	    			<img id="recetas" class="img-responsive" src="rec/img/recetas.png">
 	    		</div>
     		</div>
     		<br>
-    		<div class="bg-recetas row">
-    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
-				            <div class="overlay">
-				            	<hr class="hr-hover">
-				                <h2>Chiles rellenos</h2>
-								<p> 
-									<a href="#" >
-										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-										Ver receta
-									</a>
-								</p>
-								<hr class="hr-hover"> 
-				            </div>
-				    </div>
-				</div>
-				<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
-				            <div class="overlay">
-				            	<hr class="hr-hover">
-				                <h2>Nopales con pollo</h2>
-								<p> 
-									<a href="#">
-										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-										Ver receta
-									</a>
-								</p>
-								<hr class="hr-hover">
-				            </div>
-				    </div>
-				</div>
-				<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="rec/img/pollo-garbanzo-arroz.jpg">
-				            <div class="overlay">
-				            	<hr class="hr-hover">
-				                <h2>Pollo con garbanzo</h2>
-								<p> 
-									<a href="#">
-										<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-										Ver receta
-									</a>
-								</p>
-								<hr class="hr-hover"> 
-				            </div>
-				    </div>
-				</div>
+    		<div class="bg-recetas">
+    			<div class="row">
+	    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
+					            <div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Chiles rellenos</h2>
+									<p> 
+										<a href="#" >
+											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+											Ver receta
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+					    </div>
+					</div>
+					<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+					            <div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Nopales con pollo</h2>
+									<p> 
+										<a href="#">
+											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+											Ver receta
+										</a>
+									</p>
+									<hr class="hr-hover">
+					            </div>
+					    </div>
+					</div>
+	    		</div>
+    			<div class="row">
+	    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive " src="rec/img/chilles-rellenos.jpg">
+					            <div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Chiles rellenos</h2>
+									<p> 
+										<a href="#" >
+											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+											Ver receta
+										</a>
+									</p>
+									<hr class="hr-hover"> 
+					            </div>
+					    </div>
+					</div>
+					<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+					            <div class="overlay">
+					            	<hr class="hr-hover">
+					                <h2>Nopales con pollo</h2>
+									<p> 
+										<a href="#">
+											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+											Ver receta
+										</a>
+									</p>
+									<hr class="hr-hover">
+					            </div>
+					    </div>
+					</div>
+    			</div>
     		</div>
+    	
     		
     		<!--<div class="bg-recetas row">
 	    		<div class="col-lg-4 col-md-6 col-sm-12">

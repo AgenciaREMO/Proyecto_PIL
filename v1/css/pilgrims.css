@@ -4,6 +4,11 @@
   src: url('../fonts/Cronos-Pro_12459.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Chunkfive';
+  src: url('../fonts/Chunkfive.otf') format('truetype');
+}
+
 html, body, h3, h2, header{
 	font-family: 'Cronos-Pro' !important;
   color: #003366;
@@ -143,13 +148,19 @@ body {
 }
 
 /*INICIO*/
+
 .bg-inicio{
-  background: url('../rec/img/bg-inicio.jpg')center; 
-  background-size: all;
+  background: url('../rec/img/bg-chef-omar.jpg')center; 
   border-top:solid;
   border-top-width: 4px;
   border-top-color: #ffffff;
-  padding-top: 2%;
+  ma
+  padding-bottom: 10%;
+  padding-top: 15%;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+-moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 }
 
 .plecas{
@@ -159,9 +170,10 @@ body {
 
 .bg-recetas{
   background-color: #ffffff;
-  padding: 1%;
+  padding: 3%;
   margin: 1%;
   margin-bottom: 4%;
+  margin-left: 33%;
   -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
@@ -236,7 +248,54 @@ body {
   .mute.on:hover {
     background-image: url("http://prod1.nescafe.com/es_es/public/img/on-icon-rollover.gif"); }
 
+@media(max-width: 1280px){
+  .bg-inicio{
+    background: url('../rec/img/bg-chef-omar.jpg')center no-repeat; 
+    border-top:solid;
+    border-top-width: 4px;
+    border-top-color: #ffffff;
+    padding-bottom: 5% !important;
+    padding-top: 5!important%;
+  }
+
+    .bg-recetas{
+      background-color: #ffffff;
+      padding: 3%;
+      margin: 1%;
+      margin-bottom: 4%;
+      -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+      -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+      box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+    }
+}
+
+
+
+
 @media (max-width: 991px) {
+
+  .bg-recetas{
+    background-color: #ffffff;
+    padding: 3%;
+    margin: 1%;
+    margin-bottom: 4%;
+    -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+    box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+  }
+
+   .bg-inicio{
+    background: url('../rec/img/chef-mob.jpg')center no-repeat; 
+    border-top:solid;
+    border-top-width: 4px;
+    border-top-color: #ffffff;
+    padding-bottom: 5% !important;
+    padding-top: 5!important%;
+    background-size: cover;
+  }
+
+
+
   .hero.main .header-section .hero {
       height: 80vh; 
   }
@@ -635,6 +694,136 @@ font-size: 1.8em !important;
 }
 
 
+.cont{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+margin-top: 2%;
+padding: 3% !important;
+}
+
+.cont-filo{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+}
+
+.verde{
+  background: #00853f;
+  border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  -webkit-border-radius: 4px 4px 0px 0px;
+  border: 0px solid #000000;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.blanco{
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  -moz-border-radius: 0px 0px 4px 4px;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  border: 0px solid #000000;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #071689;
+  vertical-align: middle;
+}
+
+.sello{
+  margin-top: 8% !important;
+}
+
+.font-filosofia{
+  padding-top: 5% !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  font-family: 'Helvetica';
+  font-size: 1.5em;
+  color: #071689;
+  text-align: justify;
+}
+
+.nuestra{
+  font-family: 'Chunkfive';
+  font-size: 2em;
+  color: #071689;
+  margin-bottom: 0px;
+}
+
+.vision{
+  font-family: 'Chunkfive';
+  font-size: 4em;
+  margin-top: 0px;
+}
+
+.azul{
+color: #009ee2;
+}
+
+.verdecito{
+color: #77bc1f;
+}
+
+.huesitos{
+vertical-align: top;
+margin-left: 0px !important;
+margin-top: 0px !important;
+}
+
+.val{
+  margin-bottom: 3% !important;
+}
+
+
+.naranja{
+color: #f38b00;
+}
+
+.rosa{
+color: #e70095;
+}
+
+.filosofia{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+padding-top: 3% !important;
+padding-left: 3% !important;
+padding-right: 3% !important;
+margin-top: 2%;
+}
+
+.mapita{
+  width: 100%;
+  margin: 0px;
+
+}
+
+.bg-mexico{
+  background: rgba(255,255,255,0.5);
+  border-radius: 2px;
+  margin-top: 0px;
+  padding: 5%;
+  margin: auto;
+}
+
+.mob-mapa{
+  display: none;
+}
+
+.div-rojo{
+  background: #d9232e;
+  border-radius: 0px 0px 0px 5px;
+  -moz-border-radius: 0px 0px 0px 5px;
+  -webkit-border-radius: 0px 0px 0px 5px;
+  border: 0px solid #000000;
+  padding: 1%;
+  color: #ffffff;
+  
+
+}
 
 .btn-filosofia:hover {
   cursor: pointer;
@@ -667,6 +856,27 @@ font-size: 1.8em !important;
 }
 
 @media (max-width: 480px) {
+
+.mob-mapa{
+  display: inline;
+}
+
+.esc-mapa{
+  display: none;
+}
+
+.font-filosofia{
+  font-size: 1em;
+}
+
+.nuestra{
+  font-size: 1em;
+}
+
+.vision{
+  font-size: 2em;
+}
+
   .procesos{
     font-size: 16px !important;
     text-align: center;
@@ -894,56 +1104,6 @@ margin-bottom: 3%;
   margin: auto;
 }
 
-.cont{
-background: rgba(255,255,255,0.5);
-border-radius: 2px;
-margin-top: 2%;
-padding: 3% !important;
-}
-
-.cont-filo{
-background: rgba(255,255,255,0.5);
-border-radius: 2px;
-}
-
-.verde{
-  background: #00853f;
-  border-radius: 4px 4px 0px 0px;
-  -moz-border-radius: 4px 4px 0px 0px;
-  -webkit-border-radius: 4px 4px 0px 0px;
-  border: 0px solid #000000;
-  padding: 5%;
-  font-size: 1.5em;
-  text-align: justify;
-  color: #ffffff;
-  vertical-align: middle;
-}
-
-.blanco{
-  background: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  -moz-border-radius: 0px 0px 4px 4px;
-  -webkit-border-radius: 0px 0px 4px 4px;
-  border: 0px solid #000000;
-  padding: 5%;
-  font-size: 1.5em;
-  text-align: justify;
-  color: #071689;
-  vertical-align: middle;
-}
-
-.sello{
-  margin-top: 8% !important;
-}
-
-.filosofia{
-background: rgba(255,255,255,0.5);
-border-radius: 2px;
-padding-top: 3% !important;
-padding-left: 3% !important;
-padding-right: 3% !important;
-margin-top: 2%;
-}
 
 .bg-footer img{
 	margin: auto;
