@@ -155,17 +155,17 @@ body {
 /*INICIO*/
 
 .bg-inicio{
-  background: url('../rec/img/bg-chef-omar.jpg')center; 
+  background: url('../rec/img/chef-mob.jpg') no-repeat center; 
+  width: 100%;
   border-top:solid;
   border-top-width: 4px;
   border-top-color: #ffffff;
-  ma
-  padding-bottom: 10%;
-  padding-top: 15%;
+  padding-bottom: 0%;
+  padding-top: 5%;
   background-size: cover;
   -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
--moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 }
 
 .plecas{
@@ -175,10 +175,15 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 
 .bg-recetas{
   background-color: #ffffff;
+  padding: 1% 4% 1% 4%;
+  -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+  box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+}
+
+.bg-receta{
+  background-color: #ffffff;
   padding: 3%;
-  margin: 1%;
-  margin-bottom: 4%;
-  margin-left: 33%;
   -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
@@ -253,16 +258,13 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   .mute.on:hover {
     background-image: url("http://prod1.nescafe.com/es_es/public/img/on-icon-rollover.gif"); }
 
-@media(max-width: 1280px){
-  .bg-inicio{
-    background: url('../rec/img/bg-chef-omar.jpg')center no-repeat; 
-    border-top:solid;
-    border-top-width: 4px;
-    border-top-color: #ffffff;
-    padding-bottom: 5% !important;
-    padding-top: 5!important%;
-  }
+.mob-re-ini{
+  display: none;
+}
 
+
+
+@media(max-width: 1280px){
     .bg-recetas{
       background-color: #ffffff;
       padding: 3%;
@@ -271,6 +273,8 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
       -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
       -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
       box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+
+
     }
 }
 
@@ -280,13 +284,11 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 @media (max-width: 991px) {
 
   .bg-recetas{
-    background-color: #ffffff;
-    padding: 3%;
-    margin: 1%;
-    margin-bottom: 4%;
-    -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
-    -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
-    box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+   background-color: #ffffff;
+      padding: 1% 6% 1% 6%;
+      -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+      -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
+      box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   }
 
    .bg-inicio{
@@ -299,6 +301,7 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
     background-size: cover;
   }
 
+  
 
 
   .hero.main .header-section .hero {
@@ -337,6 +340,15 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 }
 
 @media (max-width: 480px) {
+  #chef{
+    display: none;
+  }
+  .esc-re-ini{
+    display: none;
+  }
+  .mob-re-ini{
+    display: inline;
+  }
     .hero.main .vertical-center {
         padding: 0;
     }
@@ -734,9 +746,32 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 }
 
 .bg-recetario{
-  background: url('../rec/img/bg-recetas.jpg')center; 
-  background-size: cover; 
   padding-bottom: 2%;
+  background: url('../rec/img/chef-mob.jpg') no-repeat center; 
+  width: 100%;
+  border-top:solid;
+  border-top-width: 4px;
+  border-top-color: #ffffff;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+}
+
+.bg-inicio{
+  background: url('../rec/img/chef-mob.jpg') no-repeat center; 
+  width: 100%;
+  border-top:solid;
+  border-top-width: 4px;
+  border-top-color: #ffffff;
+  padding-bottom: 0%;
+  padding-top: 5%;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
 }
 
 
@@ -928,7 +963,7 @@ border-radius: 2px;
   padding-left: 10% !important;
   padding-right: 10% !important;
   font-family: 'Helvetica';
-  font-size: 1.5em;
+  font-size: 1em;
   color: #071689;
   text-align: justify;
 }
@@ -972,6 +1007,21 @@ color: #f38b00;
 .rosa{
 color: #e70095;
 }
+
+.gris{
+  color: #7c7c7c !important;
+  cursor: pointer;
+}
+
+.gris:hover {
+  color: #d9232e !important;
+}
+
+.mob-filo{
+  display: none;
+}
+
+
 
 .filosofia{
 background: rgba(255,255,255,0.5);
@@ -1042,6 +1092,8 @@ background: url('..rec/img/proceso/alimentos.png');
   }
 
 @media (max-width: 940px){
+
+
 
 .esc-fil{
   display: none;
@@ -1234,12 +1286,30 @@ color: #ffffff;
     border-top-color: #6e6e6d !important;
     border-top: solid;
 }
+#tit-recetario{
+    margin-bottom: 5% !important;
+  }
 
+
+
+@media (max-width: 769px) {
+ 
+
+  #tit-recetario{
+    width: 50%;
+    margin-bottom: 5% !important;
+  }
+
+}
 @media (max-width: 480px) {
   .bg-recetario{
-    background: url('../rec/img/bg-recetas.jpg')center; 
+    background: url('../rec/img/chef-mob.jpg')center; 
     background-size: all; 
     padding-bottom: 2%;
+  }
+
+  #tit-recetario{
+    width: 50%;
   }
 
   .icon-down{

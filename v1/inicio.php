@@ -188,84 +188,134 @@
 	</div>
     <div class="bg-inicio">
     	<div class="container">
-    		<div class="row">
-	    		<div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 col-sm-12">
-	    			<img id="recetas" class="img-responsive" src="rec/img/recetas.png">
-	    		</div>
-    		</div>
-    		<br>
-    		<div class="bg-recetas">
-    			<div class="row">
-	    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
-					            <div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Chiles rellenos</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-											Ver receta
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-					    </div>
-					</div>
-					<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
-					            <div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Nopales con pollo</h2>
-									<p> 
-										<a href="#">
-											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-											Ver receta
-										</a>
-									</p>
-									<hr class="hr-hover">
-					            </div>
-					    </div>
-					</div>
-	    		</div>
-    			<div class="row">
-	    			<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					    <div class="hovereffect">
-					        <img class="img-responsive " src="rec/img/chilles-rellenos.jpg">
-					            <div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Chiles rellenos</h2>
-									<p> 
-										<a href="#" >
-											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-											Ver receta
-										</a>
-									</p>
-									<hr class="hr-hover"> 
-					            </div>
-					    </div>
-					</div>
-					<div style="margin-top:1%; margin-bottom:1%;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
-					            <div class="overlay">
-					            	<hr class="hr-hover">
-					                <h2>Nopales con pollo</h2>
-									<p> 
-										<a href="#">
-											<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
-											Ver receta
-										</a>
-									</p>
-									<hr class="hr-hover">
-					            </div>
-					    </div>
-					</div>
-    			</div>
-    		</div>
-    	
-    		
+    		<section class="esc-re-ini">
+    			<table width="100%">
+    				<tr>
+    					<td style="padding-bottom:0% !important; margin-left:2%;" rowspan="2"><img id="chef" class="img-responsive" src="rec/img/chef-omar.png" ></td>
+    					<td width:="30%" style="vertical-align:top"><img style="margin:auto !important;" id="recetas" class="img-responsive" src="rec/img/recetas.png" ></td>
+    				</tr>
+    				<tr>
+    					<td style="padding-bottom:15%;">
+    						<div class="bg-recetas">
+				    			<div class="row">
+					    			<div style="margin-top:0px !important ;padding:1% !important;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									    <div class="hovereffect">
+									        <img class="img-responsive" src="rec/img/chilles-rellenos.jpg">
+									            <div class="overlay">
+									            	<hr class="hr-hover">
+									                <h2>Chiles rellenos</h2>
+													<p> 
+														<a href="#" >
+															<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+															Ver receta
+														</a>
+													</p>
+													<hr class="hr-hover"> 
+									            </div>
+									    </div>
+									</div>
+									<div style="margin-top:0px !important ;padding:1% !important;"  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									    <div class="hovereffect">
+									        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+									            <div class="overlay">
+									            	<hr class="hr-hover">
+									                <h2>Nopales con pollo</h2>
+													<p> 
+														<a href="#">
+															<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+															Ver receta
+														</a>
+													</p>
+													<hr class="hr-hover">
+									            </div>
+									    </div>
+									</div>
+					    		</div>
+				    			<div class="row">
+					    			<div style="margin-top:0px !important ;padding:1% !important;"  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									    <div class="hovereffect">
+									        <img class="img-responsive " src="rec/img/chilles-rellenos.jpg">
+									            <div class="overlay">
+									            	<hr class="hr-hover">
+									                <h2>Chiles rellenos</h2>
+													<p> 
+														<a href="#" >
+															<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+															Ver receta
+														</a>
+													</p>
+													<hr class="hr-hover"> 
+									            </div>
+									    </div>
+									</div>
+									<div style="margin-top:0px !important ;padding:1% !important;"  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									    <div class="hovereffect">
+									        <img class="img-responsive" src="rec/img/nopales-pollo.jpg">
+									            <div class="overlay">
+									            	<hr class="hr-hover">
+									                <h2>Nopales con pollo</h2>
+													<p> 
+														<a href="#">
+															<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i> <br>
+															Ver receta
+														</a>
+													</p>
+													<hr class="hr-hover">
+									            </div>
+									    </div>
+									</div>
+				    			</div>
+				    		</div>
+    					</td>
+    				</tr>
+    			</table>
+    		</section>
+    		<section class="mob-re-ini">
+    				<div class="row">
+    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    						<img style="margin:auto !important;" id="recetas" class="img-responsive" src="rec/img/recetas.png" >
+    					</div>
+    				</div>
+    					<div class="bg-recetas">
+    							<br>
+    							<div class="row">
+					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+					    			</div>
+					    			<div class="col-lg-10 col-md-10 col-sm-10">
+					    				<a href="receta_uno.php"><p>RECETA UNO</p></a>
+					    			</div>
+					    		</div>
+					    		<br>
+					    		<div class="row">
+					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+					    			</div>
+					    			<div class="col-lg-10 col-md-10 col-sm-10">
+					    				<a href="receta_uno.php"><p>RECETA DOS</p></a>
+					    			</div>
+					    		</div>
+					    		<br>
+					    		<div class="row">
+					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+					    			</div>
+					    			<div class="col-lg-10 col-md-10 col-sm-10">
+					    				<a href="receta_uno.php"><p>RECETA TRES</p></a>
+					    			</div>
+					    		</div>
+					    		<br>
+					    		<div class="row">
+					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+					    			</div>
+					    			<div class="col-lg-10 col-md-10 col-sm-10">
+					    				<a href="receta_uno.php"><p>RECETA CUATRO</p></a>
+					    			</div>
+					    		</div>
+					    		<br>
+				    	</div>
+    			</section>
     		<!--<div class="bg-recetas row">
 	    		<div class="col-lg-4 col-md-6 col-sm-12">
 	    			<img class="img-responsive" src="rec/img/chilles-rellenos.jpg">

@@ -13,12 +13,10 @@
 	<?php
 		menu("3");
 	?>
-	<div class="bg-recetario">
 	<section class="content">
-		<img src="rec/img/ba-recetas.jpg"  class="banner">
+		<img src="rec/img/banners_jpg/recetario.jpg"  class="banner">
 	</section>
-	<div class="gris-banner">
-    </div>
+	<div class="bg-recetario">
 		<section class="container">
 		<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																										 animation-duration: 0.10s; 
@@ -27,11 +25,11 @@
 				
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto; " src="rec/img/titulos/titulo-recetario.png">
+					<img id="tit-recetario" class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-recetario.png">
 				</div>
 			</div>
 		</div>
-		<section class="bg-recetas">
+		<section class="bg-receta">
 
 		<div class="container esc-recetas">
     		<br>

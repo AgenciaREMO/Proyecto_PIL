@@ -8,6 +8,47 @@
 		<meta name="description" content="En Pilgrim’s productora de pollo en México">
 		<meta name="keywords" content="Pilgrim's, Pigrim's México, Historia Pilgrim's, plantas, servicio y calidad">
 	</head>
+	<style type="text/css">
+	#div2 {
+		    width:10%;
+		    height: 45px;
+		    background: transparent;
+		    color: white;
+		    font-weight: bold;
+		    -webkit-transition: width 0.5s, background 1s;
+		    -moz-transition: width 0.5s, background 1s;
+		    -o-transition: width 0.5s, background 1s;
+		    transition: width 0.5s, background 1s;
+		    color: transparent;
+		    padding-top: 0%;
+		    margin-top: 10px !important;
+		    border-radius: 10px 0px 0px 40px;
+			-moz-border-radius: 10px 0px 0px 40px;
+			-webkit-border-radius: 10px 0px 0px 40px;
+			border: 0px solid #000000;
+			font-size: 1px;
+		}
+
+		#div2 {
+		    -webkit-transition-timing-function: ease;
+		    -moz-transition-timing-function: ease;
+		    -o-transition-timing-function: ease;
+		    transition-timing-function: ease;
+		}
+
+		#div2:hover {
+		    width: 50%;
+		    background: #d9232e;
+		    border-radius: 0px 15px 0px 40px;
+			-moz-border-radius: 0px 15px 0px 40px;
+			-webkit-border-radius: 0px 15px 0px 40px;
+			border: 0px solid #000000;
+			color: #ffffff;
+			font-size: 16px;
+		}
+
+
+	</style>
 <body>
 	<?php
 		menu("7");
@@ -15,7 +56,7 @@
 
 	<div class="bg-content">
 		<section class="content">
-			<img src="rec/img/ba-pilgrims-mexico.jpg" class="banner">
+			<img style="" src="rec/img/ba-pilgrims-mexico.jpg" class="banner">
 		</section>
 		<div class="gris-banner">
 	    </div>
@@ -25,6 +66,16 @@
 			  <li><a href="#">Nuestra empresa</a></li>
 			  <li class="active">Pilgrim's México</li>
 			</ol>
+
+			<div id="div2">
+				<img class="" src="rec/img/mexico/colaboradores.png">  
+				<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
+			</div>
+			<div id="div2">
+				<img class="" src="rec/img/mexico/colaboradores.png">  
+				<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
+			</div>
+
 			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																											 animation-duration: 0.10s; 
 																											 animation-delay: 0.6s; 
