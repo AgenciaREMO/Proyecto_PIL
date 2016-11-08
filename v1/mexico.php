@@ -10,7 +10,7 @@
 	</head>
 	<style type="text/css">
 	#div2 {
-		    width:10%;
+		    width:30%;
 		    height: 45px;
 		    background: transparent;
 		    color: white;
@@ -22,11 +22,11 @@
 		    color: transparent;
 		    padding-top: 0%;
 		    margin-top: 10px !important;
-		    border-radius: 10px 0px 0px 40px;
-			-moz-border-radius: 10px 0px 0px 40px;
-			-webkit-border-radius: 10px 0px 0px 40px;
+		    border-radius: 0px 25px 0px 40px;
+			-moz-border-radius: 0px 25px 0px 40px;
+			-webkit-border-radius: 0px 25px 0px 40px;
 			border: 0px solid #000000;
-			font-size: 1px;
+			cursor: pointer;
 		}
 
 		#div2 {
@@ -37,14 +37,42 @@
 		}
 
 		#div2:hover {
-		    width: 50%;
+		    width: 100%;
 		    background: #d9232e;
-		    border-radius: 0px 15px 0px 40px;
-			-moz-border-radius: 0px 15px 0px 40px;
-			-webkit-border-radius: 0px 15px 0px 40px;
+		    border-radius: 0px 25px 0px 40px;
+			-moz-border-radius: 0px 25px 0px 40px;
+			-webkit-border-radius: 0px 25px 0px 40px;
 			border: 0px solid #000000;
 			color: #ffffff;
-			font-size: 16px;
+			animation-name: MiAnimacion;
+			-webkit-animation-name: MiAnimacion; /* Chrome, Safari, Opera */
+			-webkit-filter: contrast(200%) brightness(150%);  /* Safari */
+    		filter: contrast(200%) brightness(150%);
+		}
+
+
+
+		@-moz-keyframes MiAnimacion {
+		from {font-size:0%;
+		margin-left:100%;}
+		50% {font-size:100%;}
+		to {font-size:100%;
+		margin-left:20%;
+		width:100%;
+		}
+		}
+		@-webkit-keyframes MiAnimacion {
+		from {
+		font-size:0%;
+		margin-left:100%;
+		}
+		50% {
+		font-size:100%;
+		}
+		to {
+		font-size:100%;
+		margin-left:20%;
+		width:100%;
 		}
 
 
@@ -67,14 +95,9 @@
 			  <li class="active">Pilgrim's México</li>
 			</ol>
 
-			<div id="div2">
-				<img class="" src="rec/img/mexico/colaboradores.png">  
-				<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
-			</div>
-			<div id="div2">
-				<img class="" src="rec/img/mexico/colaboradores.png">  
-				<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
-			</div>
+		
+
+			
 
 			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																											 animation-duration: 0.10s; 
@@ -105,31 +128,63 @@
 				</div>
 			</div>
 			<div class="bg-mexico">
-				<div class="row">
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/colaboradores.png" alt="Más de 10 000 colaboradores" title="Más de 10 000 colaboradores">
+					<div class="row" id="esc-mexico">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div id="div2">
+								<img class="" src="rec/img/mexico/colaboradores.png">  
+								<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/alimentos.png">  
+								<span style="padding-left:35%;">7 plantas de alimentos.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/procesadoras.png">  
+								<span style="padding-left:35%;">6 plantas procesadoras.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/incubadoras.png">  
+								<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/engorda.png">  
+								<span style="padding-left:35%;">9 plantas incubadoras.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/distribucion.png">  
+								<span style="padding-left:35%;">Más de 3, 000 casetas de engorda.</span>
+							</div><br>
+							<div id="div2">
+								<img class="" src="rec/img/mexico/certificadas.png">  
+								<span style="padding-left:35%;">5 plantas certificadas con el sello TIF.</span>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/alimentos.png">
-					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/procesadoras.png">
-					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/incubadoras.png">
-					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/engorda.png">
-					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/distribucion.png">
-					</div>
-					<div class="col-lg-12" >
-						<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/certificadas.png">
+
+					<div class="row" id="mob-mexico">
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/colaboradores.png" alt="Más de 10 000 colaboradores" title="Más de 10 000 colaboradores">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/alimentos.png">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/procesadoras.png">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/incubadoras.png">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/engorda.png">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/distribucion.png">
+						</div>
+						<div class="col-lg-12" >
+							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/certificadas.png">
+						</div>
 					</div>
 				</div>
-			</div>
-			
 		</section>
 	</div>
 	<?php
