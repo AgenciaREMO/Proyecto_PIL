@@ -28,41 +28,50 @@
 						</div>
 					</div>
 				</section>
-				<div class="row productos bg-productos">
-					<div class="col-lg-12 col-md-12 col-sm-12 producto">
-						<h2 class="h2-producto">
-							Pierna y muslo
-							<hr class="hr-rojo">
-						</h2>
+				<div class="row productos bg-productos" style="margin-bottom:5%;">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<img src="rec/img/pleca_pierna_muslo.png" alt="Cinta pierna muslo" class="img-responsive animated fadeInDown" style="margin: 5% auto;">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
+					<div class="col-lg-6 col-md-6 col-sm-12" >
+						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Esta pieza completa la puedes encontrar en corte anatómico o corte americano.</p>
+						<br>
+						<hr class="hr-productos">
+						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
+							<div style="background:url('rec/img/nuestras_marcas/charola_pierna_muslo_back.jpg') no-repeat center;" class=" animated zoomIn">
+								<img src="rec/img/nuestras_marcas/charola_pierna_muslo.png" alt="Pierna y muslo" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="row vista animated fadeInUp">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
+							</div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+								<img src="rec/img/nuestras_marcas/charola_pierna_muslo.png" alt="Pierna y muslo" class="miniatura-vista" id="frente">
+								<img src="rec/img/nuestras_marcas/charola_pierna_muslo_back.jpg" alt="Pierna y muslo back" class="miniatura-vista" id="back">
+							</div>
+						</div>
+						<div class="row" style="background-color:#e7e7e7; color:#071689; padding:0px; width:100%; margin:2% 0px !important; display: table;">
+							<a href="r8-pierna-muslo-rajas.php" >
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-1" style="float: none;display: table-cell; vertical-align: middle;">
+									<i class="fa fa-play-circle fa-2x" aria-hidden="true" style="color:#071689;"></i>
+								</div>
+								<div class="col-lg-7 col-md-7 col-sm-8 col-xs-9  text-right" style="margin-left:0px; float: none;display: table-cell; vertical-align: middle;">
+									<h3 style="color:#071689; text-align:right;">
+										Pierna y muslo corte americano con rajas y champiñones
+									</h3>
+									Ver receta
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2" style="padding:0px; float: none;display: table-cell; vertical-align: middle;">
+									<img src="rec/img/recetas/pierna_muslo_con_rajas_champinones.jpg" alt="Pierna y muslo corte americano con rajas y champiñones" style="width:100%;" class="miniatura-receta">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div style="background:url('rec/img/nuestras_marcas/charola_pierna_muslo_back.jpg');background-size: cover;" class=" animated zoomIn">
 							<img src="rec/img/nuestras_marcas/charola_pierna_muslo.png" alt="Pierna y muslo" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12" >
-						<table style="border:none;">
-							<tr>
-								<td>
-									<h3 class="animated fadeInDown">Esta pieza completa la puedes encontrar en corte anatómico o corte americano.</h3>
-									<br>
-									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
-									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/charola_pierna_muslo.png" alt="Pierna y muslo" class="miniatura-vista" id="frente">
-										<img src="rec/img/nuestras_marcas/charola_pierna_muslo_back.jpg" alt="Pierna y muslo back" class="miniatura-vista" id="back">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td class="a-receta animated zoomIn">
-									<a href="r8-pierna-muslo-rajas.php">
-										<img src="rec/img/recetas/pierna_muslo_con_rajas_champinones.jpg" alt="Pierna y muslo corte americano con rajas y champiñones" class="miniatura-receta img-thumbnail"><br>
-										<p>Pierna y muslo corte americano con rajas y champiñones</p>
-										Ver receta <i class="fa fa-chevron-right" aria-hidden="true"></i>
-									</a>
-								</td>
-							</tr>
-						</table>
 					</div>
 				</div>
 			</div>

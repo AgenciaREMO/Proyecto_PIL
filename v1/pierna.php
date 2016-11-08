@@ -28,32 +28,34 @@
 						</div>
 					</div>
 				</section>
-				<div class="row productos bg-productos">
-					<div class="col-lg-12 col-md-12 col-sm-12 producto">
-						<h2 class="h2-producto">
-							Pierna
-							<hr class="hr-rojo">
-						</h2>
+				<div class="row productos bg-productos" style="padding-top:3%; padding-bottom:3%;">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<img src="rec/img/pleca_pierna.png" alt="Cinta pierna" class="img-responsive animated fadeInDown" style="margin: 10px auto;">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
+					<div class="col-lg-6 col-md-6 col-sm-12" >
+						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</p>
+						<br>
+						<hr class="hr-productos">
+						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
+							<div style="background:url('rec/img/nuestras_marcas/charola_piernas_back.jpg') no-repeat center;" class=" animated zoomIn">
+								<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="vista animated fadeInUp">
+							<div class="col-lg-3">
+								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
+							</div>
+							<div class="col-lg-9">
+								<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="miniatura-vista" id="frente">
+								<img src="rec/img/nuestras_marcas/charola_piernas_back.jpg" alt="Pierna back" class="miniatura-vista" id="back">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div style="background:url('rec/img/nuestras_marcas/charola_piernas_back.jpg');background-size: cover;" class=" animated zoomIn">
 							<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12" >
-						<table style="border:none;">
-							<tr>
-								<td>
-									<h3 class="animated fadeInDown">Pierna de pollo que puedes encontrar con o sin piel en distintas porciones por empaque.</h3>
-									<br>
-									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
-									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/charola_piernas.png" alt="Pierna" class="miniatura-vista" id="frente">
-										<img src="rec/img/nuestras_marcas/charola_piernas_back.jpg" alt="Pierna back" class="miniatura-vista" id="back">
-									</div>
-								</td>
-							</tr>
-						</table>
 					</div>
 				</div>
 			</div>

@@ -28,20 +28,35 @@
 						</div>
 					</div>
 				</section>
-				<div class="row productos bg-productos">
-					<div class="col-lg-12 col-md-12 col-sm-12 producto">
-						<h2 class="h2-producto">
-							Pechuga grill 1.2 kg
-							<hr class="hr-rojo">
-						</h2>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
-						<img src="rec/img/nuestras_marcas/pechuga_grill_1-2k.png" alt="Pechuga grill 1.2 kg" class="img-responsive img-thumbnail thumbnail-producto animated zoomIn">
+				<div class="row productos bg-productos" style="padding-top:3%; padding-bottom:3%;">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<img src="rec/img/pleca_pechuga_grill.png" alt="Cinta Pechuga grill 1.2 kg" class="img-responsive animated fadeInDown" style="margin: 10px auto;">
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
-						<h3 class="animated fadeInDown">Pechugas de pollo sabor grill, totalmente cocinadas.</h3>
+						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Pechugas de pollo sabor grill, totalmente cocinadas.</p>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Contenido neto 1.2kg.</p>
 						<br>
-						<h3 class="animated fadeInDown">Contenido neto 1.2kg.</h3>
+						<hr class="hr-productos">
+						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
+							<div style="background:url('rec/img/nuestras_marcas/pechuga_grill_back.png') no-repeat center; background-size:auto 363px;" class=" animated zoomIn">
+								<img src="rec/img/nuestras_marcas/pechuga_grill_1-2k.png" alt="Pechuga grill 1.2 kg" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="vista animated fadeInUp">
+							<div class="col-lg-3">
+								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
+							</div>
+							<div class="col-lg-9">
+								<img src="rec/img/nuestras_marcas/pechuga_grill_1-2k.png" alt="Pechuga grill 1.2 kg" class="miniatura-vista" id="frente">
+								<img src="rec/img/nuestras_marcas/pechuga_grill_back.png" alt="Pechuga grill 1.2 kg back" class="miniatura-vista" id="back">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
+						<div style="background:url('rec/img/nuestras_marcas/pechuga_grill_back.png') no-repeat center; background-size:auto 363px;" class=" animated zoomIn">
+							<img src="rec/img/nuestras_marcas/pechuga_grill_1-2k.png" alt="Pechuga grill 1.2 kg" class="img-responsive img-thumbnail thumbnail-producto">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -50,4 +65,16 @@
 			footer();
 		?>
 	</body>
+	<script>
+		$(document).ready(function(){
+			$('#frente').click(function(){
+				$('.thumbnail-producto').css('opacity','1');
+				$('.thumbnail-producto').css('-webkit-transition','opacity 0.35s');
+			});
+			$('#back').click(function(){
+				$('.thumbnail-producto').css('opacity','0');
+				$('.thumbnail-producto').css('-webkit-transition','opacity 0.35s');
+			});
+		});
+	</script>
 </html>

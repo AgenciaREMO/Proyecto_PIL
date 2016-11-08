@@ -15,7 +15,7 @@
 		?>
 		<div class="nuestras-marcas">
 			<section class="content">
-				<img src="rec/img/banners_jpg/talento_pilgrims.jpg" alt="Banner" class="banner">
+				<img src="rec/img/banners_jpg/talento.jpg" alt="Banner" class="banner">
 			</section>
 			<div class="gris-banner">
 		    </div>

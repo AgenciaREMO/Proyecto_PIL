@@ -28,32 +28,34 @@
 						</div>
 					</div>
 				</section>
-				<div class="row productos bg-productos">
-					<div class="col-lg-12 col-md-12 col-sm-12 producto">
-						<h2 class="h2-producto">
-							Arrachera de pollo
-							<hr class="hr-rojo">
-						</h2>
+				<div class="row productos bg-productos" style="padding-top:3%; padding-bottom:3%;">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<img src="rec/img/pleca_arrachera.png" alt="Cinta arrachera" class="img-responsive animated fadeInDown" style="margin: 10px auto;">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 producto" >
+					<div class="col-lg-6 col-md-6 col-sm-12" >
+						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.</p>
+						<br>
+						<hr class="hr-productos">
+						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
+							<div style="background:url('rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg') no-repeat center;" class=" animated zoomIn">
+								<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.png" alt="Arrachera de pollo" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="vista animated fadeInUp">
+							<div class="col-lg-3">
+								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
+							</div>
+							<div class="col-lg-9">
+								<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.png" alt="Arrachera de pollo" class="miniatura-vista" id="frente">
+								<img src="rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg" alt="Arrachera de pollo back" class="miniatura-vista" id="back">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div style="background:url('rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg');background-size: cover;" class=" animated zoomIn">
 							<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.png" alt="Arrachera de pollo" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12" >
-						<table style="border:none;">
-							<tr>
-								<td>
-									<h3 class="animated fadeInDown">Prácticos filetes de pierna/muslo sazonados a las finas hierbas, listos para taquear.</h3>
-									<br>
-									<h3 class="animated fadeInDown" style="text-align:left;">Vistas:</h3>
-									<div class="vista animated fadeInUp">
-										<img src="rec/img/nuestras_marcas/charola_arrachera_temporal.png" alt="Arrachera de pollo" class="miniatura-vista" id="frente">
-										<img src="rec/img/nuestras_marcas/charola_arrachera_temporal_back.jpg" alt="Arrachera de pollo back" class="miniatura-vista" id="back">
-									</div>
-								</td>
-							</tr>
-						</table>
 					</div>
 				</div>
 			</div>

@@ -14,12 +14,9 @@
 			menu("7");
 		?>
 		<div class="content nuestras-marcas" style="padding-bottom:2%;">
-			<!-- Carousel -->
-			<!--<header id="myCarousel" class="carousel slide">
-		        <section class="content">
-					<img src="rec/img/banners_jpg/servicio_a_clientes.jpg" alt="img-responsive" class="banner">
-				</section>
-		    </header> -->
+			<section class="content">
+				<img src="rec/img/banners_jpg/distintivos.jpg" alt="Banner" class="banner">
+			</section>
 			<div class="gris-banner">
 		    </div>
 		    <section class="content " data-speed="2" data-type="background">

@@ -74,11 +74,8 @@ header.carousel-negocio {
 .valor-a {
     padding-top: 5% !important;
 }
-.miniatura-receta {
-	width: 30% !important;
-}
 .miniatura-vista {
-	width: 25% !important;
+	width: 40% !important;
 	opacity: 0.7;
 }
 .miniatura-vista:hover {
@@ -100,18 +97,18 @@ header.carousel-negocio {
 .producto {
 	text-align: center;
 }
-.hr-rojo {
-	color: red;
-	background-color: #d9232e;
-	height: 3px;
+.hr-productos {
+	color: #000;
+	background-color: #000;
+	height: 1px;
 	border: none;
 	margin: 10px 0px; 
 }
 .bg-productos {
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 5px;
-	border-bottom: 8px solid #071689;
-	border-top: 8px solid #071689;
+	/*border-bottom: 8px solid #071689;*/
+	/*border-top: 8px solid #071689;*/
 	padding-bottom: 10px;
 }
 .bg-productos h3{
@@ -142,12 +139,20 @@ header.carousel-negocio {
 	text-align: center;
 }
 /*Historia Pilgrim's*/
-.pilgrims-mundo p {
-	margin: 30px 20px 30px 20px;
-	font-size: 1.5em;
+.pilgrims-mundo {
+	background: url('../rec/img/mundo_linea.png') no-repeat center fixed !important;
 }
-.elem_animar {
-	//opacity: 0;
+.pilgrims-mundo p {
+	margin: 0px;
+	padding: 5px;
+	font-size: 1.5em;
+	background-color: rgba(255,255,255,0.5);
+}
+.movil-historia {
+	display: none;
+}
+.desktop-historia {
+	display: block;
 }
 /*Menu Redes Sociales*/
 .social {
@@ -172,18 +177,7 @@ header.carousel-negocio {
 
 /*Media query*/
 @media (max-width: 767px) {
-	/*Desaparecer banner/slider en dispositivos moviles*/
-	/*#myCarousel {
-		display: none;
-	}
-	.banner {
-		display: none;
-	}*/
 	/*Recolocación de miniaturas de vista y aumento de tamaño*/
-	.miniatura-receta {
-		width: 50% !important;
-		margin-top: 10px;
-	}
 	.miniatura-vista {
 		width: 45% !important;
 		opacity: 0.7;
@@ -224,5 +218,21 @@ header.carousel-negocio {
 	/*Desaparece barra social en moviles*/
 	.social {
 		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+/*Cambio de fondo para quitar la linea azul de la historia Pilgrim's*/
+	.pilgrims-mundo {
+		background: url('../rec/img/mundo.png') no-repeat center fixed !important;
+	}
+	.pilgrims-mundo p {
+		text-align: center !important;
+	}
+	.desktop-historia {
+		display: none;
+	}
+	.movil-historia {
+		display: block;
 	}
 }

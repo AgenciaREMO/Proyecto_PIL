@@ -46,6 +46,10 @@
 			color: #ffffff;
 			animation-name: MiAnimacion;
 			-webkit-animation-name: MiAnimacion; /* Chrome, Safari, Opera */
+    		font-style: normal!important;
+		}
+
+		#div2 img:hover{
 			-webkit-filter: contrast(200%) brightness(150%);  /* Safari */
     		filter: contrast(200%) brightness(150%);
 		}
@@ -84,7 +88,7 @@
 
 	<div class="bg-content">
 		<section class="content">
-			<img style="" src="rec/img/ba-pilgrims-mexico.jpg" class="banner">
+			<img style="" src="rec/img/banners_jpg/pilgrims_mex.jpg" class="banner">
 		</section>
 		<div class="gris-banner">
 	    </div>
