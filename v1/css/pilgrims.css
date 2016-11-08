@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: 'Cronos-Pro-Bold-Display-Italic';
+  src: url('../fonts/Cronos-Pro-Bold-Display-Italic_12430.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Chunkfive';
   src: url('../fonts/Chunkfive.otf') format('truetype');
 }
@@ -587,6 +592,15 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   transform: translate3d(0,-100%,0);
 }
 
+
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
 .hovereffect a, hovereffect p {
   color: #FFF;
   padding: 1em 0;
@@ -598,13 +612,114 @@ box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   transform: translate3d(0,100%,0);
 }
 
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+
+
+
+
+/*Ciclo de proceso*/
+
+.hoverciclo {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background-color: transparent;
+}
+
+.hoverciclo .overlay {
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  padding-top: 17% !important;
+  padding-left: 17% !important;
+  padding-right: 3% !important;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  background: url('..rec/img/proceso/alimentos.png');
+}
+
+
+.hoverciclo:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hoverciclo:hover .overlayr {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hoverciclo img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hoverciclo:hover img{
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+}
+
+.hoverciclo h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  background-color: transparent;
+  color: #071689;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+  background: url('..rec/img/proceso/alimentos.png');
+}
+
+
+
+.hoverciclo:hover a, .hoverciclo:hover p, .hoverciclo:hover h2 {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
+.hoverciclo a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+
+.img-proceso:hover{
+  opacity: 0;
+  margin: 0px !important;
+}
+
+/*//////////////////////////////////////////////*/
 
 .bg-lanzamiento{
   background: url('../rec/img/bg-lanzamiento.jpg')center; 
@@ -694,11 +809,83 @@ font-size: 1.8em !important;
 }
 
 
+.cont-recetas{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+margin-top: 2%;
+padding-top: 3%;
+padding-left: 3% !important;
+padding-right: 0px;
+color: #071689;
+}
+
+.incomparable{
+  vertical-align: bottom;
+  padding:0px !important;
+  padding-top: 6% !important;
+}
+
+.firma{
+  padding-top: 4% !important;
+}
+
+.gallina{
+  margin: auto !important;
+}
+
+.ingredientes{
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top:solid;
+  border-bottom:solid;
+  border-color: #6e6e6d ;
+  color: #6e6e6d;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.ing{
+color: #6e6e6d;
+padding: 0.5%;
+font-style: normal;
+font-size: 1.2em;
+padding-bottom:10%;
+}
+
+
+.icon-down{
+  padding-top: 5%;
+  color: #6e6e6d;
+  font-style: normal;
+  margin-bottom: 4%;
+  font-size: 1.2em;
+  vertical-align: bottom;
+  padding-top: 35%;
+}
+
+.procedimiento{
+  color: #6e6e6d;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .cont{
 background: rgba(255,255,255,0.5);
 border-radius: 2px;
 margin-top: 2%;
 padding: 3% !important;
+color: #071689;
+}
+
+.cont_proceso{
+background: rgba(255,255,255,0.5);
+border-radius: 2px;
+margin-top: 2%;
+padding: 3% !important;
+padding-right: 5%;
+color: #071689;
 }
 
 .cont-filo{
@@ -844,6 +1031,16 @@ margin-top: 2%;
   margin-top: 2%;
 }
 
+
+.btn-cliente:hover {
+background: url('..rec/img/proceso/alimentos.png');
+}
+
+
+#mob-procesos{
+    display: none;
+  }
+
 @media (max-width: 940px){
 
 .esc-fil{
@@ -853,9 +1050,25 @@ margin-top: 2%;
 .mob-fil{
   display: inline;
 }
+
+  #mob-procesos{
+    display: inline;
+  }
+
+  #esc-procesos{
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
+
+  #mob-procesos{
+    display: inline;
+  }
+
+  #esc-procesos{
+    display: none;
+  }
 
 .mob-mapa{
   display: inline;
@@ -997,6 +1210,30 @@ color: #ffffff;
   margin-top: 2%;
 }
 
+.title-receta{
+  font-size: 3.5em;
+  font-family: 'Cronos-Pro-Bold-Display-Italic';
+  margin-bottom: 0px;
+  padding: 0px !important;
+}
+
+.com-receta{
+  margin-top: 0px;
+  font-size: 2em;
+  padding: 0px !important;
+}
+
+.rinde{
+  font-size: 1.2em;
+}
+
+.hr-title-recetas{
+    width: 80%;
+    margin-left: 15%;
+    border-top-width: 2px; 
+    border-top-color: #6e6e6d !important;
+    border-top: solid;
+}
 
 @media (max-width: 480px) {
   .bg-recetario{
@@ -1004,6 +1241,38 @@ color: #ffffff;
     background-size: all; 
     padding-bottom: 2%;
   }
+
+  .icon-down{
+    color: #6e6e6d;
+    font-style: normal;
+    margin-bottom: 4%;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+
+  .hr-title-recetas{
+    width: 100% !important;
+    margin: 0px;
+    border-top-width: 2px; 
+    border-top-color: #6e6e6d !important;
+    border-top: solid;
+}
+
+.title-receta{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.logo-incomparable{
+  margin: auto;
+}
+
+.com-receta, .rinde{
+  font-size: 1em !important;
+  text-align: center;
+}
 
   .container .esc-recetas{
     display: none;
@@ -1050,7 +1319,6 @@ footer {
   color: #ffffff;
   padding-bottom: 1%;
   padding-top: 0%;
-
   border-top:solid;
   border-top-width: 4px;
   border-top-color: #e2e2e2;
@@ -1058,6 +1326,7 @@ footer {
   -webkit-box-shadow: -2px -9px 12px -5px rgba(0,0,0,0.37);
   -moz-box-shadow: -2px -9px 12px -5px rgba(0,0,0,0.37);
   box-shadow: -2px -9px 12px -5px rgba(0,0,0,0.37);
+  font-style: normal;
 }
 
 .rojo{

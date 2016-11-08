@@ -10,7 +10,7 @@
 	</head>
 <body>
 	<?php
-		menu("1");
+		menu("7");
 	?>
 
 	<div class="bg-content">
