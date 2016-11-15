@@ -39,22 +39,13 @@
 						<br>
 						<hr class="hr-productos">
 						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
-							<div style="background:url('rec/img/nuestras_marcas/boneless_back.png') no-repeat center; background-size:auto 363px;" class=" animated zoomIn">
+							<div class=" animated zoomIn">
 								<img src="rec/img/nuestras_marcas/boneless_buffalo.png" alt="Boneless buffalo" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
-							</div>
-						</div>
-						<div class="vista animated fadeInUp">
-							<div class="col-lg-3">
-								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
-							</div>
-							<div class="col-lg-9">
-								<img src="rec/img/nuestras_marcas/boneless_buffalo.png" alt="Boneless buffalo" class="miniatura-vista" id="frente">
-								<img src="rec/img/nuestras_marcas/boneless_back.png" alt="Boneless buffalo back" class="miniatura-vista" id="back">
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
-						<div style="background:url('rec/img/nuestras_marcas/boneless_back.png') no-repeat center; background-size:auto 363px;" class=" animated zoomIn">
+						<div class=" animated zoomIn">
 							<img src="rec/img/nuestras_marcas/boneless_buffalo.png" alt="Boneless buffalo" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>

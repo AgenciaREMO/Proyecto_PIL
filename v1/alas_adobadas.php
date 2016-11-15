@@ -38,17 +38,8 @@
 						<br>
 						<hr class="hr-productos">
 						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
-							<div style="background:url('rec/img/nuestras_marcas/charola_alas_adobadas_back.jpg') no-repeat center;" class=" animated zoomIn">
+							<div class=" animated zoomIn">
 								<img src="rec/img/nuestras_marcas/charola_alas_adobadas.png" alt="Alitas adobadas" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
-							</div>
-						</div>
-						<div class="row vista animated fadeInUp">
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-								<h3 style="color:#071689; padding:10px 15px; text-align:left;">Vistas:</h3>
-							</div>
-							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-								<img src="rec/img/nuestras_marcas/charola_alas_adobadas.png" alt="Alitas adobadas" class="miniatura-vista" id="frente">
-								<img src="rec/img/nuestras_marcas/charola_alas_adobadas_back.jpg" alt="Alitas adobadas back" class="miniatura-vista" id="back">
 							</div>
 						</div>
 						<div class="row" style="background-color:#e7e7e7; color:#071689; padding:0px; width:100%; margin:2% 0px !important; display: table;">
@@ -69,7 +60,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
-						<div style="background:url('rec/img/nuestras_marcas/charola_alas_adobadas_back.jpg');background-size: cover;" class=" animated zoomIn">
+						<div class=" animated zoomIn">
 							<img src="rec/img/nuestras_marcas/charola_alas_adobadas.png" alt="Alitas adobadas" class="img-responsive img-thumbnail thumbnail-producto">
 						</div>
 					</div>
@@ -80,16 +71,4 @@
 			footer();
 		?>
 	</body>
-	<script>
-		$(document).ready(function(){
-			$('#frente').click(function(){
-				$('.thumbnail-producto').css('opacity','1');
-				$('.thumbnail-producto').css('-webkit-transition','opacity 0.35s');
-			});
-			$('#back').click(function(){
-				$('.thumbnail-producto').css('opacity','0');
-				$('.thumbnail-producto').css('-webkit-transition','opacity 0.35s');
-			});
-		});
-	</script>
 </html>

@@ -14,10 +14,15 @@
 			menu("7");
 		?>
 		<div class="content nuestras-marcas" style="padding-bottom:2%;">
-			<section class="content">
+			<section class="content" style="position:relative">
 				<img src="rec/img/banners_jpg/distintivos.jpg" alt="Banner" class="banner">
+				<div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
+					<a href="#b">
+					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
 			</section>
-			<div class="gris-banner">
+			<div class="gris-banner-sl">
 		    </div>
 		    <section class="content " data-speed="2" data-type="background">
 		    	<div class="container">
@@ -27,7 +32,7 @@
 						<li class="active">Distintivos</li>
 					</ol>
 					<section class="container text-center ">
-						<div class="row plecas">
+						<div class="row">
 							<div class="col-lg-12 col-md-12 col-sm-12 ">
 								<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-distintivos.png">
 							</div>

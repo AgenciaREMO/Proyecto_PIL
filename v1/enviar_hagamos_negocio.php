@@ -16,7 +16,7 @@
     else if ($categoria == "Pollo vivo") {
       $para = 'mlgarciao@msn.com, alberto.montes@pilgrims.com';
     }
-    else if ($categoria == "Render") {
+    else if ($categoria == "Rendering") {
       $para = 'mlgarciao@msn.com, cristobal.rey@pilgrims.com';
     }
     ob_start();

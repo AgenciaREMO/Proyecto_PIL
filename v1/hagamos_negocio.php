@@ -15,43 +15,58 @@
 		?>
 		<div class="nuestras-marcas">
 			<!-- Carousel -->
-			<header id="myCarousel" class="carousel slide">
+			<header id="myCarousel" class="carousel slide" style="position:relative">
 		        <!-- Indicators -->
 		        <ol class="carousel-indicators">
 		            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		            <li data-target="#myCarousel" data-slide-to="1"></li>
 		            <li data-target="#myCarousel" data-slide-to="2"></li>
+		            <li data-target="#myCarousel" data-slide-to="3"></li>
 		        </ol>
 
 		        <!-- Wrapper for slides -->
 		        <div class="carousel-inner">
 		            <div class="item active">
-		                <a href="">
-		                	<div class="fill" >
-		                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
-			                	
-			                </div>
-		                </a>
-		                <div class="carousel-caption">
+		                <div class="fill" >
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_va.jpg">
+		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
+								<a href="#b">
+								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+								</a>
+							</div>		                	
+			            </div>
+		            </div>
+		            <div class="item">
+		                <div class="fill" >
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_fresco.jpg">
+		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
+								<a href="#b">
+								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+								</a>
+							</div>
 		                </div>
 		            </div>
 		            <div class="item">
 		                <div class="fill" >
-		                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
-		                
-		                </div>
-
-		                <div class="carousel-caption">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_vivo.jpg">
+		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
+								<a href="#b">
+								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+								</a>
+							</div>		              
 		                </div>
 		            </div>
 		            <div class="item">
 		                <div class="fill" >
-		                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio.jpg" >
-		              
-		                </div>
-		                <div class="carousel-caption">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_rendering.jpg">
+		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
+								<a href="#b">
+								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+								</a>
+							</div>		              
 		                </div>
 		            </div>
+		            <div id="b"></div>
 		        </div>
 		        <!-- Controls -->
 		        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -61,7 +76,7 @@
 		            <span class="icon-next"></span>
 		        </a>
 		    </header>
-			<div class="gris-banner">
+			<div class="gris-banner-sl">
 		    </div>
 		    <section class="content container" style="padding-bottom:2%;">
 				<ol class="breadcrumb">
@@ -69,7 +84,7 @@
 					<li class="active">Hagamos negocio</li>
 				</ol>
 				<section class="container text-center ">
-					<div class="row plecas">
+					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 ">
 							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-negocio.png">
 						</div>
@@ -105,16 +120,11 @@
 								<div class="form-group">
 									<select name="categorias" id="categorias" class="form-control formulario-input" required>
 										<option value="" selected="selected">Seleccione una categoría...</option>
-				                        <option value="Valor agregado">Valor agregado</option>
-				                        <option value="Pollo fresco">Pollo fresco</option>
-				                        <option value="Pollo vivo">Pollo vivo</option>
-				                        <option value="Render">Render</option>
+				                        <option value="Valor agregado">Valor agregado (Nuggets, hamburguesas, pierna y muslo empanizada, cordon bleu, o tenders.)</option>
+				                        <option value="Pollo fresco">Pollo fresco (Pollo entero, en piezas, rosticero, o alitas marinadas.)</option>
+				                        <option value="Pollo vivo">Pollo vivo (Aves hembras o machos, de la mejor calidad.)</option>
+				                        <option value="Rendering">Rendering (Pollinaza y gallinaza, huevo para uso industrial, harinas de carne o mixta, pastas, chatarra de maquinaria o pedacería, y gallina de desecho.)</option>
 									</select>
-								</div>
-								<img src="rec/img/triangulo.png" alt="triangulo" class="triangulo">
-								<div class="info-negocio">
-									<i class="fa fa-hand-o-right" aria-hidden="true"></i>
-									<span name="info-categoria" id="info-categoria"> Descripción de la categoría seleccionada.</span>
 								</div>
 								<div class="form-group">
 									<input type="text" name="nombre" class="form-control formulario-input" placeholder="Nombre completo..." required>
@@ -187,30 +197,29 @@
 		<?php
 			footer();
 		?>
+		<script>
+		    $('.carousel').carousel({
+		        interval: 5000 //changes the speed
+		    })
+		    $('#categorias').change(function() {
+		    	var seleccion = $('#categorias option:selected').val();
+		    	if (seleccion=='Valor agregado') {
+			  		$("#myCarousel").carousel(0);
+			  		$('#myCarousel').carousel('pause');
+			  	};
+			  	if (seleccion=='Pollo fresco') {
+			  		$("#myCarousel").carousel(1);
+			  		$('#myCarousel').carousel('pause');
+			  	};
+			  	if (seleccion=='Pollo vivo') {
+			  		$("#myCarousel").carousel(2);
+			  		$('#myCarousel').carousel('pause');
+			  	};
+			  	if (seleccion=='Rendering') {
+			  		$("#myCarousel").carousel(3);
+			  		$('#myCarousel').carousel('pause');
+			  	};
+			});
+    	</script>
 	</body>
-	<script>
-		$(document).ready(function(){
-		    $('[data-toggle="tooltip"]').tooltip();
-		    $('#categorias').change(function(){
-		    	var html = "<i class='fa fa-hand-o-right' aria-hidden='true'></i>";
-		    	var seleccion = $("#categorias").val();
-		    	if(seleccion == "Valor agregado"){
-		    		$("#info-categoria").html(html);
-		    		$("#info-categoria").text(" Tu mejor opción si buscas productos como Nuggets, hamburguesas, pierna y muslo empanizada, cordon bleu, o tenders.");
-		    	}
-		    	else if(seleccion == "Pollo fresco"){
-		    		$("#info-categoria").html(html);
-		    		$("#info-categoria").text(" Tu mejor opción si buscas Pollo entero, en piezas, rosticero, o alitas marinadas.");
-		    	}
-		    	else if(seleccion == "Pollo vivo"){
-		    		$("#info-categoria").html(html);
-		    		$("#info-categoria").text(" Tu mejor opción si buscas aves hembras o machos, de la mejor calidad.");
-		    	}
-		    	else if(seleccion == "Render"){
-		    		$("#info-categoria").html(html);
-		    		$("#info-categoria").text(" Tu mejor opción si buscas productos como pollinaza y gallinaza, huevo para uso industrial, harinas de carne o mixta, pastas, chatarra de maquinaria o pedacería, y gallina de desecho.");
-		    	}
-		    });
-		});
-	</script>
 </html>

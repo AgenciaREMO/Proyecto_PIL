@@ -14,54 +14,17 @@
 			menu("2");
 		?>
 		<div class="nuestras-marcas">
-			<!-- Carousel -->
-		<header id="myCarousel" class="carousel slide">
-	        <!-- Indicators -->
-	        <ol class="carousel-indicators">
-	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	            <li data-target="#myCarousel" data-slide-to="1"></li>
-	            <li data-target="#myCarousel" data-slide-to="2"></li>
-	        </ol>
-
-	        <!-- Wrapper for slides -->
-	        <div class="carousel-inner">
-	            <div class="item active">
-	                <a href="">
-	                	<div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
-		                	
-		                </div>
-	                </a>
-	                <div class="carousel-caption">
-	                </div>
-	            </div>
-	            <div class="item">
-	                <div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
-	                
-	                </div>
-
-	                <div class="carousel-caption">
-	                </div>
-	            </div>
-	            <div class="item">
-	                <div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco.jpg" >
-	              
-	                </div>
-	                <div class="carousel-caption">
-	                </div>
-	            </div>
-	        </div>
-	        <!-- Controls -->
-	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-	            <span class="icon-prev"></span>
-	        </a>
-	        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-	            <span class="icon-next"></span>
-	        </a>
+		<header style="position:relative">
+			<section class="content">
+				<img src="rec/img/banners_jpg/fresco.jpg" alt="Banner" class="banner">
+	            <div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
+					<a href="#b">
+					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</section>
 	    </header>
-		<div class="gris-banner">
+		<div class="gris-banner-sl">
 	    </div>
 	    <section class="content " data-speed="2" data-type="background">
 	    	<div class="container">
@@ -71,7 +34,7 @@
 					<li class="active">Pilgrim's fresco</li>
 				</ol>
 				<section class="container text-center ">
-					<div class="row plecas">
+					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 ">
 							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-fresco.png">
 						</div>

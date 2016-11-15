@@ -14,10 +14,15 @@
 			menu("8");
 		?>
 		<div class="nuestras-marcas">
-			<section class="content">
+			<section class="content" style="position:relative">
 				<img src="rec/img/banners_jpg/servicio_a_clientes.jpg" alt="img-responsive" class="banner">
+				<div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
+					<a href="#b">
+					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
 			</section>
-			<div class="gris-banner">
+			<div class="gris-banner-sl">
 		    </div>
 			<section class="content container" style="padding-bottom:2%;">
 				<ol class="breadcrumb">
@@ -26,7 +31,7 @@
 					<li class="active">Servicio al cliente</li>
 				</ol>
 				<section class="container text-center ">
-					<div class="row plecas">
+					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 ">
 							<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-cliente.png">
 						</div>
