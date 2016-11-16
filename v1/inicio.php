@@ -35,7 +35,7 @@
 	            <div class="item active">
 	                <a href="">
 	                	<div class="fill" >
-	                		<video autoplay="" loop="" >
+	                		<video autoplay="" loop="" width="100%">
 						    	<source src="rec/video/animacion-pechuga-navidena.mp4" type="video/mp4">
 						    </video>
 		                </div>
@@ -45,7 +45,7 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" >
+	                	<video autoplay="" loop="" width="100%">
 						    <source src="rec/video/animacion-nuggets.mp4" type="video/mp4">
 						</video>
 	                </div>
@@ -55,7 +55,7 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" >
+	                	<video autoplay="" loop="" width="100%">
 						 <source src="rec/video/animacion-boneless.mp4" type="video/mp4">
 						</video>
 	                </div>
@@ -64,7 +64,7 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" >
+	                	<video autoplay="" loop="" width="100%">
 						 <source src="rec/video/animacion-arrachera.mp4" type="video/mp4">
 						</video>
 	                </div>
@@ -237,7 +237,7 @@
 	</div>
     <div class="bg-inicio">
     	<div class="container">
-    		<div id="esc-rec-ini" class="row">
+    		<div id="esc-rec-ini" >
     			<div >
     				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     					<img  id="chef" class="img-responsive" src="rec/img/chef-omar.png" >
@@ -253,7 +253,7 @@
 									        <img class="img-responsive" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Nombre de la receta</h2>
+									                <h2>Alitas de pollo con triple</h2>
 													<p> 
 														<a href="#" >
 															Ver receta
@@ -268,7 +268,7 @@
 									        <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Nombre de la receta</h2>
+									                <h2>Pechuga glaseada al chabacabo con vegetales</h2>
 													<p> 
 														<a href="#">
 															Ver receta
@@ -285,7 +285,7 @@
 									        <img class="img-responsive " src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Nombre de la receta</h2>
+									                <h2>Pollo almendrado</h2>
 													<p> 
 														<a href="#" >
 															Ver receta

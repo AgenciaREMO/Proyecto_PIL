@@ -184,9 +184,16 @@ body {
 
   #esc-rec-ini{
     display: inline;
-    margin-bottom: 0px !important!;
+    margin-bottom: 0px !important;
     padding-bottom: 0px !important;
+    vertical-align: bottom;
   }
+
+  .ani-video{
+    width: 100%;
+    height: auto;
+  }
+
 .bg-receta{
   background-color: #ffffff;
   padding: 3%;
