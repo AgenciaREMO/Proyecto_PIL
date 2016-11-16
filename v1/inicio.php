@@ -22,10 +22,10 @@
 		<header id="carousel-inicio" class="carousel slide">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
-	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	            <li data-target="#myCarousel" data-slide-to="1"></li>
-	            <li data-target="#myCarousel" data-slide-to="2"></li>
-	            <li data-target="#myCarousel" data-slide-to="3"></li>
+	            <li data-target="#carousel-inicio" data-slide-to="0" class="active"></li>
+	            <li data-target="#carousel-inicio" data-slide-to="1"></li>
+	            <li data-target="#carousel-inicio" data-slide-to="2"></li>
+	            <li data-target="#carousel-inicio" data-slide-to="3"></li>
 	        </ol>
 
 	        <!-- Wrapper for slides -->
@@ -35,7 +35,9 @@
 	            <div class="item active">
 	                <a href="">
 	                	<div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/video/animacion-pechuga-navidena.mp4" >
+	                		<video autoplay="" loop="" >
+						    	<source src="rec/video/animacion-pechuga-navidena.mp4" type="video/mp4">
+						    </video>
 		                </div>
 	                </a>
 	                <div class="carousel-caption">
@@ -43,7 +45,9 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/video/animacion-nuggets.mp4" >
+	                	<video autoplay="" loop="" >
+						    <source src="rec/video/animacion-nuggets.mp4" type="video/mp4">
+						</video>
 	                </div>
 
 	                <div class="carousel-caption">
@@ -51,26 +55,28 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/video/animacion-boneless.mp4" >
+	                	<video autoplay="" loop="" >
+						 <source src="rec/video/animacion-boneless.mp4" type="video/mp4">
+						</video>
 	                </div>
 	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                		<img class="img-responsive slide-inicio" src="rec/video/animacion-arrachera.mp4" >
+	                	<video autoplay="" loop="" >
+						 <source src="rec/video/animacion-arrachera.mp4" type="video/mp4">
+						</video>
 	                </div>
 	                <div class="carousel-caption">
 	                </div>
 	            </div>
 	        </div>
-	        <div class="rojo">
-	        </div>
 	        <!-- Controls -->
-	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	        <a class="left carousel-control" href="#carousel-inicio" data-slide="prev">
 	            <span class="icon-prev"></span>
 	        </a>
-	        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	        <a class="right carousel-control" href="#carousel-inicio" data-slide="next">
 	            <span class="icon-next"></span>
 	        </a>
 	    </header>
@@ -119,9 +125,8 @@
     <header id="carousel-lanzamientos" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#carousel-lanzamientos" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-lanzamientos" data-slide-to="1"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -161,29 +166,14 @@
                 <div class="carousel-caption">
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" >
-                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
-                	<!--<div class="container">
-                		<div class="row ">
-	                		<div class="col-lg-offset-3 text-right">
-	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
-	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
-	                		</div>
-	                	</div>
-                	</div>-->
-                </div>
-                <div class="carousel-caption">
-                </div>
-            </div>
         </div>
         <div class="rojo">
         </div>
         <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <a class="left carousel-control" href="#carousel-lanzamientos" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <a class="right carousel-control" href="#carousel-lanzamientos" data-slide="next">
             <span class="icon-next"></span>
         </a>
     </header>
