@@ -10,14 +10,23 @@
 		<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
 	</head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<?php
 		menu("6");
 	?>
 	<div class="bg-content">
-	<section class="content">
+	<section class="content" style="position:relative">
 		<img src="rec/img/banners_jpg/estandares.jpg" alt="" class="img-responsive">
+		<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<a href="#b">
+				<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</div>
 	</section>
-	<div class="gris-banner">
+	<div class="gris-banner-sl">
     </div>
 		<section class="content container ">
 		<ol class="breadcrumb">

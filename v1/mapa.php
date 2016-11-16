@@ -18,19 +18,14 @@
 	    <meta name="keywords" content="">
 	</head>
 <body class="bg-content ">
-
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<?php
 		menu("8");
 	?>
-
-	<!-- MENU-->
-	<!-- menú --> 
-
-
-<!-- / menú --> 
-	<!-- /MENU -->
 	<section class="col-md-12 hidden-sm hidden-xs content">
-
 		<div class="cont-map">
 			<div id="maps">
 				<div id="mapa-principal">

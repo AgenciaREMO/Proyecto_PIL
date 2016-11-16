@@ -20,7 +20,7 @@
 		<div class="nuestras-marcas">
 			<section class="content" style="position:relative">
 				<img src="rec/img/banners_jpg/servicio_a_clientes.jpg" alt="img-responsive" class="banner">
-				<div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
+				<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
 					<a href="#b">
 					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 					</a>

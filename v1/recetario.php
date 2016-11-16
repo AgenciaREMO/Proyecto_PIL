@@ -10,11 +10,20 @@
 		<link rel="stylesheet" type="text/css" href="estiloangie.css">
 	</head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<?php
 		menu("3");
 	?>
-	<section class="content">
+	<section class="content" style="position:relative">
 		<img src="rec/img/banners_jpg/recetario.jpg"  class="banner">
+		<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute;">
+			<a href="#b">
+					 <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</div>
 	</section>
 	<div class="bg-recetario">
 		<section class="container">
@@ -22,7 +31,6 @@
 																										 animation-duration: 0.10s; 
 																										 animation-delay: 0.6s; 
 																										 animation-name: fadeInUp;">
-				
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
 					<img id="tit-recetario" class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-recetario.png">

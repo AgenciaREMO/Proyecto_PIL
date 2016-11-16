@@ -14,12 +14,16 @@
 	        });
 	    </script>
 	</head>
-<body >
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<?php
 		menu("1");
 	?>
 	<div class="bg-lanzamiento">
-		<header id="carousel-inicio" class="carousel slide">
+		<header id="carousel-inicio" class="carousel slide" style="position:relative">
 	        <!-- Indicators -->
 	        <ol class="carousel-indicators">
 	            <li data-target="#carousel-inicio" data-slide-to="0" class="active"></li>
@@ -33,15 +37,11 @@
 	        </div>
 	        <div class="carousel-inner">
 	            <div class="item active">
-	                <a href="">
-	                	<div class="fill" >
-	                		<video autoplay="" loop="" width="100%">
-						    	<source src="rec/video/animacion-pechuga-navidena.mp4" type="video/mp4">
-						    </video>
-		                </div>
-	                </a>
-	                <div class="carousel-caption">
-	                </div>
+	                <div class="fill" >
+	                	<video autoplay="" loop="" width="100%">
+						    <source src="rec/video/animacion-pechuga-navidena.mp4" type="video/mp4">
+						</video>
+		            </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
@@ -49,28 +49,26 @@
 						    <source src="rec/video/animacion-nuggets.mp4" type="video/mp4">
 						</video>
 	                </div>
-
-	                <div class="carousel-caption">
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                	<video autoplay="" loop="" width="100%">
+							<source src="rec/video/animacion-boneless.mp4" type="video/mp4">
+						</video>
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
 	                	<video autoplay="" loop="" width="100%">
-						 <source src="rec/video/animacion-boneless.mp4" type="video/mp4">
+							<source src="rec/video/animacion-arrachera.mp4" type="video/mp4">
 						</video>
 	                </div>
-	                <div class="carousel-caption">
-	                </div>
 	            </div>
-	            <div class="item">
-	                <div class="fill" >
-	                	<video autoplay="" loop="" width="100%">
-						 <source src="rec/video/animacion-arrachera.mp4" type="video/mp4">
-						</video>
-	                </div>
-	                <div class="carousel-caption">
-	                </div>
-	            </div>
+	        	<div class="flecha text-center animated infinite tada" style="position:absolute" id="b">
+					<a href="#b">
+						<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
 	        </div>
 	        <!-- Controls -->
 	        <a class="left carousel-control" href="#carousel-inicio" data-slide="prev">
@@ -152,7 +150,7 @@
             </div>
             <div class="item">
                 <div class="fill" >
-                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
+                		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento2.jpg" >
                 	<!--<div class="container">
                 		<div class="row ">
 	                		<div class="col-lg-offset-3 text-right">
@@ -177,7 +175,7 @@
             <span class="icon-next"></span>
         </a>
     </header>
-    <section class="container text-center ">
+    <!--<section class="container text-center ">
 		<div class="row plecas">
 			<div class="col-lg-12 col-md-12 col-sm-12 ">
 				<img class="img-responsive plecas" style="margin: auto;" src="rec/img/titulos/titulo-promociones.png">
@@ -189,7 +187,7 @@
 		<div class="gris-superior"></div>
 		<img class="img-responsive" src="rec/img/promocion.jpg">
 		<div class="gris-inferior"></div>
-	</div>
+	</div>-->
 
     <!--
 	<section class="container text-center ">
