@@ -17,11 +17,16 @@
 	?>
 
 	<div class="bg-content">
-		<section class="content">
-			<img src="rec/img/banners_jpg/pollo_tips.jpg" class="banner">
+		<section class="content" style="position:relative">
+			<img src="rec/img/banners_jpg/recetas_espaguetidepollo.jpg" alt="" class="img-responsive">
+			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+				<a href="#b">
+					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+				</a>
+			</div>
 		</section>
-		<div class="gris-banner">
-	    </div>
+		<div class="gris-banner-sl">
+    	</div>
 		<section class="container">
 			<ol class="breadcrumb">
 			  <li><a href="inicio.php">Inicio</a></li>
