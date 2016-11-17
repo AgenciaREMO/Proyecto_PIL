@@ -301,7 +301,7 @@
     		<section id="mob-re-ini" >
     				<div class="row">
     					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    						<img style="margin:auto !important;" id="recetas" class="img-responsive" src="rec/img/recetas.png" >
+    						<img style="margin:auto !important;" id="recetas" class="img-responsive" src="rec/img/titulos/titulo-recetario.png" >
     					</div>
     				</div>
     					<div class="bg-recetas">

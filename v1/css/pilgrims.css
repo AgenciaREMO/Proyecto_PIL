@@ -1483,7 +1483,7 @@ footer {
 }
 
 .gris-superior{
-  border-top:solid;
+  /*border-top:solid;*/
   border-top-width: 4px;
   border-top-color: #e2e2e2;
   -webkit-box-shadow: 0px 2px 34px 11px rgba(0,0,0,0.32)!important;
