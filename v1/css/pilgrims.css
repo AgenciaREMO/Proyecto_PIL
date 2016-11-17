@@ -196,7 +196,7 @@ body {
 
 .bg-receta{
   background-color: #ffffff;
-  padding: 3%;
+  padding: 2%;
   -webkit-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   -moz-box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
   box-shadow: 0px 4px 17px 2px rgba(0,0,0,0.32);
@@ -948,8 +948,13 @@ padding-bottom:10%;
   margin-bottom: 4%;
   font-size: 1.2em;
   vertical-align: bottom;
-  padding-top: 35%;
 }
+
+#descargar:hover{
+      -webkit-filter: contrast(200%) brightness(150%);  /* Safari */
+        filter: contrast(200%) brightness(150%);
+        cursor: pointer;
+    }
 
 .procedimiento{
   color: #6e6e6d;

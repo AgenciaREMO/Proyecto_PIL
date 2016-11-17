@@ -76,7 +76,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="background:url('rec/img/proceso/h-progenitoras.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-procesadora.png')center no-repeat;" class="text-center">
 							<img class=" img-proceso" src="rec/img/proceso/proceso.png">
 						</td>
 						<td style="background:url('rec/img/proceso/h-en-engorda.png')center no-repeat;" class="text-center">

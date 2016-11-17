@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <?php 
 	$url = $_SERVER['SCRIPT_NAME'];
@@ -136,18 +137,18 @@
 									<b>Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-12 col-sm-4 col-xs-4 text-center">
-									<img src="rec/img/down.png" class="img-responsive gallina">
+									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">
 									<b>Descarga</b>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="vertical-align: bottom;">
+					<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="vertical-align: bottom;">
 						<video width="95%" controls id="video-corpo">
 							<source src="rec/video/nescafe-background.mp4" type="video/mp4">
 							<source src="mov_bbb.ogg" type="video/ogg">
 						</video>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</section>

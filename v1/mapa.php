@@ -45,6 +45,7 @@
 					  var mcinco = {lat: 25.554027,  lng: -103.468356}; // Durango 25.554102, -103.468833
 					  var mseis = {lat: 19.750429, lng: -99.134574}; // Estado de México 19.750429, -99.134574
 					  var msiete = {lat: 25.580312, lng: -100.900484}; // Coahuila 25.580312, -100.900484 pendiente
+					  var mocho = {lat: 19.145493, lng: -96.105103}; // Veracruz 19.145493, -96.105103 
 					  
 					  var map = new google.maps.Map(document.getElementById('map'), {
 					    zoom: 4,
@@ -210,6 +211,29 @@
 					  marcasiete.addListener('click', function() {
 					    infosiete.open(map, marcasiete);
 					  });
+
+
+					  //////////////////////////// 7
+					  var ocho = '<div id="content">'+
+					      '<div id="siteNotice">'+
+					      '</div>'+
+					      '<h2 id="firstHeading" class="firstHeading">Veracruz</h2>'+
+					      '<div id="bodyContent">'+
+					      '<p>Reyes Católicos # 231,Depto.202,<br/> Fracc. Las Américas,<br/> Boca del Rio, Veracruz.</p>'+
+					      '</div>'+
+					      '</div>';
+
+					  var infoocho = new google.maps.InfoWindow({
+					    content: ocho
+					  });
+					  var marcaocho = new google.maps.Marker({
+					    position: mocho,
+					    map: map,
+					    title: 'Presiona para ver detalles'
+					  });
+					  marcaocho.addListener('click', function() {
+					    infoocho.open(map, marcaocho);
+					  });
 					}
 
 				    </script>
@@ -250,6 +274,10 @@
 					<div class="mapa">
 						<iframe src="https://www.google.com/maps/embed/v1/place?q=Saltillo-Monterrey%20301%20Fraccionamiento%20del%20Bosque%2025903%20Ramos%20Arizpe%2C%20Coah.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64" width="100%" height="550" frameborder="0" style="border:0"  allowfullscreen></iframe>
 					</div>
+			</div>
+			<div id="map-ocho">
+					<div class="mapa">
+  						<iframe src="https://www.google.com/maps/embed/v1/place?q=Reyes%20Cat%C3%B3licos%20%23%20231%2C%20%20Depto.202%2C%20Fracc.%20Las%20Am%C3%A9ricas%2C%20Boca%20del%20Rio%2C%20Veracruz.&key=AIzaSyDndS2QqSrlCrWGYg1yF4juTLWxqxmHJ64"  width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>					</div>
 			</div><!--/.maps -->
 		</div><!--/.cont-map -->
 
@@ -321,6 +349,15 @@
 						</div>
 					</div>					
 				</div>
+				<br>
+				<div  class="row">
+					<div class="col-lg-offset-4 col-lg-4  col-md-6 col-sm-12 text-center">
+						<div id="btn-ocho"  >
+							<span id="btn-ofi"> VERACRUZ</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Reyes Católicos #231,<br>Depto. 202, Fracc. Las Américas,<br>Boca del Río, Veracruz
+						</div>
+					</div>				
+				</div>
 			</div>
 			<br/>
 		</section>
@@ -390,6 +427,14 @@
 							<span id="btn-ofi">OFICINAS SALTILLO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
+						</a> 
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+						<div id="btn-ocho" >
+						<a href="https://www.google.com.mx/maps/place/De+Los+Reyes+Cat%C3%B3licos+231,+De+Las+Americas,+Heriberto+Kehoe+Vicent,+94299+Boca+del+R%C3%ADo,+Ver./@19.1452798,-96.1072707,17z/data=!3m1!4b1!4m5!3m4!1s0x85c340fca0eb2a7b:0x72a7169afc97c158!8m2!3d19.1452798!4d-96.105082">
+							<span id="btn-ofi">VERACRUZ</span><br>
+							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Reyes Católicos #231,<br>Depto. 202, Fracc. Las Américas,<br>Boca del Río, Veracruz
 						</a> 
 						</div>
 					</div>					

@@ -20,54 +20,61 @@ $('.tooltip-social').tooltip({
 })
 
 $(document).ready(function(){
-	$("#map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
-	$("#unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+	$("#map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
+	$("#unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 	$("#mapa-principal").show();
 
 	$("#btn-uno").click(function() {
 		/*$("#maps").animate({top:'0px'});
 		$("#dirs").animate({top:'0px'});*/
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho ").hide();
 		$("#map-uno").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten , #ochon").hide();
 		$("#unon").fadeIn('slow');
 	});	
 	$("#btn-dos").click(function(event) {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-dos").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 		$("#dosn").fadeIn('slow');
 	});
 	$("#btn-tres").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-tres").fadeIn('fast');
 		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon, #nueven, #diezn, #once").hide();
 		$("#tresn").fadeIn('slow');
 	});
 	$("#btn-cuatro").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-cuatro").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 		$("#cuatron").fadeIn('slow');
 	});
 	$("#btn-cinco").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-cinco").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 		$("#cincon").fadeIn('slow');
 	});
 	$("#btn-seis").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-seis").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 		$("#seisn").fadeIn('slow');
 	});
 	$("#btn-siete").click(function() {
-		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete").hide();
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
 		$("#map-siete").fadeIn('fast');
-		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten").hide();
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
 		$("#sieten").fadeIn('slow');
 	});
+	$("#btn-ocho").click(function() {
+		$("#mapa-principal, #map-uno, #map-dos, #map-tres, #map-cuatro, #map-cinco, #map-seis, #map-siete, #map-ocho").hide();
+		$("#map-ocho").fadeIn('fast');
+		$("#n-principal, #unon, #dosn, #tresn, #cuatron, #cincon, #seisn, #sieten, #ochon").hide();
+		$("#ochon").fadeIn('slow');
+	});
+
 });
 
 

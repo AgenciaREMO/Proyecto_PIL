@@ -135,14 +135,6 @@
                 <a href="">
                 	<div class="fill" >
                 		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento1.jpg" >
-	                	<!--<div class="container">
-	                		<div class="row ">
-		                		<div class="col-lg-offset-3 text-right">
-		                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
-		                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
-		                		</div>
-		                	</div>
-	                	</div>-->
 	                </div>
                 </a>
                 <div class="carousel-caption">
@@ -151,14 +143,6 @@
             <div class="item">
                 <div class="fill" >
                 		<img class="img-responsive slide-inicio" src="rec/img/lanzamiento2.jpg" >
-                	<!--<div class="container">
-                		<div class="row ">
-	                		<div class="col-lg-offset-3 text-right">
-	                			<i><h2>Conoce la nueva familia de productos de Pollo Fresco</h2></i>
-	                			<a href="" ><h2 class="vermas">Ver más ...</h2></a>
-	                		</div>
-	                	</div>
-                	</div>-->
                 </div>
 
                 <div class="carousel-caption">
@@ -241,7 +225,8 @@
     					<img  id="chef" class="img-responsive" src="rec/img/chef-omar.png" >
     				</div>
     				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-    					<img id="recetas" class="img-responsive" src="rec/img/recetas.png" >
+    										<img id="tit-recetario" class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-recetario.png">
+
     				</div>
     				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
     					<div class="bg-recetas">
@@ -251,9 +236,9 @@
 									        <img class="img-responsive" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Alitas de pollo con triple</h2>
+									                <h2>Espagueti con pollo en salsa de tomate</h2>
 													<p> 
-														<a href="#" >
+														<a href="r1-pollo-en-tomate.php" >
 															Ver receta
 														</a>
 													</p>
@@ -266,9 +251,9 @@
 									        <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Pechuga glaseada al chabacabo con vegetales</h2>
+									                <h2>Medallones de pollo estilo Colima</h2>
 													<p> 
-														<a href="#">
+														<a href="r3-medallones-colima.php">
 															Ver receta
 														</a>
 													</p>
@@ -283,9 +268,9 @@
 									        <img class="img-responsive " src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Pollo almendrado</h2>
-													<p> 
-														<a href="#" >
+									                <h2>Medallones de pollo con brocolie en salsa de queso</h2>
+													<p>
+														<a href="r4-medallones-queso.php" >
 															Ver receta
 														</a>
 													</p>
@@ -295,12 +280,12 @@
 									</div>
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
 									    <div class="hovereffect">
-									        <img class="img-responsive" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_aranitas_de_plato.jpg">
+									        <img class="img-responsive" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
 									            <div class="overlay">
 									            	<hr class="hr-hover">
-									                <h2>Nombre de la receta</h2>
+									                <h2>Pollo al Xoconochtle</h2>
 													<p> 
-														<a href="#">
+														<a href="r9-pollo-xoconochtle.php">
 															Ver receta
 														</a>
 													</p>
@@ -326,26 +311,55 @@
 					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-					    				<a href="receta_uno.php"><p>ALITAS DE POLLO CON TRIPLE COMPAÑIA</p></a>
+					    				<h2>Espagueti con pollo en salsa de tomate</h2>
+										<p> 
+											<a href="r1-pollo-en-tomate.php" >
+												Ver receta
+											</a>
+										</p>
 					    			</div>
 					    		</div>
 					    		<br>
 					    		<div class="row">
 					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
-					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+									        <img class="img-responsive img-thumbnail" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-					    				<a href="receta_uno.php"><p>PECHUGA GLASEADA AL CHABACANO CON VEGETALES</p></a>
-					    			</div>
+										<h2>Medallones de pollo estilo Colima</h2>
+										<p> 
+											<a href="r3-medallones-colima.php">
+												Ver receta
+											</a>
+										</p>					    			
+									</div>
 					    		</div>
 					    		<br>
 					    		<div class="row">
 					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
-					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+									        <img class="img-responsive img-thumbnail" src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-					    				<a href="receta_uno.php"><p>POLLO ALMENDRADO</p></a>
+										<h2>Medallones de pollo con brocoli en salsa de queso</h2>
+										<p> 
+											<a href="r4-medallones-queso.php">
+												Ver receta
+											</a>
+										</p>					    			
+									</div>
+					    		</div>
+					    		<br>
+					    		<div class="row">
+					    			<div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
+					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
 					    			</div>
+					    			<div class="col-lg-10 col-md-10 col-sm-10">
+										<h2>Pollo al xoconochtle</h2>
+										<p> 
+											<a href="r9-pollo-xoconochtle.php">
+												Ver receta
+											</a>
+										</p>					    			
+									</div>
 					    		</div>
 					    		<br>
 				    	</div>
