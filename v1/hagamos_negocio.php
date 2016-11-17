@@ -32,7 +32,7 @@
 		        <div class="carousel-inner">
 		            <div class="item active">
 		                <div class="fill" >
-		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_va.jpg">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamosnegocio_valoragregado.jpg" alt="Pilgrim's valor agregado">
 		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
 								<a href="#b">
 								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
@@ -42,7 +42,7 @@
 		            </div>
 		            <div class="item">
 		                <div class="fill" >
-		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_fresco.jpg">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamosnegocio_fresco.jpg" alt="Pilgrim's fresco">
 		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
 								<a href="#b">
 								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
@@ -52,7 +52,7 @@
 		            </div>
 		            <div class="item">
 		                <div class="fill" >
-		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_vivo.jpg">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamosnegocio_pollovivo.jpg" alt="Pilgrim's pollo vivo">
 		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
 								<a href="#b">
 								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
@@ -62,7 +62,7 @@
 		            </div>
 		            <div class="item">
 		                <div class="fill" >
-		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamos_negocio_rendering.jpg">
+		                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/hagamosnegocio_rendering.jpg" alt="Pilgrim's rendering">
 		                	<div class="flecha text-center animated infinite tada" style="position:absolute">
 								<a href="#b">
 								   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>

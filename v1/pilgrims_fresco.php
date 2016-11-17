@@ -18,15 +18,55 @@
 			menu("2");
 		?>
 		<div class="nuestras-marcas">
-		<header style="position:relative">
-			<section class="content">
-				<img src="rec/img/banners_jpg/fresco.jpg" alt="Banner" class="banner">
-	            <div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
-					<a href="#b">
-					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
-					</a>
-				</div>
-			</section>
+		<header id="myCarousel" class="carousel slide" style="position:relative">
+	        <!-- Indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	            <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>
+
+	        <!-- Wrapper for slides -->
+	        <div class="carousel-inner">
+	            <div class="item active">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_polloconmole_1.jpg" alt="Pilgrim's fresco pollo con mole">
+		            </div>
+	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_tacosdelechuga_2.jpg" alt="Pilgrim's fresco tacos de lechuga">
+	                </div>
+					<div class="flecha-azul text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_tacosdearrachera_3.jpg" alt="Pilgrim's fresco tacos de arrachera">
+	                </div>
+	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div id="b"></div>
+	        </div>
+	        <!-- Controls -->
+	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	            <span class="icon-prev"></span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	            <span class="icon-next"></span>
+	        </a>
 	    </header>
 		<div class="gris-banner-sl">
 	    </div>

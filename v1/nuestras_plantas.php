@@ -32,7 +32,7 @@
 	        <div class="carousel-inner">
 	            <div class="item active">
 	                <div class="fill" >
-	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_incubadora.jpg" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_incubadora.jpg" alt="Pilgrim's plantas incubadoras">
 		            </div>
 	                <div class="flecha text-center animated infinite tada" style="position:absolute">
 						<a href="#b">
@@ -42,7 +42,7 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_alimentos.jpg" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_alimentos.jpg" alt="Pilgrim's plantas de alimentos">
 	                </div>
 					<div class="flecha text-center animated infinite tada" style="position:absolute">
 						<a href="#b">
@@ -52,9 +52,9 @@
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_incubadora.jpg" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/planta_procesos.jpg" alt="Pilgrim's plantas de procesos">
 	                </div>
-	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+	                <div class="flecha-azul text-center animated infinite tada" style="position:absolute">
 						<a href="#b">
 							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 						</a>

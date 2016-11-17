@@ -18,15 +18,55 @@
 		?>
 		<!-- Carousel -->
 	    <div class="nuestras-marcas">
-		<header style="position:relative">
-			<section class="content">
-				<img src="rec/img/banners_jpg/valor_agregado.jpg" alt="Banner" class="banner">
-	            <div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
-					<a href="#b">
-					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
-					</a>
-				</div>
-			</section>
+		<header id="myCarousel" class="carousel slide" style="position:relative">
+	        <!-- Indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	            <li data-target="#myCarousel" data-slide-to="2"></li>
+	        </ol>
+
+	        <!-- Wrapper for slides -->
+	        <div class="carousel-inner">
+	            <div class="item active">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/VA_pechuganavidena_3.jpg" alt="Pilgrim's valor agregado pechuga navideña">
+		            </div>
+	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/VA_boneless_1.jpg" alt="Pilgrim's valor agregado boneless">
+	                </div>
+					<div class="flecha text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div class="item">
+	                <div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/VA_arrachera_2.jpg" alt="Pilgrim's valor agregado arrachera">
+	                </div>
+	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+						<a href="#b">
+							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>	
+	            </div>
+	            <div id="b"></div>
+	        </div>
+	        <!-- Controls -->
+	        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	            <span class="icon-prev"></span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	            <span class="icon-next"></span>
+	        </a>
 	    </header>
 		<div class="gris-banner-sl">
 	    </div>
