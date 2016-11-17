@@ -8,79 +8,6 @@
 		<meta name="description" content="En Pilgrim’s productora de pollo en México">
 		<meta name="keywords" content="Pilgrim's, Pigrim's México, Historia Pilgrim's, plantas, servicio y calidad">
 	</head>
-	<style type="text/css">
-	#div2 {
-		    width:30%;
-		    height: 45px;
-		    background: transparent;
-		    color: white;
-		    font-weight: bold;
-		    -webkit-transition: width 0.5s, background 1s;
-		    -moz-transition: width 0.5s, background 1s;
-		    -o-transition: width 0.5s, background 1s;
-		    transition: width 0.5s, background 1s;
-		    color: transparent;
-		    padding-top: 0%;
-		    margin-top: 10px !important;
-		    border-radius: 0px 25px 0px 40px;
-			-moz-border-radius: 0px 25px 0px 40px;
-			-webkit-border-radius: 0px 25px 0px 40px;
-			border: 0px solid #000000;
-			cursor: pointer;
-		}
-
-		#div2 {
-		    -webkit-transition-timing-function: ease;
-		    -moz-transition-timing-function: ease;
-		    -o-transition-timing-function: ease;
-		    transition-timing-function: ease;
-		}
-
-		#div2:hover {
-		    width: 100%;
-		    background: #d9232e;
-		    border-radius: 0px 25px 0px 40px;
-			-moz-border-radius: 0px 25px 0px 40px;
-			-webkit-border-radius: 0px 25px 0px 40px;
-			border: 0px solid #000000;
-			color: #ffffff;
-			animation-name: MiAnimacion;
-			-webkit-animation-name: MiAnimacion; /* Chrome, Safari, Opera */
-    		font-style: normal!important;
-		}
-
-		#div2 img:hover{
-			-webkit-filter: contrast(200%) brightness(150%);  /* Safari */
-    		filter: contrast(200%) brightness(150%);
-		}
-
-
-
-		@-moz-keyframes MiAnimacion {
-		from {font-size:0%;
-		margin-left:100%;}
-		50% {font-size:100%;}
-		to {font-size:100%;
-		margin-left:20%;
-		width:100%;
-		}
-		}
-		@-webkit-keyframes MiAnimacion {
-		from {
-		font-size:0%;
-		margin-left:100%;
-		}
-		50% {
-		font-size:100%;
-		}
-		to {
-		font-size:100%;
-		margin-left:20%;
-		width:100%;
-		}
-
-
-	</style>
 <body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
@@ -108,15 +35,10 @@
 			  <li class="active">Pilgrim's México</li>
 			</ol>
 
-		
-
-			
-
 			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
 																											 animation-duration: 0.10s; 
 																											 animation-delay: 0.6s; 
 																											 animation-name: fadeInUp;">
-					
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 ">
 						<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-mexico.png">
@@ -127,74 +49,52 @@
 																											 animation-duration: 0.20s; 
 																											 animation-delay: 0.6s; 
 																											 animation-name: fadeInUp;">
-					
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
-						<div class="esc-mapa">
-							<img class="img-responsive mapita" src="rec/img/pil_mexico.jpg">
+						<div class="d-mapa">
+							<div style="background:url('rec/img/pil_mexico.png');background-size: cover;" class="mapa">
+								<img src="rec/img/pil_mexico-hover.png" class="img-responsive mapita" alt="Mapa Pilgrim's México" style="opacity:0;">
+							</div>
 						</div>
-						<div class="mob-mapa">
-							<img class="img-responsive mapita" src="rec/img/mapa-mob.jpg">
+						<div class="m-mapa">
+							<img class="img-responsive" src="rec/img/mapa-mob.png">
 						</div>
-						
+						<p class="div-azul">
+							En Pilgrim´s Pride México somos una organización que a través del Servicio y Calidad, hemos logrado marcar una diferencia en nuestros productos, contamos con:
+						</p>
 					</div>
 				</div>
 			</div>
 			<div class="bg-mexico">
-					<div class="row" id="esc-mexico">
+					<div class="row" id="d-mexico">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div id="div2">
-								<img class="" src="rec/img/mexico/colaboradores.png">  
-								<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/alimentos.png">  
-								<span style="padding-left:35%;">7 plantas de alimentos.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/procesadoras.png">  
-								<span style="padding-left:35%;">6 plantas procesadoras.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/incubadoras.png">  
-								<span style="padding-left:35%;">Más de 10, 000 colaboradores.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/engorda.png">  
-								<span style="padding-left:35%;">9 plantas incubadoras.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/distribucion.png">  
-								<span style="padding-left:35%;">Más de 3, 000 casetas de engorda.</span>
-							</div><br>
-							<div id="div2">
-								<img class="" src="rec/img/mexico/certificadas.png">  
-								<span style="padding-left:35%;">5 plantas certificadas con el sello TIF.</span>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/colaboradores-hover.png') no-repeat center;">
+								<img src="rec/img/colaboradores.png" alt="Más de 10,000 colaboradores" class="elem-somos-1">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/alimentos-hover.png') no-repeat center;">
+								<img src="rec/img/alimentos.png" alt="7 plantas de alimentos" class="elem-somos-2">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/procesadoras-hover.png') no-repeat center;">
+								<img src="rec/img/procesadoras.png" alt="6 plantas procesadoras" class="elem-somos-3">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/incubadoras-hover.png') no-repeat center;">
+								<img src="rec/img/incubadoras.png" alt="9 plantas incubadoras" class="elem-somos-4">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/engorda-hover.png') no-repeat center;">
+								<img src="rec/img/engorda.png" alt="Más de 3000 casetas de engorda" class="elem-somos-5">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/distribucion-hover.png') no-repeat center;">
+								<img src="rec/img/distribucion.png" alt="22 centros de distribución" class="elem-somos-6">
+							</div>
+							<div class="elem-somos" style="text-align:center; background:url('rec/img/certificadas-hover.png') no-repeat center;">
+								<img src="rec/img/certificadas.png" alt="5 plantas certificadas con el sello TIF" class="elem-somos-7">
 							</div>
 						</div>
 					</div>
 
-					<div class="row" id="mob-mexico">
+					<div class="row" id="m-mexico">
 						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/colaboradores.png" alt="Más de 10 000 colaboradores" title="Más de 10 000 colaboradores">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/alimentos.png">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/procesadoras.png">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/incubadoras.png">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/engorda.png">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/distribucion.png">
-						</div>
-						<div class="col-lg-12" >
-							<img style="margin: auto; padding:1%;" class="img-responsive" src="rec/img/certificadas.png">
+							<img class="img-responsive" src="rec/img/somos.png" alt="En Pilgrim's somos">
 						</div>
 					</div>
 				</div>
@@ -203,5 +103,62 @@
 	<?php
 		footer();
 	?>
+	<script>
+		$(document).ready(function(){
+			$(".mapa").hover(function(){
+				$(".mapita").css("opacity","1");
+				$(".mapita").css("-webkit-transition","opacity 2s");
+				$(".mapita").css("transition","opacity 2s");
+			});
+			$(".mapa").mouseout(function(){
+				$(".mapita").css("opacity","0");
+				$(".mapita").css("-webkit-transition","opacity 2s");
+				$(".mapita").css("transition","opacity 2s");
+			});
+			//Efecto over somos
+			$(".elem-somos-1").hover(function(){
+				$(".elem-somos-1").css("opacity","0");
+			});
+			$(".elem-somos-1").mouseout(function(){
+				$(".elem-somos-1").css("opacity","1");
+			});
+			$(".elem-somos-2").hover(function(){
+				$(".elem-somos-2").css("opacity","0");
+			});
+			$(".elem-somos-2").mouseout(function(){
+				$(".elem-somos-2").css("opacity","1");
+			});
+			$(".elem-somos-3").hover(function(){
+				$(".elem-somos-3").css("opacity","0");
+			});
+			$(".elem-somos-3").mouseout(function(){
+				$(".elem-somos-3").css("opacity","1");
+			});
+			$(".elem-somos-4").hover(function(){
+				$(".elem-somos-4").css("opacity","0");
+			});
+			$(".elem-somos-4").mouseout(function(){
+				$(".elem-somos-4").css("opacity","1");
+			});
+			$(".elem-somos-5").hover(function(){
+				$(".elem-somos-5").css("opacity","0");
+			});
+			$(".elem-somos-5").mouseout(function(){
+				$(".elem-somos-5").css("opacity","1");
+			});
+			$(".elem-somos-6").hover(function(){
+				$(".elem-somos-6").css("opacity","0");
+			});
+			$(".elem-somos-6").mouseout(function(){
+				$(".elem-somos-6").css("opacity","1");
+			});
+			$(".elem-somos-7").hover(function(){
+				$(".elem-somos-7").css("opacity","0");
+			});
+			$(".elem-somos-7").mouseout(function(){
+				$(".elem-somos-7").css("opacity","1");
+			});
+		});
+	</script>
 </body>
 </html>

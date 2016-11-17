@@ -213,11 +213,51 @@ header.carousel-negocio {
 	text-align: justify;
 }
 .modal-body h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
+	font-weight: bold;
+}
+.modal-body ul{
+	margin: auto;
+	padding-left: 20px;
 }
 .h4-bmodal {
 	color: rgb(217,35,46) !important;
 	text-align: center;
+}
+/*Pilgrim's México*/
+.div-azul {
+	width: 100%;
+	background-color: #071689;
+	color: rgb(255,255,255);
+	font-size: 1.5em;
+	text-align: center;
+	padding: 3%;
+	margin-bottom: 0px;
+}
+.m-mapa{
+  display: none;
+}
+#d-mexico{
+  background: rgba(255,255,255,0.5);
+  border-radius: 2px;
+  margin-top: 0px;
+  padding: 5% 25% 5% 25% !important;
+  margin: auto;
+}
+
+#m-mexico{
+  display: none;
+  background: rgba(255,255,255,0.5);
+  border-radius: 2px;
+  margin-top: 0px;
+  padding: 5%  !important;
+  margin: auto;
+}
+.elem-somos {
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 /*Media query*/
@@ -263,6 +303,13 @@ header.carousel-negocio {
 	/*Desaparece barra social en moviles*/
 	.social {
 		display: none;
+	}
+	/*Manejo de mapas para Pilgrim's México*/
+	.m-mapa{
+	  display: inline;
+	}
+	.d-mapa{
+	  display: none;
 	}
 }
 
