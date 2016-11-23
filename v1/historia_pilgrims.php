@@ -63,7 +63,7 @@
 								<img src="rec/img/historia_1.png" alt="Pollito">
 							</div>
 							<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-								<p class="align-middle elem-left" style="text-align:right;">Somos el segundo mayor productor de pollo en el mundo. A lo largo de 70 años, en Pilgrim’s, hemos producido alimentos con altos estándares de calidad.</p>
+								<p class="align-middle elem-left" style="text-align:right;">“Somos el mayor productor de pollo en el mundo. A lo largo de 70 años, en Pilgrim’s, hemos producido alimentos con altos estándares de calidad.</p>
 							</div>
 							<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 titulo_animar desktop-historia">
 								<img src="rec/img/historia_1.png" alt="Pollito">
