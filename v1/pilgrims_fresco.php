@@ -32,7 +32,7 @@
 	                <div class="fill" >
 	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_polloconmole_1.jpg" alt="Pilgrim's fresco pollo con mole">
 		            </div>
-	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+	                <div class="flecha text-center animated tada" style="position:absolute">
 						<a href="#b">
 							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 						</a>

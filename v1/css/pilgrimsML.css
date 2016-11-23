@@ -238,6 +238,10 @@ header.carousel-negocio {
 }
 .m-mapa{
   display: none;
+  width: 100%;
+}
+#m-mapa img{
+	max-width: 100% !important;
 }
 #d-mexico{
   background: rgba(255,255,255,0.5);
@@ -248,12 +252,18 @@ header.carousel-negocio {
 }
 
 #m-mexico{
-  display: none;
-  background: rgba(255,255,255,0.5);
-  border-radius: 2px;
-  margin-top: 0px;
-  padding: 5%  !important;
-  margin: auto;
+	display: none;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	border-radius: 2px;
+	margin-top: 0px;
+	padding: 5%  !important;
+	margin: auto;
+	text-align: center;
+}
+#m-mexico img{
+	margin-left: auto; 
+	margin-right:auto;
 }
 .elem-somos {
 	margin-top: 2%;
@@ -304,13 +314,7 @@ header.carousel-negocio {
 	.social {
 		display: none;
 	}
-	/*Manejo de mapas para Pilgrim's México*/
-	.m-mapa{
-	  display: inline;
-	}
-	.d-mapa{
-	  display: none;
-	}
+	
 }
 
 @media (max-width: 992px) {
@@ -331,4 +335,21 @@ header.carousel-negocio {
 	.flecha, .flecha-azul {
 		display: none;
 	}
+}
+@media (max-width: 1200px) {
+	#d-mexico{
+	  display: none;
+	}
+
+	#m-mexico{
+	  display: inline-block;
+	}
+	/*Manejo de mapas para Pilgrim's México*/
+	.m-mapa{
+	  display: inline;
+	}
+	.d-mapa{
+	  display: none;
+	}
+}
 }

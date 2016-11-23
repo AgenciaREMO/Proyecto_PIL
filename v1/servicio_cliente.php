@@ -20,7 +20,7 @@
 		<div class="nuestras-marcas">
 			<section class="content" style="position:relative">
 				<img src="rec/img/banners_jpg/servicio_a_clientes.jpg" alt="img-responsive" class="banner">
-				<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+				<div id="b" class="flecha-azul text-center animated tada" style="position:absolute">
 					<a href="#b">
 					   <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 					</a>
@@ -121,7 +121,7 @@
 								<div class="col-lg-6">
 									<div class="form-group">
 										<label>
-				        					<input type="checkbox" required> He leído y acepto el aviso de <a href="" data-toggle="modal" data-target="#a-privacidad">privacidad</a>.
+				        					<input type="checkbox" required> He leído y acepto el <a href="" data-toggle="modal" data-target="#a-privacidad">aviso de privacidad</a>.
 				        				</label>
 									</div>
 								</div>

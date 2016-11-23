@@ -32,7 +32,7 @@
 	                <div class="fill" >
 	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/VA_pechuganavidena_3.jpg" alt="Pilgrim's valor agregado pechuga navideña">
 		            </div>
-	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+	                <div class="flecha text-center animated tada" style="position:absolute">
 						<a href="#b">
 							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 						</a>

@@ -20,7 +20,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img style="" src="rec/img/banners_jpg/pilgrims_mex.jpg" class="banner">
-			<div id="b" class="flecha text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha text-center animated tada" style="position:absolute">
 			<a href="#b">
 				<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 			</a>
