@@ -28,7 +28,7 @@
 					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-video.png">
 				</div>
 			</div>
-				<video width="100%" controls id="video-corpo">
+				<video width="100%" autoplay controls id="video-corpo">
 				  <source src="rec/video/Pilgrim'sMexico.mp4" type="video/mp4">
 				  <source src="mov_bbb.ogg" type="video/ogg">
 				</video>

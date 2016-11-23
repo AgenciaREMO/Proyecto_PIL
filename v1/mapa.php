@@ -301,23 +301,23 @@
 			</div>
 		<section class="col-md-12 esc-oficinas ">
 			<br/>
-			<div class="row lista-sucur cont">
+			<div class="lista-sucur cont">
 				<div class="row">
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-dos" >
 							<span id="btn-ofi">PILGRIM'S MÉXICO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Av. Insurgentes Sur No. 1602 3er piso #301 Col. Crédito Consultor, Deleg. Benito Juárez, C.P. 03940. México, DF.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (55) 54488300
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-tres"  >
-							<span id="btn-ofi">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
+							<span id="btn-ofi">CORPORATIVO PILGRIM'S QUERÉTARO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-cuatro"  >
 							<span id="btn-ofi">OFICINAS CULIACÁN</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Galileo No. 2784 Col. Villa Universidad, Culiacán Sinaloa.<br>
@@ -325,40 +325,40 @@
 						</div>
 					</div>
 				</div>
-				<br>
-				<div  class="row">
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-cinco"  >
 							<span id="btn-ofi">OFICINAS DURANGO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Calle Valle del Guadiana #294 Parque Industrial Gómez Palacio C.P. 35078<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 871 749 2000
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-seis"  >
 							<span id="btn-ofi">OFICINAS ESTADO DE MÉXICO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación: </b>Carr. Teoloyucan – Jaltenco S/N, Col. Ejidos De Nextlalpan<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (59) 39147219
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-siete" > 
 							<span id="btn-ofi">OFICINAS SALTILLO</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Carretera A Piedras Negras Km. 11.5, Ramos Arizpe, Coahuila.<br>
 							<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> (844) 171 4070
 						</div>
-					</div>					
+					</div>	
 				</div>
-				<br>
-				<div  class="row">
-					<div class="col-lg-offset-4 col-lg-4  col-md-6 col-sm-12 text-center">
+				<div class="row">
+					<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-12 text-center">
 						<div id="btn-ocho"  >
 							<span id="btn-ofi"> VERACRUZ</span><br>
 							<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Reyes Católicos #231,<br>Depto. 202, Fracc. Las Américas,<br>Boca del Río, Veracruz
 						</div>
-					</div>				
+					</div>
 				</div>
+
 			</div>
+			
 			<br/>
 		</section>
 	</div>
@@ -385,7 +385,7 @@
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
 						<div id="btn-tres"  >
 							<a href="https://www.google.com/maps/place/Privada+de+los+Industriales+115,+Jurica,+76100+Santiago+de+Quer%C3%A9taro,+Qro.,+M%C3%A9xico/@20.654372,-100.433763,18z/data=!4m5!3m4!1s0x85d35a739ee7889b:0xa6bdc827f81d3f2a!8m2!3d20.6542721!4d-100.4329127?hl=es-ES">
-								<span id="btn-ofi">CORPORATIVO PILGRI'S QUERÉTARO</span><br>
+								<span id="btn-ofi">CORPORATIVO PILGRIM'S QUERÉTARO</span><br>
 								<b><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación:</b> Privada de los industriales 115 Col. Jurica  CP. 76100  Querétaro, Qro.<br>
 								<b><i class="fa fa-mobile" aria-hidden="true"> </i> Tel:</b> 442 103 2200
 							</a>
@@ -400,9 +400,6 @@
 							</a>
 						</div>
 					</div>
-				</div>
-				<br>
-				<div  class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
 						<div id="btn-cinco"  >
 							<a href="https://www.google.com/maps/place/Calle+Valle+del+Guadiana+294,+Parque+Industrial,+35078+G%C3%B3mez+Palacio,+Dgo.,+M%C3%A9xico/@25.554066,-103.469064,17z/data=!4m5!3m4!1s0x868fd975db7fe267:0xd2e36b839b3b406c!8m2!3d25.5540656!4d-103.4690638?hl=es-ES">

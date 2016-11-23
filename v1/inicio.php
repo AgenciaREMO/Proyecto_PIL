@@ -224,84 +224,83 @@
     				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     					<img  id="chef" class="img-responsive" src="rec/img/chef-omar.png" >
     				</div>
-    				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-    										<img id="tit-recetario" class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-recetario.png">
-
+    				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " >
+    					<img id="tit-recetario" class="img-responsive rec-inicio" src="rec/img/titulos/titulo-recetario.png">
     				</div>
     				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
     					<div class="bg-recetas">
-				    			<div class="row">
-					    			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
-									    <div class="hovereffect">
-									        <img class="img-responsive" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
-									            <div class="overlay">
-									            	<hr class="hr-hover">
-									                <h2>Espagueti con pollo en salsa de tomate</h2>
-													<p> 
-														<a href="r1-pollo-en-tomate.php" >
-															Ver receta
-														</a>
-													</p>
-													<hr class="hr-hover"> 
-									            </div>
+				    		<div class="row">
+					    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
+									<div class="hovereffect">
+									    <img class="img-responsive" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
+									    <div class="overlay">
+									        <hr class="hr-hover">
+									        <h2>Espagueti con pollo en salsa de tomate</h2>
+											<p> 
+												<a href="r1-pollo-en-tomate.php" >
+													Ver receta
+												</a>
+											</p>
+											<hr class="hr-hover"> 
 									    </div>
 									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
-									    <div class="hovereffect">
-									        <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
-									            <div class="overlay">
-									            	<hr class="hr-hover">
-									                <h2>Medallones de pollo estilo Colima</h2>
-													<p> 
-														<a href="r3-medallones-colima.php">
-															Ver receta
-														</a>
-													</p>
-													<hr class="hr-hover">
-									            </div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
+									<div class="hovereffect">
+									    <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
+									    <div class="overlay">
+									        <hr class="hr-hover">
+									        <h2>Medallones de pollo estilo Colima</h2>
+											<p> 
+												<a href="r3-medallones-colima.php">
+													Ver receta
+												</a>
+											</p>
+											<hr class="hr-hover">
 									    </div>
 									</div>
-					    		</div>
-				    			<div class="row">
-					    			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
-									    <div class="hovereffect">
-									        <img class="img-responsive " src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
-									            <div class="overlay">
-									            	<hr class="hr-hover">
-									                <h2>Medallones de pollo con brocolie en salsa de queso</h2>
-													<p>
-														<a href="r4-medallones-queso.php" >
-															Ver receta
-														</a>
-													</p>
-													<hr class="hr-hover"> 
-									            </div>
+								</div>
+					    	</div>
+				    		<div class="row">
+					    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
+									<div class="hovereffect">
+									   	<img class="img-responsive " src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
+									    <div class="overlay">
+									        <hr class="hr-hover">
+									        <h2>Medallones de pollo con brocolie en salsa de queso</h2>
+											<p>
+												<a href="r4-medallones-queso.php" >
+													Ver receta
+												</a>
+											</p>
+											<hr class="hr-hover"> 
 									    </div>
 									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
-									    <div class="hovereffect">
-									        <img class="img-responsive" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
-									            <div class="overlay">
-									            	<hr class="hr-hover">
-									                <h2>Pollo al Xoconochtle</h2>
-													<p> 
-														<a href="r9-pollo-xoconochtle.php">
-															Ver receta
-														</a>
-													</p>
-													<hr class="hr-hover">
-									            </div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 recetas-inicio">
+									<div class="hovereffect">
+									 	<img class="img-responsive" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
+									    <div class="overlay">
+									        <hr class="hr-hover">
+									        <h2>Pollo al Xoconochtle</h2>
+											<p> 
+												<a href="r9-pollo-xoconochtle.php">
+													Ver receta
+												</a>
+											</p>
+											<hr class="hr-hover">
 									    </div>
 									</div>
-				    			</div>
+								</div>
 				    		</div>
+				    	</div>
     				</div>
     			</div>
     		</div>
     		<section id="mob-re-ini" >
     				<div class="row">
     					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    						<img style="margin:auto !important;" id="recetas" class="img-responsive" src="rec/img/titulos/titulo-recetario.png" >
+    						<img id="recetas" class="img-responsive" src="rec/img/titulos/titulo-recetario.png" >
     					</div>
     				</div>
     					<div class="bg-recetas">
