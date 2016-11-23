@@ -109,15 +109,15 @@
 					<div class="col-lg-6 col-md-6">
 						<div class="icon-down">
 							<div class="row">
-								<div class="col-lg-4 col-md-12 col-sm-4 col-xs-4 text-center">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
 									<b>min. aproximados</b>
 								</div>
-								<div class="col-lg-4 col-md-12 col-sm-4 col-xs-4 text-center">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
 									<b>Porciones</b>
 								</div>
-								<div class="col-lg-4 col-md-12 col-sm-4 col-xs-4 text-center">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">
 									<b>Descarga</b>
 								</div>

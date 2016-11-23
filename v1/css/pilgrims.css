@@ -1727,6 +1727,15 @@ margin-bottom: 3%;
 }
 
 @media(max-width:991px) {
+
+  .hr-title-recetas{
+      width: 100% !important;
+      margin: 0px;
+      border-top-width: 2px; 
+      border-top-color: #6e6e6d !important;
+      border-top: solid;
+  }
+
    .logo-footer{
     display: none;
   }
