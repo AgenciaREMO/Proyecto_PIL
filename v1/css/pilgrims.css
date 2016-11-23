@@ -1174,8 +1174,16 @@ background: url('..rec/img/proceso/alimentos.png');
   .mob-oficinas{
   display: inline !important;
   }
+
+  .mar-recetas{
+    margin-bottom: 2%;
+  }
 }
 @media (max-width: 940px){
+
+.mar-recetas{
+    margin-bottom: 1%;
+  }
 
 #esc-mexico{
   display: none;

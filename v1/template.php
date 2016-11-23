@@ -480,14 +480,14 @@ function footer(){
       <tr>
         <td>
           <hr class="hr-mob">
-          <a id="afb" href=""><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
-          <a id="ayt" href=""><span class="fa fa-youtube fa-2x" aria-hidden="true"></span></a>
+          <a id="afb" href="https://www.facebook.com/PilgrimsMx/" ><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+          <a id="ayt" href="https://www.youtube.com/channel/UCst1XqFNFdUGVBYBlmRY5oQ"><span class="fa fa-youtube fa-2x" aria-hidden="true"></span></a>
         </td>
       </tr>
       <tr>
         <td>
           <hr class="hr-mob">
-          <a id="ser-cli" href="">SERVICIO AL CLIENTE</a>
+          <a id="ser-cli" href="servicio_cliente.php">SERVICIO AL CLIENTE</a>
           <hr class="hr-mob">
         </td>
       </tr>
@@ -496,10 +496,10 @@ function footer(){
            <div class="priva-mob">
           <div class="col-sm-12">
             <i class="fa fa-lock"  aria-hidden="true" data-toggle="modal" data-target="#a-privacidad"></i>
-            <a href="" >  AVISO DE PRIVACIDAD</a>
+            <a href="" id="mob1" data-toggle="modal" data-target="#a-privacidad" >  AVISO DE PRIVACIDAD</a>
           </div>
           <div class="col-sm-12">
-            <a href="" ><i class="fa fa-lock"  aria-hidden="true" data-toggle="modal" data-target="#a-confidencialidad"></i> 
+            <a href="" id="mob2" data-toggle="modal" data-target="#a-confidencialidad" ><i class="fa fa-lock"  aria-hidden="true" data-toggle="modal" data-target="#a-confidencialidad"></i> 
               AVISO DE CONFIDENCIALIDAD</a>
           </div>
           <div class="col-sm-12">

@@ -36,7 +36,7 @@
 				<div class="bg-receta esc-recetas">
 		    		<br>
 		    		<div class=" row">
-		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
 						            <div class="overlay">
@@ -49,7 +49,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/muslo_de_pollo_en_tamarindo.jpg">
 						            <div class="overlay">
@@ -62,7 +62,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
 						            <div class="overlay">
@@ -75,7 +75,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
 						            <div class="overlay">
@@ -90,7 +90,7 @@
 						</div>
 		    		</div><br>
 		    		<div class=" row">
-		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/alitas_de_pollo_en_salsa_de_tamarindo_picante_sobre_aranitas_de_plato.jpg">
 						            <div class="overlay">
@@ -103,7 +103,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/alitas_de_pollo_adobadas_rebozadas_en_coctel_de_frutas_mixtas.jpg">
 						            <div class="overlay">
@@ -116,7 +116,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/pierna_muslo_corte_americano_con_crema_chipotle.jpg">
 						            <div class="overlay">
@@ -129,7 +129,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/pierna_muslo_con_rajas_champinones.jpg">
 						            <div class="overlay">
@@ -144,7 +144,7 @@
 						</div>
 		    		</div><br>
 		    		<div class=" row">
-		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
 						            <div class="overlay">
@@ -157,7 +157,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/pechugas_rellenas_de_espinacas.jpg">
 						            <div class="overlay">
@@ -170,7 +170,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/pechuga_al_ajillo.jpg">
 						            <div class="overlay">
@@ -183,7 +183,7 @@
 						            </div>
 						    </div>
 						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mar-recetas">
 						    <div class="hovereffect">
 						        <img class="img-responsive" src="rec/img/recetas/brochetas_de_pollo.jpg">
 						            <div class="overlay">
