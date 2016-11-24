@@ -134,7 +134,7 @@ header.carousel-negocio {
 	text-align: center;
     width: 33% !important;
 }
-li.active a {
+ul.plantas-tabs>li.active a {
 	color: rgb(255,255,255) !important;
     background-color: rgb(1,6,85) !important;
     border-top: 4px solid rgb(217,35,46) !important;

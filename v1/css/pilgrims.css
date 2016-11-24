@@ -83,17 +83,21 @@ body {
 }
 .dropdown-menu {
     padding: 0;
-    width: 188.4px;
-    min-width: 115px;
+    width: 100%;
+}
+.dropdown-menu > li > a {
+  padding-left: 1%;
+  padding-right: 1%
 }
 .dropdown-menu > li {
-    padding: 8px 5px;
+    padding: 8px 5px !important;
     color: rgb(255,255,255);
     background-color: rgb(1,6,85);
 }
 .dropdown-menu > li:hover {
     background-color: rgb(217,35,46) !important;
 }
+
 .dropdown-menu > li > a > div {
     color: rgb(255,255,255);
     text-decoration: none;

@@ -87,7 +87,7 @@
 					</div>
 				</section>
 				<div class="cont p-02">
-					<ul class="nav nav-tabs" role="tablist">
+					<ul class="nav nav-tabs plantas-tabs" role="tablist">
 					    <li role="presentation" class="active"><a href="#incubadoras" aria-controls="home" role="tab" data-toggle="tab">Incubadoras</a></li>
 					    <li role="presentation"><a href="#alimentos" aria-controls="profile" role="tab" data-toggle="tab">De alimentos</a></li>
 					    <li role="presentation"><a href="#proceso" aria-controls="messages" role="tab" data-toggle="tab">De proceso</a></li>
