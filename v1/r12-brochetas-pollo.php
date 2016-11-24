@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_brochetasdepollo.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -76,10 +76,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									La pechuga se parte en cubos de 2cm por 2cm y se les pone sal y pimienta al gusto se parte la cebolla en cubos del mismo tamaño al igual que los 
-						pimientos y el tocino los champiñones se parten a la mitad ya preparado todo se inserta en el palillo cada uno de los ingredientes agregando
-						hasta el final en la punta del palillo un champiñón entero si es de su gusto se puede agregar trozos de piña en un asador ya precalentado se 
-						pone las brochetas  hasta que estén bien cocidas cuidando que no se quemen se puede acompañar con un timbal de arroz.
+									La pechuga se parte en cubos de 2cm por 2cm y se les pone sal y pimienta al gusto, se parte la cebolla en cubos del mismo tamaño al igual que los pimientos y el tocino los champiñones se parten a la mitad ya preparado todo se inserta en el palillo cada uno de los ingredientes agregando hasta el final en la punta del palillo un champiñón entero si es de su gusto se puede agregar trozos de piña en un asador ya precalentado se pone las brochetas  hasta que estén bien cocidas cuidando que no se quemen se puede acompañar con un timbal de arroz.
 								</td>
 							</tr>
 							

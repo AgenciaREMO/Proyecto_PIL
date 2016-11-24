@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_medallonescolima.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -75,7 +75,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En una sartén con aceite caliente, fríe los medallones Pilgrim’s durante 3 minutos, o hasta que estén dorados por ambos lados. 
+									En una sartén caliente colocar aceite y freír los <b><i><a href="medallones.php" data-toggle="tooltip" data-placement="top" title="Ver producto">medallones Pilgrim’s</a></i></b> por 4-5 minutos de cada lado hasta quedar dorados, una vez listos reservar en un recipiente.  
 								</td>
 							</tr>
 							<tr>
@@ -83,7 +83,7 @@
 									<img style="margin: auto;" src="rec/img/dos.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Apártalos en un recipiente. En la misma sartén, fríe la cebolla hasta que esté transparente. 
+									En la misma sartén, freír la cebolla durante 5 minutos a fuego medio; agregar la crema de chile poblano junto con la leche y dejar cocinar por 10 minutos moviendo constantemente. 
 								</td>
 							</tr>
 							<tr>
@@ -91,23 +91,7 @@
 									<img style="margin: auto;" src="rec/img/tres.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Agrega la crema de chile poblano y la leche, mezclándolos.
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/cuatro.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Añade los medallones y el queso.
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/cinco.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Agrégales sal y pimienta al gusto y cocínalos por 5 minutos o hasta que el pollo esté bien cocido.
+									Añadir los medallones y el queso, añadir sal y pimienta al gusto y cocinarlos por 10 minutos hasta cocer bien el pollo.
 								</td>
 							</tr>
 							<tr>
@@ -127,11 +111,11 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>min. aproximados</b>
+									<b>30 min. aproximados</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>Porciones</b>
+									<b>6 Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">

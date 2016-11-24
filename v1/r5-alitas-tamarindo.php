@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_alitasensalsa.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -58,7 +58,7 @@
 							<p>2 Dientes de ajo finamente picados.</p>
 							<p>1 Cucharada de aceite vegetal.</p>
 							<p>1/2 Taza de concentrado de tamarindo.</p>
-							<p>1 ata chica de chipotle para adobo.</p>
+							<p>1 lata chica de chipotle para adobo.</p>
 							<p>1/4 de taza de salsa de soya.</p>
 							<p>3 Hojas de laurel.</p>
 							<p>4 Cucharadas de miel de abeja.</p>
@@ -98,7 +98,7 @@
 									<img style="margin: auto;" src="rec/img/tres.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Cocina por 3 minutos y luego mezcla en una licuadora. Fríe las alitas de pollo hasta que estén bien doradas, elimina el exceso de aceite con papel absorbente y aparta.
+									Cocina por 3 minutos y luego mezcla en una licuadora. Reservar. Fríe las <a href="alas_naturales.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>alitas de pollo</i></b></a> durante 15 minutos hasta que estén bien doradas, elimina el exceso de aceite con papel absorbente y aparta.
 								</td>
 							</tr>
 							<tr>
@@ -127,11 +127,11 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>min. aproximados</b>
+									<b>45 min. aproximados</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>Porciones</b>
+									<b>4 Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">

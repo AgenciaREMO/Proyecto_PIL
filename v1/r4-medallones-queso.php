@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_nedallonesdepollo.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -74,7 +74,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En una olla con mantequilla caliente, fríe los medallones Pilgrim’s por 10 minutos o hasta que estén bien dorados por ambos lados. 
+									En una olla con mantequilla caliente, fríe los <b><i><a href="medallones.php" data-toggle="tooltip" data-placement="top" title="Ver producto">medallones Pilgrim’s</a></i></b> por 10 minutos o hasta que estén bien dorados por ambos lados. 
 								</td>
 							</tr>
 							<tr>
@@ -110,11 +110,11 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>min. aproximados</b>
+									<b>25 min. aproximados</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>Porciones</b>
+									<b>6 Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">

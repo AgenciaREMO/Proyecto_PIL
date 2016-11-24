@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_muslodepollo.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -37,7 +37,7 @@
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<p class="title-receta">Muslos de pollo Pilgrim's</p>
 						<p class="com-receta">al tamarindo</p>
-						<p class="rinde"><b><i>* Rinde para * personas<i></b></p>
+						<p class="rinde"><b><i>* Rinde para 6 personas<i></b></p>
 					</div>
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 incomparable" >
 						<img class="img-responsive logo-incomparable" src="rec/img/incomparable.png">
@@ -75,7 +75,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En una sartén agrega la mantequilla y fríe los muslos Pilgrim’s Premium.
+									En una sartén agrega la mantequilla y fríe los <b><i><a href="muslo.php">muslos Pilgrim’s</a></i></b>  dejándolos 5 minutos de cada lado hasta que se vea la piel dorada.
 								</td>
 							</tr>
 							<tr>
@@ -83,7 +83,7 @@
 									<img style="margin: auto;" src="rec/img/dos.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En la misma sartén incorpora los ingredientes restantes y déjalos hervir hasta que la salsa tenga una consistencia espesa.
+									En la misma sartén incorpora los ingredientes restantes y déjalos hervir durante 8 minutos o hasta que la salsa tenga una consistencia espesa.
 								</td>
 							</tr>
 							<tr>
@@ -91,7 +91,7 @@
 									<img style="margin: auto;" src="rec/img/tres.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Baña con esta salsa los muslos de pollo Pilgrim’s Premium y acompaña con arroz salvaje y brócoli.
+									Baña con esta salsa los muslos de pollo Pilgrim’s  y acompaña con arroz salvaje y brócoli.
 								</td>
 							</tr>
 							<tr>
@@ -111,11 +111,11 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>min. aproximados</b>
+									<b>35 min. aproximados</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>Porciones</b>
+									<b>6 Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">

@@ -18,7 +18,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_pechugaalajillo.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -76,12 +76,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En una sartén se agrega la mantequilla, ya caliente se pone el chile guajillo y el
-						ajo se pone a dorar el ajo se agrega la harina  no quemado ya dorado se agrega el
-						tequila y se mueve hasta que no se vea la harina y se retira del fuego ahora en 
-						un grill ya previamente caliente se pone la pechuga a cocine ya que este bien 
-						cocida se pone en un plato y en sima del plato se pone el ajillo se puede 
-						acompañar con una ensalada. 
+									En una sartén caliente se agrega la mantequilla, incorporar el chile guajillo y el ajo, dorar se agrega la harina  no quemado ya dorado se agrega el tequila y se mueve hasta que no se vea la harina y se retira del fuego ahora en un grill ya previamente caliente se pone la pechuga a cocine ya que este bien cocida se pone en un plato y encima del plato se pone el ajillo se puede acompañar con una ensalada.
 								</td>
 							</tr>
 							

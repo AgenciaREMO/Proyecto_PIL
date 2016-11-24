@@ -19,7 +19,7 @@
 	<div class="bg-content">
 		<section class="content" style="position:relative">
 			<img src="rec/img/banners_jpg/recetas_espaguetidepollo.jpg" alt="" class="img-responsive">
-			<div id="b" class="flecha-azul text-center animated infinite tada" style="position:absolute">
+			<div id="b" class="flecha-azul text-center animated  tada" style="position:absolute">
 				<a href="#b">
 					<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
@@ -55,15 +55,15 @@
 							Ingredientes
 						</div>
 						<div class="ing">
-							<p>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s sin hueso.</i></b></a>.</p>
+							<p>4 Mitades de <a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Pechuga de Pollo Pilgrim’s</i></b></a> sin hueso.</p>
 							<p>2 Cucharadas de aceite de oliva.</p>
-							<p>1 Cebolla picada.</p>
+							<p>1/2 Cebolla picada.</p>
 							<p>1 Zanahoria picada.</p>
 							<p>1 Tallo de apio con hojas, lavado y sin fibra, picado.</p>
-							<p>1 Diente de ajo machacado.</p>
+							<p>2 Diente de ajo machacado.</p>
 							<p>1/2 Taza de vino blanco seco.</p>
 							<p>1 Lata de puré de tomate.</p>
-							<p>1 Taza de caldo de pollo.</p>
+							<p>1/2 Taza de caldo de pollo.</p>
 							<p>1 Cucharada de perejil lavado y picado.</p>
 							<p>3 Cucharadas de albahaca fresca, lavada y picada.</p>
 							<p>Sal y pimienta al gusto.</p>
@@ -83,7 +83,7 @@
 									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En una cacerola grande, calienta el aceite a temperatura media. Agrega la cebolla, la zanahoria y el perejil, dejándolos hasta que se suavicen.
+									En una cacerola a fuego medio agregar aceite y calentar. Añadir y acitronar la cebolla, zanahoria y perejil durante 5 minutos
 								</td>
 							</tr>
 							<tr>
@@ -91,7 +91,7 @@
 									<img style="margin: auto;" src="rec/img/dos.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Añade el <b><i>pollo Pilgrim’s Premium</i></b> y cocina por ambos lados hasta que pierda el color rosado.
+									Añadir el <b><i><a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto">pollo Pilgrim’s Premium</a></i></b> y sellar por ambos lados; añadir el vino blanco y dejar reducir a fuego alto por 10 minutos.
 								</td>
 							</tr>
 							<tr>
@@ -99,7 +99,7 @@
 									<img style="margin: auto;" src="rec/img/tres.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Agrega el vino blanco y cocina a fuego alto aproximadamente por 7 minutos.
+									Mezclar el purè de jitomate con el caldo de pollo y el perejil e incorporar al pollo, dejar cocer por 30 minutos hasta que la salsa se espese.
 								</td>
 							</tr>
 							<tr>
@@ -107,7 +107,7 @@
 									<img style="margin: auto;" src="rec/img/cuatro.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Mezcla el puré de jitomate con el caldo de pollo y el perejil. Deja hervir reduciendo el fuego hasta que la  salsa se espese, aproximadamente 40 minutos.
+									Cocinar la pasta según las instrucciones del empaque, colar y añadir en el pollo y cocinar por 2 minutos y servir.
 								</td>
 							</tr>
 							<tr>
@@ -115,15 +115,7 @@
 									<img style="margin: auto;" src="rec/img/cinco.png" class="img-responsive">
 								</td>
 								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Añade la albahaca y sazona con sal y pimienta al gusto. 
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/seis.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Cocina el espagueti siguiendo las instrucciones del paquete. Por último cuela y agrega el pollo y la salsa.
+									Sazonar con sal y pimienta al gusto y añadir albahaca. 
 								</td>
 							</tr>
 						</table>
@@ -135,11 +127,11 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>min. aproximados</b>
+									<b>60 min. aproximados</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>Porciones</b>
+									<b>4 Porciones</b>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">
