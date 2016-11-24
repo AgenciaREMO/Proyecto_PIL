@@ -7,7 +7,6 @@
 	  	<title>Estándares de Calidad - PILGRIM'S</title>
 		<meta name="description" content="En Pilgrim’s productora de pollo en México">
 		<meta name="keywords" content="Pilgrim's, estándares de calidad, tif, certificación">
-		<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
 	</head>
 <body>
 	<!-- Google Tag Manager (noscript) -->

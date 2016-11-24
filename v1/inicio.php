@@ -85,11 +85,11 @@
 		<!--<div class="hero main">
 		  <div class="embed-responsive embed-responsive-16by9 vid-bg hidden-sm hidden-xs">
 		    <video autoplay="" loop="" muted="" class="embed-responsive-item" controls>
-		    	<source src="rec/video/nescafe-background.mp4" type="video/mp4">
+		    	<source src="rec/video/marcacomercial-background.mp4" type="video/mp4">
 		    </video>
 		  </div>
 		  <img src="rec/img/16x9.png" class="ratio spacer hidden-sm hidden-xs">
-		  <img src="//prod1.nescafe.com/es_es/public/img/hero/landing-mobile.gif" class="mobile-hero hidden-md hidden-lg hidden-xl"> 
+		  <img src="//prod1.marcacomercial.com/es_es/public/img/hero/landing-mobile.gif" class="mobile-hero hidden-md hidden-lg hidden-xl"> 
 		  <div id="cont-video" class="vertical-center">
 		    <div class="vertical-center-inner">
 		      <div class="hero-content">

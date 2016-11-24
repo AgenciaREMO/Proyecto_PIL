@@ -103,15 +103,9 @@
 				  <li><a href="#">Nuestra empresa</a></li>
 				  <li class="active">Filosofía</li>
 				</ol>
-				<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																										 animation-duration: 0.10s; 
-																										 animation-delay: 0.6s; 
-																										 animation-name: fadeInUp;">
-				
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 ">
-							<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-filosofia.png">
-						</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 ">
+						<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-filosofia.png">
 					</div>
 				</div>
 				<section class="esc-fil">
@@ -141,8 +135,8 @@
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision azul">MISIÓN</p>
-								<p><b>Ser los mejores en lo que nos proponemos</b>, pensando y actuando como dueños, respetando el medio ambiente, garantizando productos y servicios superiores para nuestros clientes, solidez a los 
-									proveedores, rentabilidad a los accionistas y <b>un futuro mejor para todos nuestros colaboradores</b>.</p>
+								<p><b>Ser los mejores en lo que nos proponemos</b>, pensando y actuando como dueños, respetando el <span class="verdecito"><b>medio ambiente</b></span>, garantizando <b><span class="azul">productos</span></b> y servicios superiores para nuestros <span class="naranja"><b>clientes</b></span>, solidez a los 
+									<span class="rosa"><b>proveedores</b></span>, rentabilidad a los <b>accionistas</b> y un futuro mejor para todos nuestros <b>colaboradores</b>.</p>
 							</div>
 						</div>
 						<br>
@@ -162,49 +156,49 @@
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h1.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Actitud de dueño:</b><br>
-										Estar comprometido con los resultados, enfocarse en los detalles y tomar responsabilidades.
+										<b><span class="azul">Actitud de dueño:</span></b><br>
+										Estar <span class="rosa"><b>comprometido</b></span> con los resultados, enfocarse en los detalles y tomar responsabilidades.
 										
 									</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h2.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Determinación:</b><br>
-										Ser implacable, dar resultados superiores y honrar compromisos.	
+										<b><span class="azul">Determinación:</span></b><br>
+										Ser <span class="rosa"><b>implacable</b></span>, dar resultados superiores y honrar compromisos.	
 									</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h3.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Disciplina:</b><br>
-										Entregar resultados, no dar excusas.							
+										<b><span class="azul">Disciplina:</span></b><br>
+										Entregar <span class="rosa"><b>resultados</b></span>, no dar excusas.							
 									</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h4.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Disponibilidad:</b><br>
-										Ser receptivo y abierto, siempre estar preparado y motivado para enfrentar nuevos retos.							</td>
+										<b><span class="azul">Disponibilidad:</span></b><br>
+										Ser <span class="rosa"><b>receptivo</b></span> y <span class="naranja"><b>abierto</b></span>, siempre estar preparado y motivado para enfrentar nuevos retos.							</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h5.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Simplicidad:</b><br>
-										Ser práctico, con enfoque en lo que es importante. Evitar la burocracia.							</td>
+										<b><span class="azul">Simplicidad:</span></b><br>
+										Ser <span class="rosa"><b>práctico</b></span>, con enfoque en lo que es importante. Evitar la burocracia.							</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h6.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Sinceridad:</b><br>
-										Ser directo, veraz y transparente.							
+										<b><span class="azul">Sinceridad:</span></b><br>
+										Ser <span class="rosa"><b>directo</b></span>, veraz y transparente.							
 									</td>
 								</tr>
 								<tr>
 									<td style="vertical-align:top"><img class="huesitos" src="rec/img/h1.png"></td>
 									<td style="padding-bottom:3%;">
-										<b>Humildad:</b><br>
-										Escuchar, actuar con respeto, ser servicial y atento.
+										<b><span class="azul">Humildad:</span></b><br>
+										Escuchar, actuar con respeto, ser <span class="rosa"><b>servicial</b></span> y <span class="naranja"><b>atento</b></span>.
 									</td>
 								</tr>
 							</table>

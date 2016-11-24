@@ -17,8 +17,6 @@ function meta(){
     <link href="css/pilgrimsML.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!--Animciones-->
-    <link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">
     <!--Animate.css-->
     <link rel="stylesheet" href="css/animate.css">
 	  <!-- GOOGLE ANALYTICS -->
@@ -31,42 +29,6 @@ function meta(){
     <!-- End Google Tag Manager -->
     <!-- / GOOGLE ANALYTICS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<?php
-}
-
-function meta_alt(){
-?>
-  
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <!--Animaciones-->
-    <!--<link rel="stylesheet" type="text/css" href="css/4_5_4styles.min.css">-->
-    <!-- Custom CSS -->
-     <link href="css/pilgrims.css" rel="stylesheet">
-     <link href="css/pilgrimsML.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!--Animate.css-->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- GOOGLE ANALYTICS -->
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N34BJ5');</script>
-    <!-- End Google Tag Manager -->
-    <!-- / GOOGLE ANALYTICS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  
 
 <?php
 }
