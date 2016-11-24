@@ -117,7 +117,7 @@
 
 					<form action="enviar_hagamos_negocio.php" class="formulario" method="POST">
 						<div class="row">
-							<div class="col-lg-12">
+							<div class="col-lg-12" style="text-align:left;">
 								<label for="categorias">¿En qué esta interesado?</label>
 							</div>
 							<div class="col-lg-6">

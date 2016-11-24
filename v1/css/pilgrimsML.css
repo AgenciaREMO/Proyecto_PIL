@@ -132,6 +132,12 @@ header.carousel-negocio {
 }
 .nav-tabs li {
 	text-align: center;
+    width: 33% !important;
+}
+li.active a {
+	color: rgb(255,255,255) !important;
+    background-color: rgb(1,6,85) !important;
+    border-top: 4px solid rgb(217,35,46) !important;
 }
 /*Historia Pilgrim's*/
 .pilgrims-mundo {
@@ -311,7 +317,10 @@ header.carousel-negocio {
 	.social {
 		display: none;
 	}
-	
+	/*Desaparece margin izquierdo*/
+	.p-plantas {
+		margin-left: 0px;
+	}
 }
 
 @media (max-width: 992px) {
