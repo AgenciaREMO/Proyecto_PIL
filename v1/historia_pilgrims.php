@@ -121,7 +121,7 @@
 		<?php
 			footer();
 		?>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
 			  	// hide our element on page load

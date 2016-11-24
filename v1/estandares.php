@@ -33,41 +33,34 @@
 		  <li><a href="#">Procesos</a></li>
 		  <li class="active">Estándares de Calidad</li>
 		</ol>
-
-			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																										 animation-duration: 0.10s; 
-																										 animation-delay: 0.6s; 
-																										 animation-name: fadeInUp;">
-				
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 ">
-					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-estandares.png">
-				</div>
+		<div class="row ">
+			<div class="col-lg-12 col-md-12 col-sm-12 ">
+				<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-estandares.png">
 			</div>
 		</div>
 		<section class=" p-02">
 			<div class="row verde">
 				<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-12">
-					<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
+					<div class="anima-img">
 						<img class="img-tif img-responsive" src="rec/img/tif.png">
 					</div>
 				</div>
 				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12">
-				    <div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; animation-duration: 0.15s; animation-delay: 0.9s; animation-name: fadeInUp;">					
+				    <div class="anima-text" >					
 						<p class="sello">El Sello Inspección de Tipo Federal (TIF) garantiza que el alimento es inocuo; es otorgado por SAGARPA quien hace la auditoría, donde verifican que las instalaciones y productos cumplan con las regulaciones que señalan.</p>
 					</div>
 				</div>
 			</div>
 			<div class="row blanco">
 				<div class="col-lg-7 col-md-7 col-sm-12">
-					<div class="wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.15s" style="visibility: visible; animation-duration: 0.15s; animation-delay: 0.9s; animation-name: fadeInUp;">
+					<div class="anima-text" >
 						<p id="nues-pollos"><b>¿Nuestros pollos tienen hormonas o clembuterol?</b></p>
 						<p><b>Nuestros Pollos no tienen Hormonas ni Clembuterol.</b> Estas sustancias son ilegales, por lo que nos sería imposible obtener el Sello TIF en nuestros productos. </p>
 						<p>Además, el lapso de tiempo que tarda un pollito en crecer es aproximadamente de 21 días. Las hormonas y el clembuterol  son componentes que tardan de 60 a 100 días para hacer efecto.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12">
-					<div class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
+					<div class="anima-img">
 						<img class="img-tif img-responsive" src="rec/img/pollo-estandar.png">
 					</div>
 				</div>
@@ -78,5 +71,32 @@
 	<?php
 		footer();
 	?>
+	<script type="text/javascript">
+			$(document).ready(function(){
+			  	// hide our element on page load
+			  	$('.anima-title').css('opacity', 0);
+			  	$('.anima-text').css('opacity', 0);
+			  	$('.anima-img').css('opacity', 0);
+
+			  	$('.anima-title').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated pulse');	 
+			  	}, { offset: '70%' });
+
+			  	$('.anima-text').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated slideInUp');	 
+			  	}, { offset: '70%' });
+
+			  	$('.anima-img').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated pulse');	 
+			  	}, { offset: '70%' });
+			 	
+			});
+		</script>
 </body>
 </html>

@@ -103,20 +103,20 @@
 				  <li><a href="#">Nuestra empresa</a></li>
 				  <li class="active">Filosofía</li>
 				</ol>
-				<div class="row">
+				<div class="row ">
 					<div class="col-lg-12 col-md-12 col-sm-12 ">
 						<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-filosofia.png">
 					</div>
 				</div>
 				<section class="esc-fil">
 					<div class="cont font-filosofia">
-						<div id="vision" class="row">
+						<div id="vision" class="row anima-text">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision gris">VISIÓN</p>
 							</div>
 						</div>
-						<div id="div-vision" class="row">
+						<div id="div-vision" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision rosa">VISIÓN</p>
@@ -125,13 +125,13 @@
 							</div>
 						</div>
 						<br>
-						<div id="mision" class="row">
+						<div id="mision" class="row anima-text">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision gris">MISIÓN</p>
 							</div>
 						</div>
-						<div id="div-mision" class="row">
+						<div id="div-mision" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision azul">MISIÓN</p>
@@ -140,13 +140,13 @@
 							</div>
 						</div>
 						<br>
-						<div id="valores" class="row">
+						<div id="valores" class="row anima-text">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTROS</p>
 								<p class="vision gris">VALORES</p>
 							</div>
 						</div>
-						<div id="div-valores" class="row">
+						<div id="div-valores" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTROS</p>
 								<p class="vision verdecito">VALORES</p>
@@ -207,7 +207,7 @@
 				</section>
 				<section class="mob-fil">
 					<div class="cont  font-filosofia">
-						<div id="" class="row">
+						<div id="" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision rosa">VISIÓN</p>
@@ -216,7 +216,7 @@
 							</div>
 						</div>
 						<br>
-						<div id="" class="row">
+						<div id="" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision azul">MISIÓN</p>
@@ -225,7 +225,7 @@
 							</div>
 						</div>
 						<br>
-						<div id="" class="row">
+						<div id="" class="row anima-right">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTROS</p>
 								<p class="vision verdecito">VALORES</p>
@@ -292,5 +292,32 @@
 <?php
 		footer();
 	?>
+	<script type="text/javascript">
+			$(document).ready(function(){
+			  	// hide our element on page load
+			  	$('.anima-title').css('opacity', 0);
+			  	$('.anima-text').css('opacity', 0);
+			  	$('.anima-right').css('opacity', 0);
+
+			  	$('.anima-title').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated pulse');	 
+			  	}, { offset: '70%' });
+
+			  	$('.anima-text').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated slideInUp');	 
+			  	}, { offset: '70%' });
+
+			  	$('.anima-right').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated slideInRight');	 
+			  	}, { offset: '70%' });
+			 	
+			});
+		</script>
 </body>
 </html>

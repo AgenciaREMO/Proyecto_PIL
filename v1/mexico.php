@@ -35,20 +35,12 @@
 			  <li class="active">Pilgrim's México</li>
 			</ol>
 
-			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																											 animation-duration: 0.10s; 
-																											 animation-delay: 0.6s; 
-																											 animation-name: fadeInUp;">
+			
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 ">
 						<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-mexico.png">
 					</div>
 				</div>
-			</div>
-			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																											 animation-duration: 0.20s; 
-																											 animation-delay: 0.6s; 
-																											 animation-name: fadeInUp;">
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<div class="d-mapa">
@@ -64,7 +56,6 @@
 						</p>
 					</div>
 				</div>
-			</div>
 			<div class="bg-mexico">
 					<div class="row" id="d-mexico">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

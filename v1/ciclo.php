@@ -33,56 +33,50 @@
 			  <li><a href="inicio.php">Inicio</a></li>
 			  <li><a href="#">Procesos</a></li>
 			  <li class="active">Ciclo de procesos</li>
-			</ol>
-			<div class="wow fadeInUp animated" data-wow-delay="0.6s" data-wow-duration="0.10s" style="visibility: visible; 
-																											 animation-duration: 0.10s; 
-																											 animation-delay: 0.6s; 
-																											 animation-name: fadeInUp;">
-					
-				<div class="row">
+			</ol>	
+			<div class="row ">
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
 					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-ciclo.png">
 				</div>
-			</div>
 			</div>
 			<div class="cont">
 				<div style="padding: 5%;">
 					<table id="esc-procesos" width="100%">
 					<tr>
-						<td style="background:url('rec/img/proceso/h-clientes.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-clientes.png')center no-repeat;" class="text-center anima-pulse">
 							<img class="  img-proceso" src="rec/img/proceso/cliente.png">
 						</td>
 						<td rowspan="3">
-							<img  style="margin: auto;" class="img-responsive" src="rec/img/proceso/logo-proceso.png">
+							<img  style="margin: auto;" class="img-responsive anima-pulse" src="rec/img/proceso/logo-proceso.png">
 						</td>
-						<td style="background:url('rec/img/proceso/h-alimentos.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-alimentos.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/alimentos.png">
 						</td>
 					</tr>
 					<tr>
-						<td style="background:url('rec/img/proceso/h-distribucion.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-distribucion.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/distribucion.png">
 						</td>
-						<td style="background:url('rec/img/proceso/h-progenitoras.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-progenitoras.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/progenitoras.png">
 						</td>
 					</tr>
 					<tr>
-						<td style="background:url('rec/img/proceso/h-productos.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-productos.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/productos.png">
 						</td>
-						<td style="background:url('rec/img/proceso/h-reproductoras.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-reproductoras.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/reproductoras.png">
 						</td>
 					</tr>
 					<tr>
-						<td style="background:url('rec/img/proceso/h-procesadora.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-procesadora.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/proceso.png">
 						</td>
-						<td style="background:url('rec/img/proceso/h-en-engorda.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-en-engorda.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/en_engorda.png">
 						</td>
-						<td style="background:url('rec/img/proceso/h-incubadoras.png')center no-repeat;" class="text-center">
+						<td style="background:url('rec/img/proceso/h-incubadoras.png')center no-repeat;" class="text-center anima-pulse">
 							<img class=" img-proceso" src="rec/img/proceso/incubadora.png">
 						</td>
 					</tr>
@@ -102,5 +96,26 @@
 	<?php
 		footer();
 	?>
+	<script type="text/javascript">
+			$(document).ready(function(){
+			  	// hide our element on page load
+			  	$('.anima-title').css('opacity', 0);
+			  	$('.anima-pulse').css('opacity', 0);
+
+			  	$('.anima-title').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated pulse');	 
+			  	}, { offset: '70%' });
+
+			  	$('.anima-pulse').waypoint(function(direction) {
+			      	$(this).css('opacity', 1);
+			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
+			      	$(this).addClass('animated pulse');	 
+			  	}, { offset: '70%' });
+
+			 	
+			});
+		</script>
 </body>
 </html>
