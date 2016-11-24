@@ -3,7 +3,7 @@
 <html lang="es">
 	<head>
 	  	<?php require 'template.php'; ?>
-	  	<?php meta_alt(); ?>
+	  	<?php meta(); ?>
 	  	<title>Hagamos Negocio - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">

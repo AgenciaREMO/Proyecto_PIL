@@ -3,7 +3,7 @@
 <html lang="es">
 	<head>
 	  	<?php require 'template.php'; ?>
-	  	<?php meta_alt(); ?>
+	  	<?php meta(); ?>
 	  	<title>Pilgrim's Valor Agregado - Pilgrim's</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
@@ -44,13 +44,13 @@
 						<hr class="hr-productos">
 						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
 							<div class=" animated zoomIn">
-								<img src="rec/img/nuestras_marcas/filete_picante.png" alt="Filete empanizado picante" class="img-responsive img-thumbnail thumbnail-producto" style="max-width:100%">
+								<img src="rec/img/nuestras_marcas/filete_picante.png" alt="Filete empanizado picante" class="img-responsive thumbnail-producto" style="max-width:100%">
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/filete_picante.png" alt="Filete empanizado picante" class="img-responsive img-thumbnail thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/filete_picante.png" alt="Filete empanizado picante" class="img-responsive thumbnail-producto">
 						</div>
 					</div>
 				</div>
