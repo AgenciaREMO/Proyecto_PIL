@@ -94,7 +94,7 @@
 					</ul>
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane in active text-left" id="incubadoras">
-					    	<h2 class="h3-plantas animated fadeIn">Nuestras incubadoras</h2>
+					    	<h2 class="animated fadeIn">Nuestras incubadoras</h2>
 					    	<div class="row">
 						    	<div class="col-lg-6 elem_animar">
 						    		<h3><img src="rec/img/p_incubadoras.png" alt="Icono plantas incubadoras" class="icon-pollito">Planta incubadora Antongo 1 y 2</h3>

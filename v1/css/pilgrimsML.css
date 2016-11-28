@@ -133,6 +133,7 @@ header.carousel-negocio {
 .nav-tabs li {
 	text-align: center;
     width: 33% !important;
+    font-size: 1.5em;
 }
 ul.plantas-tabs>li.active a {
 	color: rgb(255,255,255) !important;
