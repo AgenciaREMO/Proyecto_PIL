@@ -84,8 +84,33 @@
 						</div>
 					</div>
 				</section>
+
+				
+				<section id="myCarou" class="carousel slide" style="position:relative; background-color:#071689;color:#FFF;font-size:1.5em">
+			        <!-- Wrapper for slides -->
+			        <div class="carousel-inner">
+			            <div class="item active">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%">Pollos alimentados con productos 100% naturales.</p>
+				            </div>	
+			            </div>
+			            <div class="item">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%">Pollos criados en México.</p>
+			                </div>
+			            </div>
+			            <div class="item">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%">Pollo cuidado con altos estándares de calidad</p>
+			                </div>
+			            </div>
+			            <div id="b"></div>
+			        </div>
+			    </section>
+
+
 				<div class="container productos" style="padding-left:0px; padding-right:0px;">
-					<div class="row animated zoomIn">
+					<div class="row container animated zoomIn">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 					    	<div class="hovereffect">
 					    		<a href="pollo_entero.php" >
