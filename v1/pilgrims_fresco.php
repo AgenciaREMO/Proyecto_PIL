@@ -86,22 +86,22 @@
 				</section>
 
 				
-				<section id="myCarou" class="carousel slide" style="position:relative; background-color:#071689;color:#FFF;font-size:1.5em">
+				<section id="myCarou" class="carousel slide" style="position:relative; background-color:#e31d1a;color:#FFF;font-size:2em;">
 			        <!-- Wrapper for slides -->
 			        <div class="carousel-inner">
 			            <div class="item active">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%">Pollos alimentados con productos 100% naturales.</p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">CRIADO EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
 				            </div>	
 			            </div>
 			            <div class="item">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%">Pollos criados en México.</p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLO CUIDADO CON ALTOS ESTÁNDARES DE CALIDAD</p>
 			                </div>
 			            </div>
 			            <div class="item">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%">Pollo cuidado con altos estándares de calidad</p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLOS ALIMENTADOS CON PRODUCTOS 100% NATURALES</p>
 			                </div>
 			            </div>
 			            <div id="b"></div>

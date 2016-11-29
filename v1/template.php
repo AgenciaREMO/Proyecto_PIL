@@ -75,9 +75,9 @@ function menu($elemento = ""){
 <!-- MENÚ -->
 <div class="header-menu">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
+    <div class="navbar-header" style="text-align:center;">
       <a href="inicio.php" class="btn-img-home">
-        <img class="img-responsive logo-menu" src="rec/img/logo-pilgrims.png"/>
+        <embed class="logo-menu" src="rec/img/svg/logo-pilgrims.svg" style="width:109px;height:66px;">
       </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu1">
         <span class="sr-only">Toggle navigation</span>
@@ -90,13 +90,13 @@ function menu($elemento = ""){
       <ul class="nav navbar-nav">
         <li class="<?php echo $uno; ?>">
           <a href="inicio.php">
-            <span class="icon-nav"><img src="rec/img/home.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/home.svg" style="width:29px;height:29px;">
             <div>INICIO</div>
           </a>
         </li>
         <li class="dropdown <?php echo $dos; ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/marcas.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/marcas.svg" style="width:29px;height:29px;">
             <div>NUESTRAS<br>MARCAS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
@@ -107,7 +107,7 @@ function menu($elemento = ""){
         </li>
         <li class="<?= $tres;?>">
           <a href="recetario.php">
-            <span class="icon-nav"><img src="rec/img/recetario.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/recetario.svg" style="width:29px;height:29px;">
             <div>RECETARIO</div>
           </a>
         </li>
@@ -119,13 +119,13 @@ function menu($elemento = ""){
         </li>-->
         <li class="<?= $cinco;?>">
           <a href="hagamos_negocio.php">
-            <span class="icon-nav"><img src="rec/img/negocio.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/negocio.svg" style="width:29px;height:29px;">
             <div>HAGAMOS<br>NEGOCIO</div>
           </a>
         </li>
         <li class="<?= $seis;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/procesos.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/procesos.svg" style="width:29px;height:29px;">
             <div>PROCESOS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
@@ -135,7 +135,7 @@ function menu($elemento = ""){
         </li>
         <li class="dropdown <?= $siete;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/empresa.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/empresa.svg" style="width:29px;height:29px;">
             <div>NUESTRA<br>EMPRESA <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
@@ -149,7 +149,7 @@ function menu($elemento = ""){
         </li>
         <li class="dropdown <?= $ocho;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <span class="icon-nav"><img src="rec/img/contacto.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/contacto.svg" style="width:29px;height:29px;">
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
@@ -159,7 +159,7 @@ function menu($elemento = ""){
         </li>
         <li class="dropdown <?= $nueve;?>">
           <a href="talento_pilgrims.php">
-            <span class="icon-nav"><img src="rec/img/talento.png" alt="Icono Pilgrim's"></span>
+            <embed src="rec/img/svg/talento.svg" style="width:29px;height:29px;">
             <div>TALENTO<br>PILGRIM'S</div>
           </a>
         </li>

@@ -1,0 +1,64 @@
+<svg id="Logo-Defs" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+	<defs>
+		<style type="text/css">
+	 		#Logo {
+				fill: #FFF; 
+				stroke: #FFF;
+				stroke-miterlimit: 5;
+			}
+				 
+			.Animate-Draw {
+				fill-opacity: 0;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-iteration: 1;
+				  
+				animation-name: DrawLine, FadeStroke, FillIn;
+				animation-duration: 4s, 1s, 1s;
+				animation-delay: 0s, 1.5s, 1.5s;
+			} 
+
+			#Draw-Frame { 
+				animation-delay: 1s, 2s, 2s;
+				animation-duration: 3.5s, 1s, 1s; 
+				stroke-dashArray: 500;
+				stroke-dashoffset: 500;
+			}
+
+			@keyframes DrawLine {
+				to { stroke-dashOffset: 0; }
+			}
+
+			@keyframes FadeStroke {
+				to { stroke-opacity: 0; }
+			}
+
+			@keyframes FillIn {
+				from { fill-opacity: 0; }
+				to { fill-opacity: 1; }
+			}  
+		</style>
+		<g id="Logo-Group">
+			<path id="Frame1" d="M11.6,18.4c-0.3-0.3-0.7-0.4-1-0.3l-1.9,0.3c-0.3,0.1-0.7,0-0.9-0.2c0,0,0,0,0,0l-2.4,6.5l3.3-0.6l2.1,2.6
+				l2.5-6.7c-0.1,0-0.1-0.1-0.2-0.2L11.6,18.4z M20,18.1C19.9,18.1,19.9,18.1,20,18.1c-0.3,0.3-0.7,0.3-1,0.3l-1.9-0.3
+				c-0.4-0.1-0.8,0.1-1,0.3l-1.4,1.4c-0.1,0.1-0.1,0.1-0.2,0.1l2.5,6.7l2.1-2.6l3.3,0.6L20,18.1z"/>
+			<path id="Frame2" d="M16.7,17.1l1.7,0.3c0.3,0,0.6,0,0.8-0.2c0.2-0.2,0.4-0.4,0.4-0.7l0.3-1.7c0.1-0.3,0.3-0.6,0.6-0.8l1.5-0.8
+				c0.3-0.1,0.5-0.4,0.5-0.6c0.1-0.3,0.1-0.6-0.1-0.8l-0.8-1.5c-0.2-0.3-0.2-0.7,0-1l0.8-1.5c0.1-0.3,0.2-0.6,0.1-0.8
+				c-0.1-0.3-0.3-0.5-0.5-0.6l-1.5-0.8c-0.3-0.2-0.5-0.4-0.6-0.8L19.6,3c0-0.3-0.2-0.5-0.4-0.7C19,2.1,18.7,2,18.4,2.1l-1.7,0.3
+				c-0.3,0.1-0.7-0.1-0.9-0.3l-1.2-1.2c-0.2-0.2-0.5-0.3-0.7-0.3c-0.3,0-0.5,0.1-0.7,0.3l-1.2,1.2c-0.2,0.2-0.6,0.4-0.9,0.3L9.2,2.1
+				c-0.3,0-0.6,0-0.8,0.2C8.2,2.4,8,2.7,8,3L7.7,4.7C7.7,5,7.5,5.3,7.2,5.5L5.6,6.3C5.4,6.4,5.2,6.6,5.1,6.9C5,7.2,5,7.5,5.1,7.7
+				l0.8,1.5c0.2,0.3,0.2,0.7,0,1l-0.8,1.5C5,12,5,12.3,5.1,12.6c0.1,0.3,0.3,0.5,0.5,0.6L7.2,14c0.3,0.2,0.5,0.5,0.6,0.8L8,16.5
+				c0,0.3,0.2,0.5,0.4,0.7c0.2,0.2,0.5,0.2,0.8,0.2l1.7-0.3c0.3-0.1,0.7,0.1,0.9,0.3l1.2,1.2c0.2,0.2,0.5,0.3,0.7,0.3
+				c0.3,0,0.5-0.1,0.7-0.3l1.2-1.2C16,17.2,16.3,17.1,16.7,17.1L16.7,17.1z M13.8,15.8c-3.4,0-6.2-2.8-6.2-6.2c0-3.4,2.8-6.2,6.2-6.2
+				c3.4,0,6.2,2.8,6.2,6.2C20,13,17.2,15.8,13.8,15.8L13.8,15.8z M13.8,16.2"/>
+			<path id="Frame3" d="M13.8,4.4c-2.9,0-5.2,2.3-5.2,5.2c0,2.9,2.3,5.2,5.2,5.2c2.9,0,5.2-2.3,5.2-5.2C19,6.7,16.7,4.4,13.8,4.4
+				L13.8,4.4z M13.8,4.4"/>
+		</g>
+	</defs>
+	<svg id="Logo" class="Animate-Draw" xml:space="preserve" width="32px" height="32px" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+	  <use id="Draw-Frame" class="Animate-Draw" xlink:href="#Frame1" />
+	  <use id="Draw-Frame" class="Animate-Draw" xlink:href="#Frame2" />
+	  <use id="Draw-Frame" class="Animate-Draw" xlink:href="#Frame3" />
+	</svg>  
+</svg>
+
