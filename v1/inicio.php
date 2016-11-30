@@ -22,10 +22,10 @@
 		   }
 	   </script>
   </head>
-<body onload="efecto();" style="background-color:#001e65;">
-<div style="background-color:#001e65;" id="preload" >
+<body onload="efecto();" style="background-color:#071689;">
+<div style="background-color:#071689;" id="preload" >
 	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 			<div >
 				<embed class="logo-menu" src="rec/img/svg/logo-pilgrims-intro.svg" style="width:500px;height:400px;">
 				<img style="margin:auto !important;" class="img-responsive" src="rec/img/logo_blanco.gif" >
@@ -33,6 +33,7 @@
 		</div>
 	</div>
 </div>
+
 <div id="contenido" style="display: none" >
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
@@ -59,28 +60,28 @@
 	        <div class="carousel-inner">
 	            <div class="item active">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" width="100%">
+	                	<video autoplay loop controls width="100%">
 						    <source src="rec/video/animacion-pechuga-navidena.mp4" type="video/mp4">
 						</video>
 		            </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" width="100%">
+	                	<video autoplay loop controls width="100%">
 						    <source src="rec/video/animacion-nuggets.mp4" type="video/mp4">
 						</video>
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" width="100%">
+	                	<video autoplay loop controls width="100%">
 							<source src="rec/video/animacion-boneless.mp4" type="video/mp4">
 						</video>
 	                </div>
 	            </div>
 	            <div class="item">
 	                <div class="fill" >
-	                	<video autoplay="" loop="" width="100%">
+	                	<video autoplay loop controls width="100%">
 							<source src="rec/video/animacion-arrachera.mp4" type="video/mp4">
 						</video>
 	                </div>
@@ -533,7 +534,7 @@
         interval: 5000 //changes the speed
     })
     $('#carousel-inicio').carousel({
-        interval: 15000 //changes the speed
+        interval: 25000 //changes the speed
     })
     </script>
 </div>
