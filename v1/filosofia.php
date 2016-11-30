@@ -116,7 +116,7 @@
 								<p class="vision gris">VISIÓN</p>
 							</div>
 						</div>
-						<div id="div-vision" class="row anima-right">
+						<div id="div-vision" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision rosa">VISIÓN</p>
@@ -131,7 +131,7 @@
 								<p class="vision gris">MISIÓN</p>
 							</div>
 						</div>
-						<div id="div-mision" class="row anima-right">
+						<div id="div-mision" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision azul">MISIÓN</p>
@@ -146,7 +146,7 @@
 								<p class="vision gris">VALORES</p>
 							</div>
 						</div>
-						<div id="div-valores" class="row anima-right">
+						<div id="div-valores" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTROS</p>
 								<p class="vision verdecito">VALORES</p>
@@ -207,7 +207,7 @@
 				</section>
 				<section class="mob-fil">
 					<div class="cont  font-filosofia">
-						<div id="" class="row anima-right">
+						<div id="" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision rosa">VISIÓN</p>
@@ -216,7 +216,7 @@
 							</div>
 						</div>
 						<br>
-						<div id="" class="row anima-right">
+						<div id="" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTRA</p>
 								<p class="vision azul">MISIÓN</p>
@@ -225,7 +225,7 @@
 							</div>
 						</div>
 						<br>
-						<div id="" class="row anima-right">
+						<div id="" class="row">
 							<div class="col-lg-12">
 								<p class="nuestra">NUESTROS</p>
 								<p class="vision verdecito">VALORES</p>
@@ -308,7 +308,7 @@
 			  	$('.anima-text').waypoint(function(direction) {
 			      	$(this).css('opacity', 1);
 			      	$(this).css('-webkit-transition', 'opacity .3s ease-in-out');
-			      	$(this).addClass('animated slideInUp');	 
+			      	$(this).addClass('animated pulse');	 
 			  	}, { offset: '70%' });
 
 			  	$('.anima-right').waypoint(function(direction) {

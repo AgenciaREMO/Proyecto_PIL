@@ -10,10 +10,10 @@
 		<script type="text/javascript">
 		    function  efecto(){
 		    	
-		    	setTimeout(function() {$('#preload').slideUp(1000);},2000);
+		    	setTimeout(function() {$('#preload').slideUp(2000);},3000);
 		    	/*setTimeout(function() {$('#preload').css({'opacity': '0'});},2900);*/
-		    	setTimeout(function() {$('#contenido').fadeIn(100);},3000);
-		    	setTimeout(function() {$('#menu').fadeIn(100);},3100);
+		    	setTimeout(function() {$('#contenido').fadeIn(100);},4000);
+		    	setTimeout(function() {$('#menu').fadeIn(100);},4100);
 		    	
 		        /*$('#preload').hide(3500);
 				$('#contenido').fadeIn(4000);
@@ -27,6 +27,7 @@
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div >
+				<embed class="logo-menu" src="rec/img/svg/logo-pilgrims-intro.svg" style="width:500px;height:400px;">
 				<img style="margin:auto !important;" class="img-responsive" src="rec/img/logo_blanco.gif" >
 			</div>
 		</div>
