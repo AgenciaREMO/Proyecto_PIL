@@ -7,21 +7,41 @@
 	  	<title>INICIO - PILGRIM'S</title>
 		<meta name="description" content="En Pilgrim’s productora de pollo en México">
 		<meta name="keywords" content="Pilgrim's, pollo, pollo fresco, valor agregado, lanzamientos">
-		<script type="text/javascript" src="rec/video/main.dist.js"></script>
 		<script type="text/javascript">
-	        $(document).ready(function() {
-	            $("#cont-video").fadeOut(20000);
-	        });
-	    </script>
-	</head>
-<body>
+		    function  efecto(){
+		    	
+		    	setTimeout(function() {$('#preload').slideUp(1000);},2000);
+		    	/*setTimeout(function() {$('#preload').css({'opacity': '0'});},2900);*/
+		    	setTimeout(function() {$('#contenido').fadeIn(100);},3000);
+		    	setTimeout(function() {$('#menu').fadeIn(100);},3100);
+		    	
+		        /*$('#preload').hide(3500);
+				$('#contenido').fadeIn(4000);
+				$('#menu').fadeIn(5000);*/
+
+		   }
+	   </script>
+  </head>
+<body onload="efecto();" style="background-color:#001e65;">
+<div style="background-color:#001e65;" id="preload" >
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div >
+				<img style="margin:auto !important;" class="img-responsive" src="rec/img/logo_blanco.gif" >
+			</div>
+		</div>
+	</div>
+</div>
+<div id="contenido" style="display: none" >
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N34BJ5"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<?php
-		menu("1");
-	?>
+	<div id="menu">
+		<?php
+			menu("1");
+		?>
+	</div>
 	<div class="bg-lanzamiento">
 		<header id="carousel-inicio" class="carousel slide" style="position:relative">
 	        <!-- Indicators -->
@@ -501,8 +521,6 @@
     		</section>-->
 	    		</div>
     		</div>
-    	</div>
-    </div>
  	
 	<?php
 		footer();
@@ -517,6 +535,6 @@
         interval: 15000 //changes the speed
     })
     </script>
-
+</div>
 </body>
 </html>
