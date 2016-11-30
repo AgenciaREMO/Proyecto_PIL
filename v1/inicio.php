@@ -26,8 +26,8 @@
 <div style="background-color:#071689;" id="preload" >
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-			<div >
-				<embed class="logo-menu" src="rec/img/svg/logo-pilgrims-intro.svg" style="width:500px;height:400px;">
+			<div class="aling">
+				<embed class="logo-menu" src="rec/img/svg/logo-pilgrims-intro.svg" style="max-width:400px; width:100%; max-height:300px; height: 100%;">
 				<img style="margin:auto !important;" class="img-responsive" src="rec/img/logo_blanco.gif" >
 			</div>
 		</div>
