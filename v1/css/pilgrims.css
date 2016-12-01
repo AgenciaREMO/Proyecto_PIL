@@ -703,13 +703,16 @@ body {
   transform: translate3d(0,100%,0);
 }
 
-
-
-
-
 /*Ciclo de proceso*/
+
+.contenido-ciclo{
+background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+background-size: cover;
+width: 100%;
+border-radius: 5px;
+}
 .ciclo-escritorio{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
@@ -720,7 +723,6 @@ body {
 }
 
 .ciclo-mobil{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
@@ -732,7 +734,6 @@ body {
 }
 
 .ciclo-mobil-cel{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
@@ -819,6 +820,40 @@ body {
   .tres{
     padding-top: 7.5%;
   }
+
+  .ciclo-escritorio{
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:inline;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+.ciclo-mobil{ 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:none;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+.ciclo-mobil-cel{
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:none;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
 }
 
 @media (max-width: 1024px){
@@ -834,35 +869,39 @@ body {
     padding-top: 7.5%;
   }
 
-  .ciclo-escritorio{
-    display: none !important;
-  }
-
-  .ciclo-mobil{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+.ciclo-escritorio{
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
   background-size: cover;
-  display: inline !important;/*
-    display: inline !important;
+  display:none;/*
   -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
 }
 
-
-  .ciclo-mobil-cel{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+.ciclo-mobil{
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
   background-size: cover;
-  display: none !important;/*
+  display:inline;/*
   -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
 }
+
+.ciclo-mobil-cel{
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:none;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
 
   .text-ciclo{
     font-size: 11px;
@@ -883,7 +922,7 @@ body {
 
 @media (max-width: 420px){
 
-    .t{
+.t{
   padding-bottom: 2%;
   color: #061588;
   font-size: 14px;
@@ -901,35 +940,39 @@ body {
     padding-top: 1%;
   }
 
-  .ciclo-escritorio{
-    display: none !important;
-  }
-
-  .ciclo-mobil{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+.ciclo-escritorio{
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
   background-size: cover;
-  display: none !important;/*
-    display: inline !important;
+  display:none;/*
   -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
 }
 
-
-  .ciclo-mobil-cel{
-  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+.ciclo-mobil{
   width: 100%;
   padding-bottom: 5%;
   padding-top: 1%;
   background-size: cover;
-  display: inline !important;/*
+  display:none;/*
   -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
   box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
 }
+
+.ciclo-mobil-cel{
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:inline;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
 
   .text-ciclo{
     font-size: 10px;

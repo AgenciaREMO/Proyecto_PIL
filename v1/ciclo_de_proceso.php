@@ -38,7 +38,8 @@
 					<img class="img-responsive" style="margin: auto;" src="rec/img/titulos/titulo-ciclo.png">
 				</div>
 			</div>
-			<div class="ciclo-escritorio">
+			<section class="contenido-ciclo">
+				<div class="ciclo-escritorio">
 				<div class="row ani-img">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo ">
 						<img src="rec/img/proceso/logotipo.png" style="margin:auto;" class="img-responsive">
@@ -191,7 +192,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ciclo-mobil">
+			<div class="ciclo-mobil" style=" background: #000; ">
 				<div class="row ani-img">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo ">
 						<img src="rec/img/proceso/logotipo.png" style="margin:auto;" class="img-responsive">
@@ -444,6 +445,8 @@
 					</div>
 				</div>
 			</div>
+			</section>
+			
 		</section>
 	</section>
 <?php
@@ -616,14 +619,6 @@
 			}, { offset: '70%' });
 			
 			
-			
-			
-			
-
-
-
-
-
 
 		$('.img-reposo-1').hover(function() {
 			$(this).css('display', 'none');
