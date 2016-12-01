@@ -130,7 +130,7 @@ function menu($elemento = ""){
           </a>
           <ul class="dropdown-menu">
             <li><a href="estandares.php"><div>Estándares de Calidad</div></a></li>
-            <li><a href="ciclo.php"><div>Ciclo de Proceso</div></a></li>                      
+            <li><a href="ciclo_de_proceso.php"><div>Ciclo de Proceso</div></a></li>                      
           </ul>
         </li>
         <li class="dropdown <?= $siete;?>">
