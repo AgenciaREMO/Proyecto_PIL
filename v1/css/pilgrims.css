@@ -7,6 +7,10 @@
           background:#001e65 ;
           padding-left:30%;
       }
+
+.aling{
+margin-top: 10% !important;
+}
 /*BODY*/
 @font-face {
   font-family: 'Cronos-Pro';
@@ -25,7 +29,7 @@
 
 html, body, h3, h2, header{
 	font-family: 'Cronos-Pro' !important;
-  color: #003366;
+  color: #061588;
 }
 
 h2 {
@@ -46,7 +50,7 @@ body {
 }
 @media (max-width: 767px) {
     body {
-      padding-top: 81px !important;
+      padding-top: 71px !important;
     }
 }
 /*HEADER*/
@@ -704,7 +708,239 @@ body {
 
 
 /*Ciclo de proceso*/
+.ciclo-escritorio{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
 
+.ciclo-mobil{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:none;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+.ciclo-mobil-cel{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display:none;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+.filtro{
+    -webkit-filter: opacity(100%);
+    filter: opacity(100%);
+}
+
+.filtro:hover {
+   -webkit-filter: contrast(120%) brightness(110%);  /* Safari */
+    filter: contrast(120%) brightness(110%);
+}
+
+.text-ciclo{
+ display: table; 
+  color: #061588;
+  font-size: 16px;
+  height: auto;
+
+}
+
+.text-ciclo:hover{  
+  display: table; 
+  background: #061588;
+  color: #ffffff;
+  font-size: 16px;
+  height: auto;
+}
+
+
+.cuatro{
+  padding-top: 8.5%;
+}
+
+.seis{
+  padding-top: 6%;
+}
+
+.tres{
+  padding-top: 9%;
+}
+
+.logo{
+  padding: 3%;
+  color: #061588;
+  font-size: 2em;
+  text-align: center;
+}
+.t{
+  padding-bottom: 2%;
+  color: #061588;
+  font-size: 2em;
+  text-align: center;
+}
+
+.titulos-ciclo{
+  padding-top: 7% !important;
+  color: #061588;
+  font-size: 2em;
+}
+
+.text-ciclo:hover .titulos-ciclo{
+  padding-top: 7% !important;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+@media (max-width: 1281px){
+  .cuatro{
+    padding-top: 6.5%;
+  }
+
+  .seis{
+    padding-top: 3.5%;
+  }
+
+  .tres{
+    padding-top: 7.5%;
+  }
+}
+
+@media (max-width: 1024px){
+  .cuatro{
+    padding-top: 6.5%;
+  }
+
+  .seis{
+    padding-top: 3.5%;
+  }
+
+  .tres{
+    padding-top: 7.5%;
+  }
+
+  .ciclo-escritorio{
+    display: none !important;
+  }
+
+  .ciclo-mobil{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display: inline !important;/*
+    display: inline !important;
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+
+  .ciclo-mobil-cel{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display: none !important;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+  .text-ciclo{
+    font-size: 11px;
+  }
+
+.text-ciclo:hover{  
+    font-size: 11px;
+  }
+
+  .t{
+  padding-bottom: 2%;
+  color: #061588;
+  font-size: 18px;
+  text-align: center;
+}
+}
+
+
+@media (max-width: 420px){
+
+    .t{
+  padding-bottom: 2%;
+  color: #061588;
+  font-size: 14px;
+  text-align: center;
+}
+  .cuatro{
+    padding-top: 1%;
+  }
+
+  .seis{
+    padding-top: 1%;
+  }
+
+  .tres{
+    padding-top: 1%;
+  }
+
+  .ciclo-escritorio{
+    display: none !important;
+  }
+
+  .ciclo-mobil{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display: none !important;/*
+    display: inline !important;
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+
+  .ciclo-mobil-cel{
+  background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-size: cover;
+  display: inline !important;/*
+  -webkit-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  -moz-box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 4px 31px -9px rgba(0,0,0,0.7);*/
+}
+
+  .text-ciclo{
+    font-size: 10px;
+  }
+
+.text-ciclo:hover{  
+    font-size: 10px;
+  }
+}
+
+/*
 .hoverciclo {
   width: 100%;
   height: 100%;
@@ -804,7 +1040,7 @@ body {
 .img-proceso:hover{
   opacity: 0;
   margin: 0px !important;
-}
+}*/
 
 /*//////////////////////////////////////////////*/
 
