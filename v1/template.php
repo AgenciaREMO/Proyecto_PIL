@@ -76,7 +76,7 @@ function menu($elemento = ""){
 <div class="header-menu">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="navbar-header" style="text-align:center;">
-      <a href="inicio.php" class="btn-img-home">
+      <a href="inicio.php" class="btn-img-home a-svg">
         <embed class="logo-menu" src="rec/img/svg/logo-pilgrims.svg" style="width:109px;height:66px;">
       </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu1">
@@ -89,13 +89,13 @@ function menu($elemento = ""){
     <div class="navbar-collapse collapse menu1">
       <ul class="nav navbar-nav">
         <li class="<?php echo $uno; ?>">
-          <a href="inicio.php">
+          <a href="inicio.php" class="a-svg">
             <embed src="rec/img/svg/home.svg" style="width:29px;height:29px;">
             <div>INICIO</div>
           </a>
         </li>
         <li class="dropdown <?php echo $dos; ?>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle a-svg" data-toggle="dropdown">
             <embed src="rec/img/svg/marcas.svg" style="width:29px;height:29px;">
             <div>NUESTRAS<br>MARCAS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
@@ -106,25 +106,19 @@ function menu($elemento = ""){
           </ul>
         </li>
         <li class="<?= $tres;?>">
-          <a href="recetario.php">
+          <a href="recetario.php" class="a-svg">
             <embed src="rec/img/svg/recetario.svg" style="width:29px;height:29px;">
             <div>RECETARIO</div>
           </a>
         </li>
-        <!--<li class="<?= $cuatro;?>">
-          <a href="#">
-            <span class="icon-nav"><img src="rec/img/tips.png" alt="Icono Pilgrim's"></span>
-            <div>POLLO TIPS</div>
-          </a>
-        </li>-->
         <li class="<?= $cinco;?>">
-          <a href="hagamos_negocio.php">
+          <a href="hagamos_negocio.php" class="a-svg">
             <embed src="rec/img/svg/negocio.svg" style="width:29px;height:29px;">
             <div>HAGAMOS<br>NEGOCIO</div>
           </a>
         </li>
         <li class="<?= $seis;?>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle a-svg" data-toggle="dropdown">
             <embed src="rec/img/svg/procesos.svg" style="width:29px;height:29px;">
             <div>PROCESOS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
@@ -134,7 +128,7 @@ function menu($elemento = ""){
           </ul>
         </li>
         <li class="dropdown <?= $siete;?>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle a-svg" data-toggle="dropdown">
             <embed src="rec/img/svg/empresa.svg" style="width:29px;height:29px;">
             <div>NUESTRA<br>EMPRESA <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
@@ -148,7 +142,7 @@ function menu($elemento = ""){
           </ul>
         </li>
         <li class="dropdown <?= $ocho;?>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle a-svg" data-toggle="dropdown">
             <embed src="rec/img/svg/contacto.svg" style="width:29px;height:29px;">
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
@@ -158,7 +152,7 @@ function menu($elemento = ""){
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">
-          <a href="talento_pilgrims.php">
+          <a href="talento_pilgrims.php"  class="a-svg">
             <embed src="rec/img/svg/talento.svg" style="width:29px;height:29px;">
             <div>TALENTO<br>PILGRIM'S</div>
           </a>
