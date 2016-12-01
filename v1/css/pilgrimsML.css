@@ -5,6 +5,15 @@ h1 {
 	color: #000;
 	text-align: center;
 }
+/*Hace clickeable el svg del logo en el menu*/
+.a-svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
 .breadcrumb {
 	background-color: transparent;
 }
@@ -16,6 +25,17 @@ h1 {
 	border: none !important;
     border-bottom: 1.5px solid #071689 !important;
     border-radius: 0px !important;
+}
+/*Error 404*/
+.pollo {
+	max-width: 50%;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titulo-error {
+	margin-left: auto;
+	margin-right: auto;
 }
 /*Hagamos negocio*/
 header.carousel-negocio {
