@@ -708,7 +708,6 @@ body {
 .contenido-ciclo{
 background: url('../rec/img/bg-ciclo.jpg') no-repeat center; 
 background-size: cover;
-width: 100%;
 border-radius: 5px;
 }
 .ciclo-escritorio{
