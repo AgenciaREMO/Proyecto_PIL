@@ -160,8 +160,10 @@ ul.plantas-tabs>li.active a {
     background-color: rgb(1,6,85) !important;
     border-top: 4px solid rgb(217,35,46) !important;
 }
+
 /*Historia Pilgrim's*/
 .pilgrims-mundo {
+	position: static;
 	background: url('../rec/img/mundo_linea.png') no-repeat center fixed !important;
 }
 .pilgrims-mundo p {
@@ -342,12 +344,19 @@ ul.plantas-tabs>li.active a {
 	.p-plantas {
 		margin-left: 0px;
 	}
+	.nav-tabs li {
+	    font-size: 1em;
+	}
 }
-
+@media (max-width: 1024px) {
+	.pilgrims-mundo {
+		background: url('../rec/img/mundo_linea.png') no-repeat center scroll !important;
+	}
+}
 @media (max-width: 992px) {
 /*Cambio de fondo para quitar la linea azul de la historia Pilgrim's*/
 	.pilgrims-mundo {
-		background: url('../rec/img/mundo.png') no-repeat center fixed !important;
+		background: url('../rec/img/mundo.png') no-repeat center scroll !important;
 	}
 	.pilgrims-mundo p {
 		text-align: center !important;
@@ -363,6 +372,7 @@ ul.plantas-tabs>li.active a {
 		display: none;
 	}
 }
+
 @media (max-width: 1200px) {
 	#d-mexico{
 	  display: none;
