@@ -332,7 +332,7 @@
 					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/espagueti_de_pollo_en_salsa_de_tomate.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-					    				<h2>Espagueti con pollo en salsa de tomate</h2>
+					    				<p>Espagueti con pollo en salsa de tomate</p>
 										<p> 
 											<a href="r1-pollo-en-tomate.php" >
 												Ver receta
@@ -346,7 +346,7 @@
 									        <img class="img-responsive img-thumbnail" src="rec/img/recetas/medallones_de_pollo_estilo_Colima.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-										<h2>Medallones de pollo estilo Colima</h2>
+										<p>Medallones de pollo estilo Colima</p>
 										<p> 
 											<a href="r3-medallones-colima.php">
 												Ver receta
@@ -360,7 +360,7 @@
 									        <img class="img-responsive img-thumbnail" src="rec/img/recetas/medallones_de_pollo_con_brocoli_en_salsa_de_queso.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-										<h2>Medallones de pollo con brocoli en salsa de queso</h2>
+										<p>Medallones de pollo con brocoli en salsa de queso</p>
 										<p> 
 											<a href="r4-medallones-queso.php">
 												Ver receta
@@ -374,7 +374,7 @@
 					    				<img class="img-responsive img-thumbnail" src="rec/img/recetas/pollo_al_xoconochtle.jpg">
 					    			</div>
 					    			<div class="col-lg-10 col-md-10 col-sm-10">
-										<h2>Pollo al xoconochtle</h2>
+										<p>Pollo al xoconochtle</p>
 										<p> 
 											<a href="r9-pollo-xoconochtle.php">
 												Ver receta

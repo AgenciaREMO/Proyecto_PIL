@@ -33,10 +33,10 @@
 			  <li class="active">Pierna y muslo corte americano con rajas y champiñones.</li>
 			</ol>
 			<div class="cont-recetas">
-				<div class="row">
+				<div class="row esc-recetario">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<p class="title-receta">Pierna y muslo corte americano </p>
-						<p class="com-receta">con rajas y champiñones</p>
+						<p class="title-receta">Espagueti con pollo Pilgrim’s</p>
+						<p class="com-receta">en salsa de tomate</p>
 						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
 					</div>
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 incomparable" >
@@ -44,6 +44,19 @@
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 firma">
 						<img class="img-responsive" src="rec/img/firma.png">
+					</div>
+				</div>
+				<div class="row mob-recetario">
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+						<p class="title-receta">Espagueti con pollo Pilgrim’s</p>
+						<p class="com-receta">en salsa de tomate</p>
+						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 incomparable" >
+						<img class="img-responsive logo-incomparable" style="margin: auto;" src="rec/img/incomparable.png">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 firma">
+						<img class="img-responsive" style="margin: auto;" src="rec/img/firma-mob.png">
 					</div>
 				</div>
 				<br>

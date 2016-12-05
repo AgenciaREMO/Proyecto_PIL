@@ -86,7 +86,7 @@
 				</section>
 
 				
-				<section id="myCarou" class="carousel slide" style="position:relative; background-color:#e31d1a;color:#FFF;font-size:2em;">
+				<section id="myCarou" class="carousel slide frases">
 			        <!-- Wrapper for slides -->
 			        <div class="carousel-inner">
 			            <div class="item active">
