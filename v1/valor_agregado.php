@@ -84,6 +84,27 @@
 						</div>
 					</div>
 				</section>
+				<section id="myCarou" class="carousel slide frases">
+			        <!-- Wrapper for slides -->
+			        <div class="carousel-inner">
+			            <div class="item active">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%;margin-bottom:1%;">CRIADOS EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
+				            </div>	
+			            </div>
+			            <div class="item">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLOS CUIDADOS CON ALTOS ESTÁNDARES DE CALIDAD</p>
+			                </div>
+			            </div>
+			            <div class="item">
+			                <div class="fill" style="text-align:center;">
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLOS ALIMENTADOS CON PRODUCTOS 100% NATURALES</p>
+			                </div>
+			            </div>
+			            <div id="b"></div>
+			        </div>
+			    </section>
 				<div class="container productos">
 					<div class="row container animated zoomIn">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">

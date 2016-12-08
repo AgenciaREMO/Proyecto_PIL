@@ -91,12 +91,12 @@
 			        <div class="carousel-inner">
 			            <div class="item active">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%;margin-bottom:1%;">CRIADO EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">CRIADOS EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
 				            </div>	
 			            </div>
 			            <div class="item">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%;margin-bottom:1%;">POLLO CUIDADO CON ALTOS ESTÁNDARES DE CALIDAD</p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLOS CUIDADOS CON ALTOS ESTÁNDARES DE CALIDAD</p>
 			                </div>
 			            </div>
 			            <div class="item">
