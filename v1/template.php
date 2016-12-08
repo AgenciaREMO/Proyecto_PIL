@@ -100,9 +100,9 @@ function menu($elemento = ""){
             <div>NUESTRAS<br>MARCAS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="pilgrims_fresco.php"><div>Pilgrim's Fresco</div></a></li>
-            <li><a href="valor_agregado.php"><div>Pilgrim's Valor Agregado</div></a></li>
-            <li><a href="http://www.deldia.com.mx/index.jsp" target="_blank"><div>Del Día</div></a></li>                        
+            <li><a href="pilgrims_fresco.php"><div>PILGRIM'S FRESCO</div></a></li>
+            <li><a href="valor_agregado.php"><div>PILGRIM'S VALOR AGREGADO</div></a></li>
+            <li><a href="http://www.deldia.com.mx/index.jsp" target="_blank"><div>DEL DÍA</div></a></li>                        
           </ul>
         </li>
         <li class="<?= $tres;?>">
@@ -123,8 +123,8 @@ function menu($elemento = ""){
             <div>PROCESOS <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="estandares.php"><div>Estándares de Calidad</div></a></li>
-            <li><a href="ciclo_de_proceso.php"><div>Ciclo de Proceso</div></a></li>                      
+            <li><a href="estandares.php"><div>ESTÁNDARES DE CALIDAD</div></a></li>
+            <li><a href="ciclo_de_proceso.php"><div>CICLO DE PROCESO</div></a></li>                      
           </ul>
         </li>
         <li class="dropdown <?= $siete;?>">
@@ -133,12 +133,12 @@ function menu($elemento = ""){
             <div>NUESTRA<br>EMPRESA <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="historia_pilgrims.php"><div>Historia Pilgrim's</div></a></li>
-            <li><a href="mexico.php"><div>Pilgrim's México</div></a></li>
-            <li><a href="nuestras_plantas.php"><div>Nuestras Plantas</div></a></li>  
-            <li><a href="filosofia.php"><div>Filosofía</div></a></li>  
-            <li><a href="distintivos.php"><div>Distintivos</div></a></li>  
-            <li><a href="corporativo.php"><div>Video Corporativo</div></a></li>                     
+            <li><a href="historia_pilgrims.php"><div>HISTORIA PILGRIM'S</div></a></li>
+            <li><a href="mexico.php"><div>PILGRIM'S MÉXICO</div></a></li>
+            <li><a href="nuestras_plantas.php"><div>NUESTRAS PLANTAS</div></a></li>  
+            <li><a href="filosofia.php"><div>FILOSOFÍA</div></a></li>  
+            <li><a href="distintivos.php"><div>DISTINTIVOS</div></a></li>  
+            <li><a href="corporativo.php"><div>VIDEO CORPORATIVO</div></a></li>                     
           </ul>
         </li>
         <li class="dropdown <?= $ocho;?>">
@@ -147,8 +147,8 @@ function menu($elemento = ""){
             <div>CONTACTO <i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="servicio_cliente.php"><div>Servicio al Cliente</div></a></li>
-            <li><a href="mapa.php"><div>Oficinas</div></a></li>
+            <li><a href="servicio_cliente.php"><div>SERVICIO AL CLIENTE</div></a></li>
+            <li><a href="mapa.php"><div>OFICINAS</div></a></li>
           </ul>
         </li>
         <li class="dropdown <?= $nueve;?>">

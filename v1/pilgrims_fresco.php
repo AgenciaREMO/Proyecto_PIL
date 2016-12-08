@@ -30,9 +30,9 @@
 	        <div class="carousel-inner">
 	            <div class="item active">
 	                <div class="fill" >
-	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_polloconmole_1.jpg" alt="Pilgrim's fresco pollo con mole">
-		            </div>
-	                <div class="flecha text-center animated tada" style="position:absolute">
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_tacosdearrachera_3.jpg" alt="Pilgrim's fresco tacos de arrachera">
+	                </div>
+	                <div class="flecha text-center animated infinite tada" style="position:absolute">
 						<a href="#b">
 							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 						</a>
@@ -49,10 +49,10 @@
 					</div>	
 	            </div>
 	            <div class="item">
-	                <div class="fill" >
-	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_tacosdearrachera_3.jpg" alt="Pilgrim's fresco tacos de arrachera">
-	                </div>
-	                <div class="flecha text-center animated infinite tada" style="position:absolute">
+	            	<div class="fill" >
+	                	<img class="img-responsive slide-inicio" src="rec/img/banners_jpg/fresco_polloconmole_1.jpg" alt="Pilgrim's fresco pollo con mole">
+		            </div>
+	                <div class="flecha text-center animated tada" style="position:absolute">
 						<a href="#b">
 							<i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 						</a>
@@ -91,7 +91,7 @@
 			        <div class="carousel-inner">
 			            <div class="item active">
 			                <div class="fill" style="text-align:center;">
-			                	<p style="margin-top:1%;margin-bottom:1%;">CRIADOS EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
+			                	<p style="margin-top:1%;margin-bottom:1%;">POLLOS CRIADOS EN MÉXICO <img src="rec/img/mexico.png" alt="México"></p>
 				            </div>	
 			            </div>
 			            <div class="item">
