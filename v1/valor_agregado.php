@@ -122,7 +122,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Alitas buffalo</h2>
+								        	<h2 class="h2-catalogo">Alitas buffalo</h2>
 											<p class="descripcion"> 
 												<a href="alitas_buffalo.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -150,7 +150,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Arrachera adobada 700 gr</h2>
+								        	<h2 class="h2-catalogo">Arrachera adobada 700 gr</h2>
 											<p class="descripcion"> 
 												<a href="arrachera_adobada_700.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -178,7 +178,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Arrachera adobada 1.2 kg</h2>
+								        	<h2 class="h2-catalogo">Arrachera adobada 1.2 kg</h2>
 											<p class="descripcion"> 
 												<a href="arrachera_adobada_1-2kg.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -206,7 +206,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Boneless buffalo</h2>
+								        	<h2 class="h2-catalogo">Boneless buffalo</h2>
 											<p class="descripcion"> 
 												<a href="boneless_buffalo.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -234,7 +234,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Boneless original hot</h2>
+								        	<h2 class="h2-catalogo">Boneless original hot</h2>
 											<p class="descripcion"> 
 												<a href="boneless_original_hot.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -262,7 +262,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Filete empanizado</h2>
+								        	<h2 class="h2-catalogo">Filete empanizado</h2>
 											<p class="descripcion"> 
 												<a href="filete_empanizado.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -290,7 +290,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Filete empanizado picante</h2>
+								        	<h2 class="h2-catalogo">Filete empanizado picante</h2>
 											<p class="descripcion"> 
 												<a href="filete_picante.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -307,10 +307,10 @@
 					    	<div class="hovereffect">
 					    		<a href="hamburguesa_empanizada.php" >
 									<div class="div-producto">
-										<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa empanizada" class="img-responsive producto">
+										<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa de pechuga de pollo" class="img-responsive producto">
 										<div class="producto-caption">
-									        <h3>Hamburguesa empanizada</h3>
-									        <p style="font-size:1em; color:#000;">Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.</p>
+									        <h3>Hamburguesa de<br>pechuga de pollo</h3>
+									        <p style="font-size:1em; color:#000;">Hamburguesas de pechuga de pollo formadas, empanizadas y parcialmente cocinada.</p>
 									    </div>
 									</div>
 								</a>
@@ -318,11 +318,11 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Hamburguesa empanizada</h2>
+								        	<h2 class="h2-catalogo">Hamburguesa de<br> pechuga de pollo</h2>
 											<p class="descripcion"> 
 												<a href="hamburguesa_empanizada.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-													Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinada.
+													Hamburguesas de pechuga de pollo formadas, empanizadas y parcialmente cocinada.
 												</a>
 											</p>
 											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
@@ -337,8 +337,8 @@
 									<div class="div-producto">
 										<img src="rec/img/nuestras_marcas/nuggets.png" alt="Nuggets empanizados" class="img-responsive producto">
 										<div class="producto-caption">
-									        <h3>Nuggets empanizados</h3>
-									        <p style="font-size:1em; color:#000;">Nuggets de Pechuga de pollo formados, empanizados y parcialmente cocinados.</p>
+									        <h3>Nuggets de<br> pechuga de pollo</h3>
+									        <p style="font-size:1em; color:#000;">Nuggets de pechuga de pollo formados, empanizados y parcialmente cocinados.</p>
 									    </div>
 									</div>
 								</a>
@@ -346,11 +346,11 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Nuggets empanizados</h2>
+								        	<h2 class="h2-catalogo">Nuggets de<br> pechuga de pollo</h2>
 											<p class="descripcion"> 
 												<a href="nuggets.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
-													Nuggets de Pechuga de pollo formados, empanizados y parcialmente cocinados.
+													Nuggets de pechuga de pollo formados, empanizados y parcialmente cocinados.
 												</a>
 											</p>
 											<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;"> 
@@ -374,7 +374,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga grill 1.2 kg</h2>
+								        	<h2 class="h2-catalogo">Pechuga grill 1.2 kg</h2>
 											<p class="descripcion"> 
 												<a href="pechuga_grill_1-2k.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -402,7 +402,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga grill 700 gr</h2>
+								        	<h2 class="h2-catalogo">Pechuga grill 700 gr</h2>
 											<p class="descripcion"> 
 												<a href="pechuga_grill_700.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -430,7 +430,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga navideña</h2>
+								        	<h2 class="h2-catalogo">Pechuga navideña</h2>
 											<p class="descripcion"> 
 												<a href="pechuga_navidenia.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -458,7 +458,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga rellena cordon bleu</h2>
+								        	<h2 class="h2-catalogo">Pechuga rellena cordon bleu</h2>
 											<p class="descripcion"> 
 												<a href="cordon_bleu.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -486,7 +486,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Tender empanizado</h2>
+								        	<h2 class="h2-catalogo">Tender empanizado</h2>
 											<p class="descripcion"> 
 												<a href="tender_empanizado.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>

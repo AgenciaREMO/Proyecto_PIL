@@ -23,7 +23,7 @@
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestras marcas</li>
 					<li><a href="valor_agregado.php">Pilgrim's valor agregado</a></li>
-					<li class="active">Nuggets empanizados</li>
+					<li class="active">Nuggets de pechuga de pollo</li>
 				</ol>
 				<section class="container text-center ">
 					<div class="row plecas">
@@ -45,6 +45,11 @@
 						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
 							<div class=" animated zoomIn">
 								<img src="rec/img/nuestras_marcas/nuggets.png" alt="Nuggets empanizados" class="img-responsive thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-9 col-sm-3 col-xs-12">
+								<img src="rec/img/incomparable.png" alt="Sabor incomparable" style="margin: auto;" class="img-responsive">
 							</div>
 						</div>
 					</div>

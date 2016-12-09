@@ -78,6 +78,12 @@ header.carousel-negocio {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 }
+h2.h2-catalogo {
+	font-size:1.5em; 
+	margin-top:0px; 
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
 /*Efecto para los productos de Pilgrims Valor agregado*/
 .hovereffect .overlay {
 	background-color: rgba(23,65,133,1) !important;
@@ -297,6 +303,22 @@ ul.plantas-tabs>li.active a {
 }
 
 /*Media query*/
+@media (min-width: 1701px) {
+	.linea1{
+		display:inline;
+	}
+	.linea2{
+		display: none;
+	}
+}
+@media (min-width:768px) and (max-width: 1700px)  {
+	.linea1{
+		display: none;
+	}
+	.linea2{
+		display: inline;
+	}
+}
 @media (max-width: 767px) {
 	/*Recolocación de miniaturas de vista y aumento de tamaño*/
 	.miniatura-vista {
@@ -346,6 +368,13 @@ ul.plantas-tabs>li.active a {
 	}
 	.nav-tabs li {
 	    font-size: 1em;
+	}
+	/*Opcion de menú valor */
+	.linea1{
+		display: inline;
+	}
+	.linea2{
+		display: none;
 	}
 }
 @media (max-width: 1024px) {

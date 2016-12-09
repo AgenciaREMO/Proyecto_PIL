@@ -126,7 +126,7 @@
 									<table class="align-middle" style="height:100%">
 										<tr><td>
 									        <hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-									        <h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pollo entero</h2>
+									        <h2 class="h2-catalogo">Pollo entero</h2>
 											<p class="descripcion"> 
 												<a href="pollo_entero.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -154,7 +154,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pechuga</h2>
+								        	<h2 class="h2-catalogo">Pechuga</h2>
 											<p class="descripcion"> 
 												<a href="pechuga.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -182,7 +182,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pierna</h2>
+								        	<h2 class="h2-catalogo">Pierna</h2>
 											<p class="descripcion"> 
 												<a href="pierna.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -210,7 +210,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Alitas naturales</h2>
+								        	<h2 class="h2-catalogo">Alitas naturales</h2>
 											<p class="descripcion"> 
 												<a href="alas_naturales.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -238,7 +238,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Muslo</h2>
+								        	<h2 class="h2-catalogo">Muslo</h2>
 											<p class="descripcion"> 
 												<a href="muslo.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -266,7 +266,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Pierna y muslo</h2>
+								        	<h2 class="h2-catalogo">Pierna y muslo</h2>
 											<p class="descripcion"> 
 												<a href="pierna_muslo.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -294,7 +294,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Milanesas</h2>
+								        	<h2 class="h2-catalogo">Milanesas</h2>
 											<p class="descripcion"> 
 												<a href="milanesas.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -322,7 +322,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Alitas adobadas</h2>
+								        	<h2 class="h2-catalogo">Alitas adobadas</h2>
 											<p class="descripcion"> 
 												<a href="alas_adobadas.php">
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>
@@ -350,7 +350,7 @@
 					            	<table class="align-middle" style="height:100%">
 										<tr><td>
 								        	<hr class="hr-hover" style="margin:0px auto !important; padding:0px !important;">
-								        	<h2 style="font-size:1.5em; margin-top:0px; margin-bottom:0px;">Arrachera de pollo</h2>
+								        	<h2 class="h2-catalogo">Arrachera de pollo</h2>
 											<p class="descripcion"> 
 												<a href="arrachera_pollo.php" >
 													<i class="fa fa-chevron-down" aria-hidden="true"></i><br>

@@ -23,7 +23,7 @@
 					<li><a href="inicio.php">Inicio</a></li>
 					<li>Nuestras marcas</li>
 					<li><a href="valor_agregado.php">Pilgrim's valor agregado</a></li>
-					<li class="active">Hamburguesa empanizada</li>
+					<li class="active">Hamburguesa empanizadade pechuga de pollo</li>
 				</ol>
 				<section class="container text-center ">
 					<div class="row plecas">
@@ -38,19 +38,24 @@
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12" >
 						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
-						<p class="animated fadeInDown" style="font-size:1.3em;">Hamburguesas de Pechuga de pollo formadas, empanizadas y parcialmente cocinadas.</p>
+						<p class="animated fadeInDown" style="font-size:1.3em;">Hamburguesas de pechuga de pollo formadas, empanizadas y parcialmente cocinadas.</p>
 						<p class="animated fadeInDown" style="font-size:1.3em;">Contenido neto 700gr.</p>
 						<br>
 						<hr class="hr-productos">
 						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
 							<div class=" animated zoomIn">
-								<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa empanizada" class="img-responsive thumbnail-producto" style="max-width:100%">
+								<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa de pechuga de pollo" class="img-responsive thumbnail-producto" style="max-width:100%">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-9 col-sm-3 col-xs-12">
+								<img src="rec/img/incomparable.png" alt="Sabor incomparable" style="margin: auto;" class="img-responsive">
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa empanizada" class="img-responsive thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/hamburguesa_empanizada.png" alt="Hamburguesa de pechuga de pollo" class="img-responsive thumbnail-producto">
 						</div>
 					</div>
 				</div>

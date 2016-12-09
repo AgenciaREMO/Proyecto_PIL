@@ -101,7 +101,7 @@ function menu($elemento = ""){
           </a>
           <ul class="dropdown-menu">
             <li><a href="pilgrims_fresco.php"><div>PILGRIM'S FRESCO</div></a></li>
-            <li><a href="valor_agregado.php"><div>PILGRIM'S VALOR AGREGADO</div></a></li>
+            <li><a href="valor_agregado.php"><div class="linea1">PILGRIM'S VALOR AGREGADO</div><div class="linea2">PILGRIM'S<br> VALOR AGREGADO</div></a></li>
             <li><a href="http://www.deldia.com.mx/index.jsp" target="_blank"><div>DEL DÍA</div></a></li>                        
           </ul>
         </li>
