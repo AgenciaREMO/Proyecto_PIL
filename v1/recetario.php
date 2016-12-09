@@ -18,7 +18,7 @@
 		menu("3");
 	?>
 	<section class="content" style="position:relative">
-		<img src="rec/img/banners_jpg/recetario.jpg"  class="banner">
+		<img src="rec/img/banners_jpg/pollo_tips.jpg"  class="banner">
 		<div id="b" class="flecha-azul text-center animated tada" style="position:absolute;">
 			<a href="#b">
 					 <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>

@@ -62,6 +62,11 @@
 								</div>
 							</a>
 						</div>
+						<div class="row">
+							<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-9 col-sm-3 col-xs-12">
+								<img src="rec/img/incomparable.png" alt="Sabor incomparable" style="margin: auto;" class="img-responsive">
+							</div>
+						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
 						<div class=" animated zoomIn">
