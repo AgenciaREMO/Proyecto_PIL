@@ -39,12 +39,12 @@
 						<p class="com-receta">estilo Colima</p>
 						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
 					</div>
-					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 incomparable" >
+					<div class="col-lg-offset-3 col-lg-1 col-md-offset-3 col-md-1 col-sm-12 col-xs-12 incomparable" >
 						<img class="img-responsive logo-incomparable" src="rec/img/incomparable.png">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 firma">
+					<!--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 firma">
 						<img class="img-responsive" src="rec/img/firma.png">
-					</div>
+					</div>-->
 				</div>
 				<div class="row mob-recetario">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -55,9 +55,9 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 incomparable" >
 						<img class="img-responsive logo-incomparable" style="margin: auto;" src="rec/img/incomparable.png">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 firma">
+					<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 firma">
 						<img class="img-responsive" style="margin: auto;" src="rec/img/firma-mob.png">
-					</div>
+					</div>-->
 				</div>
 				<br>
 				<div class="row">

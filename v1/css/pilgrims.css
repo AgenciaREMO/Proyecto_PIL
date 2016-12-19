@@ -27,6 +27,11 @@ margin-top: 10% !important;
   src: url('../fonts/Chunkfive.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Back _to_Black_Demo';
+  src: url('../fonts/Back _to_Black_Demo.ttf') format('truetype');
+}
+
 html, body, h3, h2, header{
 	font-family: 'Cronos-Pro' !important;
   color: #061588;
