@@ -35,8 +35,8 @@
 			<div class="cont-recetas">
 				<div class="row esc-recetario">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<p class="title-receta">Espagueti con pollo Pilgrim’s</p>
-						<p class="com-receta">en salsa de tomate</p>
+						<p class="title-receta">Medallones de pollo Pilgrim's </p>
+						<p class="com-receta">estilo Colima</p>
 						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
 					</div>
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 incomparable" >
