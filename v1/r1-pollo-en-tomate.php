@@ -79,25 +79,25 @@
 								<p>500 Gramos de espagueti.</p>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
 									<div class="indicadores">
 										<i><b>Tiempo de preparación: 60 minutos</b></i>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<img src="rec/img/recetas/rinde.png" class="img-responsive iconos">
 									<div class="indicadores">
 										<i><b>Rinde para : 4 personas</b></i>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<img src="rec/img/recetas/tipo.png" class="img-responsive iconos">
 									<div class="indicadores">
 										<i><b>Comida</b></i>
 									</div>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
 									<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
 									<div class="indicadores">
 										<i><b>Descargar</b></i>
@@ -108,7 +108,7 @@
 						
 					</div>
 					<div class="row container">
-						<div class=" col-lg-7 col-md-7 procedimiento  sombra">
+						<div class=" col-lg-7 col-md-7 procedimiento  sombra" style="background-color: #ffffff;">
 							<div class="ingredientes col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Procedimiento</div>
 								<table width="97%">
@@ -173,7 +173,7 @@
 							<img id="rec-inco" src="rec/img/recetas/incomparable.png" class="img-responsive">
 						</div>
 					</div>
-						<div class="hoja">
+					<div class="hoja">
 							<div class="row">
 								<div class="ingredientes col-lg-6 col-md-6 col-sm-12 col-xs-12">
 									Ingredientes
@@ -202,33 +202,89 @@
 									<p>500 Gramos de espagueti.</p>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-										<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
-										<div class="indicadores">
-											<i><b>Tiempo de preparación: 60 minutos</b></i>
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Tiempo de preparación: 60 minutos</b></i>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/rinde.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Rinde para : 4 personas</b></i>
+											</div>
 										</div>
 									</div>
-									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-										<img src="rec/img/recetas/rinde.png" class="img-responsive iconos">
-										<div class="indicadores">
-											<i><b>Rinde para : 4 personas</b></i>
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/tipo.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Comida</b></i>
+											</div>
 										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-										<img src="rec/img/recetas/tipo.png" class="img-responsive iconos">
-										<div class="indicadores">
-											<i><b>Comida</b></i>
-										</div>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-										<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
-										<div class="indicadores">
-											<i><b>Descargar</b></i>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Descargar</b></i>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+					</div>
+					<div class="row container">
+						<div class=" col-lg-7 col-md-7 procedimiento  sombra" style="background-color: #ffffff !important;">
+							<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class=" ingredientes col-lg-12 col-md-12 col-sm-12 col-xs-12">Procedimiento</div>
+								<table width="97%" class="proce-mob">
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/1.png" class="img-responsive numeros">
+										</td>
+										<td>
+											En una cacerola a fuego medio agregar aceite y calentar. Añadir y acitronar la cebolla, zanahoria y perejil durante 5 minutos
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/2.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Añadir el pollo Pilgrim’s Premium y sellar por ambos lados; añadir el vino blanco y dejar reducir a fuego alto por 10 minutos.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/3.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Mezclar el purè de jitomate con el caldo de pollo y el perejil e incorporar al pollo, dejar cocer por 30 minutos hasta que la salsa se espese.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/4.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Cocinar la pasta según las instrucciones del empaque, colar y añadir en el pollo y cocinar por 2 minutos y servir.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/5.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Sazonar con sal y pimienta al gusto y añadir albahaca. 
+										</td>
+									</tr>
+								</table>
+							</div>
 						</div>
+						<div class="col-lg-5 col-md-5 hidden-sm-down hidden-xs-down proce">
+							<img id="img-ingredientes" src="rec/img/recetas/img2.png"  class="img-responsive">
+						</div>
+					</div>
 				</div>
 			</section>
 		</section>

@@ -1501,6 +1501,7 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
 
 .numeros{
   width: 70%;
+  vertical-align: middle;
 }
 
 .pasos{
@@ -1514,6 +1515,37 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
 }
 
 @media (max-width: 920px){
+  .ingredientes{
+  color: #ef3e3d;
+  font-size: 1.5em !important;
+  font-family: 'Cronos-Pro-Bold_12435';
+  font-style: normal !important;
+}
+
+   #img-ingredientes{
+    width: 60% !important;
+    margin: auto !important; 
+  }
+
+  .proce-mob{
+    font-family:'Cronos-Pro'; 
+    padding: 2%; 
+    font-style: normal; 
+    font-size: 14px;
+  }
+
+
+  .procedimiento{
+    background: #ffffff;
+    padding: 5%;
+    font-size: 0.7em;
+    color: #6e6e6d !important;
+  }
+
+  #producto{
+    margin: auto;
+    width: 40%;
+  }
   #rec-inco{
     width: 40% !important;
     margin:auto !important;
@@ -1526,14 +1558,107 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
     font-size: 2em;
     padding-top: 6%;
   }
+
+  .hoja{
+  background: url('../rec/img/recetas/hoja-papel-mob.png') no-repeat center;
+  background-size:;
+  border-radius: 2px;
+  padding-top: 4%;
+  padding-left: 10% !important;
+  padding-right: 5%;
+  margin-bottom: 0px;
+  padding-bottom: 3%;
+  color: #071689;
+  font-style: normal !important;
+  font-size: 1em;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 100%
+  height: 100%;
+  /*-webkit-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
 }
 
-@media (max-width: 920px){
+
+}
+}
+@media (max-width: 770px){
+  .proce-mob{
+    font-family:'Cronos-Pro'; 
+    padding: 2%; 
+    font-style: normal; 
+    font-size: 14px;
+  }
+
+    #rec-inco{
+      width: 20% !important;
+      margin:auto !important;
+    }
+
+    .procedimiento{
+      background: #ffffff;
+      padding: 5%;
+      color: #6e6e6d !important; 
+
+    }
+
+  }
+
+@media (max-width: 420px){
+  .ingredientes{
+  color: #ef3e3d;
+  font-size: 1.5em;
+  font-family: 'Cronos-Pro-Bold_12435';
+  font-style: normal !important;
+}
+   .proce-mob{
+    font-family:'Cronos-Pro'; 
+    padding: 2%; 
+    font-style: normal; 
+    font-size: 11px;
+  }
+
+  .procedimiento{
+    background: #ffffff;
+    padding: 5%;
+    font-size: 11px;
+    color: #6e6e6d !important; 
+  }
+
   #rec-inco{
-    width: 15% !important;
+    margin-top: 10%;
+    width: 40% !important;
     margin:auto !important;
   }
 
+
+  #producto{
+    margin: auto;
+    width: 40%;
+  }
+    .hoja{
+  background: url('../rec/img/recetas/hoja-papel-mob-1.png') no-repeat center;
+  background-size:all;
+  border-radius: 2px;
+  padding-top: 4%;
+  padding-left: 10% !important;
+  padding-right: 5%;
+  margin-bottom: 0px;
+  padding-bottom: 5%;
+  color: #071689;
+  font-style: normal !important;
+  font-size: 11px !important;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 100%
+  height: 100%;
+  /*-webkit-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
+}
   .titulos{
     color: #ffffff;
     font-family: 'Back _to_Black_Demo';
@@ -1541,15 +1666,7 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
     font-size: 1.5em;
     padding-top: 6%;
   }
-}
 
-
-@media (max-width: 420px){
-  #rec-inco{
-    margin-top: 10%;
-    width: 40% !important;
-    margin:auto !important;
-  }
 }
 
 .cont{
