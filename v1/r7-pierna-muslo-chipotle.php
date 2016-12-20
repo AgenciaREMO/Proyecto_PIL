@@ -32,126 +32,242 @@
 			  <li><a href="recetario.php">Recetario</a></li>
 			  <li class="active">Pierna y muslo corte americano con crema de chipotle.</li>
 			</ol>
-			<div class="cont-recetas">
-				<div class="row esc-recetario">
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<p class="title-receta">Pierna y muslo corte americano </p>
-						<p class="com-receta">con crema de chipotle</p>
-						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
-					</div>
-					<div class="col-lg-offset-3 col-lg-1 col-md-offset-3 col-md-1 col-sm-12 col-xs-12 incomparable" >
-						<img class="img-responsive logo-incomparable" src="rec/img/incomparable.png">
-					</div>
-					<!--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 firma">
-						<img class="img-responsive" src="rec/img/firma.png">
-					</div>-->
-				</div>
-				<div class="row mob-recetario">
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<p class="title-receta">Pierna y muslo corte americano</p>
-						<p class="com-receta">con crema de chipotle</p>
-						<p class="rinde"><b><i>* Rinde para 4 personas<i></b></p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 incomparable" >
-						<img class="img-responsive logo-incomparable" style="margin: auto;" src="rec/img/incomparable.png">
-					</div>
-					<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 firma">
-						<img class="img-responsive" style="margin: auto;" src="rec/img/firma-mob.png">
-					</div>-->
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 " >
-						<img src="rec/img/gallina.png" class="img-responsive gallina">
-						<div class="ingredientes">
-							Ingredientes
-						</div>
-						<div class="ing">
-							<p>4 <a href="pierna_muslo.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>Piernas/Muslos corte Americano Pilgrim`s Pride </i></b></a>limpios, sin piel.</p>
-							<p>¼ de crema reducida en grasa.</p>
-							<p>Aceite en aerosol (5 disparos).</p>
-							<p>1 Lata mediana de chiles chipotles.</p>
-							<p>Sal, pimienta negra y blanca al gusto</p>
-						</div>
-					</div>
-					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 " >
-						<img src="rec/img/cubiertos.png" class="img-responsive gallina">
-						<div class="hr-title-recetas"></div>
-							<div class="procedimiento">
-								Procedimiento
+
+			<section class="esc-recetario">
+				<div class="cont-recetas">
+					<div class="row encabezado">
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<div class="titulos">
+								Pierna y muslo corte americano<br> con crema de chipotle
 							</div>
-						<div class="hr-title-recetas"></div>
-						<table width="97%">
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/uno.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Coloca el <a href="pierna_muslo.php" data-toggle="tooltip" data-placement="top" title="Ver producto"><b><i>pollo</i></b></a> en una olla con agua hirviendo, déjalo aproximadamente 25 minutos o hasta que la carne esté cocida.
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/dos.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Sazona con sal. Retira del fuego y saca las piezas de pollo para que se escurran.
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/tres.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Aparte, licua la crema con chiles chipotles al gusto y reserva. 
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/cuatro.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									Sazona el pollo con sal y pimienta y fríelo en una cacerola por 6 minutos o hasta que adquiera un color ligeramente dorado.
-								</td>
-							</tr>
-							<tr>
-								<td width="13%;" >
-									<img style="margin: auto;" src="rec/img/cinco.png" class="img-responsive">
-								</td>
-								<td style="padding: 2%; font-style: normal; color: #6e6e6d; font-size: 1.2em">
-									En un plato acomoda una pieza de pollo y vierte sobre ella un poco de crema de chipotle. Sirve acompañando con tortillas de maíz. 
-								</td>
-							</tr>
-						</table>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img id="rec-inco" src="rec/img/recetas/incomparable.png" class="img-responsive">
+						</div>
+					</div>
+					<div class="hoja">
+						<div class="row">
+							<div class="ingredientes col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								Ingredientes
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+								<p>4 <b><i>Piernas/Muslos corte Americano Pilgrim`s Pride </i></b>limpios, sin piel.</p><br>
+								<a href="milanesas.php" data-toggle="tooltip" data-placement="top" title="Ver producto">
+									<img id="producto" src="rec/img/recetas/pollo-fresco.png" class="img-responsive">
+								</a> 
+								<br>
+								<p>¼ de crema reducida en grasa.</p>
+								<p>Aceite en aerosol (5 disparos).</p>
+								<p>1 Lata mediana de chiles chipotles.</p>
+								<p>Sal, pimienta negra y blanca al gusto</p>
+							</div>
+							<div class="col-lg-1 col-md-1 hidden-sm-down ">
+								<img src="rec/img/recetas/linea.png" class="img-responsive">
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+									<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+									<div class="indicadores">
+										<i><b>Tiempo de preparación: 60 minutos</b></i>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+									<img src="rec/img/recetas/rinde.png" class="img-responsive iconos">
+									<div class="indicadores">
+										<i><b>Rinde para : 4 personas</b></i>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+									<img src="rec/img/recetas/tipo.png" class="img-responsive iconos">
+									<div class="indicadores">
+										<i><b>Comida</b></i>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+									<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+									<div class="indicadores">
+										<i><b>Descargar</b></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="row container">
+						<div class=" col-lg-7 col-md-7 procedimiento  sombra">
+							<div class="ingredientes col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Procedimiento</div>
+								<table width="97%">
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/1.png" class="img-responsive numeros">
+										</td>
+										<td style="font-family:'Cronos-Pro'; padding: 2%; font-style: normal; color: #6e6e6d; font-size: 0.7em">
+											Coloca el pollo en una olla con agua hirviendo, déjalo aproximadamente 25 minutos o hasta que la carne esté cocida.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/2.png" class="img-responsive numeros">
+										</td>
+										<td style="font-family:'Cronos-Pro'; padding: 2%; font-style: normal; color: #6e6e6d; font-size: 0.7em">
+											Sazona con sal. Retira del fuego y saca las piezas de pollo para que se escurran.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/3.png" class="img-responsive numeros">
+										</td>
+										<td style="font-family:'Cronos-Pro'; padding: 2%; font-style: normal; color: #6e6e6d; font-size: 0.7em">
+											Aparte, licua la crema con chiles chipotles al gusto y reserva. 
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/4.png" class="img-responsive numeros">
+										</td>
+										<td style="font-family:'Cronos-Pro'; padding: 2%; font-style: normal; color: #6e6e6d; font-size: 0.7em">
+											Sazona el pollo con sal y pimienta y fríelo en una cacerola por 6 minutos o hasta que adquiera un color ligeramente dorado.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/5.png" class="img-responsive numeros">
+										</td>
+										<td style="font-family:'Cronos-Pro'; padding: 2%; font-style: normal; color: #6e6e6d; font-size: 0.7em">
+											En un plato acomoda una pieza de pollo y vierte sobre ella un poco de crema de chipotle. Sirve acompañando con tortillas de maíz.  
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 hidden-sm-down hidden-xs-down proce">
+							<img src="rec/img/recetas/img1.png"  class="img-responsive">
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6">
-						<div class="icon-down">
+			</section>
+			<section class="mob-recetario">
+				<div class="cont-recetas">
+					<div class="row encabezado">
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<div class="titulos">
+								Pierna y muslo corte americano<br> con crema de chipotle
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img id="rec-inco" src="rec/img/recetas/incomparable.png" class="img-responsive">
+						</div>
+					</div>
+					
+					<div class="hoja">
+
 							<div class="row">
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-									<img src="rec/img/reloj.png" class="img-responsive gallina">
-									<b>60 min. aproximados</b>
+								<div class="ingredientes col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									Ingredientes
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-									<img src="rec/img/porcion.png" class="img-responsive gallina">
-									<b>4 Porciones</b>
+
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									<p>4 <b><i>Piernas/Muslos corte Americano Pilgrim`s Pride </i></b>limpios, sin piel.</p>
+									<a href="milanesas.php"  title="Ver producto">
+										<img id="producto" src="rec/img/recetas/pollo-fresco.png" class="img-responsive">
+									</a>
+									<br>
+									<p>¼ de crema reducida en grasa.</p>
+									<p>Aceite en aerosol (5 disparos).</p>
+									<p>1 Lata mediana de chiles chipotles.</p>
+									<p>Sal, pimienta negra y blanca al gusto</p>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-									<img id="descargar" src="rec/img/down.png" class="img-responsive gallina">
-									<b>Descarga</b>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Tiempo de preparación: 60 minutos</b></i>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/rinde.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Rinde para : 4 personas</b></i>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/tipo.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Comida</b></i>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+											<img src="rec/img/recetas/reloj.png" class="img-responsive iconos">
+											<div class="indicadores">
+												<i><b>Descargar</b></i>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
+					</div>
+					<div class="row container">
+						<div class=" col-lg-7 col-md-7 procedimiento  sombra">
+							<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class=" ingredientes col-lg-12 col-md-12 col-sm-12 col-xs-12">Procedimiento</div>
+								<table width="97%" class="proce-mob">
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/1.png" class="img-responsive numeros">
+										</td>
+										<td>
+											Coloca el pollo en una olla con agua hirviendo, déjalo aproximadamente 25 minutos o hasta que la carne esté cocida.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/2.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Sazona con sal. Retira del fuego y saca las piezas de pollo para que se escurran.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/3.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Aparte, licua la crema con chiles chipotles al gusto y reserva. 
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/4.png" class="img-responsive numeros">
+										</td>
+										<td >
+											Sazona el pollo con sal y pimienta y fríelo en una cacerola por 6 minutos o hasta que adquiera un color ligeramente dorado.
+										</td>
+									</tr>
+									<tr>
+										<td width="13%;" >
+											<img style="margin: auto;" src="rec/img/recetas/5.png" class="img-responsive numeros">
+										</td>
+										<td >
+											En un plato acomoda una pieza de pollo y vierte sobre ella un poco de crema de chipotle. Sirve acompañando con tortillas de maíz.  
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 hidden-sm-down hidden-xs-down proce">
+							<img id="img-ingredientes" src="rec/img/recetas/img2.png"  class="img-responsive">
 						</div>
 					</div>
-					<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="vertical-align: bottom;">
-						<video width="95%" controls id="video-corpo">
-							<source src="rec/video/nescafe-background.mp4" type="video/mp4">
-							<source src="mov_bbb.ogg" type="video/ogg">
-						</video>
-					</div>-->
 				</div>
-			</div>
+			</section>
 		</section>
 	</div>
 	<?php

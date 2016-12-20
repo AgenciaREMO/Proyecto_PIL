@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <?php 
 	$url = $_SERVER['SCRIPT_NAME'];
@@ -235,7 +233,7 @@
 							</div>
 					</div>
 					<div class="row container">
-						<div class=" col-lg-7 col-md-7 procedimiento  sombra" style="background-color: #ffffff !important;">
+						<div class=" col-lg-7 col-md-7 procedimiento  sombra" >
 							<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class=" ingredientes col-lg-12 col-md-12 col-sm-12 col-xs-12">Procedimiento</div>
 								<table width="97%" class="proce-mob">
