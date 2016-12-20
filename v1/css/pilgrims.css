@@ -1456,6 +1456,7 @@ box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
 #producto{
   margin: auto;
   width: 70%;
+  cursor: pointer;
 }
 
 .ing{
@@ -1545,6 +1546,7 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
   #producto{
     margin: auto;
     width: 40%;
+    cursor: pointer;
   }
   #rec-inco{
     width: 40% !important;
@@ -1637,6 +1639,7 @@ box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
   #producto{
     margin: auto;
     width: 40%;
+    cursor: pointer;
   }
     .hoja{
   background: url('../rec/img/recetas/hoja-papel-mob-1.png') no-repeat center;

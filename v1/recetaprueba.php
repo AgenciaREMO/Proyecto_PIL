@@ -173,7 +173,7 @@
 							<img id="rec-inco" src="rec/img/recetas/incomparable.png" class="img-responsive">
 						</div>
 					</div>
-					
+
 					<div class="hoja">
 
 							<div class="row">
