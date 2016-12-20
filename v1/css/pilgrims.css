@@ -18,6 +18,11 @@ margin-top: 10% !important;
 }
 
 @font-face {
+  font-family: 'Cronos-Pro-Bold_12435';
+  src: url('../fonts/Cronos-Pro-Bold_12435.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Cronos-Pro-Bold-Display-Italic';
   src: url('../fonts/Cronos-Pro-Bold-Display-Italic_12430.ttf') format('truetype');
 }
@@ -1269,6 +1274,8 @@ border-radius: 5px;
 
 }
 @media (max-width: 420px){
+
+
   .img-tif{
     margin: auto;
     margin-top: 3%;
@@ -1352,7 +1359,7 @@ ul.a {
 font-size: 1.8em !important;
 }
 
-
+/*
 .cont-recetas{
 background: rgba(255,255,255,0.5);
 border-radius: 2px;
@@ -1362,11 +1369,73 @@ padding-left: 3% !important;
 padding-right: 0px;
 color: #071689;
 }
+*/
+
+.cont-recetas{
+/*background: rgba(255,255,255,0.5);*/
+background: url('../rec/img/recetas/bg-recetas.jpg') no-repeat center;
+background-size: cover;
+border-radius: 2px;
+padding: 0%;
+color: #071689;
+width: 100%;
+height: auto;
+margin-top: 2%;
+padding-top: 2%;
+}
+
+.encabezado{
+  padding-bottom: 2%;
+}
+
+.titulos{
+  color: #ffffff;
+  font-family: 'Back _to_Black_Demo';
+  text-align: center;
+  font-size: 3em;
+  padding-top: 6%;
+}
+
+#rec-inco{
+  margin: left;
+  width: 70%;
+}
+
+.hoja{
+  background: url('../rec/img/recetas/hoja-papel.png') no-repeat center;
+  background-size:;
+  border-radius: 2px;
+  padding-top: 4%;
+  padding-left: 10% !important;
+  padding-right: 5%;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+  color: #071689;
+  font-style: normal !important;
+  font-size: 1em;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 100%
+  height: 100%;
+  /*-webkit-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);
+box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
+}
 
 .incomparable{
   vertical-align: bottom;
   padding:0px !important;
   padding-top: 6% !important;
+}
+
+.iconos{
+  margin: auto !important;
+}
+
+.indicadores{
+  color: #e72c32;
+  text-align: center;
 }
 
 .firma{
@@ -1378,15 +1447,15 @@ color: #071689;
 }
 
 .ingredientes{
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-top:solid;
-  border-bottom:solid;
-  border-color: #6e6e6d ;
-  color: #6e6e6d;
-  padding: 2%;
-  text-align: center;
+  color: #ef3e3d;
   font-size: 1.5em;
+  font-family: 'Cronos-Pro-Bold_12435';
+  font-style: normal !important;
+}
+
+#producto{
+  margin: auto;
+  width: 70%;
 }
 
 .ing{
@@ -1412,12 +1481,75 @@ padding-bottom:10%;
         filter: contrast(200%) brightness(150%);
         cursor: pointer;
     }
-
+/*
 .procedimiento{
   color: #6e6e6d;
   padding: 2%;
   text-align: center;
   font-size: 1.5em;
+}*/
+.sombra{
+-webkit-box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
+box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
+}
+
+.proce{
+  margin-left: 0px !important; 
+  padding-left: 0px !important;
+}
+
+.numeros{
+  width: 70%;
+}
+
+.pasos{
+  color: #004b75;
+  font-size: 0.7em;
+}
+
+.procedimiento{
+  background: #ffffff;
+  padding: 5%;
+}
+
+@media (max-width: 920px){
+  #rec-inco{
+    width: 40% !important;
+    margin:auto !important;
+  }
+
+  .titulos{
+    color: #ffffff;
+    font-family: 'Back _to_Black_Demo';
+    text-align: center;
+    font-size: 2em;
+    padding-top: 6%;
+  }
+}
+
+@media (max-width: 920px){
+  #rec-inco{
+    width: 15% !important;
+    margin:auto !important;
+  }
+
+  .titulos{
+    color: #ffffff;
+    font-family: 'Back _to_Black_Demo';
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 6%;
+  }
+}
+
+
+@media (max-width: 420px){
+  #rec-inco{
+    margin-top: 10%;
+    width: 40% !important;
+    margin:auto !important;
+  }
 }
 
 .cont{
