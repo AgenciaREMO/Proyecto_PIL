@@ -1451,6 +1451,7 @@ box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
   font-size: 1.5em;
   font-family: 'Cronos-Pro-Bold_12435';
   font-style: normal !important;
+  text-align: left;
 }
 
 #producto{
@@ -1493,6 +1494,7 @@ padding-bottom:10%;
 -webkit-box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
 box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
+background:transparent;
 }
 
 .proce{
@@ -1513,14 +1515,16 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
 .procedimiento{
   background: #ffffff;
   padding: 5%;
+  text-align: justify;
 }
 
-@media (max-width: 920px){
+@media (max-width: 981px){
   .ingredientes{
   color: #ef3e3d;
   font-size: 1.5em !important;
   font-family: 'Cronos-Pro-Bold_12435';
   font-style: normal !important;
+  text-align: justify;
 }
 
    #img-ingredientes{
@@ -1533,11 +1537,12 @@ box-shadow: inset 1px 17px 25px -23px rgba(0,0,0,0.75);
     padding: 2%; 
     font-style: normal; 
     font-size: 14px;
+    text-align: justify;
   }
 
 
   .procedimiento{
-    background: #ffffff;
+    background: transparent;
     padding: 5%;
     font-size: 0.7em;
     color: #6e6e6d !important;
@@ -1592,6 +1597,7 @@ box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
     padding: 2%; 
     font-style: normal; 
     font-size: 14px;
+    text-align: justify;
   }
 
     #rec-inco{
@@ -1600,7 +1606,7 @@ box-shadow: 16px 2px 32px -17px rgba(0,0,0,0.75);*/
     }
 
     .procedimiento{
-      background: #ffffff;
+      background: transparent;
       padding: 5%;
       color: #6e6e6d !important; 
 
