@@ -34,7 +34,8 @@
 				</section>
 				<div class="row productos bg-productos" style="padding-top:3%; padding-bottom:3%;">
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<img src="rec/img/pleca_alitas_buffalo.png" alt="Cinta alitas buffalo" class="img-responsive animated fadeInDown" style="margin: 10px auto;">
+						<img src="rec/img/pleca_alitas_buffalo.png" alt="Cinta alitas buffalo" class="img-responsive animated fadeInDown pleca-movil" style="margin: 10px auto;">
+						<img src="rec/img/pleca_alitas_buffalo_esc.png" alt="Cinta alitas buffalo" class="img-responsive animated fadeInDown pleca-escritorio" style="margin: 10px auto;">
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<h3 class="animated fadeInDown h3-producto">Descripción:</h3>
@@ -47,7 +48,7 @@
 						</div>
 						<div class="col-lg-12 vista div-gris">
 							<div class="col-lg-3">
-								<h3 class="h3-vista" >Vistas:</h3>
+								<h3 class="h3-vista">Vistas:</h3>
 							</div>
 							<div class="col-lg-9 text-center">
 								<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="miniatura-vista" id="frente">
@@ -55,8 +56,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12" style="margin-top:10px;">
-						<h3 class="animated fadeInDown h3-producto">Beneficios:</h3>
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<h3 class="animated fadeInDown h3-producto beneficios">Beneficios:</h3>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 								<img src="rec/img/incomparable_calidad.png" alt="Sabor incomparable" class="img-responsive" style="margin:auto !important;">

@@ -120,8 +120,8 @@ header.carousel-negocio {
 	margin-bottom: 10px;
 }
 .preview-producto {
-	padding-top: 14.5%;
-	padding-bottom: 14.5%;
+	padding-top: 13.52%;
+	padding-bottom: 13.52%;
 }
 .productos {
 	margin: 2% 0px !important;
@@ -450,6 +450,16 @@ ul.plantas-tabs>li.active a {
 		background: url('../rec/img/mundo_linea.png') no-repeat center scroll !important;
 	}
 }
+@media (min-width: 993px) {
+	.pleca-movil {
+		margin-bottom: 4% !important;
+		display: none;
+	}
+	.pleca-escritorio {
+		margin-bottom: 4% !important;
+		display: inline;
+	}
+}
 @media (max-width: 992px) {
 /*Cambio de fondo para quitar la linea azul de la historia Pilgrim's*/
 	.pilgrims-mundo {
@@ -471,6 +481,17 @@ ul.plantas-tabs>li.active a {
 	.preview-producto {
 		padding-top: 0px;
 		padding-bottom: 0px;
+	}
+	.pleca-movil {
+		margin-bottom: 4% !important;
+		display: inline;
+	}
+	.pleca-escritorio {
+		margin-bottom: 4% !important;
+		display: none;
+	}
+	.beneficios {
+		margin-top:10px;
 	}
 }
 
