@@ -119,6 +119,10 @@ header.carousel-negocio {
 	background-color: #e7e7e7 !important;
 	margin-bottom: 10px;
 }
+.preview-producto {
+	padding-top: 14.5%;
+	padding-bottom: 14.5%;
+}
 .productos {
 	margin: 2% 0px !important;
 	padding-left: 0px;
@@ -464,7 +468,10 @@ ul.plantas-tabs>li.active a {
 	.flecha, .flecha-azul {
 		display: none;
 	}
-
+	.preview-producto {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 }
 
 @media (max-width: 1200px) {

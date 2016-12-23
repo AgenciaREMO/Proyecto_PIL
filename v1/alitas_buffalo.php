@@ -41,7 +41,7 @@
 						<p class="animated fadeInDown va-descripcion" style="font-size:1.3em;">Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.</p>
 						<br>
 						<hr class="hr-productos">
-						<div class=" animated zoomIn text-center">
+						<div class="preview-producto animated zoomIn text-center">
 							<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="img-responsive producto-f thumbnail-producto">
 							<img src="rec/img/nuestras_marcas/alitas_buffalo_back.png" alt="Alitas buffalo backpanel" class="img-responsive producto-b thumbnail-producto" style="display:none">
 						</div>
