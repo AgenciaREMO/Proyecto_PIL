@@ -52,8 +52,72 @@ header.carousel-negocio {
 	opacity: 0.7;
 }
 /*Nuestras Marcas, catalogo e individual*/
+.border-nutrimental {
+	border-color: #e31d1a;
+	border-width: 1px !important;
+	border-bottom-style: dotted !important; 
+}
+.info-nutrimental {
+	font-size: 2em;
+	color: #fff !important;
+	background-color: #e31d1a !important;
+}
+.info-nutrimental > th {
+	border-top-left-radius: 45px; 
+	padding:10px;
+}
+.td-th {
+	color: #fff !important;
+	background-color: #104188 !important;
+	padding:10px;
+	font-size: 1.2em;
+}
+.cont-nutri {
+	font-weight: bold;
+	color: #104188 !important;
+	font-size: 1.2em;
+	background-color: #FFFFFF !important;
+}
+.td-left > blockquote {
+	margin: 0px;
+	padding: 0px;
+	border-color: #FFFFFF !important;
+}
+.border-blanco {
+	border-right: 1.8px solid rgba(255,255,255,1) !important;
+}
+.td-right {
+	padding-left: 15px;
+}
+.td-left {
+	padding-left: 15px;
+	border-right: 1.8px solid rgba(16,65,136,1) !important;
+}
 .nuestras-marcas {
 	background: url('../rec/img/bg-lanzamiento.jpg') fixed; 
+}
+.h3-producto {
+	background-color: #e7e7e7; 
+	color: #071689; 
+	border-top-left-radius: 10px; 
+	padding: 10px 15px; 
+	text-align: left !important; 
+	margin-top: 0px;
+}
+.h3-vista {
+	color:#071689; 
+	padding:10px 15px; 
+	text-align:left;
+}
+.p-beneficios {
+	color: #e31d1a;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.div-gris {
+	background-color: #e7e7e7 !important;
+	margin-bottom: 10px;
 }
 .productos {
 	margin: 2% 0px !important;
@@ -98,7 +162,7 @@ h2.h2-catalogo {
     padding-top: 5% !important;
 }
 .miniatura-vista {
-	width: 40% !important;
+	width: 25% !important;
 	opacity: 0.7;
 }
 .miniatura-vista:hover {
@@ -322,7 +386,7 @@ ul.plantas-tabs>li.active a {
 @media (max-width: 767px) {
 	/*Recolocación de miniaturas de vista y aumento de tamaño*/
 	.miniatura-vista {
-		width: 45% !important;
+		width: 30% !important;
 		opacity: 0.7;
 		margin-left: auto;
 		margin-right: auto;
@@ -400,22 +464,39 @@ ul.plantas-tabs>li.active a {
 	.flecha, .flecha-azul {
 		display: none;
 	}
+
 }
 
 @media (max-width: 1200px) {
-	#d-mexico{
+	#d-mexico {
 	  display: none;
 	}
-
-	#m-mexico{
+	.align-beneficios {
+		text-align: center;
+	}
+	#m-mexico {
 	  display: inline-block;
 	}
 	/*Manejo de mapas para Pilgrim's México*/
-	.m-mapa{
+	.m-mapa {
 	  display: inline;
 	}
-	.d-mapa{
+	.d-mapa {
 	  display: none;
 	}
 }
+
+@media (max-width: 420px) {
+	.va-descripcion{
+		font-size: 0.9em !important;
+	}
+	.h3-producto, .h3-vista, .p-beneficios, .ver-recetario, .cont-nutri, .td-left > blockquote {
+		font-size: 1em;
+	}
+	.td-th {
+		font-size: 1.1em !important;
+	}
+	.info-nutrimental {
+		font-size: 1.3em !important;
+	}
 }

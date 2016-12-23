@@ -36,25 +36,114 @@
 					<div class="col-lg-12 col-md-12 col-sm-12">
 						<img src="rec/img/pleca_alitas_buffalo.png" alt="Cinta alitas buffalo" class="img-responsive animated fadeInDown" style="margin: 10px auto;">
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12" >
-						<h3 class="animated fadeInDown" style="background-color:#e7e7e7; color:#071689; border-top-left-radius:10px; padding:10px 15px; text-align:left; margin-top:0px;">Descripción:</h3>
-						<p class="animated fadeInDown" style="font-size:1.3em;">Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.</p>
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<h3 class="animated fadeInDown h3-producto">Descripción:</h3>
+						<p class="animated fadeInDown va-descripcion" style="font-size:1.3em;">Alitas de pollo con salsa tipo Buffalo, totalmente cocinadas.</p>
 						<br>
 						<hr class="hr-productos">
-						<div class="col-lg-12 col-md-12 col-sm-12 producto movil-historia">
-							<div class=" animated zoomIn">
-								<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="img-responsive thumbnail-producto" style="max-width:100%">
-							</div>
+						<div class=" animated zoomIn text-center">
+							<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="img-responsive producto-f thumbnail-producto">
+							<img src="rec/img/nuestras_marcas/alitas_buffalo_back.png" alt="Alitas buffalo backpanel" class="img-responsive producto-b thumbnail-producto" style="display:none">
 						</div>
-						<div class="row">
-							<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-9 col-sm-3 col-xs-12">
-								<img src="rec/img/incomparable.png" alt="Sabor incomparable" style="margin: auto;" class="img-responsive">
+						<div class="col-lg-12 vista div-gris">
+							<div class="col-lg-3">
+								<h3 class="h3-vista" >Vistas:</h3>
+							</div>
+							<div class="col-lg-9 text-center">
+								<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="miniatura-vista" id="frente">
+								<img src="rec/img/nuestras_marcas/alitas_buffalo_back.png" alt="Alitas buffalo back" class="miniatura-vista" id="back">
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 producto desktop-historia" >
-						<div class=" animated zoomIn">
-							<img src="rec/img/nuestras_marcas/alitas_buffalo.png" alt="Alitas buffalo" class="img-responsive thumbnail-producto">
+					<div class="col-lg-6 col-md-6 col-sm-12" style="margin-top:10px;">
+						<h3 class="animated fadeInDown h3-producto">Beneficios:</h3>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<img src="rec/img/incomparable_calidad.png" alt="Sabor incomparable" class="img-responsive" style="margin:auto !important;">
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<img src="rec/img/nuestras_marcas/salsa.png" alt="Mucho más salsa" class="img-responsive" style="margin:auto !important;">
+							</div>							
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  div-gris">
+							<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 align-beneficios">
+								<p class="p-beneficios">
+									<img src="rec/img/nuestras_marcas/sabor.png" alt="Mejor sabor"> Mejor sabor
+								</p>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 align-beneficios">
+								<p class="p-beneficios">
+									Sólo calienta y sirve <img src="rec/img/nuestras_marcas/flama.png" alt="Sólo calienta y sirve">
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12">
+								<table style="width:100%; border-bottom: 1.8px solid rgba(16,65,136,1) !important; border-bottom-right-radius: 45px !important;">
+									<tr class="info-nutrimental">
+										<th colspan="2" class="text-center">Información Nutrimental</th>
+									</tr>
+									<tr class="td-th">
+										<td class="text-center border-blanco">
+											Por cada 100 g de producto<br>
+											Porciones por paquete: 6
+										</td>
+										<td class="text-center">Cantidad por porción</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Contenido energético</td>
+										<td class="td-right">
+											915,30 kJ<br>
+											219,95 kcal
+										</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Proteínas</td>
+										<td class="td-right">12,71 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Grasas (Lípidos)</td>
+										<td class="td-right">15,59 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left"><blockquote>Grasa Saturada</blockquote></td>
+										<td class="td-right">7,29 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Carbohidratos (hidratos de carbono)</td>
+										<td class="td-right">7,20 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left"><blockquote>Azúcares</blockquote></td>
+										<td class="td-right">1,19 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Fibra Dietética</td>
+										<td class="td-right">2,66 g</td>
+									</tr>
+									<tr class="cont-nutri border-nutrimental">
+										<td class="td-left">Sodio</td>
+										<td class="td-right" >834,05 mg</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="row" style="background-color:#e7e7e7; color:#071689; padding:0px; width:100%; margin:2% 0px !important; display: table;">
+							<div class="col-lg-2 col-md-2 col-sm-2 col-xs-1" style="float: none;display: table-cell; vertical-align: middle;">
+								<i class="fa fa-play-circle fa-2x" aria-hidden="true" style="color:#071689;"></i>
+							</div>
+								<div class="col-lg-7 col-md-7 col-sm-8 col-xs-9  text-center" style="margin-left:0px; float: none;display: table-cell; vertical-align: middle;">
+									<a href="recetario.php" >
+										<h3 class="ver-recetario" style="color:#071689;">
+											Ver recetario
+										</h3>
+									</a>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-2 col-xs-2" style="padding:0px; float: none;display: table-cell; vertical-align: middle;">
+									<img src="rec/img/nuestras_marcas/recetario.png" alt="Recetario Pilgrim's" style="max-width:100%;" class="miniatura-receta">
+								</div>
 						</div>
 					</div>
 				</div>
@@ -64,4 +153,16 @@
 			footer();
 		?>
 	</body>
+	<script>
+		$(document).ready(function(){
+			$('#frente').click(function(){
+				$('.producto-f').css('display','inline');
+				$('.producto-b').css('display','none');
+			});
+			$('#back').click(function(){
+				$('.producto-f').css('display','none');
+				$('.producto-b').css('display','inline');
+			});
+		});
+	</script>
 </html>
